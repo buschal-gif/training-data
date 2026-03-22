@@ -53,6 +53,66 @@
       "pushed_at": "2026-03-22T16:27:54.491463",
       "source": "section11_recommendation",
       "dry_run": false
+    },
+    {
+      "id": "kw14-run-z2-mo",
+      "intervals_event_id": 99986600,
+      "date": "2026-03-30",
+      "name": "Grundlage \u2014 Laufen Z2",
+      "sport_type": "Run",
+      "pushed_at": "2026-03-22T16:37:20.664887",
+      "source": "section11_recommendation",
+      "dry_run": false
+    },
+    {
+      "id": "kw14-ride-ss-di",
+      "intervals_event_id": 99986602,
+      "date": "2026-03-31",
+      "name": "Sweetspot \u2014 3\u00d710min",
+      "sport_type": "Ride",
+      "pushed_at": "2026-03-22T16:37:21.285285",
+      "source": "section11_recommendation",
+      "dry_run": false
+    },
+    {
+      "id": "kw14-run-z2-mi",
+      "intervals_event_id": 99986604,
+      "date": "2026-04-01",
+      "name": "Grundlage \u2014 Laufen Z2",
+      "sport_type": "Run",
+      "pushed_at": "2026-03-22T16:37:21.888878",
+      "source": "section11_recommendation",
+      "dry_run": false
+    },
+    {
+      "id": "kw14-run-strides-fr",
+      "intervals_event_id": 99986607,
+      "date": "2026-04-03",
+      "name": "Grundlage & 4\u00d720'' Strides",
+      "sport_type": "Run",
+      "pushed_at": "2026-03-22T16:37:22.471825",
+      "source": "section11_recommendation",
+      "dry_run": false
+    },
+    {
+      "id": "kw14-ride-z2-sa",
+      "intervals_event_id": 99986609,
+      "date": "2026-04-04",
+      "name": "Grundlage \u2014 Rad Z2",
+      "sport_type": "Ride",
+      "pushed_at": "2026-03-22T16:37:23.031374",
+      "source": "section11_recommendation",
+      "dry_run": false
+    },
+    {
+      "id": "kw15-boulder-do",
+      "intervals_event_id": 99986611,
+      "date": "2026-04-09",
+      "name": "Bouldern \u2014 Technik",
+      "sport_type": "WeightTraining",
+      "pushed_at": "2026-03-22T16:37:23.591763",
+      "source": "section11_recommendation",
+      "dry_run": false
     }
   ]
 }
