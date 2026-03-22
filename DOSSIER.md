@@ -1,74 +1,48 @@
-# Athlete Training Dossier & Performance Roadmap
+# Athlete Dossier
 
-**Dossier Version:** v1.1.1  
-**Protocol Compatibility:** Section 11 v11.6+  
-**Date:** [YYYY-MM-DD]  
-**Primary Source Systems:** Intervals.icu | [Other platforms]
+## Basics
+- Age: 31
+- Sports: Running, Road/Gravel Cycling (indoor & outdoor), Bouldering, Strength (supplementary)
+- Training experience: 2–3 years
 
-This document serves as a reference template for endurance athletes using the deterministic AI-coaching framework defined in Section 11.
+## Performance Benchmarks
+### Running
+- 5k: 24:30
+- 10k: 52:00
+- Half Marathon: 1:48:53
+- Lactate threshold: 4:57/km, 166 bpm, 318W
+- Training zones: known
 
----
+### Cycling
+- FTP: 192W
+- Base training: by HR
+- Intervals: by power
+- Training zones: known
 
-## Quick Start
+### Bouldering
+- Current level: 6a (Fontainebleau)
 
-1. Fill in your athlete profile (Section 1)
-2. Document your equipment (Section 2)
-3. Define your training schedule and goals (Section 3)
-4. Enter your current performance metrics (Section 4)
-5. Set up your nutrition/fueling protocol (Section 5)
-6. Link this dossier to your JSON data mirror (see Section 11 for protocol)
+### Strength
+- Role: supplementary/complementary
 
----
+## Training Load
+- Typical weekly volume: 5–6 hours
+- Structure: plan-based, adapted for shift work
 
-## 1. Athlete Overview
+## Goals & Events
+- 14 Jun 2025: Eschathlon
+- 28 Jul 2025: Rad am Ring (150km)
+- 25 Oct 2025: Frankfurt Marathon
 
-### Athlete Profile
+## Lifestyle & Recovery
+- Work: shift work (early/late shifts, rare nights), cycle repeats every 5 weeks
+- Sleep: generally good
+- Constraints: sometimes at girlfriend's — running only or rest day preferred
 
-| Field | Value |
-|-------|-------|
-| Name | [Your name or alias] |
-| Age | [Age] |
-| Height | [cm] |
-| Current Weight | [kg] |
-| Target Weight | [kg] |
-| Location | [City, Country] |
-
-**Weigh-in Protocol:** [e.g., Once weekly, Friday morning, after bathroom, before food/drink]
-
-### Medications & Supplements (Optional)
-
-| Time | Items |
-|------|-------|
-| [Time] | [List medications/supplements] |
-| [Time] | [List medications/supplements] |
-
-### Sport Focus
-
-| Type | Description |
-|------|-------------|
-| Primary | [e.g., Cycling performance (Endurance)] |
-| Secondary | [e.g., Running, SkiErg, Walking] |
-
-### Goals
-
-| Goal | Target Date |
-|------|-------------|
-| [Primary goal] | [Year] |
-| [Secondary goal] | [Year] |
-| [Tertiary goal] | [Year] |
-
-**Current Phase:** [e.g., Aerobic build + threshold development]  
-**Training Style:** [e.g., High-volume polarized (~15h/week)]
-
----
-
-## 2. Equipment & Environment
-
-### Indoor Training Setup
-
-| Component | Details |
-|-----------|---------|
-| Trainer/Bike | [Model] |
+## Coaching Preferences
+- Scope: full coaching (analysis, planning, race prep)
+- Style: clear directives, with alternatives when form varies
+- Exclusions: none| Trainer/Bike | [Model] |
 | Platform | [e.g., Zwift, TrainerRoad, Tacx App] |
 | Cooling | [Fans, AC, etc.] |
 | Sensors | [HRM, power meter, cadence] |
