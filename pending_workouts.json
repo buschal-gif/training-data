@@ -1,7 +1,124 @@
 {
-  "schema_version": "1.0",
-  "generated_by": "claude",
-  "generated_at": "2026-03-22T20:00:00",
-  "workouts": [],
-  "last_pushed": "2026-03-22T16:44:45.879890"
+  "week": "2026-03-23 to 2026-03-29",
+  "goal": {
+    "run_tss": 103,
+    "cycling_tss": 103
+  },
+  "sessions": [
+    {
+      "date": "2026-03-23",
+      "day": "Montag",
+      "sport": "Run",
+      "name": "Aktive Erholung — Laufen",
+      "type": "WORKOUT",
+      "duration_min": 30,
+      "tss": 21,
+      "zones": "Z1",
+      "targets": {
+        "hr_max_bpm": 145,
+        "pace": "Z1"
+      },
+      "description": "Lockeres Auslaufen nach dem Rennen. HR unter 145 bpm halten.",
+      "existing": true
+    },
+    {
+      "date": "2026-03-24",
+      "day": "Dienstag",
+      "sport": "Ride",
+      "name": "Erholung — Rad Z1–Z2",
+      "type": "WORKOUT",
+      "duration_min": 59,
+      "tss": 47,
+      "zones": "Z1–Z2",
+      "targets": {
+        "power_min_w": 102,
+        "power_max_w": 152,
+        "hr_max_bpm": 145,
+        "if_target": 0.77
+      },
+      "description": "Lockeres Spinning. Power 102–152 W, HR unter 145 bpm.",
+      "existing": false
+    },
+    {
+      "date": "2026-03-25",
+      "day": "Mittwoch",
+      "sport": null,
+      "name": "Trainingsfrei",
+      "type": "REST",
+      "duration_min": 0,
+      "tss": 0,
+      "existing": false
+    },
+    {
+      "date": "2026-03-26",
+      "day": "Donnerstag",
+      "sport": null,
+      "name": "Trainingsfrei",
+      "type": "REST",
+      "duration_min": 0,
+      "tss": 0,
+      "existing": false
+    },
+    {
+      "date": "2026-03-27",
+      "day": "Freitag",
+      "sport": "WeightTraining",
+      "name": "Bouldern — Technik",
+      "type": "WORKOUT",
+      "duration_min": 90,
+      "tss": 30,
+      "targets": {
+        "focus": "Technik, keine Kraftmaximalversuche"
+      },
+      "description": "Bouldern — Fokus auf Technik, keine Kraftmaximalversuche.",
+      "existing": false
+    },
+    {
+      "date": "2026-03-28",
+      "day": "Samstag",
+      "sport": "Run",
+      "name": "Grundlage — Laufen Z1–Z2",
+      "type": "WORKOUT",
+      "duration_min": 67,
+      "tss": 82,
+      "zones": "Z1–Z2",
+      "targets": {
+        "hr_max_bpm": 148,
+        "pace": "Z1–Z2",
+        "if_target": 1.25
+      },
+      "description": "Grundlagenlauf. HR unter 148 bpm, Pace locker und gleichmäßig.",
+      "existing": false
+    },
+    {
+      "date": "2026-03-29",
+      "day": "Sonntag",
+      "sport": "Ride",
+      "name": "Grundlage — Rad Z1–Z2",
+      "type": "WORKOUT",
+      "duration_min": 70,
+      "tss": 56,
+      "zones": "Z1–Z2",
+      "targets": {
+        "power_min_w": 102,
+        "power_max_w": 152,
+        "hr_max_bpm": 155,
+        "if_target": 0.80
+      },
+      "description": "Grundlagenride. Power 102–152 W, HR unter 155 bpm.",
+      "existing": false
+    }
+  ],
+  "summary": {
+    "run_tss": 103,
+    "cycling_tss": 103,
+    "bouldering_tss": 30,
+    "total_tss": 236,
+    "run_duration_min": 97,
+    "cycling_duration_min": 129,
+    "tss_calibration": {
+      "run_z1_z2_tss_per_min": 1.25,
+      "cycling_indoor_z1_z2_tss_per_min": 0.80
+    }
+  }
 }
