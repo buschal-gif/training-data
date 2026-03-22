@@ -43,6 +43,16 @@
       "source": "section11_recommendation",
       "has_workout_doc": true,
       "dry_run": false
+    },
+    {
+      "id": "kw15-ride-ss-di-v2",
+      "intervals_event_id": 99984833,
+      "date": "2026-04-07",
+      "name": "Sweetspot \u2014 4\u00d78min",
+      "sport_type": "Ride",
+      "pushed_at": "2026-03-22T16:27:54.491463",
+      "source": "section11_recommendation",
+      "dry_run": false
     }
   ]
 }
