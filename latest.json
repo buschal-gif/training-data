@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-22T17:54:08.852577",
+    "last_updated": "2026-03-22T19:05:45.822138",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -436,9 +436,9 @@
           "planned_tss_delta": null,
           "hard_sessions_planned": 1,
           "race_proximity": 0,
-          "next_week_load": 0.18,
+          "next_week_load": 0.19,
           "plan_coverage_current_week": 0.2,
-          "plan_coverage_next_week": 1.8
+          "plan_coverage_next_week": 1.2
         },
         "data_quality": "good",
         "stream_agreement": false
@@ -473,7 +473,7 @@
     "p_max": 736,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 49.0,
-    "calculation_timestamp": "2026-03-22T17:54:08.851160",
+    "calculation_timestamp": "2026-03-22T19:05:45.820728",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -907,7 +907,7 @@
       "avg_speed": 10.0,
       "max_speed": 16.6,
       "avg_pace": null,
-      "avg_temp": 11.105928,
+      "avg_temp": 11.07458,
       "weather": null,
       "humidity": null,
       "wind_speed": 1.4103504,
@@ -1232,18 +1232,6 @@
       "description": "- 109m Z3-Z4 Z3-Z4 HR Z3-Z4 Pace"
     },
     {
-      "id": 99765826,
-      "date": "2026-03-23",
-      "name": "Aktive Erholung \u2014 Laufen",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 21,
-      "duration_hours": 0.5,
-      "duration_formatted": "30m",
-      "workout_summary": null,
-      "description": "- 30m Z1 Z1-Z2 HR Z1 Pace\n\nLockeres Auslaufen nach dem Rennen. HR unter 145 bpm halten."
-    },
-    {
       "id": 99998691,
       "date": "2026-03-23",
       "name": "Weekly",
@@ -1268,76 +1256,52 @@
       "description": ""
     },
     {
-      "id": 99998742,
-      "date": "2026-03-23",
-      "name": "Eschathlon",
-      "type": "PLAN",
-      "sport_type": "Ride",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "description": "Base Phase: Aerobe Kapazit\u00e4t, Ausdauer, Volumenaufbau"
-    },
-    {
-      "id": 99998748,
-      "date": "2026-03-23",
-      "name": "Erholungswoche",
-      "type": "NOTE",
-      "sport_type": null,
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "description": "Fokus auf leichtere Belastungen, reduziertes Volumen und Anpassung des K\u00f6rpers an Trainingsstress (Radfahren, Laufen)"
-    },
-    {
-      "id": 99765827,
+      "id": 100023207,
       "date": "2026-03-24",
-      "name": "Erholung \u2014 Rad Z1",
+      "name": "Erholung \u2014 Rad Z1\u2013Z2",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 26,
-      "duration_hours": 0.75,
-      "duration_formatted": "45m",
+      "planned_tss": 34,
+      "duration_hours": 0.98,
+      "duration_formatted": "59m",
       "workout_summary": null,
-      "description": "- 45m Z1-Z2 Power Z1-Z2 HR\n\nLockeres Spinning. Power unter 122 W, HR unter 130 bpm."
+      "description": "- 59m Z1-Z2 Power Z1-Z2 HR\n\nLockeres Spinning. Power 102\u2013152 W, HR unter 145 bpm."
     },
     {
-      "id": 99765828,
+      "id": 100023225,
       "date": "2026-03-27",
       "name": "Bouldern \u2014 Technik",
       "type": "WORKOUT",
       "sport_type": "WeightTraining",
-      "planned_tss": 30,
+      "planned_tss": null,
       "duration_hours": 1.5,
       "duration_formatted": "1h30m",
       "workout_summary": null,
       "description": "Bouldern \u2014 Fokus auf Technik, keine Kraftmaximalversuche."
     },
     {
-      "id": 99765829,
+      "id": 100023232,
       "date": "2026-03-28",
-      "name": "Erholung \u2014 Laufen mit Strides",
+      "name": "Grundlage \u2014 Laufen Z1\u2013Z2",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 33,
-      "duration_hours": 0.6,
-      "duration_formatted": "36m9s",
-      "workout_summary": "15m | 3\u00d730s / 1m33s rec | 15m",
-      "description": "- 15m Z1-Z2 Z1-Z2 HR Z1-Z2 Pace\n\n3x\n- 100mtr Z4-Z5 Z4 HR Z4-Z5 Pace\n- 200mtr Z1 Z1 HR Z1 Pace\n\n- 15m Z1-Z2 Z1-Z2 HR Z1-Z2 Pace"
+      "planned_tss": 59,
+      "duration_hours": 1.12,
+      "duration_formatted": "1h7m",
+      "workout_summary": null,
+      "description": "- 67m Z1-Z2 Z1-Z2 HR Z1-Z2 Pace\n\nGrundlagenlauf. HR unter 148 bpm, Pace locker und gleichm\u00e4\u00dfig."
     },
     {
-      "id": 99765830,
+      "id": 100023234,
       "date": "2026-03-29",
-      "name": "Grundlage \u2014 Rad Z2",
+      "name": "Grundlage \u2014 Rad Z1\u2013Z2",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 42,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
+      "planned_tss": 41,
+      "duration_hours": 1.17,
+      "duration_formatted": "1h10m",
       "workout_summary": null,
-      "description": "- 1h Z2 Power Z2 HR\n\nErster l\u00e4ngerer Ride. Power 102\u2013152 W, HR unter 162 bpm."
+      "description": "- 70m Z1-Z2 Power Z1-Z2 HR\n\nGrundlagenride. Power 102\u2013152 W, HR unter 155 bpm."
     },
     {
       "id": 99986600,
@@ -1589,11 +1553,11 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 12,
-    "success": 5,
-    "patternA": 5,
+    "attempted": 11,
+    "success": 4,
+    "patternA": 4,
     "patternB": 0,
-    "bail_no_workout_doc": 7,
+    "bail_no_workout_doc": 5,
     "bail_no_match": 7
   },
   "weekly_summary": {
