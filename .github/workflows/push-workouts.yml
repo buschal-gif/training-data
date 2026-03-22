@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       dry_run:
-        description: 'Dry run (simulate, no writes to Intervals.icu)'
+        description: 'Dry run (no writes to Intervals.icu)'
         required: false
         default: 'false'
         type: choice
@@ -19,8 +19,6 @@ permissions:
 jobs:
   push-workouts:
     runs-on: ubuntu-latest
-
-    # Set git identity globally for the entire job — all steps inherit this
     env:
       GIT_AUTHOR_NAME: github-actions[bot]
       GIT_AUTHOR_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
@@ -38,23 +36,22 @@ jobs:
         run: |
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
-          git config --list | grep user
 
       - name: Check if pending workouts exist
         id: check
         run: |
           if [ ! -f pending_workouts.json ]; then
             echo "skip=true" >> $GITHUB_OUTPUT
-            echo "ℹ️  No pending_workouts.json — nothing to push"
+            echo "ℹ️  No pending_workouts.json"
           else
-            COUNT=$(python3 -c "import json; d=json.load(open('pending_workouts.json')); print(len(d.get('workouts') or d.get('sessions') or []))" 2>/dev/null || echo 0)
+            COUNT=$(python3 -c 'import json; d=json.load(open("pending_workouts.json")); print(len(d.get("workouts") or d.get("sessions") or []))' 2>/dev/null || echo 0)
             echo "count=$COUNT" >> $GITHUB_OUTPUT
             if [ "$COUNT" = "0" ]; then
               echo "skip=true" >> $GITHUB_OUTPUT
-              echo "ℹ️  pending_workouts.json is empty — skipping"
+              echo "ℹ️  Nothing to push"
             else
               echo "skip=false" >> $GITHUB_OUTPUT
-              echo "✅  Found $COUNT entries in pending_workouts.json"
+              echo "✅  Found $COUNT entries"
             fi
           fi
 
@@ -68,15 +65,6 @@ jobs:
         if: steps.check.outputs.skip == 'false'
         run: pip install requests
 
-      - name: Verify push.py exists
-        if: steps.check.outputs.skip == 'false'
-        run: |
-          if [ ! -f push.py ]; then
-            echo "❌  push.py not found in repository root!"
-            exit 1
-          fi
-          echo "✅  push.py found"
-
       - name: Push workouts to Intervals.icu
         if: steps.check.outputs.skip == 'false'
         env:
@@ -85,54 +73,24 @@ jobs:
         run: |
           FLAGS=""
           if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
-            FLAGS="$FLAGS --dry-run"
-            echo "🧪  Running in DRY RUN mode"
+            FLAGS="--dry-run"
+            echo "🧪  DRY RUN mode"
           fi
           python push.py \
             --athlete-id "$ATHLETE_ID" \
             --intervals-key "$INTERVALS_KEY" \
             --pending pending_workouts.json \
-            --pushed-log pushed_workouts.json \
             $FLAGS
 
-      - name: Commit updated files
+      - name: Commit cleared pending file
         if: steps.check.outputs.skip == 'false'
         run: |
-          git add pending_workouts.json pushed_workouts.json 2>/dev/null || true
+          git add pending_workouts.json
           git pull --rebase --autostash origin main
-
           if ! git diff --staged --quiet; then
-            PUSHED_COUNT=$(python3 -c "
-          import json
-          try:
-              with open('pushed_workouts.json') as f:
-                  d = json.load(f)
-              today = [e for e in d.get('pushed', []) if e.get('pushed_at','').startswith('$(date -u +%Y-%m-%d)')]
-              print(len(today))
-          except:
-              print('?')
-          ")
-            git commit -m "Push ${PUSHED_COUNT} workout(s) to Intervals.icu — $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git commit -m "Clear pushed workouts — $(date -u +'%Y-%m-%d %H:%M UTC')"
             git push
-            echo "✅  Committed: pending cleared + audit log updated"
+            echo "✅  Committed"
           else
-            echo "⏭️  No file changes to commit"
-          fi
-
-      - name: Summary
-        if: always()
-        run: |
-          if [ "${{ steps.check.outputs.skip }}" = "true" ]; then
-            echo "### ⏭️ Skipped — no pending workouts" >> $GITHUB_STEP_SUMMARY
-          else
-            echo "### ✅ Push complete" >> $GITHUB_STEP_SUMMARY
-            if [ -f pushed_workouts.json ]; then
-              TOTAL=$(python3 -c "
-          import json
-          with open('pushed_workouts.json') as f:
-              d = json.load(f)
-          print(len(d.get('pushed', [])))
-          " 2>/dev/null || echo "?")
-              echo "Total in audit log: **${TOTAL}** workouts" >> $GITHUB_STEP_SUMMARY
-            fi
+            echo "⏭️  No changes to commit"
           fi
