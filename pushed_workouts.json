@@ -143,6 +143,46 @@
       "pushed_at": "2026-03-22T16:44:45.879313",
       "source": "section11_recommendation",
       "dry_run": false
+    },
+    {
+      "id": "e25f7a7e8761",
+      "intervals_event_id": 100021585,
+      "date": "2026-03-24",
+      "name": "Erholung \u2014 Rad Z1\u2013Z2",
+      "sport_type": "Ride",
+      "pushed_at": "2026-03-22T18:59:39.778479",
+      "source": "unknown",
+      "dry_run": false
+    },
+    {
+      "id": "dd50c1129db9",
+      "intervals_event_id": 100021586,
+      "date": "2026-03-27",
+      "name": "Bouldern \u2014 Technik",
+      "sport_type": "WeightTraining",
+      "pushed_at": "2026-03-22T18:59:40.180045",
+      "source": "unknown",
+      "dry_run": false
+    },
+    {
+      "id": "95822fafd47a",
+      "intervals_event_id": 100021587,
+      "date": "2026-03-28",
+      "name": "Grundlage \u2014 Laufen Z1\u2013Z2",
+      "sport_type": "Run",
+      "pushed_at": "2026-03-22T18:59:40.585651",
+      "source": "unknown",
+      "dry_run": false
+    },
+    {
+      "id": "4f79e4cf9ecd",
+      "intervals_event_id": 100021590,
+      "date": "2026-03-29",
+      "name": "Grundlage \u2014 Rad Z1\u2013Z2",
+      "sport_type": "Ride",
+      "pushed_at": "2026-03-22T18:59:40.997297",
+      "source": "unknown",
+      "dry_run": false
     }
   ]
 }
