@@ -1,7 +1,55 @@
 {
   "schema_version": "1.0",
   "generated_by": "claude",
-  "generated_at": "2026-03-22T18:00:00",
-  "workouts": [],
-  "last_pushed": "2026-03-22T16:27:54.491921"
-}
+  "generated_at": "2026-03-22T19:00:00",
+  "workouts": [
+    {
+      "id": "kw14-run-z2-mo",
+      "date": "2026-03-30",
+      "name": "Grundlage — Laufen Z2",
+      "sport_type": "Run",
+      "category": "WORKOUT",
+      "planned_tss": 40,
+      "moving_time": 2700,
+      "description": "- 45m Z2 Z2 HR Z2 Pace\n\nErster Lauf nach Erholungswoche. HR unter 162 bpm. Pace locker, kein Druck.",
+      "source": "section11_recommendation"
+    },
+    {
+      "id": "kw14-ride-ss-di",
+      "date": "2026-03-31",
+      "name": "Sweetspot — 3×10min",
+      "sport_type": "Ride",
+      "category": "WORKOUT",
+      "planned_tss": 55,
+      "moving_time": 3600,
+      "description": "- 10m Z1-Z2 Power Z1-Z2 HR\n\n3x\n- 10m Z3-Z4 Power Z3-Z4 HR\n- 5m Z1-Z2 Power Z1-Z2 HR\n\n- 10m Z1-Z2 Power Z1-Z2 HR\n\nSweetspot @ 88% FTP (~168W). Kadenz 88–92 rpm. Gleichmäßige Power.",
+      "source": "section11_recommendation"
+    },
+    {
+      "id": "kw14-run-z2-mi",
+      "date": "2026-04-01",
+      "name": "Grundlage — Laufen Z2",
+      "sport_type": "Run",
+      "category": "WORKOUT",
+      "planned_tss": 45,
+      "moving_time": 3000,
+      "description": "- 50m Z2 Z2 HR Z2 Pace\n\nAerober Dauerlauf. HR unter 162 bpm. Zweiter Lauf der Woche — Pace bleibt locker.",
+      "source": "section11_recommendation"
+    },
+    {
+      "id": "kw14-run-strides-fr",
+      "date": "2026-04-03",
+      "name": "Grundlage & 4×20'' Strides",
+      "sport_type": "Run",
+      "category": "WORKOUT",
+      "planned_tss": 42,
+      "moving_time": 2700,
+      "description": "- 15m Z1-Z2 Z1-Z2 HR Z1-Z2 Pace\n\n4x\n- 20s Z5 Z4-Z5 HR Z4-Z5 Pace\n- 90s Z1 Z1 HR Z1 Pace\n\n- 15m Z1-Z2 Z1-Z2 HR Z1-Z2 Pace\n\nLeichte Strides zur neuromuskulären Aktivierung. Nicht anaerob ausreizen.",
+      "source": "section11_recommendation"
+    },
+    {
+      "id": "kw14-ride-z2-sa",
+      "date": "2026-04-04",
+      "name": "Grundlage — Rad Z2",
+      "sport_type": "Ride",
+      "categor
