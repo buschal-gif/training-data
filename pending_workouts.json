@@ -52,4 +52,55 @@
       "date": "2026-04-04",
       "name": "Grundlage — Rad Z2",
       "sport_type": "Ride",
-      "categor
+      "category": "WORKOUT",
+      "planned_tss": 52,
+      "moving_time": 4500,
+      "description": "- 75m Z2 Power Z2 HR\n\nErster längerer Ride des Aufblocks. Power 102–152 W, HR unter 162 bpm. Kadenz 85–90 rpm.",
+      "source": "section11_recommendation"
+    },
+    {
+      "id": "kw15-run-z2-mo",
+      "date": "2026-04-06",
+      "name": "Grundlage — Laufen Z2",
+      "sport_type": "Run",
+      "category": "WORKOUT",
+      "planned_tss": 45,
+      "moving_time": 3000,
+      "description": "- 50m Z2 Z2 HR Z2 Pace\n\nAerober Dauerlauf. HR unter 162 bpm. Einstieg KW15.",
+      "source": "section11_recommendation"
+    },
+    {
+      "id": "kw15-ride-ss-di",
+      "date": "2026-04-07",
+      "name": "Sweetspot — 4×8min",
+      "sport_type": "Ride",
+      "category": "WORKOUT",
+      "planned_tss": 55,
+      "moving_time": 3600,
+      "description": "- 10m Z1-Z2 Power Z1-Z2 HR\n\n4x\n- 8m Z3-Z4 Power Z3-Z4 HR\n- 4m Z1-Z2 Power Z1-Z2 HR\n\n- 10m Z1-Z2 Power Z1-Z2 HR\n\nSweetspot @ 88% FTP (~168W). Kadenz 88–92 rpm. Gleichmäßige Power, kein Einbruch in der 4. Einheit.",
+      "source": "section11_recommendation"
+    },
+    {
+      "id": "kw15-run-strides-mi",
+      "date": "2026-04-08",
+      "name": "Grundlage & 4×20'' Strides",
+      "sport_type": "Run",
+      "category": "WORKOUT",
+      "planned_tss": 38,
+      "moving_time": 2400,
+      "description": "- 15m Z1-Z2 Z1-Z2 HR Z1-Z2 Pace\n\n4x\n- 20s Z5 Z4-Z5 HR Z4-Z5 Pace\n- 90s Z1 Z1 HR Z1 Pace\n\n- 10m Z1-Z2 Z1-Z2 HR Z1-Z2 Pace\n\nLeichte Strides. Nicht anaerob ausreizen.",
+      "source": "section11_recommendation"
+    },
+    {
+      "id": "kw15-boulder-do",
+      "date": "2026-04-09",
+      "name": "Bouldern — Technik",
+      "sport_type": "WeightTraining",
+      "category": "WORKOUT",
+      "planned_tss": 30,
+      "moving_time": 5400,
+      "description": "Bouldern — Fokus auf Technik, keine Kraftmaximalversuche. Körperspannung und Bewegungsqualität.",
+      "source": "section11_recommendation"
+    }
+  ]
+}
