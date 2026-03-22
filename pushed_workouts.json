@@ -1,0 +1,48 @@
+{
+  "pushed": [
+    {
+      "id": "kw15-run-z2-mo",
+      "intervals_event_id": 99976473,
+      "date": "2026-04-06",
+      "name": "Grundlage \u2014 Laufen Z2",
+      "sport_type": "Run",
+      "pushed_at": "2026-03-22T15:46:03.619170",
+      "source": "section11_recommendation",
+      "has_workout_doc": true,
+      "dry_run": false
+    },
+    {
+      "id": "kw15-ride-ss-di",
+      "intervals_event_id": 99976474,
+      "date": "2026-04-07",
+      "name": "Sweetspot \u2014 4\u00d78min",
+      "sport_type": "Ride",
+      "pushed_at": "2026-03-22T15:46:04.196366",
+      "source": "section11_recommendation",
+      "has_workout_doc": true,
+      "dry_run": false
+    },
+    {
+      "id": "kw15-run-strides-mi",
+      "intervals_event_id": 99976475,
+      "date": "2026-04-08",
+      "name": "Grundlage & 4\u00d720'' Strides",
+      "sport_type": "Run",
+      "pushed_at": "2026-03-22T15:46:04.744156",
+      "source": "section11_recommendation",
+      "has_workout_doc": true,
+      "dry_run": false
+    },
+    {
+      "id": "kw15-flex-do",
+      "intervals_event_id": 99976477,
+      "date": "2026-04-09",
+      "name": "Erholung \u2014 Rad Z1 oder Bouldern",
+      "sport_type": "Ride",
+      "pushed_at": "2026-03-22T15:46:05.327252",
+      "source": "section11_recommendation",
+      "has_workout_doc": true,
+      "dry_run": false
+    }
+  ]
+}
