@@ -52,6 +52,117 @@ jobs:
           try:
               with open('pending_workouts.json') as f:
                   d = json.load(f)
+              print(len(d.get("workouts") or d.get("sessions") or []))
+          except Exception as e:
+              import sys
+              print(f'JSON parse error: {e}', file=sys.stderr)
+              print(0)
+          ")
+            echo "count=$COUNT" >> $GITHUB_OUTPUT
+            if [ "$COUNT" = "0" ]; then
+              echo "skip=true" >> $GITHUB_OUTPUT
+              echo "ℹ️  pending_workouts.json is empty — skipping"
+            else
+              echo "skip=false" >> $GITHUB_OUTPUT
+              echo "✅  Found $COUNT pending workout(s)"
+            fi
+          fi
+
+      - name: Setup Python
+        if: steps.check.outputs.skip == 'false'
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        if: steps.check.outputs.skip == 'false'
+        run: pip install requests
+
+      - name: Verify push.py exists
+        if: steps.check.outputs.skip == 'false'
+        run: |
+          if [ ! -f push.py ]; then
+            echo "❌  push.py not found in repository root!"
+            exit 1
+          fi
+          echo "✅  push.py found"
+
+      - name: Push workouts to Intervals.icu
+        if: steps.check.outputs.skip == 'false'
+        env:
+          ATHLETE_ID: ${{ secrets.ATHLETE_ID }}
+          INTERVALS_KEY: ${{ secrets.INTERVALS_KEY }}
+        run: |
+          FLAGS=""
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            FLAGS="$FLAGS --dry-run"
+            echo "🧪  Running in DRY RUN mode"
+          fi
+          python push.py \
+            --athlete-id "$ATHLETE_ID" \
+            --intervals-key "$INTERVALS_KEY" \
+            --pending pending_workouts.json \
+            --pushed-log pushed_workouts.json \
+            $FLAGS
+
+      - name: Commit updated files
+        if: steps.check.outputs.skip == 'false'
+        run: |
+          git add pending_workouts.json pushed_workouts.json 2>/dev/null || true
+          git pull --rebase --autostash origin main
+
+          if ! git diff --staged --quiet; then
+            PUSHED_COUNT=$(python3 -c "
+          import json
+          try:
+              with open('pushed_workouts.json') as f:
+                  d = json.load(f)
+              today = [e for e in d.get('pushed', []) if e.get('pushed_at','').startswith('$(date -u +%Y-%m-%d)')]
+              print(len(today))
+          except:
+              print('?')
+          ")
+            git commit -m "Push ${PUSHED_COUNT} workout(s) to Intervals.icu — $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+            echo "✅  Committed: pending cleared + audit log updated"
+          else
+            echo "⏭️  No file changes to commit"
+          fi
+
+      - name: Summary
+        if: always()
+        run: |
+          if [ "${{ steps.check.outputs.skip }}" = "true" ]; then
+            echo "### ⏭️ Skipped — no pending workouts" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "### ✅ Push complete" >> $GITHUB_STEP_SUMMARY
+            if [ -f pushed_workouts.json ]; then
+              TOTAL=$(python3 -c "
+          import json
+          with open('pushed_workouts.json') as f:
+              d = json.load(f)
+          print(len(d.get('pushed', [])))
+          " 2>/dev/null || echo "?")
+              echo "Total in audit log: **${TOTAL}** workouts" >> $GITHUB_STEP_SUMMARY
+            fi
+          fi      - name: Configure git identity
+        run: |
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git config --list | grep user
+
+      - name: Check if pending workouts exist
+        id: check
+        run: |
+          if [ ! -f pending_workouts.json ]; then
+            echo "skip=true" >> $GITHUB_OUTPUT
+            echo "ℹ️  No pending_workouts.json — nothing to push"
+          else
+            COUNT=$(python3 -c "
+          import json
+          try:
+              with open('pending_workouts.json') as f:
+                  d = json.load(f)
               print(len(d.get('workouts', [])))
           except Exception as e:
               import sys
