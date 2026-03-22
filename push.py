@@ -209,7 +209,7 @@ def push_workout(athlete_id: str, auth: str, workout: dict,
 
     # Base payload
     payload = {
-        "start_date_local": workout["date"],
+        "start_date_local": workout["date"] if "T" in str(workout["date"]) else f"{workout['date']}T00:00:00",
         "name": workout.get("name", "Workout"),
         "type": SPORT_TYPE_MAP.get(workout.get("sport_type", "Ride"), "Ride"),
         "category": CATEGORY_MAP.get(workout.get("category", "WORKOUT"), "WORKOUT"),
