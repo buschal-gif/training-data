@@ -1,13 +1,4 @@
 {
-  "sessions": [
-    {
-      "date": "2026-03-25",
-      "sport": "Run",
-      "name": "Test — Laufen Z2",
-      "type": "WORKOUT",
-      "duration_min": 30,
-      "tss": 25,
-      "description": "- 30m Z2 Z2 HR Z2 Pace\n\nTestworkout. HR unter 162 bpm."
-    }
-  ]
+  "sessions": [],
+  "last_pushed": "2026-03-22T19:19:45.061230"
 }
