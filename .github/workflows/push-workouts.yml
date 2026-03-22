@@ -15,10 +15,6 @@ on:
         default: 'false'
         type: choice
         options: ['false', 'true']
-      ftp:
-        description: 'Override FTP for power resolution (watts, optional)'
-        required: false
-        default: ''
 
 permissions:
   contents: write
@@ -30,6 +26,18 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      # Extra guard: pull the very latest commit before checking the file.
+      # Prevents race condition where a concurrent sync run has already
+      # cleared pending_workouts.json after this job started.
+      - name: Pull latest
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git pull --rebase origin main || true
 
       - name: Check if pending workouts exist
         id: check
@@ -39,12 +47,12 @@ jobs:
             echo "ℹ️  No pending_workouts.json — nothing to push"
           else
             COUNT=$(python3 -c "
-          import json, sys
+          import json
           try:
               with open('pending_workouts.json') as f:
                   d = json.load(f)
               print(len(d.get('workouts', [])))
-          except Exception as e:
+          except Exception:
               print(0)
           ")
             echo "count=$COUNT" >> $GITHUB_OUTPUT
@@ -72,7 +80,6 @@ jobs:
         run: |
           if [ ! -f push.py ]; then
             echo "❌  push.py not found in repository root!"
-            echo "    Please commit push.py alongside sync.py"
             exit 1
           fi
           echo "✅  push.py found"
@@ -83,17 +90,10 @@ jobs:
           ATHLETE_ID: ${{ secrets.ATHLETE_ID }}
           INTERVALS_KEY: ${{ secrets.INTERVALS_KEY }}
         run: |
-          # Build flags
           FLAGS=""
-
           if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
             FLAGS="$FLAGS --dry-run"
             echo "🧪  Running in DRY RUN mode"
-          fi
-
-          if [ -n "${{ github.event.inputs.ftp }}" ]; then
-            FLAGS="$FLAGS --ftp ${{ github.event.inputs.ftp }}"
-            echo "⚡  FTP override: ${{ github.event.inputs.ftp }} W"
           fi
 
           python push.py \
@@ -106,13 +106,7 @@ jobs:
       - name: Commit updated files
         if: steps.check.outputs.skip == 'false'
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-
-          # Stage both files (pushed clears pending, audit log grows)
           git add pending_workouts.json pushed_workouts.json 2>/dev/null || true
-
-          # Pull with autostash to handle concurrent sync commits
           git pull --rebase --autostash origin main
 
           if ! git diff --staged --quiet; then
@@ -128,7 +122,7 @@ jobs:
           ")
             git commit -m "Push ${PUSHED_COUNT} workout(s) to Intervals.icu — $(date -u +'%Y-%m-%d %H:%M UTC')"
             git push
-            echo "✅  Committed: pending updated + audit log saved"
+            echo "✅  Committed: pending cleared + audit log updated"
           else
             echo "⏭️  No file changes to commit"
           fi
@@ -140,7 +134,6 @@ jobs:
             echo "### ⏭️ Skipped — no pending workouts" >> $GITHUB_STEP_SUMMARY
           else
             echo "### ✅ Push complete" >> $GITHUB_STEP_SUMMARY
-            echo "" >> $GITHUB_STEP_SUMMARY
             if [ -f pushed_workouts.json ]; then
               TOTAL=$(python3 -c "
           import json
