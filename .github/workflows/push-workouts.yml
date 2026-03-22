@@ -96,9 +96,12 @@ jobs:
 
       - name: Commit updated files
         if: steps.check.outputs.skip == 'false'
+        env:
+          GIT_AUTHOR_NAME: github-actions[bot]
+          GIT_AUTHOR_EMAIL: github-actions[bot]@users.noreply.github.com
+          GIT_COMMITTER_NAME: github-actions[bot]
+          GIT_COMMITTER_EMAIL: github-actions[bot]@users.noreply.github.com
         run: |
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git config --global user.name "github-actions[bot]"
           git add pending_workouts.json pushed_workouts.json 2>/dev/null || true
           git pull --rebase --autostash origin main
 
