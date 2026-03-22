@@ -47,18 +47,7 @@ jobs:
             echo "skip=true" >> $GITHUB_OUTPUT
             echo "ℹ️  No pending_workouts.json — nothing to push"
           else
-            python3 - << 'PYEOF' > /tmp/wcount.txt
-import json, sys
-try:
-    with open('pending_workouts.json') as f:
-        d = json.load(f)
-    entries = d.get('workouts') or d.get('sessions') or []
-    print(len(entries))
-except Exception as e:
-    print(f'JSON parse error: {e}', file=sys.stderr)
-    print(0)
-PYEOF
-            COUNT=$(cat /tmp/wcount.txt)
+            COUNT=$(python3 -c "import json; d=json.load(open('pending_workouts.json')); print(len(d.get('workouts') or d.get('sessions') or []))" 2>/dev/null || echo 0)
             echo "count=$COUNT" >> $GITHUB_OUTPUT
             if [ "$COUNT" = "0" ]; then
               echo "skip=true" >> $GITHUB_OUTPUT
