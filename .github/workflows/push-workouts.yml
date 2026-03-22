@@ -30,15 +30,6 @@ jobs:
           ref: main
           fetch-depth: 1
 
-      # Extra guard: pull the very latest commit before checking the file.
-      # Prevents race condition where a concurrent sync run has already
-      # cleared pending_workouts.json after this job started.
-      - name: Pull latest
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git pull --rebase origin main || true
-
       - name: Check if pending workouts exist
         id: check
         run: |
