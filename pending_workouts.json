@@ -1,11 +1,18 @@
 {
-  "id": "kw15-ride-ss-di",
-  "date": "2026-04-07",
-  "name": "Sweetspot — 4×8min",
-  "sport_type": "Ride",
-  "category": "WORKOUT",
-  "planned_tss": 55,
-  "moving_time": 3600,
-  "description": "- 10m Z1-Z2 Power Z1-Z2 HR\n\n4x\n- 8m Z3-Z4 Power Z3-Z4 HR\n- 4m Z1-Z2 Power Z1-Z2 HR\n\n- 10m Z1-Z2 Power Z1-Z2 HR\n\nSweetspot @ 88% FTP (~168W). Kadenz 88–92 rpm.",
-  "source": "section11_recommendation"
+  "schema_version": "1.0",
+  "generated_by": "claude",
+  "generated_at": "2026-03-22T18:00:00",
+  "workouts": [
+    {
+      "id": "kw15-ride-ss-di-v2",
+      "date": "2026-04-07",
+      "name": "Sweetspot — 4×8min",
+      "sport_type": "Ride",
+      "category": "WORKOUT",
+      "planned_tss": 55,
+      "moving_time": 3600,
+      "description": "- 10m Z1-Z2 Power Z1-Z2 HR\n\n4x\n- 8m Z3-Z4 Power Z3-Z4 HR\n- 4m Z1-Z2 Power Z1-Z2 HR\n\n- 10m Z1-Z2 Power Z1-Z2 HR\n\nSweetspot @ 88% FTP (~168W). Kadenz 88–92 rpm. Gleichmäßige Power, kein Einbruch in der 4. Einheit.",
+      "source": "section11_recommendation"
+    }
+  ]
 }
