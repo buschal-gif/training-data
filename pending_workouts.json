@@ -1,45 +1,5 @@
 {
   "week": "2026-03-23 to 2026-03-29",
-  "sessions": [
-    {
-      "date": "2026-03-24",
-      "sport": "Ride",
-      "name": "Erholung — Rad Z1–Z2",
-      "type": "WORKOUT",
-      "duration_min": 59,
-      "tss": 47,
-      "description": "- 59m Z1-Z2 Power Z1-Z2 HR\n\nLockeres Spinning. Power 102–152 W, HR unter 145 bpm.",
-      "existing": false
-    },
-    {
-      "date": "2026-03-27",
-      "sport": "WeightTraining",
-      "name": "Bouldern — Technik",
-      "type": "WORKOUT",
-      "duration_min": 90,
-      "tss": 30,
-      "description": "Bouldern — Fokus auf Technik, keine Kraftmaximalversuche.",
-      "existing": false
-    },
-    {
-      "date": "2026-03-28",
-      "sport": "Run",
-      "name": "Grundlage — Laufen Z1–Z2",
-      "type": "WORKOUT",
-      "duration_min": 67,
-      "tss": 82,
-      "description": "- 67m Z1-Z2 Z1-Z2 HR Z1-Z2 Pace\n\nGrundlagenlauf. HR unter 148 bpm, Pace locker und gleichmäßig.",
-      "existing": false
-    },
-    {
-      "date": "2026-03-29",
-      "sport": "Ride",
-      "name": "Grundlage — Rad Z1–Z2",
-      "type": "WORKOUT",
-      "duration_min": 70,
-      "tss": 56,
-      "description": "- 70m Z1-Z2 Power Z1-Z2 HR\n\nGrundlagenride. Power 102–152 W, HR unter 155 bpm.",
-      "existing": false
-    }
-  ]
+  "sessions": [],
+  "last_pushed": "2026-03-22T19:01:49.959492"
 }
