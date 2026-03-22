@@ -1,106 +1,30 @@
 {
-  "_schema": {
-    "version": "1.0",
-    "description": "Workouts pending push to Intervals.icu. Claude writes here; push.py reads and clears.",
-    "id_rule": "SHA256(date+name+sport_type+moving_time)[:12] — deterministic, generated automatically if omitted",
-    "power_target_types": {
-      "power": "Absolute watts: {\"type\": \"power\", \"value\": 250}",
-      "ftp_pct": "Percentage of FTP: {\"type\": \"ftp_pct\", \"value\": 0.85}",
-      "zone": "Zone midpoint: {\"type\": \"zone\", \"zone\": 3}"
-    },
-    "step_types": {
-      "steady": "Constant power/HR target",
-      "ramp": "Linear ramp from power to power_end",
-      "repeat": "Repeat block — requires reps + nested steps array",
-      "free": "No power target (description/feel-based)"
-    },
-    "workout_doc_note": "Use 'steps' (simplified) OR 'workout_doc' (raw Intervals.icu format). Not both. Omit both for description-only workouts.",
-    "ftp_note": "Top-level 'ftp' field used for power resolution when --ftp flag not set on CLI"
-  },
   "schema_version": "1.0",
   "generated_by": "claude",
-  "generated_at": "2026-03-22T16:00:00",
+  "generated_at": "2026-03-22T16:30:00",
   "ftp": 191,
   "workouts": [
     {
-      "_comment": "EXAMPLE 1 — Simple description-only workout (no structured steps)",
-      "id": "a1b2c3d4e5f6",
-      "date": "2026-03-23",
-      "name": "Aktive Erholung — Laufen",
+      "id": "kw15-run-z2-mo",
+      "date": "2026-04-06",
+      "name": "Grundlage — Laufen Z2",
       "sport_type": "Run",
       "category": "WORKOUT",
-      "planned_tss": 21,
-      "moving_time": 1800,
-      "description": "- 30m Z1 Z1-Z2 HR Z1 Pace\n\nLockeres Auslaufen nach dem Rennen. HR unter 145 bpm halten.",
+      "planned_tss": 40,
+      "moving_time": 2700,
+      "description": "- 45m Z2 Z2 HR Z2 Pace\n\nAerober Einstieg nach Erholungswoche. HR unter 162 bpm halten. Pace locker, kein Druck.",
       "source": "section11_recommendation",
       "template_id": null
     },
     {
-      "_comment": "EXAMPLE 2 — Structured workout using simplified 'steps' format (push.py builds workout_doc)",
-      "id": "b2c3d4e5f6a1",
-      "date": "2026-03-24",
-      "name": "Erholung — Rad Z1",
+      "id": "kw15-ride-ss-di",
+      "date": "2026-04-07",
+      "name": "Sweetspot — 4×8min",
       "sport_type": "Ride",
       "category": "WORKOUT",
-      "planned_tss": 26,
-      "moving_time": 2700,
-      "description": "Lockeres Spinning. Power unter 122 W, HR unter 130 bpm.",
-      "source": "section11_recommendation",
-      "template_id": null,
-      "steps": [
-        {
-          "type": "steady",
-          "duration": 2700,
-          "power": {"type": "zone", "zone": 1},
-          "cadence": 85
-        }
-      ]
-    },
-    {
-      "_comment": "EXAMPLE 3 — Sweetspot intervals with warm-up and cool-down (simplified steps)",
-      "id": "c3d4e5f6a1b2",
-      "date": "2026-03-29",
-      "name": "Grundlage — Rad Z2",
-      "sport_type": "Ride",
-      "category": "WORKOUT",
-      "planned_tss": 42,
+      "planned_tss": 55,
       "moving_time": 3600,
-      "description": "Erster längerer Ride. Power 102–152 W, HR unter 162 bpm.",
-      "source": "section11_recommendation",
-      "template_id": null,
-      "steps": [
-        {
-          "_label": "Warm-up",
-          "type": "ramp",
-          "duration": 600,
-          "power": {"type": "ftp_pct", "value": 0.45},
-          "power_end": {"type": "ftp_pct", "value": 0.65}
-        },
-        {
-          "_label": "Z2 Endurance",
-          "type": "steady",
-          "duration": 2400,
-          "power": {"type": "zone", "zone": 2},
-          "cadence": 88
-        },
-        {
-          "_label": "Cool-down",
-          "type": "steady",
-          "duration": 600,
-          "power": {"type": "ftp_pct", "value": 0.45}
-        }
-      ]
-    },
-    {
-      "_comment": "EXAMPLE 4 — Interval session with repeat block (simplified steps)",
-      "id": "d4e5f6a1b2c3",
-      "date": "2026-04-01",
-      "name": "5x5min Sweetspot",
-      "sport_type": "Ride",
-      "category": "WORKOUT",
-      "planned_tss": 65,
-      "moving_time": 4500,
-      "description": "5x5min @ 88-93% FTP / 2.5min recovery. Fokus auf gleichmäßige Power.",
+      "description": "4×8min @ 88% FTP / 4min Erholung. Fokus auf gleichmäßige Power, Kadenz 88–92 rpm.",
       "source": "section11_recommendation",
       "template_id": "SS-5",
       "steps": [
@@ -112,21 +36,21 @@
           "power_end": {"type": "ftp_pct", "value": 0.75}
         },
         {
-          "_label": "5x5min SS",
+          "_label": "4×8min Sweetspot",
           "type": "repeat",
-          "reps": 5,
+          "reps": 4,
           "steps": [
             {
               "_label": "Sweetspot",
               "type": "steady",
-              "duration": 300,
-              "power": {"type": "ftp_pct", "value": 0.90},
+              "duration": 480,
+              "power": {"type": "ftp_pct", "value": 0.88},
               "cadence": 90
             },
             {
-              "_label": "Recovery",
+              "_label": "Erholung",
               "type": "steady",
-              "duration": 150,
+              "duration": 240,
               "power": {"type": "ftp_pct", "value": 0.50}
             }
           ]
@@ -140,15 +64,26 @@
       ]
     },
     {
-      "_comment": "EXAMPLE 5 — Raw workout_doc (pre-built Intervals.icu format, skip push.py builder)",
-      "id": "e5f6a1b2c3d4",
-      "date": "2026-04-03",
-      "name": "Bouldern — Technik",
-      "sport_type": "WeightTraining",
+      "id": "kw15-run-strides-mi",
+      "date": "2026-04-08",
+      "name": "Grundlage & 4×20'' Strides",
+      "sport_type": "Run",
       "category": "WORKOUT",
-      "planned_tss": 30,
-      "moving_time": 5400,
-      "description": "Bouldern — Fokus auf Technik, keine Kraftmaximalversuche.",
+      "planned_tss": 38,
+      "moving_time": 2400,
+      "description": "- 15m Z1-Z2 Z1-Z2 HR Z1-Z2 Pace\n\n4x\n- 20s Z5 Z4-Z5 HR Z4-Z5 Pace\n- 90s Z1 Z1 HR Z1 Pace\n\n- 10m Z1-Z2 Z1-Z2 HR Z1-Z2 Pace\n\nLeichte Strides zur neuromuskulären Aktivierung. Nicht anaerob ausreizen.",
+      "source": "section11_recommendation",
+      "template_id": null
+    },
+    {
+      "id": "kw15-flex-do",
+      "date": "2026-04-09",
+      "name": "Erholung — Rad Z1 oder Bouldern",
+      "sport_type": "Ride",
+      "category": "WORKOUT",
+      "planned_tss": 35,
+      "moving_time": 2700,
+      "description": "- 45m Z1-Z2 Power Z1-Z2 HR\n\nNach Gefühl: lockeres Spinning unter 130 bpm, oder Bouldern (Technikfokus, keine Maximalversuche). Power unter 125 W wenn Rad.",
       "source": "section11_recommendation",
       "template_id": null
     }
