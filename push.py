@@ -2,16 +2,13 @@
 """
 pending_workouts.json → Intervals.icu Calendar
 Idempotent: dedup via content hash, skip already-pushed IDs.
-
-Supports:
-- Simple workouts (description-only)
-- Structured workouts with workout_doc (Intervals.icu builder format)
+Description-only mode — all workouts use Intervals.icu description syntax.
 
 Usage:
   python push.py --athlete-id i123456 --intervals-key YOUR_KEY
   python push.py --dry-run   # simulate without writing
 
-Version 1.0
+Version 1.1 — description-only, workout_doc removed
 """
 
 import requests
@@ -102,103 +99,14 @@ def save_pushed_log(pushed_path: Path, new_entries: list):
 
 
 # ---------------------------------------------------------------------------
-# Workout-Doc builder helpers
-# ---------------------------------------------------------------------------
-
-def _resolve_power(target: dict, ftp: float) -> dict:
-    """
-    Resolve a power target to watts.
-    Supports:
-      {"type": "power", "value": 250}          → absolute watts
-      {"type": "ftp_pct", "value": 0.85}       → 85% FTP
-      {"type": "zone", "zone": 3, "ftp": 200}  → zone midpoint
-    Returns {"value": <watts>, "units": "W"} for Intervals.icu _power field.
-    """
-    t = target.get("type", "power")
-    val = target.get("value")
-
-    if t == "ftp_pct":
-        if ftp and val:
-            return {"value": round(ftp * val), "units": "W"}
-    elif t == "zone":
-        # 7-zone midpoints as % of FTP
-        zone_midpoints = {1: 0.50, 2: 0.65, 3: 0.83, 4: 0.98,
-                          5: 1.13, 6: 1.35, 7: 1.60}
-        z = target.get("zone", 3)
-        mid = zone_midpoints.get(z, 0.83)
-        if ftp:
-            return {"value": round(ftp * mid), "units": "W"}
-    # Default: absolute watts
-    if val is not None:
-        return {"value": val, "units": "W"}
-    return {}
-
-
-def build_workout_doc(steps_input: list, ftp: float = None) -> dict:
-    """
-    Convert simplified step definitions into Intervals.icu workout_doc format.
-
-    Simplified step format:
-      {
-        "type": "steady",          # steady | ramp | repeat | free
-        "duration": 600,           # seconds
-        "power": {"type": "ftp_pct", "value": 0.60},
-        "cadence": 90,             # optional
-        "reps": 5,                 # for repeat blocks only
-        "steps": [...]             # nested steps for repeat blocks
-      }
-
-    Returns a workout_doc dict ready for the Intervals.icu API.
-    """
-    def _build_step(s: dict) -> dict:
-        step_type = s.get("type", "steady")
-
-        # Repeat block
-        if step_type == "repeat":
-            nested = [_build_step(ns) for ns in s.get("steps", [])]
-            return {
-                "type": "Repeat",
-                "reps": s.get("reps", 1),
-                "steps": nested,
-            }
-
-        # Steady or ramp step
-        step = {
-            "type": "SteadyState" if step_type in ("steady", "free") else "Ramp",
-            "duration": s.get("duration", 60),
-        }
-
-        power_target = s.get("power")
-        if power_target and ftp is not None:
-            step["_power"] = _resolve_power(power_target, ftp)
-        elif power_target and power_target.get("value"):
-            step["_power"] = {"value": power_target["value"], "units": "W"}
-
-        if s.get("cadence"):
-            step["cadence"] = s["cadence"]
-
-        if step_type == "ramp":
-            power_end = s.get("power_end")
-            if power_end and ftp is not None:
-                step["_powerEnd"] = _resolve_power(power_end, ftp)
-
-        return step
-
-    return {
-        "type": "bike",
-        "steps": [_build_step(s) for s in steps_input],
-    }
-
-
-# ---------------------------------------------------------------------------
 # API call
 # ---------------------------------------------------------------------------
 
 def push_workout(athlete_id: str, auth: str, workout: dict,
-                 ftp: float = None, dry_run: bool = False) -> dict:
+                 dry_run: bool = False) -> dict:
     """
     POST a single workout to Intervals.icu /events endpoint.
-    Supports both description-only and structured workout_doc workouts.
+    Description-only — no workout_doc or steps processing.
     Returns the created event dict on success.
     """
     url = f"{INTERVALS_BASE_URL}/athlete/{athlete_id}/events"
@@ -207,41 +115,40 @@ def push_workout(athlete_id: str, auth: str, workout: dict,
         "Content-Type": "application/json",
     }
 
-    # Base payload
+    # Date: API requires datetime format, not date-only
+    date_str = workout["date"]
+    if "T" not in str(date_str):
+        date_str = f"{date_str}T00:00:00"
+
     payload = {
-        "start_date_local": workout["date"] if "T" in str(workout["date"]) else f"{workout['date']}T00:00:00",
+        "start_date_local": date_str,
         "name": workout.get("name", "Workout"),
         "type": SPORT_TYPE_MAP.get(workout.get("sport_type", "Ride"), "Ride"),
         "category": CATEGORY_MAP.get(workout.get("category", "WORKOUT"), "WORKOUT"),
         "description": workout.get("description", ""),
     }
 
-    # Optional scalar fields
     if workout.get("moving_time"):
         payload["moving_time"] = int(workout["moving_time"])
     if workout.get("planned_tss") is not None:
         payload["load"] = float(workout["planned_tss"])
-    # Note: POST /events uses "load", not "icu_training_load" (that is the GET response field name)
     if workout.get("distance"):
-        payload["distance"] = float(workout["distance"])  # meters
-
-    # Structured workout_doc — two paths:
-    # 1. Pre-built workout_doc already in the JSON (full Intervals format)
-    # 2. Simplified "steps" array that we build into a workout_doc here
-    if workout.get("workout_doc"):
-        payload["workout_doc"] = workout["workout_doc"]
-    elif workout.get("steps"):
-        effective_ftp = ftp or workout.get("ftp")
-        payload["workout_doc"] = build_workout_doc(workout["steps"], ftp=effective_ftp)
+        payload["distance"] = float(workout["distance"])
 
     if dry_run:
         print(f"  [DRY RUN] Would push: {workout['date']} — {workout['name']}")
-        if payload.get("workout_doc"):
-            n_steps = len(payload["workout_doc"].get("steps", []))
-            print(f"            workout_doc: {n_steps} top-level step(s)")
         return {"id": f"dry_{workout.get('id', 'unknown')}", **payload}
 
     response = requests.post(url, headers=headers, json=payload)
+
+    if not response.ok:
+        # Log full response for diagnosis before raising
+        try:
+            body = json.dumps(response.json(), indent=6)
+        except Exception:
+            body = response.text[:500]
+        print(f"      API response: {body}")
+
     response.raise_for_status()
     return response.json()
 
@@ -262,8 +169,6 @@ def main():
                         help="Audit log file (default: pushed_workouts.json)")
     parser.add_argument("--dry-run", action="store_true",
                         help="Simulate — no writes to Intervals.icu")
-    parser.add_argument("--ftp", type=float, default=None,
-                        help="Override FTP for power target resolution (watts)")
     parser.add_argument("--no-clear", action="store_true",
                         help="Keep successfully pushed workouts in pending file")
     args = parser.parse_args()
@@ -282,7 +187,6 @@ def main():
     pending_path = Path(args.pending)
     pushed_path = Path(args.pushed_log)
 
-    # Nothing to do
     if not pending_path.exists():
         print("✅  No pending_workouts.json found — nothing to push")
         return 0
@@ -295,10 +199,11 @@ def main():
         print("✅  pending_workouts.json is empty — nothing to push")
         return 0
 
-    # FTP for power resolution: CLI flag > pending file metadata > None
-    effective_ftp = args.ftp or pending_data.get("ftp") or None
+    # Warn if any workout still has steps or workout_doc (ignored in v1.1)
+    has_legacy = [w for w in workouts if w.get("steps") or w.get("workout_doc")]
+    if has_legacy:
+        print(f"⚠️   {len(has_legacy)} workout(s) have 'steps' or 'workout_doc' fields — ignored (description-only mode)")
 
-    # Load already-pushed IDs
     pushed_ids = load_pushed_ids(pushed_path)
 
     print(f"📋  {len(workouts)} workout(s) in pending_workouts.json")
@@ -306,21 +211,17 @@ def main():
         print(f"    Already pushed (will skip): {len(pushed_ids)} known ID(s)")
     if args.dry_run:
         print("🧪  DRY RUN — no writes to Intervals.icu")
-    if effective_ftp:
-        print(f"⚡  FTP for power resolution: {effective_ftp} W")
     print()
 
     pushed_this_run = []
     remaining = []
 
     for workout in workouts:
-        # Ensure deterministic ID
         if not workout.get("id"):
             workout["id"] = make_hash(workout)
 
         wid = workout["id"]
 
-        # Idempotency check
         if wid in pushed_ids:
             print(f"  ⏭️   Skip (already pushed): {workout['date']} — {workout['name']} [{wid}]")
             continue
@@ -328,13 +229,10 @@ def main():
         try:
             result = push_workout(
                 athlete_id, auth, workout,
-                ftp=effective_ftp,
                 dry_run=args.dry_run
             )
             intervals_id = result.get("id", "unknown")
-            has_doc = "workout_doc" in result or workout.get("workout_doc") or workout.get("steps")
-            doc_marker = " [structured]" if has_doc else ""
-            print(f"  ✅  Pushed{doc_marker}: {workout['date']} — {workout['name']}"
+            print(f"  ✅  Pushed: {workout['date']} — {workout['name']}"
                   f" → Intervals ID: {intervals_id} [{wid}]")
 
             pushed_this_run.append({
@@ -345,22 +243,12 @@ def main():
                 "sport_type": workout.get("sport_type"),
                 "pushed_at": datetime.now().isoformat(),
                 "source": workout.get("source", "unknown"),
-                "has_workout_doc": bool(has_doc),
                 "dry_run": args.dry_run,
             })
 
         except requests.HTTPError as e:
             status = e.response.status_code if e.response is not None else "?"
             print(f"  ❌  HTTP {status}: {workout['date']} — {workout['name']}")
-            if e.response is not None:
-                # Print full response body for diagnosis
-                try:
-                    full_body = e.response.json()
-                    print(f"      API response: {json.dumps(full_body, indent=6)}")
-                except Exception:
-                    print(f"      API response (raw): {e.response.text[:500]}")
-                # Also print the payload we sent (without auth)
-                print(f"      Payload sent: {json.dumps({k: v for k, v in locals().get('payload', {}).items()}, indent=6)}")
             remaining.append(workout)
 
         except Exception as e:
@@ -369,12 +257,10 @@ def main():
 
     print()
 
-    # Update audit log
     if pushed_this_run:
         save_pushed_log(pushed_path, pushed_this_run)
         print(f"📝  Audit log: {len(pushed_this_run)} new entries → {pushed_path}")
 
-    # Clear pending file unless --no-clear
     if not args.no_clear:
         pending_data["workouts"] = remaining
         pending_data["last_pushed"] = datetime.now().isoformat()
@@ -386,7 +272,6 @@ def main():
         else:
             print(f"⚠️   {len(remaining)} workout(s) remain in pending (failed pushes)")
 
-    # Exit summary
     skipped = len(workouts) - len(pushed_this_run) - len(remaining)
     print(f"\n{'[DRY RUN] ' if args.dry_run else ''}"
           f"✅  Done — pushed: {len(pushed_this_run)}, "
