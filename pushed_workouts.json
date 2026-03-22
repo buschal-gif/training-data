@@ -113,6 +113,26 @@
       "pushed_at": "2026-03-22T16:37:23.591763",
       "source": "section11_recommendation",
       "dry_run": false
+    },
+    {
+      "id": "kw15-run-z2-mo-v2",
+      "intervals_event_id": 99987494,
+      "date": "2026-04-06",
+      "name": "Grundlage \u2014 Laufen Z2",
+      "sport_type": "Run",
+      "pushed_at": "2026-03-22T16:42:04.538860",
+      "source": "section11_recommendation",
+      "dry_run": false
+    },
+    {
+      "id": "kw15-run-strides-mi-v2",
+      "intervals_event_id": 99987496,
+      "date": "2026-04-08",
+      "name": "Grundlage & 4\u00d720'' Strides",
+      "sport_type": "Run",
+      "pushed_at": "2026-03-22T16:42:05.034853",
+      "source": "section11_recommendation",
+      "dry_run": false
     }
   ]
 }
