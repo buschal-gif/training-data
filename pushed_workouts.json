@@ -133,6 +133,16 @@
       "pushed_at": "2026-03-22T16:42:05.034853",
       "source": "section11_recommendation",
       "dry_run": false
+    },
+    {
+      "id": "kw15-ride-ss-di-v3",
+      "intervals_event_id": 99987849,
+      "date": "2026-04-07",
+      "name": "Sweetspot \u2014 4\u00d78min",
+      "sport_type": "Ride",
+      "pushed_at": "2026-03-22T16:44:45.879313",
+      "source": "section11_recommendation",
+      "dry_run": false
     }
   ]
 }
