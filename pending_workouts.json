@@ -1,0 +1,156 @@
+{
+  "_schema": {
+    "version": "1.0",
+    "description": "Workouts pending push to Intervals.icu. Claude writes here; push.py reads and clears.",
+    "id_rule": "SHA256(date+name+sport_type+moving_time)[:12] — deterministic, generated automatically if omitted",
+    "power_target_types": {
+      "power": "Absolute watts: {\"type\": \"power\", \"value\": 250}",
+      "ftp_pct": "Percentage of FTP: {\"type\": \"ftp_pct\", \"value\": 0.85}",
+      "zone": "Zone midpoint: {\"type\": \"zone\", \"zone\": 3}"
+    },
+    "step_types": {
+      "steady": "Constant power/HR target",
+      "ramp": "Linear ramp from power to power_end",
+      "repeat": "Repeat block — requires reps + nested steps array",
+      "free": "No power target (description/feel-based)"
+    },
+    "workout_doc_note": "Use 'steps' (simplified) OR 'workout_doc' (raw Intervals.icu format). Not both. Omit both for description-only workouts.",
+    "ftp_note": "Top-level 'ftp' field used for power resolution when --ftp flag not set on CLI"
+  },
+  "schema_version": "1.0",
+  "generated_by": "claude",
+  "generated_at": "2026-03-22T16:00:00",
+  "ftp": 191,
+  "workouts": [
+    {
+      "_comment": "EXAMPLE 1 — Simple description-only workout (no structured steps)",
+      "id": "a1b2c3d4e5f6",
+      "date": "2026-03-23",
+      "name": "Aktive Erholung — Laufen",
+      "sport_type": "Run",
+      "category": "WORKOUT",
+      "planned_tss": 21,
+      "moving_time": 1800,
+      "description": "- 30m Z1 Z1-Z2 HR Z1 Pace\n\nLockeres Auslaufen nach dem Rennen. HR unter 145 bpm halten.",
+      "source": "section11_recommendation",
+      "template_id": null
+    },
+    {
+      "_comment": "EXAMPLE 2 — Structured workout using simplified 'steps' format (push.py builds workout_doc)",
+      "id": "b2c3d4e5f6a1",
+      "date": "2026-03-24",
+      "name": "Erholung — Rad Z1",
+      "sport_type": "Ride",
+      "category": "WORKOUT",
+      "planned_tss": 26,
+      "moving_time": 2700,
+      "description": "Lockeres Spinning. Power unter 122 W, HR unter 130 bpm.",
+      "source": "section11_recommendation",
+      "template_id": null,
+      "steps": [
+        {
+          "type": "steady",
+          "duration": 2700,
+          "power": {"type": "zone", "zone": 1},
+          "cadence": 85
+        }
+      ]
+    },
+    {
+      "_comment": "EXAMPLE 3 — Sweetspot intervals with warm-up and cool-down (simplified steps)",
+      "id": "c3d4e5f6a1b2",
+      "date": "2026-03-29",
+      "name": "Grundlage — Rad Z2",
+      "sport_type": "Ride",
+      "category": "WORKOUT",
+      "planned_tss": 42,
+      "moving_time": 3600,
+      "description": "Erster längerer Ride. Power 102–152 W, HR unter 162 bpm.",
+      "source": "section11_recommendation",
+      "template_id": null,
+      "steps": [
+        {
+          "_label": "Warm-up",
+          "type": "ramp",
+          "duration": 600,
+          "power": {"type": "ftp_pct", "value": 0.45},
+          "power_end": {"type": "ftp_pct", "value": 0.65}
+        },
+        {
+          "_label": "Z2 Endurance",
+          "type": "steady",
+          "duration": 2400,
+          "power": {"type": "zone", "zone": 2},
+          "cadence": 88
+        },
+        {
+          "_label": "Cool-down",
+          "type": "steady",
+          "duration": 600,
+          "power": {"type": "ftp_pct", "value": 0.45}
+        }
+      ]
+    },
+    {
+      "_comment": "EXAMPLE 4 — Interval session with repeat block (simplified steps)",
+      "id": "d4e5f6a1b2c3",
+      "date": "2026-04-01",
+      "name": "5x5min Sweetspot",
+      "sport_type": "Ride",
+      "category": "WORKOUT",
+      "planned_tss": 65,
+      "moving_time": 4500,
+      "description": "5x5min @ 88-93% FTP / 2.5min recovery. Fokus auf gleichmäßige Power.",
+      "source": "section11_recommendation",
+      "template_id": "SS-5",
+      "steps": [
+        {
+          "_label": "Warm-up",
+          "type": "ramp",
+          "duration": 600,
+          "power": {"type": "ftp_pct", "value": 0.45},
+          "power_end": {"type": "ftp_pct", "value": 0.75}
+        },
+        {
+          "_label": "5x5min SS",
+          "type": "repeat",
+          "reps": 5,
+          "steps": [
+            {
+              "_label": "Sweetspot",
+              "type": "steady",
+              "duration": 300,
+              "power": {"type": "ftp_pct", "value": 0.90},
+              "cadence": 90
+            },
+            {
+              "_label": "Recovery",
+              "type": "steady",
+              "duration": 150,
+              "power": {"type": "ftp_pct", "value": 0.50}
+            }
+          ]
+        },
+        {
+          "_label": "Cool-down",
+          "type": "steady",
+          "duration": 600,
+          "power": {"type": "ftp_pct", "value": 0.45}
+        }
+      ]
+    },
+    {
+      "_comment": "EXAMPLE 5 — Raw workout_doc (pre-built Intervals.icu format, skip push.py builder)",
+      "id": "e5f6a1b2c3d4",
+      "date": "2026-04-03",
+      "name": "Bouldern — Technik",
+      "sport_type": "WeightTraining",
+      "category": "WORKOUT",
+      "planned_tss": 30,
+      "moving_time": 5400,
+      "description": "Bouldern — Fokus auf Technik, keine Kraftmaximalversuche.",
+      "source": "section11_recommendation",
+      "template_id": null
+    }
+  ]
+}
