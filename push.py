@@ -220,7 +220,8 @@ def push_workout(athlete_id: str, auth: str, workout: dict,
     if workout.get("moving_time"):
         payload["moving_time"] = int(workout["moving_time"])
     if workout.get("planned_tss") is not None:
-        payload["icu_training_load"] = float(workout["planned_tss"])
+        payload["load"] = float(workout["planned_tss"])
+    # Note: POST /events uses "load", not "icu_training_load" (that is the GET response field name)
     if workout.get("distance"):
         payload["distance"] = float(workout["distance"])  # meters
 
@@ -350,13 +351,16 @@ def main():
 
         except requests.HTTPError as e:
             status = e.response.status_code if e.response is not None else "?"
-            body = ""
+            print(f"  ❌  HTTP {status}: {workout['date']} — {workout['name']}")
             if e.response is not None:
+                # Print full response body for diagnosis
                 try:
-                    body = e.response.json().get("message", "")
+                    full_body = e.response.json()
+                    print(f"      API response: {json.dumps(full_body, indent=6)}")
                 except Exception:
-                    body = e.response.text[:120]
-            print(f"  ❌  HTTP {status}: {workout['date']} — {workout['name']}: {body}")
+                    print(f"      API response (raw): {e.response.text[:500]}")
+                # Also print the payload we sent (without auth)
+                print(f"      Payload sent: {json.dumps({k: v for k, v in locals().get('payload', {}).items()}, indent=6)}")
             remaining.append(workout)
 
         except Exception as e:
