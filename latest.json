@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-22T15:39:29.075825",
+    "last_updated": "2026-03-22T16:59:02.090099",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -271,7 +271,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 28964,
+      "steps": 29168,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -473,7 +473,7 @@
     "p_max": 736,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 49.0,
-    "calculation_timestamp": "2026-03-22T15:39:29.074388",
+    "calculation_timestamp": "2026-03-22T16:59:02.088663",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1207,7 +1207,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 28964,
+      "steps": 29168,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1364,6 +1364,64 @@
       "description_preview": null
     },
     {
+      "id": 99986600,
+      "date": "2026-03-30",
+      "name": "Grundlage \u2014 Laufen Z2",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 48,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "description_preview": "- 45m Z2 Z2 HR Z2 Pace\nErster Lauf nach Erholungswoche. HR unter 162 bpm. Pace locker, kein Druck."
+    },
+    {
+      "id": 99986602,
+      "date": "2026-03-31",
+      "name": "Sweetspot \u2014 3\u00d710min",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 66,
+      "duration_hours": 1.08,
+      "duration_formatted": "1h5m",
+      "workout_summary": "10m | 3\u00d710m / 5m rec | 10m"
+    },
+    {
+      "id": 99986604,
+      "date": "2026-04-01",
+      "name": "Grundlage \u2014 Laufen Z2",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 53,
+      "duration_hours": 0.83,
+      "duration_formatted": "50m",
+      "workout_summary": null,
+      "description_preview": "- 50m Z2 Z2 HR Z2 Pace\nAerober Dauerlauf. HR unter 162 bpm. Zweiter Lauf der Woche \u2014 Pace bleibt locker."
+    },
+    {
+      "id": 99986607,
+      "date": "2026-04-03",
+      "name": "Grundlage & 4\u00d720'' Strides",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 33,
+      "duration_hours": 0.62,
+      "duration_formatted": "37m20s",
+      "workout_summary": "15m | 4\u00d720s / 1m30s rec | 15m"
+    },
+    {
+      "id": 99986609,
+      "date": "2026-04-04",
+      "name": "Grundlage \u2014 Rad Z2",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 53,
+      "duration_hours": 1.25,
+      "duration_formatted": "1h15m",
+      "workout_summary": null,
+      "description_preview": "- 75m Z2 Power Z2 HR\nErster l\u00e4ngerer Ride des Aufblocks. Power 102\u2013152 W, HR unter 162 bpm. Kadenz 85\u201390 rpm."
+    },
+    {
       "id": 97020095,
       "date": "2026-04-06",
       "name": "Weekly",
@@ -1386,6 +1444,52 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "description_preview": null
+    },
+    {
+      "id": 99987494,
+      "date": "2026-04-06",
+      "name": "Grundlage \u2014 Laufen Z2",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 53,
+      "duration_hours": 0.83,
+      "duration_formatted": "50m",
+      "workout_summary": null,
+      "description_preview": "- 50m Z2 Z2 HR Z2 Pace\nAerober Dauerlauf. HR unter 162 bpm. Einstieg KW15."
+    },
+    {
+      "id": 99987849,
+      "date": "2026-04-07",
+      "name": "Sweetspot \u2014 4\u00d78min",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 70,
+      "duration_hours": 1.13,
+      "duration_formatted": "1h8m",
+      "workout_summary": "10m | 4\u00d78m / 4m rec | 10m"
+    },
+    {
+      "id": 99987496,
+      "date": "2026-04-08",
+      "name": "Grundlage & 4\u00d720'' Strides",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 29,
+      "duration_hours": 0.54,
+      "duration_formatted": "32m20s",
+      "workout_summary": "15m | 4\u00d720s / 1m30s rec | 10m"
+    },
+    {
+      "id": 99986611,
+      "date": "2026-04-09",
+      "name": "Bouldern \u2014 Technik",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": null,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "description_preview": "Bouldern \u2014 Fokus auf Technik, keine Kraftmaximalversuche. K\u00f6rperspannung und Bewegungsqualit\u00e4t."
     },
     {
       "id": 97020096,
@@ -1473,12 +1577,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 4,
-    "success": 1,
-    "patternA": 1,
+    "attempted": 12,
+    "success": 5,
+    "patternA": 5,
     "patternB": 0,
-    "bail_no_workout_doc": 5,
-    "bail_no_match": 3
+    "bail_no_workout_doc": 6,
+    "bail_no_match": 7
   },
   "weekly_summary": {
     "total_training_hours": 5.59,
