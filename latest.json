@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-25T12:07:40.846060",
+    "last_updated": "2026-03-25T16:21:28.430968",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -127,20 +127,20 @@
       "unavailable": 0
     },
     "phase_context": {
-      "phase": "Deload",
-      "phase_week": 1,
-      "amber_threshold": 2,
-      "modifier_applied": "default"
+      "phase": "Build",
+      "phase_week": 5,
+      "amber_threshold": 3,
+      "modifier_applied": "build_loosened"
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 5 green, 1 amber (threshold 2), 0 red.",
+    "reason": "P3 green light. 5 green, 1 amber (threshold 3), 0 red.",
     "alarm_refs": []
   },
   "history": {
     "available": true,
     "last_generated": "2026-03-22",
-    "age_days": 2,
+    "age_days": 3,
     "total_months": 19,
     "history_confidence": "high"
   },
@@ -243,7 +243,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1278,
+      "steps": 4561,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -390,11 +390,9 @@
       ]
     },
     "phase_detection": {
-      "phase": "Deload",
-      "confidence": "medium",
-      "reason_codes": [
-        "BUILD_HISTORY_REDUCED_LOAD"
-      ],
+      "phase": "Build",
+      "confidence": "high",
+      "reason_codes": [],
       "basis": {
         "stream_1": {
           "ctl_slope": 1.78,
@@ -403,25 +401,23 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.31,
-          "hard_sessions_planned": 0,
+          "planned_tss_delta": 0.36,
+          "hard_sessions_planned": 2,
           "race_proximity": 81,
-          "next_week_load": 0.39,
+          "next_week_load": 0.48,
           "plan_coverage_current_week": 0.6,
-          "plan_coverage_next_week": 1.0
+          "plan_coverage_next_week": 1.4
         },
         "data_quality": "good",
         "stream_agreement": false
       },
       "previous_phase": "Build",
-      "phase_duration_weeks": 1,
+      "phase_duration_weeks": 5,
       "dossier_declared": null,
       "dossier_agreement": null
     },
-    "phase_detected": "Deload",
-    "phase_triggers": [
-      "BUILD_HISTORY_REDUCED_LOAD"
-    ],
+    "phase_detected": "Build",
+    "phase_triggers": [],
     "seasonal_context": "Late Base / Build",
     "benchmark_indoor": {
       "current_ftp": 191,
@@ -443,7 +439,7 @@
     "p_max": 736,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-25T12:07:40.844601",
+    "calculation_timestamp": "2026-03-25T16:21:28.428911",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1073,7 +1069,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1278,
+      "steps": 4561,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1086,16 +1082,16 @@
   ],
   "planned_workouts": [
     {
-      "id": 100023232,
+      "id": 100617975,
       "date": "2026-03-27",
-      "name": "Grundlage \u2014 Laufen Z1\u2013Z2",
+      "name": "Training 02: Dauerlauf mit Tempoanteil",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 67,
-      "duration_hours": 1.04,
-      "duration_formatted": "1h2m39s",
+      "planned_tss": 78,
+      "duration_hours": 1.13,
+      "duration_formatted": "1h8m",
       "workout_summary": null,
-      "description": "- 10km Z2 Z2 HR Z2 Pace\n\nGrundlagenlauf. HR unter 148 bpm, Pace locker und gleichm\u00e4\u00dfig."
+      "description": "Ziel: Entwicklung der aeroben Schwelle und Anpassung an Wettkampftempo\n\n\n- Aktiv 45m Z2 Power Z2 HR Z2 Pace intensity=active\n- Wettkampftempo 18m Z3 Power Z3 HR Z3 Pace\n- Cooldown 5m Z1-Z2 Power Z1-Z2 HR Z1-Z2 Pace intensity=cooldown"
     },
     {
       "id": 100023225,
@@ -1110,16 +1106,16 @@
       "description": "Bouldern \u2014 Fokus auf Technik, keine Kraftmaximalversuche."
     },
     {
-      "id": 100023234,
+      "id": 100618436,
       "date": "2026-03-29",
-      "name": "Grundlage \u2014 Rad Z1\u2013Z2",
+      "name": "40/20's #2",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 41,
-      "duration_hours": 1.17,
-      "duration_formatted": "1h10m",
-      "workout_summary": null,
-      "description": "- 70m Z1-Z2 Power Z1-Z2 HR\n\nGrundlagenride. Power 102\u2013152 W, HR unter 155 bpm."
+      "planned_tss": 71,
+      "duration_hours": 0.97,
+      "duration_formatted": "58m",
+      "workout_summary": "3m @102W | 4\u00d710s @366W / 50s rec | 3m @152W | 2m @132W | 5m @183W | 3m @102W | 10\u00d740s @222W / 20s rec | 5m @102W | 10\u00d740s @222W / 20s rec | 5m @102W | 3m @254W | 5m @102W",
+      "description": "Building upon your previous 40/20 session, this time, we are increasing the number of intervals before finishing with a 3min VO2max effort.\n\nWe challenge your ability to recover from hard work and measure the final effort produced.\n- 3m 50.4%\n\n4x\n- 10s 180.4%\n- 50s 50.4%\n\n- 3m 75.3%\n- 2m 65.1%\n- 5m 90.4%\n- 3m 50.4%\n\n10x\n- 40s 109.4%\n- 20s 65%\n\n- 5m 50.4%\n\n10x\n- 40s 109.4%\n- 20s 65.4%\n\n- 5m 50.4%\n- 3m 125.4%\n- 5m 50.4%"
     },
     {
       "id": 99998693,
@@ -1146,39 +1142,62 @@
       "description": ""
     },
     {
-      "id": 100403655,
+      "id": 100618701,
+      "date": "2026-03-30",
+      "name": "Aerobic Ramps",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 44,
+      "duration_hours": 0.88,
+      "duration_formatted": "53m",
+      "workout_summary": "3m @106W | 1m @121W | 1m @131W | 1m @164W | 1m @221W | 2m @101W | 4m @179W | 2m @102W | 5m @144W | 2m @122W | 4\u00d75m @144W / 2m rec",
+      "description": "Not every session needs to involve high-intensity efforts. Today's session is a low-intensity workout focussing on your aerobic fitness.\n\nOne of the most important aspects of cycling is your aerobic fitness. This allows you to preserve vital glycogen stores and power up the day's final climb.\n\nWarmup\n- 90^ The warmup gradually increases in power. 130^ By increasing your aerobic fitness, you will improve your ability to recover from the long climbs. 160^ Now we ramp up the power each minute to continue the warmup.<!> 3m ramp 44.9-60%\n\n- 1m 60%\n- 1m 64.9%\n- 31^ Just the 1min effort above threshold now.<!> 1m 81%\n- 1m 109%\n- 80^ 4min just under threshold will complete your warmup.<!> 2m 50%\n- 80^ This is the level of power you can expect to target on a long climb.<!> 4m 88.4%\n- 60^ The main set today consists of 5 x 5min aerobic efforts.<!> 2m 50.4%\n\nWarmup\n- 106^ As the power increases aim to hold the same cadence. 235^ The last minute should see an increase in your breathing rate.<!> 5m ramp 61.4-80.4%\n\n- 47^ For the recovery we keep some pressure on the pedals.<!> 2m 60.4%\n\nWarmup\n- 240^ This is the kind of workout you can perform several times during the week.<!> 5m ramp 61.4-80.4%\n\n- 55^ Remember, it's fine to complete some low intensity work.<!> 2m 65.4%\n\nWarmup\n- 236^ How does the last minute feel? 281^ Still comfortable?<!> 5m ramp 61.4-80.4%\n\n- 68^ Just 2 intervals to go.<!> 2m 65.4%\n\nWarmup\n- 151^ Are you holding the same cadence as the earlier intervals? 171^ A decreased cadence indicates fatigue is accumulating.<!> 5m ramp 61.4-80.4%\n\n- 58^ Last effort now.<!> 2m 65.4%\n\nWarmup\n- 143^ This is a good session to maintain your aerobic fitness.<!> 5m ramp 61.4-80.4%\n\nCooldown\n- 30^ Now for a nice cool down.<!> 5m ramp 75.4-50.4%"
+    },
+    {
+      "id": 100617773,
       "date": "2026-03-31",
-      "name": "Bahntraining",
+      "name": "Training 08: Gemischte progressive Intervalle",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 87,
-      "duration_hours": 1.22,
-      "duration_formatted": "1h13m6s",
-      "workout_summary": "10m | 3\u00d731s / 1m23s rec | 5\u00d73m28s / 3m rec | 4\u00d746s @547W / 3m rec | 10m",
-      "description": "Fokus: VO2max + Lauf\u00f6konomie\n- 10m Z2 Z2 HR Z2 Pace\n\n3x\n- 100mtr ramp  Z4 Z4 HR Z3-Z5 Pace\n- 200mtr Z1-Z2 Z1-Z2 HR Z1-Z2 Pace\n\n5x \n- 800mtr  Z6 Z4-5 HR Z6 Pace\n- 3m Z1 Z1 HR Z1 Pace\n\n4x\n- 200mtr 494-600W Z4-5 HR Z7 Pace\n- 3m Z1 Z1 HR Z1 Pace\n\n- 10m Z2 Z2 HR Z2 Pace"
+      "planned_tss": 84,
+      "duration_hours": 0.82,
+      "duration_formatted": "49m",
+      "workout_summary": "10m | 2\u00d71m / 2m rec | 2m | 1\u00d75m / 2m rec | 2\u00d73m / 2m rec | 3\u00d71m / 1m rec | 3\u00d730s / 30s rec | 5m",
+      "description": "- Warmup: 10m Z2 Z2 HR Z2 Pace intensity=warmup\n\n2x\n- Aktivierung 1m Z4 Z3-4 HR Z4 Pace intensity=run\n- Erholung 2m Z1-Z2 Z1-Z2 HR Z1-Z2 Pace intensity=recovery\n\n- Aktiv: 2m Z2 Z2 HR Z2 Pace intensity=run\n\n1x\n- Intervall 5m Z5 Z4 HR Z5 Pace (104-106% pace) intensity=run\n- Erholung 2m Z1-Z2 Z1-Z2 HR Z1-Z2 Pace intensity=recovery\n\n2x\n- Intervall 3m Z6 Z4 HR Z6 Pace (106-108% pace)\n- Erholung 2m Z1-Z2 Z1-Z2 HR Z1-Z2 Pace intensity=recovery\n\n3x\n- Interval 1m Z6 Z4 HR Z6 Pace (108-110% pace)\n-  Erholung 1m Z1-Z2 Z1-Z2 HR Z1-Z2 Pace intensity=recovery\n\n3x\n- Interval 30s Z6 Z4 HR Z6 Pace (110-112% pace)\n-  Erholung 30s Z1-Z2 Z1-Z2 HR Z1-Z2 Pace intensity=recovery\n\n- Cooldown: 5m Z1-Z2 Z1-Z2 HR Z1-Z2 Pace intensity=cooldown"
     },
     {
-      "id": 99986607,
+      "id": 100619193,
+      "date": "2026-04-02",
+      "name": "90 Minute Endurance",
+      "type": "WORKOUT",
+      "sport_type": "VirtualRide",
+      "planned_tss": 69,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": "3m @93W | 3m @105W | 2\u00d730s @123W / 30s rec | 1m @114W | 2m @123W | 4m @143W | 2m @123W | 3m @143W | 2m @123W | 2m @143W | 1m @114W | 1m @76W"
+    },
+    {
+      "id": 100619145,
       "date": "2026-04-03",
-      "name": "Grundlage & 4\u00d720'' Strides",
+      "name": "Training 04: Dauerlauf",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 33,
-      "duration_hours": 0.62,
-      "duration_formatted": "37m20s",
-      "workout_summary": "15m | 4\u00d720s / 1m30s rec | 15m"
+      "planned_tss": 64,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "description_preview": "- Aktiv 60m Z2 Z2 HR Z2 Pace intensity=active"
     },
     {
-      "id": 99986609,
-      "date": "2026-04-04",
-      "name": "Grundlage \u2014 Rad Z2",
+      "id": 100619316,
+      "date": "2026-04-05",
+      "name": "Endurance #2",
       "type": "WORKOUT",
       "sport_type": "Ride",
       "planned_tss": 53,
-      "duration_hours": 1.25,
-      "duration_formatted": "1h15m",
-      "workout_summary": null,
-      "description_preview": "- 75m Z2 Power Z2 HR\nErster l\u00e4ngerer Ride des Aufblocks. Power 102\u2013152 W, HR unter 162 bpm. Kadenz 85\u201390 rpm."
+      "duration_hours": 1.04,
+      "duration_formatted": "1h2m30s",
+      "workout_summary": "6m @122W | 1m @101W | 1m @221W | 2m @101W | 3m @142W | 4m @182W | 3m @101W | 4m @132W | 2\u00d710s @304W / 4m rec | 10s @304W | 4m @132W | 10s @304W | 4m @132W | 10s @304W | 5m @122W"
     },
     {
       "id": 99987494,
@@ -1384,12 +1403,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 8,
-    "success": 4,
-    "patternA": 4,
-    "patternB": 0,
+    "attempted": 10,
+    "success": 7,
+    "patternA": 6,
+    "patternB": 1,
     "bail_no_workout_doc": 5,
-    "bail_no_match": 4
+    "bail_no_match": 3
   },
   "weekly_summary": {
     "total_training_hours": 5.06,
