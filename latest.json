@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-25T19:30:46.942838",
+    "last_updated": "2026-03-25T21:07:15.497757",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -243,7 +243,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 4561,
+      "steps": 5606,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -439,7 +439,7 @@
     "p_max": 736,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-25T19:30:46.941372",
+    "calculation_timestamp": "2026-03-25T21:07:15.496318",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1069,7 +1069,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 4561,
+      "steps": 5606,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1163,7 +1163,7 @@
       "duration_hours": 0.82,
       "duration_formatted": "49m",
       "workout_summary": "10m | 2\u00d71m / 2m rec | 2m | 1\u00d75m / 2m rec | 2\u00d73m / 2m rec | 3\u00d71m / 1m rec | 3\u00d730s / 30s rec | 5m",
-      "description": "- Warmup: 10m Z2 Z2 HR Z2 Pace intensity=warmup\n\n2x\n- Aktivierung 1m Z4 Z3-4 HR Z4 Pace intensity=run\n- Erholung 2m Z1-Z2 Z1-Z2 HR Z1-Z2 Pace intensity=recovery\n\n- Aktiv: 2m Z2 Z2 HR Z2 Pace intensity=run\n\n1x\n- Intervall 5m Z5 Z4 HR Z5 Pace (104-106% pace) intensity=run\n- Erholung 2m Z1-Z2 Z1-Z2 HR Z1-Z2 Pace intensity=recovery\n\n2x\n- Intervall 3m Z6 Z4 HR Z6 Pace (106-108% pace)\n- Erholung 2m Z1-Z2 Z1-Z2 HR Z1-Z2 Pace intensity=recovery\n\n3x\n- Interval 1m Z6 Z4 HR Z6 Pace (108-110% pace)\n-  Erholung 1m Z1-Z2 Z1-Z2 HR Z1-Z2 Pace intensity=recovery\n\n3x\n- Interval 30s Z6 Z4 HR Z6 Pace (110-112% pace)\n-  Erholung 30s Z1-Z2 Z1-Z2 HR Z1-Z2 Pace intensity=recovery\n\n- Cooldown: 5m Z1-Z2 Z1-Z2 HR Z1-Z2 Pace intensity=cooldown"
+      "description": "- Warmup: 10m Z2 Z2 HR Z2 Pace intensity=warmup\n\nMain\n2x\n- Aktivierung 1m Z4 Z3-4 HR Z4 Pace \n- Erholung 2m Z1-Z2 Z1-Z2 HR Z1-Z2 Pace intensity=recovery\n\n- Aktiv: 2m Z2 Z2 HR Z2 Pace\n\n1x\n- Intervall 5m Z5 Z4 HR Z5 Pace (104-106% pace) \n- Erholung 2m Z1-Z2 Z1-Z2 HR Z1-Z2 Pace intensity=recovery\n\n2x\n- Intervall 3m Z6 Z4 HR Z6 Pace (106-108% pace) \n- Erholung 2m Z1-Z2 Z1-Z2 HR Z1-Z2 Pace intensity=recovery\n\n3x\n- Interval 1m Z6 Z4 HR Z6 Pace (108-110% pace) \n-  Erholung 1m Z1-Z2 Z1-Z2 HR Z1-Z2 Pace intensity=recovery\n\n3x\n- Interval 30s Z6 Z4 HR Z6 Pace (110-112% pace)\n-  Erholung 30s Z1-Z2 Z1-Z2 HR Z1-Z2 Pace intensity=recovery\n\n- Cooldown: 5m Z1-Z2 Z1-Z2 HR Z1-Z2 Pace intensity=cooldown"
     },
     {
       "id": 100619193,
