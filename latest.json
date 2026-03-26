@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-26T11:30:42.242145",
+    "last_updated": "2026-03-26T15:56:55.215738",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -140,7 +140,7 @@
   "history": {
     "available": true,
     "last_generated": "2026-03-22",
-    "age_days": 3,
+    "age_days": 4,
     "total_months": 19,
     "history_confidence": "high"
   },
@@ -243,7 +243,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 232,
+      "steps": 7326,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -400,7 +400,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.45,
+          "planned_tss_delta": 0.43,
           "hard_sessions_planned": 2,
           "race_proximity": 80,
           "next_week_load": 0.48,
@@ -438,7 +438,7 @@
     "p_max": 736,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-26T11:30:42.240644",
+    "calculation_timestamp": "2026-03-26T15:56:55.214348",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -971,7 +971,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 232,
+      "steps": 7326,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -989,7 +989,7 @@
       "name": "Training 02: Dauerlauf mit Tempoanteil",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 78,
+      "planned_tss": 75,
       "duration_hours": 1.13,
       "duration_formatted": "1h8m",
       "workout_summary": null,
@@ -1068,16 +1068,16 @@
       "description": "- Warmup: 10m Z2 Z2 HR Z2 Pace intensity=warmup\n\nMain\n2x\n- Aktivierung 1m Z4 Z3-4 HR Z4 Pace \n- Erholung 2m Z1-Z2 Z1-Z2 HR Z1-Z2 Pace intensity=recovery\n\n- Aktiv: 2m Z2 Z2 HR Z2 Pace\n\n1x\n- Intervall 5m Z5 Z4 HR Z5 Pace (104-106% pace) \n- Erholung 2m Z1-Z2 Z1-Z2 HR Z1-Z2 Pace intensity=recovery\n\n2x\n- Intervall 3m Z6 Z4 HR Z6 Pace (106-108% pace) \n- Erholung 2m Z1-Z2 Z1-Z2 HR Z1-Z2 Pace intensity=recovery\n\n3x\n- Interval 1m Z6 Z4 HR Z6 Pace (108-110% pace) \n-  Erholung 1m Z1-Z2 Z1-Z2 HR Z1-Z2 Pace intensity=recovery\n\n3x\n- Interval 30s Z6 Z4 HR Z6 Pace (110-112% pace)\n-  Erholung 30s Z1-Z2 Z1-Z2 HR Z1-Z2 Pace intensity=recovery\n\n- Cooldown: 5m Z1-Z2 Z1-Z2 HR Z1-Z2 Pace intensity=cooldown"
     },
     {
-      "id": 100619193,
-      "date": "2026-04-02",
-      "name": "90 Minute Endurance",
+      "id": 100781993,
+      "date": "2026-04-01",
+      "name": "Grundlage Rheindamm",
       "type": "WORKOUT",
-      "sport_type": "VirtualRide",
-      "planned_tss": 69,
-      "duration_hours": 1.5,
-      "duration_formatted": "1h30m",
-      "workout_summary": "3m @93W | 3m @105W | 2\u00d730s @123W / 30s rec | 1m @114W | 2m @123W | 4m @143W | 2m @123W | 3m @143W | 2m @123W | 2m @143W | 1m @114W | 1m @76W",
-      "description": "Zone 2 endurance training is one of the most important aspects of any training plan. Long periods within Zone 2 will benefit any athlete.\n\nIn this training Zone, we predominately stimulate Type 1 muscle fibres, leading to increased mitochondrial growth and function. You improve your ability to utilise fat as the preferred fuel source and preserve your precious glycogen stores.\n\nFeel free to substitute this structured endurance ride with a low-intensity free ride. Or jump into a low-intensity group ride if available. Choose a course or group ride that will allow you to spend most of your ride with Zone 2.\n\nWarmup\n- 3m ramp 38.9-58.9%\n\n- 3m 55%\n\n2x\n- 30s 64.9%\n- 30s 75%\n\n2x\n- 4m 60%\n- 2m 64.9%\n- 2m 75%\n- 2m 64.9%\n- 2m 75%\n- 2m 64.9%\n- 2m 75%\n\n2x\n- 1m 60%\n- 3m 64.9%\n- 4m 75%\n- 2m 64.9%\n- 2m 75%\n- 2m 64.9%\n- 2m 75%\n\n- 1m 60%\n- 2m 64.9%\n- 4m 75%\n- 2m 64.9%\n- 3m 75%\n- 2m 64.9%\n- 2m 75%\n- 1m 60%\n- 1m 40%"
+      "sport_type": "Ride",
+      "planned_tss": 118,
+      "duration_hours": 2.25,
+      "duration_formatted": "2h15m",
+      "workout_summary": null,
+      "description": "- 2h15m Z2-Z3"
     },
     {
       "id": 100619145,
@@ -1137,17 +1137,6 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "description_preview": null
-    },
-    {
-      "id": 100392689,
-      "date": "2026-04-07",
-      "name": "Entrenamiento 01: 3x6:30' @98-100% pace",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 61,
-      "duration_hours": 0.86,
-      "duration_formatted": "51m30s",
-      "workout_summary": "10m | 2\u00d71m / 2m rec | 2m | 3\u00d76m30s / 3m rec | 5m"
     },
     {
       "id": 99987496,
@@ -1306,12 +1295,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 10,
-    "success": 7,
-    "patternA": 6,
+    "attempted": 9,
+    "success": 5,
+    "patternA": 4,
     "patternB": 1,
     "bail_no_workout_doc": 5,
-    "bail_no_match": 3
+    "bail_no_match": 4
   },
   "weekly_summary": {
     "total_training_hours": 3.79,
