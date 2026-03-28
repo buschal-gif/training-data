@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-28T15:05:21.990465",
+    "last_updated": "2026-03-28T16:02:56.229041",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -247,7 +247,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 8246,
+      "steps": 9334,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -404,7 +404,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": null,
+          "planned_tss_delta": 0.68,
           "hard_sessions_planned": 1,
           "race_proximity": 78,
           "next_week_load": 0.48,
@@ -412,7 +412,7 @@
           "plan_coverage_next_week": 1.4
         },
         "data_quality": "good",
-        "stream_agreement": null
+        "stream_agreement": false
       },
       "previous_phase": "Build",
       "phase_duration_weeks": 5,
@@ -442,7 +442,7 @@
     "p_max": 736,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-28T15:05:21.989079",
+    "calculation_timestamp": "2026-03-28T16:02:56.227681",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -878,7 +878,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 8246,
+      "steps": 9334,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -891,28 +891,28 @@
   ],
   "planned_workouts": [
     {
-      "id": 100023225,
+      "id": 101107292,
       "date": "2026-03-28",
-      "name": "Bouldern \u2014 Technik",
-      "type": "WORKOUT",
-      "sport_type": "WeightTraining",
-      "planned_tss": null,
-      "duration_hours": 1.5,
-      "duration_formatted": "1h30m",
-      "workout_summary": null,
-      "description": "Bouldern \u2014 Fokus auf Technik, keine Kraftmaximalversuche."
-    },
-    {
-      "id": 100618436,
-      "date": "2026-03-29",
-      "name": "40/20's #2",
+      "name": "Leg Speed #1",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 71,
+      "planned_tss": 53,
       "duration_hours": 0.97,
       "duration_formatted": "58m",
-      "workout_summary": "3m @102W | 4\u00d710s @366W / 50s rec | 3m @152W | 2m @132W | 5m @183W | 3m @102W | 10\u00d740s @222W / 20s rec | 5m @102W | 10\u00d740s @222W / 20s rec | 5m @102W | 3m @254W | 5m @102W",
-      "description": "Building upon your previous 40/20 session, this time, we are increasing the number of intervals before finishing with a 3min VO2max effort.\n\nWe challenge your ability to recover from hard work and measure the final effort produced.\n- 3m 50.4%\n\n4x\n- 10s 180.4%\n- 50s 50.4%\n\n- 3m 75.3%\n- 2m 65.1%\n- 5m 90.4%\n- 3m 50.4%\n\n10x\n- 40s 109.4%\n- 20s 65%\n\n- 5m 50.4%\n\n10x\n- 40s 109.4%\n- 20s 65.4%\n\n- 5m 50.4%\n- 3m 125.4%\n- 5m 50.4%"
+      "workout_summary": "5m @121W | 1m @111W | 5m @141W | 1m @111W | 10\u00d71m @178W / 2m rec | 1m @111W | 10m @162W | 5m @102W",
+      "description": "In this low-intensity workout, we focus on leg speed today. The majority of the session is spent in zone 2. However, we hit some 1-minute high cadence efforts during the session.\n\nAll this then culminates with a steady-state zone 3 effort.\n\nWarmup\n- 30^ Today we are utilizing our time spent at a lower intensity by incorporating some high cadence efforts. 60^ This is a good day to build some volume for the week. 90^ With all of the work completed well under threshold, this is also a good fat burning day for you.<!> 5m ramp 50-69.9%\n\n- 20^ The warmup reflects the work you have ahead of you. 40^ Hence, it is a pretty low key warmup.<!> 1m 55%\n- 30^ We have a steady state effort to complete the warmup. 40^ Try to spin a little faster than what you are normally comfortable with during this effort. 60^ Relax your grip on the bars and spin the legs. 200^ Riding will often force you to pedal at a cadence that you are not comfortable with. 220^ These efforts today address this issue and also provide some quality aerobic work. 240^ The target power is not high, so you can just focus on the cadence.<!> 5m 69.9%\n- 20^ Remember to always hit the target cadence and let the smart trainer adjust the power. 50^ Here we go with the 1st effort.<!> 1m 55%\n\n10x\n- 1m 87.9%\n- 2m 73%\n\n- 10^ Just a quick recovery. 40^ The session is overall low intensity. 13578^ How much will these previous efforts influence your chosen cadence when there is no set target.<!> 1m 55%\n- 20^ Here we go with your steady state effort. 60^ Settle into a nice rhythm early. 120^ How is your cadence? 140^ Higher than you would normally ride at? 160^ Do you think the earlier efforts have influenced your cadence here? 300^ That's halfway for you. 400^ You can't beat the quality of a nice long steady state interval. 420^ It's basic, but effective. 500^ Think of the volume you're getting here today. 540^ Into the final minute now 560^ Did your cadence change much throughout the 10min?<!> 10m 80%\n- 30^ Although today was low intensity, be sure to hydrate and refuel adequately. 60^ From this session, you will be flying in the next workout.<!> 5m 50.4%"
+    },
+    {
+      "id": 101107323,
+      "date": "2026-03-29",
+      "name": "Training 03: Dauerlauf",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 59,
+      "duration_hours": 0.92,
+      "duration_formatted": "55m",
+      "workout_summary": null,
+      "description": "- Aktiv 55m Z2 Z2 HR Z2 Pace intensity=active"
     },
     {
       "id": 99998693,
@@ -1190,12 +1190,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 8,
+    "attempted": 9,
     "success": 5,
     "patternA": 4,
     "patternB": 1,
-    "bail_no_workout_doc": 5,
-    "bail_no_match": 3
+    "bail_no_workout_doc": 4,
+    "bail_no_match": 4
   },
   "weekly_summary": {
     "total_training_hours": 3.9,
