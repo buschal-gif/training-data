@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-29T22:03:42.963394",
+    "last_updated": "2026-03-29T23:51:02.853075",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -409,9 +409,9 @@
           "planned_tss_delta": null,
           "hard_sessions_planned": 0,
           "race_proximity": 77,
-          "next_week_load": 0.56,
+          "next_week_load": 0.88,
           "plan_coverage_current_week": 0.0,
-          "plan_coverage_next_week": 1.4
+          "plan_coverage_next_week": 1.6
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -444,7 +444,7 @@
     "p_max": 735,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-29T22:03:42.961989",
+    "calculation_timestamp": "2026-03-29T23:51:02.851644",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -964,6 +964,18 @@
       "description": "- Aktiv 60m Z2 Z2 HR Z2 Pace intensity=active"
     },
     {
+      "id": 101385220,
+      "date": "2026-04-04",
+      "name": "IntervalCoach - Sweet Spot Intervals",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 97,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "description": "Warmup\n- Hallo Alexander! Heute steht Sweet Spot an. 14m ramp 45-75% 85rpm\n\nMain Set\n- Endurance 2m 65-75% 85rpm\n- Sweet Spot 1 12m 88-92% 90rpm\n- Recovery 3m 55% 85rpm\n- Sweet Spot 2 11m 89% 90rpm\n- Recovery 3m 55% 85rpm\n- Sweet Spot 3 10m 89-93% 90rpm\n- Recovery 3m 55% 85rpm\n- Sweet Spot 4 9m 90% 90rpm\n- Recovery 3m 55% 85rpm\n- Sweet Spot 5 8m 90-94% 90rpm\n- Endurance 3m 65-75% 85rpm\n\nCooldown\n- Super gemacht, Alexander! Genie\u00dfe die Ausfahrt. 9m ramp 65-45% 85rpm\n\n[Weekly Plan - Race Week]"
+    },
+    {
       "id": 100619316,
       "date": "2026-04-05",
       "name": "Endurance #2",
@@ -1133,12 +1145,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 5,
+    "attempted": 6,
     "success": 2,
     "patternA": 2,
     "patternB": 0,
     "bail_no_workout_doc": 3,
-    "bail_no_match": 3
+    "bail_no_match": 4
   },
   "weekly_summary": {
     "total_training_hours": 3.05,
