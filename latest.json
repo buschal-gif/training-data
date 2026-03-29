@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-29T14:02:31.918973",
+    "last_updated": "2026-03-29T15:49:29.707147",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -127,10 +127,10 @@
       "unavailable": 0
     },
     "phase_context": {
-      "phase": "Deload",
-      "phase_week": 1,
-      "amber_threshold": 2,
-      "modifier_applied": "default"
+      "phase": "Build",
+      "phase_week": 5,
+      "amber_threshold": 3,
+      "modifier_applied": "build_loosened"
     },
     "race_week_defers": false,
     "modification": {
@@ -151,7 +151,7 @@
   "history": {
     "available": true,
     "last_generated": "2026-03-22",
-    "age_days": 6,
+    "age_days": 7,
     "total_months": 19,
     "history_confidence": "high"
   },
@@ -180,8 +180,8 @@
       "ctl": 44.58,
       "atl": 41.14,
       "tsb": 3.44,
-      "ramp_rate": 1.25,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "ramp_rate": -3.36,
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "eftp": 201.0,
@@ -380,15 +380,14 @@
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. pi_delta positive = more polarized acutely."
       }
     },
-    "consistency_index": 0.33,
+    "consistency_index": 0.5,
     "consistency_details": {
-      "planned_days": 3,
+      "planned_days": 2,
       "completed_days": 2,
       "matched_days": 1,
       "planned_dates": [
         "2026-03-27",
-        "2026-03-28",
-        "2026-03-29"
+        "2026-03-28"
       ],
       "completed_dates": [
         "2026-03-24",
@@ -396,11 +395,9 @@
       ]
     },
     "phase_detection": {
-      "phase": "Deload",
-      "confidence": "medium",
-      "reason_codes": [
-        "BUILD_HISTORY_REDUCED_LOAD"
-      ],
+      "phase": "Build",
+      "confidence": "high",
+      "reason_codes": [],
       "basis": {
         "stream_1": {
           "ctl_slope": 1.78,
@@ -412,22 +409,20 @@
           "planned_tss_delta": null,
           "hard_sessions_planned": 0,
           "race_proximity": 77,
-          "next_week_load": 0.7,
-          "plan_coverage_current_week": 0.2,
-          "plan_coverage_next_week": 1.6
+          "next_week_load": 0.62,
+          "plan_coverage_current_week": 0.0,
+          "plan_coverage_next_week": 1.4
         },
         "data_quality": "good",
         "stream_agreement": null
       },
       "previous_phase": "Build",
-      "phase_duration_weeks": 1,
+      "phase_duration_weeks": 5,
       "dossier_declared": null,
       "dossier_agreement": null
     },
-    "phase_detected": "Deload",
-    "phase_triggers": [
-      "BUILD_HISTORY_REDUCED_LOAD"
-    ],
+    "phase_detected": "Build",
+    "phase_triggers": [],
     "seasonal_context": "Late Base / Build",
     "benchmark_indoor": {
       "current_ftp": 191,
@@ -449,13 +444,13 @@
     "p_max": 735,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-29T14:02:31.917529",
+    "calculation_timestamp": "2026-03-29T15:49:29.705759",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 3,
       "activities_28d": 22,
-      "planned_workouts_7d": 7,
+      "planned_workouts_7d": 6,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -897,18 +892,6 @@
   ],
   "planned_workouts": [
     {
-      "id": 101107323,
-      "date": "2026-03-29",
-      "name": "Training 03: Dauerlauf",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 59,
-      "duration_hours": 0.92,
-      "duration_formatted": "55m",
-      "workout_summary": null,
-      "description": "- Aktiv 55m Z2 Z2 HR Z2 Pace intensity=active"
-    },
-    {
       "id": 99998693,
       "date": "2026-03-30",
       "name": "Weekly",
@@ -933,18 +916,6 @@
       "description": ""
     },
     {
-      "id": 100618701,
-      "date": "2026-03-30",
-      "name": "Aerobic Ramps",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 44,
-      "duration_hours": 0.88,
-      "duration_formatted": "53m",
-      "workout_summary": "3m @106W | 1m @121W | 1m @131W | 1m @164W | 1m @221W | 2m @101W | 4m @179W | 2m @102W | 5m @144W | 2m @122W | 4\u00d75m @144W / 2m rec",
-      "description": "Not every session needs to involve high-intensity efforts. Today's session is a low-intensity workout focussing on your aerobic fitness.\n\nOne of the most important aspects of cycling is your aerobic fitness. This allows you to preserve vital glycogen stores and power up the day's final climb.\n\nWarmup\n- 90^ The warmup gradually increases in power. 130^ By increasing your aerobic fitness, you will improve your ability to recover from the long climbs. 160^ Now we ramp up the power each minute to continue the warmup.<!> 3m ramp 44.9-60%\n\n- 1m 60%\n- 1m 64.9%\n- 31^ Just the 1min effort above threshold now.<!> 1m 81%\n- 1m 109%\n- 80^ 4min just under threshold will complete your warmup.<!> 2m 50%\n- 80^ This is the level of power you can expect to target on a long climb.<!> 4m 88.4%\n- 60^ The main set today consists of 5 x 5min aerobic efforts.<!> 2m 50.4%\n\nWarmup\n- 106^ As the power increases aim to hold the same cadence. 235^ The last minute should see an increase in your breathing rate.<!> 5m ramp 61.4-80.4%\n\n- 47^ For the recovery we keep some pressure on the pedals.<!> 2m 60.4%\n\nWarmup\n- 240^ This is the kind of workout you can perform several times during the week.<!> 5m ramp 61.4-80.4%\n\n- 55^ Remember, it's fine to complete some low intensity work.<!> 2m 65.4%\n\nWarmup\n- 236^ How does the last minute feel? 281^ Still comfortable?<!> 5m ramp 61.4-80.4%\n\n- 68^ Just 2 intervals to go.<!> 2m 65.4%\n\nWarmup\n- 151^ Are you holding the same cadence as the earlier intervals? 171^ A decreased cadence indicates fatigue is accumulating.<!> 5m ramp 61.4-80.4%\n\n- 58^ Last effort now.<!> 2m 65.4%\n\nWarmup\n- 143^ This is a good session to maintain your aerobic fitness.<!> 5m ramp 61.4-80.4%\n\nCooldown\n- 30^ Now for a nice cool down.<!> 5m ramp 75.4-50.4%"
-    },
-    {
       "id": 100617773,
       "date": "2026-03-31",
       "name": "Training 08: Gemischte progressive Intervalle",
@@ -954,7 +925,7 @@
       "duration_hours": 0.82,
       "duration_formatted": "49m",
       "workout_summary": "10m | 2\u00d71m / 2m rec | 2m | 1\u00d75m / 2m rec | 2\u00d73m / 2m rec | 3\u00d71m / 1m rec | 3\u00d730s / 30s rec | 5m",
-      "description": "- Warmup: 10m Z2 Z2 HR Z2 Pace intensity=warmup\n\nMain\n2x\n- Aktivierung 1m Z4 Z3-4 HR Z4 Pace \n- Erholung 2m Z1-Z2 Z1-Z2 HR Z1-Z2 Pace intensity=recovery\n\n- Aktiv: 2m Z2 Z2 HR Z2 Pace\n\n1x\n- Intervall 5m Z5 Z4 HR Z5 Pace (104-106% pace) \n- Erholung 2m Z1-Z2 Z1-Z2 HR Z1-Z2 Pace intensity=recovery\n\n2x\n- Intervall 3m Z6 Z4 HR Z6 Pace (106-108% pace) \n- Erholung 2m Z1-Z2 Z1-Z2 HR Z1-Z2 Pace intensity=recovery\n\n3x\n- Interval 1m Z6 Z4 HR Z6 Pace (108-110% pace) \n-  Erholung 1m Z1-Z2 Z1-Z2 HR Z1-Z2 Pace intensity=recovery\n\n3x\n- Interval 30s Z6 Z4 HR Z6 Pace (110-112% pace)\n-  Erholung 30s Z1-Z2 Z1-Z2 HR Z1-Z2 Pace intensity=recovery\n\n- Cooldown: 5m Z1-Z2 Z1-Z2 HR Z1-Z2 Pace intensity=cooldown"
+      "description": "- Warmup: 10m Z2 Z2 HR Z2 Pace intensity=warmup\n\nMain\n2x\n- Aktivierung 1m Z4 Z3-4 HR Z4 Pace \n- Erholung 2m Z1-Z2 Z1-Z2 HR Z1-Z2 Pace intensity=recovery\n\n- Aktiv: 2m Z2 Z2 HR Z2 Pace\n\n1x\n- 04:40-04:46 5m Z5 Z4 HR Z5 Pace (104-106% pace) \n- Erholung 2m Z1-Z2 Z1-Z2 HR Z1-Z2 Pace intensity=recovery\n\n2x\n- 04:35-04:40 3m Z6 Z4 HR Z6 Pace (106-108% pace) \n- Erholung 2m Z1-Z2 Z1-Z2 HR Z1-Z2 Pace intensity=recovery\n\n3x\n- 04:30-04:35 1m Z6 Z4 HR Z6 Pace (108-110% pace) \n-  Erholung 1m Z1-Z2 Z1-Z2 HR Z1-Z2 Pace intensity=recovery\n\n3x\n- 4:25-4:35 30s Z6 Z4 HR Z6 Pace (110-112% pace)\n-  Erholung 30s Z1-Z2 Z1-Z2 HR Z1-Z2 Pace intensity=recovery\n\n- Cooldown: 5m Z1-Z2 Z1-Z2 HR Z1-Z2 Pace intensity=cooldown"
     },
     {
       "id": 100781993,
@@ -962,11 +933,23 @@
       "name": "Grundlage Rheindamm",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 118,
+      "planned_tss": 136,
       "duration_hours": 2.25,
       "duration_formatted": "2h15m",
       "workout_summary": null,
       "description": "- 2h15m Z2-Z3"
+    },
+    {
+      "id": 101271353,
+      "date": "2026-04-02",
+      "name": "Training 01: Dauerlauf",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 48,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "description": "- Aktiv 45m Z2 Z2 HR Z2 Pace intensity=active"
     },
     {
       "id": 100619145,
@@ -993,30 +976,6 @@
       "description": "Long, low-intensity efforts aren't the only method to build endurance. Incorporating short surges into a steady effort will increase your oxygen uptake and training stimulus.\n\nCompleting a low-intensity effort with a surge every 4 minutes should feel comfortable, but the constant change in power and surging will provide you with significant gains in endurance.\n\nWarmup\n- 30^ We begin the warm up with a gentle aerobic effort.<!> 6m ramp 44.9-75%\n\n- 50^ Now for a 1min high power, effort.<!> 1m 50%\n- 1m 109%\n- 110^ To prepare for the efforts we step up to a 4min sub-threshold effort now.<!> 2m 50%\n\nWarmup\n- 150^ Nearly at sub-threshold power now. 170^ Time for the 4min sub-threshold effort.<!> 3m ramp 50-89.9%\n\n- 4m 89.9%\n- 100^ Long, low intensity efforts aren't the only way to build endurance. 120^ Incorporating short surges into your effort will increase oxygen uptake and training stimulus.<!> 3m 50%\n\n100^ Completing a low intensity effort with a surge every 4 minutes should feel comfortable 120^ The constant change in power and surging, will provide you with big gains in endurance. 230^ Ready for the 1st surge.<!> 2x\n- 4m ramp 56-75%\n- 10s 150%\n- 10^ Back to low aerobic power now.<!> 4m ramp 56-75%\n- 10s 150%\n\nWarmup\n- 4m ramp 56-75%\n\n2x\n- 10s 150%\n- 20^ Just 4 more surges to go. 40^ Still feel comfortable?<!> 4m ramp 56-75%\n\n- 10s 150%\n\nWarmup\n- 30^ This is a low intensity session that provides great aerobic gains. 40^ The kind of session that could be used weekly as your endurance day.<!> 4m ramp 56-75%\n\n- 10s 150%\n\nWarmup\n- 230^ Into the last surge now, then we cool down.<!> 4m ramp 56-75%\n\n- 10s 150%\n\nCooldown\n- 5m ramp 75-44.9%"
     },
     {
-      "id": 101164012,
-      "date": "2026-04-05",
-      "name": "IntervalCoach - Aerobic Cruise",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 78,
-      "duration_hours": 1.5,
-      "duration_formatted": "1h30m",
-      "workout_summary": null,
-      "description": "Warmup\n- Hallo Alexander! Ausdauer steht heute an. 5m 60% pace\n- 5m 70% pace\n- 4m 80% pace\n\nMain Set\n- Settle In 22m 70% pace\n- Aerobic 22m 70-80% pace\n- Cruise 23m 80-70% pace\n\nCooldown\n- 5m 70% pace\n- Super gemacht, Alexander! Gut erholt euch. 4m 60% pace\n\n[Weekly Plan - Race Week]"
-    },
-    {
-      "id": 99987494,
-      "date": "2026-04-06",
-      "name": "Grundlage \u2014 Laufen Z2",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 53,
-      "duration_hours": 0.83,
-      "duration_formatted": "50m",
-      "workout_summary": null,
-      "description_preview": "- 50m Z2 Z2 HR Z2 Pace\nAerober Dauerlauf. HR unter 162 bpm. Einstieg KW15."
-    },
-    {
       "id": 99998695,
       "date": "2026-04-06",
       "name": "Weekly",
@@ -1039,29 +998,6 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "description_preview": null
-    },
-    {
-      "id": 99987496,
-      "date": "2026-04-08",
-      "name": "Grundlage & 4\u00d720'' Strides",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 29,
-      "duration_hours": 0.54,
-      "duration_formatted": "32m20s",
-      "workout_summary": "15m | 4\u00d720s / 1m30s rec | 10m"
-    },
-    {
-      "id": 99986611,
-      "date": "2026-04-09",
-      "name": "Bouldern \u2014 Technik",
-      "type": "WORKOUT",
-      "sport_type": "WeightTraining",
-      "planned_tss": null,
-      "duration_hours": 1.5,
-      "duration_formatted": "1h30m",
-      "workout_summary": null,
-      "description_preview": "Bouldern \u2014 Fokus auf Technik, keine Kraftmaximalversuche. K\u00f6rperspannung und Bewegungsqualit\u00e4t."
     },
     {
       "id": 99998697,
@@ -1197,12 +1133,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 9,
-    "success": 4,
-    "patternA": 3,
-    "patternB": 1,
-    "bail_no_workout_doc": 4,
-    "bail_no_match": 5
+    "attempted": 5,
+    "success": 2,
+    "patternA": 2,
+    "patternB": 0,
+    "bail_no_workout_doc": 3,
+    "bail_no_match": 3
   },
   "weekly_summary": {
     "total_training_hours": 3.05,
