@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-29T15:49:29.707147",
+    "last_updated": "2026-03-29T17:04:54.630296",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -409,7 +409,7 @@
           "planned_tss_delta": null,
           "hard_sessions_planned": 0,
           "race_proximity": 77,
-          "next_week_load": 0.62,
+          "next_week_load": 0.56,
           "plan_coverage_current_week": 0.0,
           "plan_coverage_next_week": 1.4
         },
@@ -444,7 +444,7 @@
     "p_max": 735,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-29T15:49:29.705759",
+    "calculation_timestamp": "2026-03-29T17:04:54.628898",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -933,7 +933,7 @@
       "name": "Grundlage Rheindamm",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 136,
+      "planned_tss": 118,
       "duration_hours": 2.25,
       "duration_formatted": "2h15m",
       "workout_summary": null,
