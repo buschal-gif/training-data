@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-31T09:44:58.238209",
+    "last_updated": "2026-03-31T12:04:22.740470",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -243,7 +243,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 2025,
+      "steps": 13169,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -401,7 +401,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.75,
+          "planned_tss_delta": 0.66,
           "hard_sessions_planned": 2,
           "race_proximity": 75,
           "next_week_load": 0.31,
@@ -439,7 +439,7 @@
     "p_max": 733,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-31T09:44:58.236855",
+    "calculation_timestamp": "2026-03-31T12:04:22.739236",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -857,7 +857,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 2025,
+      "steps": 13169,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -875,7 +875,7 @@
       "name": "Training 08: Gemischte progressive Intervalle",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 84,
+      "planned_tss": 62,
       "duration_hours": 0.82,
       "duration_formatted": "49m",
       "workout_summary": "10m | 2\u00d71m / 2m rec | 2m | 1\u00d75m / 2m rec | 2\u00d73m / 2m rec | 3\u00d71m / 1m rec | 3\u00d730s / 30s rec | 5m",
