@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-02T05:50:36.646524",
+  "generated_at": "2026-04-02T09:39:57.757316",
   "version": "3.95",
   "script_hash": "ec09283a7a09",
   "scan_hours": 72,
@@ -983,6 +983,145 @@
           "zone": 2,
           "training_load": 8.310291,
           "decoupling": -5.5253763
+        }
+      ]
+    },
+    {
+      "activity_id": "i136631404",
+      "date": "2026-04-02",
+      "type": "Run",
+      "name": "Grundlage",
+      "interval_summary": [
+        "8x 6m33s 268w",
+        "1x 3m25s 267w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "393s@268w86rpm",
+          "duration_secs": 370,
+          "avg_power": 261,
+          "max_power": 332,
+          "avg_hr": 132,
+          "max_hr": 148,
+          "avg_cadence": 84.435135,
+          "zone": 2,
+          "training_load": 6.7652583,
+          "decoupling": 14.379213
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_power": 270,
+          "max_power": 270,
+          "avg_hr": 147,
+          "max_hr": 147,
+          "avg_cadence": 86.0,
+          "zone": 2,
+          "training_load": 0.019290123
+        },
+        {
+          "type": "WORK",
+          "label": "393s@268w86rpm",
+          "duration_secs": 417,
+          "avg_power": 263,
+          "max_power": 314,
+          "avg_hr": 143,
+          "max_hr": 153,
+          "avg_cadence": 86.1978,
+          "zone": 2,
+          "training_load": 6.7591386,
+          "decoupling": 3.3413928
+        },
+        {
+          "type": "WORK",
+          "label": "393s@268w86rpm",
+          "duration_secs": 367,
+          "avg_power": 264,
+          "max_power": 278,
+          "avg_hr": 146,
+          "max_hr": 150,
+          "avg_cadence": 85.604904,
+          "zone": 2,
+          "training_load": 7.026146,
+          "decoupling": -0.37483892
+        },
+        {
+          "type": "WORK",
+          "label": "393s@268w86rpm",
+          "duration_secs": 367,
+          "avg_power": 272,
+          "max_power": 341,
+          "avg_hr": 148,
+          "max_hr": 155,
+          "avg_cadence": 85.354225,
+          "zone": 2,
+          "training_load": 7.6238565,
+          "decoupling": 8.55717
+        },
+        {
+          "type": "WORK",
+          "label": "393s@268w86rpm",
+          "duration_secs": 454,
+          "avg_power": 274,
+          "max_power": 324,
+          "avg_hr": 148,
+          "max_hr": 152,
+          "avg_cadence": 85.71075,
+          "zone": 2,
+          "training_load": 7.215301
+        },
+        {
+          "type": "WORK",
+          "label": "393s@268w86rpm",
+          "duration_secs": 358,
+          "avg_power": 273,
+          "max_power": 338,
+          "avg_hr": 148,
+          "max_hr": 155,
+          "avg_cadence": 85.80447,
+          "zone": 2,
+          "training_load": 7.329116,
+          "decoupling": -6.2492332
+        },
+        {
+          "type": "WORK",
+          "label": "393s@268w86rpm",
+          "duration_secs": 407,
+          "avg_power": 264,
+          "max_power": 327,
+          "avg_hr": 146,
+          "max_hr": 156,
+          "avg_cadence": 85.64789,
+          "zone": 2,
+          "training_load": 6.796408,
+          "decoupling": -9.456263
+        },
+        {
+          "type": "WORK",
+          "label": "393s@268w86rpm",
+          "duration_secs": 407,
+          "avg_power": 272,
+          "max_power": 300,
+          "avg_hr": 145,
+          "max_hr": 152,
+          "avg_cadence": 85.952644,
+          "zone": 2,
+          "training_load": 7.1889462,
+          "decoupling": 0.22623496
+        },
+        {
+          "type": "WORK",
+          "label": "205s@267w85rpm",
+          "duration_secs": 205,
+          "avg_power": 267,
+          "max_power": 288,
+          "avg_hr": 145,
+          "max_hr": 148,
+          "avg_cadence": 85.2878,
+          "zone": 2,
+          "training_load": 4.014391,
+          "decoupling": -0.5375007
         }
       ]
     }
