@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-02T09:39:58.066135",
+    "last_updated": "2026-04-02T12:02:06.995465",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -619,7 +619,7 @@
     "p_max": 733,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 49.0,
-    "calculation_timestamp": "2026-04-02T09:39:57.756156",
+    "calculation_timestamp": "2026-04-02T12:02:06.994089",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -663,8 +663,8 @@
       "efficiency_factor": 1.8413793,
       "hrrc": null,
       "elevation_m": 49.975433,
-      "feel": null,
-      "rpe": null,
+      "feel": 2,
+      "rpe": 3,
       "zone_distribution": {
         "hr_zones": {
           "z1_time": 179,
@@ -2087,12 +2087,12 @@
       "name": "Training 01: Dauerlauf",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 49,
-      "duration_hours": 0.75,
-      "duration_formatted": "45m",
+      "planned_tss": 55,
+      "duration_hours": 0.85,
+      "duration_formatted": "51m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "- Aktiv 45m Z2 Z2 HR Z2 Pace intensity=active"
+      "description": "- Aktiv 51m Z2 Z2 HR Z2 Pace intensity=active"
     },
     {
       "id": 100619145,
