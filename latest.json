@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-03T05:25:54.931311",
+    "last_updated": "2026-04-03T08:10:03.496911",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -181,8 +181,8 @@
       "ctl": 46.71,
       "atl": 51.97,
       "tsb": -5.26,
-      "ramp_rate": 3.18,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "ramp_rate": 1.25,
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "eftp": 200.6,
@@ -558,17 +558,16 @@
         }
       }
     },
-    "consistency_index": 0.4,
+    "consistency_index": 0.5,
     "consistency_details": {
-      "planned_days": 5,
+      "planned_days": 4,
       "completed_days": 2,
       "matched_days": 2,
       "planned_dates": [
         "2026-03-28",
         "2026-03-31",
         "2026-04-01",
-        "2026-04-02",
-        "2026-04-03"
+        "2026-04-02"
       ],
       "completed_dates": [
         "2026-03-28",
@@ -589,11 +588,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.16,
+          "planned_tss_delta": null,
           "hard_sessions_planned": 1,
           "race_proximity": 72,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.4,
+          "plan_coverage_current_week": 0.2,
           "plan_coverage_next_week": 0.4
         },
         "data_quality": "good",
@@ -629,13 +628,13 @@
     "p_max": 733,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-03T05:25:54.929864",
+    "calculation_timestamp": "2026-04-03T08:10:03.495458",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
       "activities_7d": 5,
       "activities_28d": 23,
-      "planned_workouts_7d": 7,
+      "planned_workouts_7d": 6,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 12
@@ -2092,30 +2091,17 @@
   ],
   "planned_workouts": [
     {
-      "id": 100619145,
-      "date": "2026-04-03",
-      "name": "Training 04: Dauerlauf",
+      "id": 102253422,
+      "date": "2026-04-04",
+      "name": "Training 04: 5x (500mtr, 500mtr) Fartlek",
       "type": "WORKOUT",
       "sport_type": "Run",
       "planned_tss": 65,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
+      "duration_hours": 0.82,
+      "duration_formatted": "49m7s",
+      "workout_summary": "14m25s | 5\u00d72m32s / 2m45s rec | 8m17s",
       "has_terrain": false,
-      "description": "- Aktiv 60m Z2 Z2 HR Z2 Pace intensity=active"
-    },
-    {
-      "id": 100619316,
-      "date": "2026-04-05",
-      "name": "Endurance #2",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 53,
-      "duration_hours": 1.04,
-      "duration_formatted": "1h2m30s",
-      "workout_summary": "6m @120W | 1m @100W | 1m @219W | 2m @100W | 3m @140W | 4m @180W | 3m @100W | 4m @131W | 2\u00d710s @301W / 4m rec | 10s @301W | 4m @131W | 10s @301W | 4m @131W | 10s @301W | 5m @120W",
-      "has_terrain": false,
-      "description": "Long, low-intensity efforts aren't the only method to build endurance. Incorporating short surges into a steady effort will increase your oxygen uptake and training stimulus.\n\nCompleting a low-intensity effort with a surge every 4 minutes should feel comfortable, but the constant change in power and surging will provide you with significant gains in endurance.\n\nWarmup\n- 30^ We begin the warm up with a gentle aerobic effort.<!> 6m ramp 44.9-75%\n\n- 50^ Now for a 1min high power, effort.<!> 1m 50%\n- 1m 109%\n- 110^ To prepare for the efforts we step up to a 4min sub-threshold effort now.<!> 2m 50%\n\nWarmup\n- 150^ Nearly at sub-threshold power now. 170^ Time for the 4min sub-threshold effort.<!> 3m ramp 50-89.9%\n\n- 4m 89.9%\n- 100^ Long, low intensity efforts aren't the only way to build endurance. 120^ Incorporating short surges into your effort will increase oxygen uptake and training stimulus.<!> 3m 50%\n\n100^ Completing a low intensity effort with a surge every 4 minutes should feel comfortable 120^ The constant change in power and surging, will provide you with big gains in endurance. 230^ Ready for the 1st surge.<!> 2x\n- 4m ramp 56-75%\n- 10s 150%\n- 10^ Back to low aerobic power now.<!> 4m ramp 56-75%\n- 10s 150%\n\nWarmup\n- 4m ramp 56-75%\n\n2x\n- 10s 150%\n- 20^ Just 4 more surges to go. 40^ Still feel comfortable?<!> 4m ramp 56-75%\n\n- 10s 150%\n\nWarmup\n- 30^ This is a low intensity session that provides great aerobic gains. 40^ The kind of session that could be used weekly as your endurance day.<!> 4m ramp 56-75%\n\n- 10s 150%\n\nWarmup\n- 230^ Into the last surge now, then we cool down.<!> 4m ramp 56-75%\n\n- 10s 150%\n\nCooldown\n- 5m ramp 75-44.9%"
+      "description": "- Warmup 2.3km Z2 Z2 HR Z2 Pace\n\n5x\n- 500mtr Z4 Z3-Z4 HR Z4 Pace\n- 500mtr Z3 Z3 HR Z3 Pace\n\n- Cooldown 1.2 km Z1-Z2 Z1-Z2 HR Z1-Z2 Pace intensity=cooldown"
     },
     {
       "id": 99998695,
@@ -2327,12 +2313,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 2,
+    "attempted": 1,
     "success": 1,
     "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 4,
-    "bail_no_match": 1
+    "bail_no_match": 0
   },
   "weekly_summary": {
     "total_training_hours": 4.78,
