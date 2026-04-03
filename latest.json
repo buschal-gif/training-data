@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-03T19:55:02.525389",
+    "last_updated": "2026-04-03T21:20:16.646538",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -628,7 +628,7 @@
     "p_max": 733,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-03T19:55:02.523936",
+    "calculation_timestamp": "2026-04-03T21:20:16.645099",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -2131,7 +2131,7 @@
       "name": "Training 04: 5x (500mtr, 500mtr) Fartlek",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 65,
+      "planned_tss": 60,
       "duration_hours": 0.82,
       "duration_formatted": "49m7s",
       "workout_summary": "14m25s | 5\u00d72m32s / 2m45s rec | 8m17s",
