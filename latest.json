@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-04T21:58:55.082006",
+    "last_updated": "2026-04-04T23:02:03.580372",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -586,7 +586,7 @@
           "race_proximity": 71,
           "next_week_load": null,
           "plan_coverage_current_week": 0.2,
-          "plan_coverage_next_week": 0.4
+          "plan_coverage_next_week": 0.6
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -621,7 +621,7 @@
     "p_max": 733,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 49.0,
-    "calculation_timestamp": "2026-04-04T21:58:55.080285",
+    "calculation_timestamp": "2026-04-04T23:02:03.578881",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -2158,6 +2158,20 @@
       "description": ""
     },
     {
+      "id": 102493707,
+      "date": "2026-04-12",
+      "name": "IntervalCoach - Ausdauerfahrt",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 67,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Warmup\n- Hallo Alexander! Ausdauer steht an. 14m ramp 45-75% 85rpm\nMain Set"
+    },
+    {
       "id": 99998697,
       "date": "2026-04-13",
       "name": "Weekly",
@@ -2341,12 +2355,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 1,
+    "attempted": 2,
     "success": 1,
     "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 4,
-    "bail_no_match": 0
+    "bail_no_match": 1
   },
   "weekly_summary": {
     "total_training_hours": 4.61,
