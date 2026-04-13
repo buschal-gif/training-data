@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-13T16:21:07.504082",
+    "last_updated": "2026-04-13T20:11:58.264706",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -87,8 +87,8 @@
     }
   ],
   "readiness_decision": {
-    "recommendation": "go",
-    "priority": 3,
+    "recommendation": "modify",
+    "priority": 2,
     "signals": {
       "hrv": {
         "status": "amber",
@@ -117,7 +117,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 9.4
+        "value": 5.7
       }
     },
     "signal_summary": {
@@ -127,20 +127,30 @@
       "unavailable": 0
     },
     "phase_context": {
-      "phase": "Build",
-      "phase_week": 1,
-      "amber_threshold": 3,
-      "modifier_applied": "build_loosened"
+      "phase": null,
+      "phase_week": 0,
+      "amber_threshold": 2,
+      "modifier_applied": "default"
     },
     "race_week_defers": false,
-    "modification": null,
-    "reason": "P3 green light. 4 green, 2 amber (threshold 3), 0 red.",
+    "modification": {
+      "triggers": [
+        "hrv",
+        "acwr"
+      ],
+      "suggested_adjustments": {
+        "intensity": "reduce",
+        "volume": "reduce",
+        "cap_zone": "Z2"
+      }
+    },
+    "reason": "P2 signal count. 2 amber (hrv, acwr) >= threshold 2.",
     "alarm_refs": []
   },
   "history": {
     "available": true,
     "last_generated": "2026-04-01",
-    "age_days": 11,
+    "age_days": 12,
     "total_months": 19,
     "history_confidence": "high"
   },
@@ -172,10 +182,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 46.08,
-      "atl": 36.65,
-      "tsb": 9.43,
-      "ramp_rate": -2.35,
+      "ctl": 46.89,
+      "atl": 41.22,
+      "tsb": 5.67,
+      "ramp_rate": -1.54,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -565,34 +575,38 @@
       ]
     },
     "phase_detection": {
-      "phase": "Build",
-      "confidence": "medium",
-      "reason_codes": [],
+      "phase": null,
+      "confidence": "low",
+      "reason_codes": [
+        "BUILD_BASE_AMBIGUOUS"
+      ],
       "basis": {
         "stream_1": {
-          "ctl_slope": 0.5,
+          "ctl_slope": 0.77,
           "acwr_trend": "rising",
           "hard_day_pattern": 1.2,
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.3,
-          "hard_sessions_planned": 2,
+          "planned_tss_delta": null,
+          "hard_sessions_planned": 0,
           "race_proximity": 62,
           "next_week_load": null,
-          "plan_coverage_current_week": 1.2,
+          "plan_coverage_current_week": 0.6,
           "plan_coverage_next_week": 0.6
         },
         "data_quality": "good",
-        "stream_agreement": false
+        "stream_agreement": null
       },
       "previous_phase": null,
-      "phase_duration_weeks": 1,
+      "phase_duration_weeks": 0,
       "dossier_declared": null,
       "dossier_agreement": null
     },
-    "phase_detected": "Build",
-    "phase_triggers": [],
+    "phase_detected": null,
+    "phase_triggers": [
+      "BUILD_BASE_AMBIGUOUS"
+    ],
     "seasonal_context": "Late Base / Build",
     "benchmark_indoor": {
       "current_ftp": 191,
@@ -614,13 +628,13 @@
     "p_max": 733,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-13T16:21:07.502657",
+    "calculation_timestamp": "2026-04-13T20:11:58.263310",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 3,
       "activities_28d": 22,
-      "planned_workouts_7d": 5,
+      "planned_workouts_7d": 4,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 22
@@ -2032,47 +2046,6 @@
       "description": "Fokus auf leichtere Belastungen, reduziertes Volumen und Anpassung des K\u00f6rpers an Trainingsstress (Radfahren, Laufen)"
     },
     {
-      "id": 100597067,
-      "date": "2026-04-13",
-      "name": "Erholungswoche",
-      "type": "NOTE",
-      "sport_type": null,
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "Fokus auf leichtere Belastungen, reduziertes Volumen und Anpassung des K\u00f6rpers an Trainingsstress (Radfahren, Laufen)"
-    },
-    {
-      "id": 103620760,
-      "date": "2026-04-18",
-      "name": "IntervalCoach - Intervalle mit hoher Trittfrequenz",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 37,
-      "duration_hours": 0.55,
-      "duration_formatted": "33m",
-      "workout_summary": "14m @120W | 2m @140W | 6\u00d71m @211W / 1m rec | 5m @110W",
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- Hallo Alexander, bereit f\u00fcr Criss-Cross? 14m ramp 45-75% 85rpm\n\nMain Set\n- Endurance 2m 65-75% 85rpm\n\n6x\n- Over 1m 105% 95rpm\n- Under 1m 95% 90rpm\n\nRecovery\n- Recovery 5m 55% 80rpm\n\n\n\n\n\n\n\n\n[Weekly Plan - Build]"
-    },
-    {
-      "id": 103759886,
-      "date": "2026-04-19",
-      "name": "IntervalCoach - Aerobic Dauerlauf",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 80,
-      "duration_hours": 1.5,
-      "duration_formatted": "1h30m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- Hallo Alexander! L\u00e4ngerer Lauf heute 5m 60% pace\n- 5m 70% pace\n- 4m 80% pace\n\nMain Set\n- Low Aerobic 22m 70% pace\n- Mid Aerobic 22m 70-80% pace\n- Upper Aerobic 23m 80% pace\n\nCooldown\n- 5m 70% pace\n- Super gemacht, jetzt locker auslaufen 4m 60% pace\n\n[Weekly Plan - Build]"
-    },
-    {
       "id": 100597047,
       "date": "2026-04-20",
       "name": "Weekly",
@@ -2256,12 +2229,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 2,
-    "success": 1,
-    "patternA": 1,
+    "attempted": 0,
+    "success": 0,
+    "patternA": 0,
     "patternB": 0,
-    "bail_no_workout_doc": 4,
-    "bail_no_match": 1
+    "bail_no_workout_doc": 3,
+    "bail_no_match": 0
   },
   "weekly_summary": {
     "total_training_hours": 3.21,
