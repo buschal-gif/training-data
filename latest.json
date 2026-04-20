@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-20T22:00:24.523898",
+    "last_updated": "2026-04-20T23:01:19.094893",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -575,7 +575,7 @@
           "race_proximity": 55,
           "next_week_load": null,
           "plan_coverage_current_week": 1.0,
-          "plan_coverage_next_week": 0.4
+          "plan_coverage_next_week": 0.6
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -608,7 +608,7 @@
     "p_max": 731,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-20T22:00:24.522414",
+    "calculation_timestamp": "2026-04-20T23:01:19.093449",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1835,6 +1835,20 @@
       "description": ""
     },
     {
+      "id": 105625490,
+      "date": "2026-04-28",
+      "name": "IntervalCoach - Threshold Fartlek",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 104,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Warmup\n- Hallo Alexander! Heute Threshold Fartlek. 5m 60% pace\n- 5m 70% pace"
+    },
+    {
       "id": 100597049,
       "date": "2026-05-04",
       "name": "Weekly",
@@ -1992,12 +2006,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 2,
+    "attempted": 3,
     "success": 1,
     "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 3,
-    "bail_no_match": 1
+    "bail_no_match": 2
   },
   "weekly_summary": {
     "total_training_hours": 5.89,
