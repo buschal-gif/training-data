@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-23T07:21:59.541451",
+    "last_updated": "2026-04-23T09:09:34.217931",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -351,11 +351,11 @@
         "note": "Steady-state cycling sessions only (VI <= 1.05, VI > 0, >= 20min, power+HR data). Rising EF = improving aerobic efficiency. Compare like-for-like sessions only \u2014 EF varies with intensity. Trend compares 7d vs 28d mean (+/-0.03 = stable)."
       },
       "hrrc": {
-        "mean_hrrc_7d": 23.0,
-        "mean_hrrc_28d": 26.0,
+        "mean_hrrc_7d": 43.0,
+        "mean_hrrc_28d": 31.3,
         "qualifying_sessions_7d": 1,
         "qualifying_sessions_28d": 7,
-        "trend": "declining",
+        "trend": "improving",
         "note": "HRRc = heart rate recovery (largest 60s HR drop in bpm after exceeding threshold HR for >1 min). Higher = better parasympathetic recovery. Null when threshold not reached, recording stopped before cooldown, or no HR data. Trend: 7d mean vs 28d mean, >10% = meaningful (min 1 session/7d, 3 sessions/28d). Display only \u2014 not wired into readiness_decision signals."
       },
       "tid_comparison": {
@@ -602,7 +602,7 @@
     "p_max": 731,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-23T07:21:59.539841",
+    "calculation_timestamp": "2026-04-23T09:09:34.216280",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -644,17 +644,17 @@
       "variability_index": 1.2941177,
       "decoupling": 13.958489,
       "efficiency_factor": 1.2846715,
-      "hrrc": 23,
+      "hrrc": 43,
       "elevation_m": 2094.0,
       "feel": 3,
       "rpe": 8,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 7564,
-          "z2_time": 8488,
-          "z3_time": 4828,
-          "z4_time": 1831,
-          "z5_time": 109
+          "z1_time": 6361,
+          "z2_time": 7859,
+          "z3_time": 4742,
+          "z4_time": 3439,
+          "z5_time": 419
         },
         "power_zones": {
           "z1_time": 7922,
@@ -703,10 +703,10 @@
       "rpe": 4,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 2785,
-          "z2_time": 4670,
-          "z3_time": 142,
-          "z4_time": 0,
+          "z1_time": 1759,
+          "z2_time": 5408,
+          "z3_time": 420,
+          "z4_time": 10,
           "z5_time": 0
         },
         "power_zones": {
@@ -825,11 +825,11 @@
       "rpe": 5,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 1978,
-          "z2_time": 4122,
-          "z3_time": 1450,
-          "z4_time": 1658,
-          "z5_time": 246
+          "z1_time": 1509,
+          "z2_time": 3877,
+          "z3_time": 1467,
+          "z4_time": 1753,
+          "z5_time": 848
         },
         "power_zones": {
           "z1_time": 3011,
@@ -907,17 +907,17 @@
       "variability_index": 1.2083334,
       "decoupling": 4.078369,
       "efficiency_factor": 1.2888889,
-      "hrrc": 25,
+      "hrrc": 27,
       "elevation_m": 243.0,
       "feel": 3,
       "rpe": 5,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 3828,
-          "z2_time": 6863,
-          "z3_time": 881,
-          "z4_time": 163,
-          "z5_time": 25
+          "z1_time": 2652,
+          "z2_time": 6918,
+          "z3_time": 1899,
+          "z4_time": 185,
+          "z5_time": 106
         },
         "power_zones": {
           "z1_time": 2969,
@@ -1047,17 +1047,17 @@
       "variability_index": 1.1118013,
       "decoupling": -6.27165,
       "efficiency_factor": 1.2695036,
-      "hrrc": 16,
+      "hrrc": 31,
       "elevation_m": 61.0,
       "feel": 1,
       "rpe": 4,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 652,
-          "z2_time": 6714,
-          "z3_time": 868,
-          "z4_time": 146,
-          "z5_time": 1
+          "z1_time": 311,
+          "z2_time": 5229,
+          "z3_time": 2616,
+          "z4_time": 150,
+          "z5_time": 75
         },
         "power_zones": {
           "z1_time": 1250,
@@ -1300,11 +1300,11 @@
       "rpe": 5,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 2172,
-          "z2_time": 1830,
-          "z3_time": 1453,
-          "z4_time": 2175,
-          "z5_time": 13
+          "z1_time": 1905,
+          "z2_time": 1728,
+          "z3_time": 871,
+          "z4_time": 2531,
+          "z5_time": 608
         },
         "power_zones": {
           "z1_time": 2510,
@@ -1441,9 +1441,9 @@
       "rpe": 5,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 617,
-          "z2_time": 2500,
-          "z3_time": 371,
+          "z1_time": 297,
+          "z2_time": 1953,
+          "z3_time": 1238,
           "z4_time": 0,
           "z5_time": 0
         },
