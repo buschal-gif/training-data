@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-23T05:54:19.668558",
+    "last_updated": "2026-04-23T07:21:59.541451",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -179,7 +179,7 @@
       "vo2max": null,
       "sports": {
         "cycling": {
-          "lthr": 162,
+          "lthr": 158,
           "max_hr": 181,
           "threshold_pace": null,
           "pace_units": null,
@@ -187,7 +187,7 @@
           "ftp_indoor": 191
         },
         "run": {
-          "lthr": 166,
+          "lthr": 164,
           "max_hr": 185,
           "threshold_pace": 3.3670034,
           "pace_units": "MINS_KM",
@@ -354,7 +354,7 @@
         "mean_hrrc_7d": 23.0,
         "mean_hrrc_28d": 26.0,
         "qualifying_sessions_7d": 1,
-        "qualifying_sessions_28d": 6,
+        "qualifying_sessions_28d": 7,
         "trend": "declining",
         "note": "HRRc = heart rate recovery (largest 60s HR drop in bpm after exceeding threshold HR for >1 min). Higher = better parasympathetic recovery. Null when threshold not reached, recording stopped before cooldown, or no HR data. Trend: 7d mean vs 28d mean, >10% = meaningful (min 1 session/7d, 3 sessions/28d). Display only \u2014 not wired into readiness_decision signals."
       },
@@ -456,7 +456,7 @@
               "actual_watts": 245,
               "actual_wpkg": 3.59,
               "actual_hr": 164,
-              "pct_lthr": 101.2,
+              "pct_lthr": 103.8,
               "source": "observed_outdoor",
               "coggan_watts": 219,
               "coggan_wpkg": 3.21,
@@ -468,7 +468,7 @@
               "actual_watts": 222,
               "actual_wpkg": 3.25,
               "actual_hr": 162,
-              "pct_lthr": 100.0,
+              "pct_lthr": 102.5,
               "source": "observed_outdoor",
               "coggan_watts": 201,
               "coggan_wpkg": 2.94,
@@ -480,7 +480,7 @@
               "actual_watts": 194,
               "actual_wpkg": 2.84,
               "actual_hr": 155,
-              "pct_lthr": 95.7,
+              "pct_lthr": 98.1,
               "source": "observed_outdoor",
               "coggan_watts": 193,
               "coggan_wpkg": 2.83,
@@ -492,7 +492,7 @@
               "actual_watts": 181,
               "actual_wpkg": 2.65,
               "actual_hr": 153,
-              "pct_lthr": 94.4,
+              "pct_lthr": 96.8,
               "source": "observed_outdoor",
               "coggan_watts": 186,
               "coggan_wpkg": 2.72,
@@ -504,7 +504,7 @@
               "actual_watts": 169,
               "actual_wpkg": 2.47,
               "actual_hr": 146,
-              "pct_lthr": 90.1,
+              "pct_lthr": 92.4,
               "source": "observed_outdoor",
               "coggan_watts": 178,
               "coggan_wpkg": 2.61,
@@ -516,7 +516,7 @@
               "actual_watts": 155,
               "actual_wpkg": 2.27,
               "actual_hr": 139,
-              "pct_lthr": 85.8,
+              "pct_lthr": 88.0,
               "source": "observed_outdoor",
               "coggan_watts": 170,
               "coggan_wpkg": 2.49,
@@ -528,7 +528,7 @@
               "actual_watts": 155,
               "actual_wpkg": 2.27,
               "actual_hr": 136,
-              "pct_lthr": 84.0,
+              "pct_lthr": 86.1,
               "source": "observed_outdoor",
               "coggan_watts": 161,
               "coggan_wpkg": 2.36,
@@ -602,7 +602,7 @@
     "p_max": 731,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-23T05:54:19.666954",
+    "calculation_timestamp": "2026-04-23T07:21:59.539841",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -1000,9 +1000,9 @@
       "rpe": 3,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 159,
-          "z2_time": 2950,
-          "z3_time": 52,
+          "z1_time": 121,
+          "z2_time": 2767,
+          "z3_time": 273,
           "z4_time": 16,
           "z5_time": 0
         },
@@ -1106,11 +1106,11 @@
       "rpe": 4,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 77,
-          "z2_time": 3734,
-          "z3_time": 2471,
-          "z4_time": 162,
-          "z5_time": 3
+          "z1_time": 64,
+          "z2_time": 3021,
+          "z3_time": 2583,
+          "z4_time": 748,
+          "z5_time": 31
         },
         "power_zones": {
           "z1_time": 69,
@@ -1159,10 +1159,10 @@
       "rpe": 4,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 148,
-          "z2_time": 1285,
-          "z3_time": 1254,
-          "z4_time": 185,
+          "z1_time": 123,
+          "z2_time": 1207,
+          "z3_time": 1057,
+          "z4_time": 485,
           "z5_time": 0
         },
         "power_zones": {
@@ -1247,9 +1247,9 @@
       "rpe": 3,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 179,
-          "z2_time": 2852,
-          "z3_time": 78,
+          "z1_time": 168,
+          "z2_time": 2687,
+          "z3_time": 254,
           "z4_time": 0,
           "z5_time": 0
         },
@@ -1347,16 +1347,16 @@
       "variability_index": 1.0661764,
       "decoupling": -0.13558765,
       "efficiency_factor": 1.8831168,
-      "hrrc": 24,
+      "hrrc": 37,
       "elevation_m": 34.28971,
       "feel": 3,
       "rpe": 5,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 23,
-          "z2_time": 1634,
-          "z3_time": 603,
-          "z4_time": 710,
+          "z1_time": 15,
+          "z2_time": 1405,
+          "z3_time": 711,
+          "z4_time": 839,
           "z5_time": 0
         },
         "power_zones": {
@@ -1487,16 +1487,16 @@
       "variability_index": 1.00369,
       "decoupling": -1.1820737,
       "efficiency_factor": 1.8255033,
-      "hrrc": null,
+      "hrrc": 13,
       "elevation_m": 66.36376,
       "feel": 2,
       "rpe": 4,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 108,
-          "z2_time": 3081,
-          "z3_time": 936,
-          "z4_time": 169,
+          "z1_time": 91,
+          "z2_time": 2875,
+          "z3_time": 781,
+          "z4_time": 547,
           "z5_time": 0
         },
         "power_zones": {
