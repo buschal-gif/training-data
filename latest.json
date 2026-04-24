@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-24T22:00:01.275504",
+    "last_updated": "2026-04-24T22:41:56.952558",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -558,9 +558,9 @@
           "planned_tss_delta": null,
           "hard_sessions_planned": 0,
           "race_proximity": 51,
-          "next_week_load": null,
+          "next_week_load": 0.27,
           "plan_coverage_current_week": 0.0,
-          "plan_coverage_next_week": 0.4
+          "plan_coverage_next_week": 0.6
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -593,7 +593,7 @@
     "p_max": 731,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-24T22:00:01.273748",
+    "calculation_timestamp": "2026-04-24T22:41:56.950886",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1824,6 +1824,19 @@
       "description": ""
     },
     {
+      "id": 106329086,
+      "date": "2026-05-02",
+      "name": "IntervalCoach - Intervalle mit Tempowechsel",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 115,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": "14m @124W | 2m @144W | 6\u00d71m @217W / 1m rec | 5m @113W | 6\u00d71m @217W / 1m rec | 5m @113W | 6\u00d71m @217W / 1m rec | 5m @113W | 6\u00d71m @217W / 1m rec | 2m @144W | 9m @114W",
+      "has_terrain": false,
+      "start_time": "09:00"
+    },
+    {
       "id": 100597049,
       "date": "2026-05-04",
       "name": "Weekly",
@@ -1981,9 +1994,9 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 0,
-    "success": 0,
-    "patternA": 0,
+    "attempted": 1,
+    "success": 1,
+    "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 2,
     "bail_no_match": 0
