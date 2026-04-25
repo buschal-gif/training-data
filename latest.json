@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-25T21:51:41.059002",
+    "last_updated": "2026-04-25T22:26:00.963659",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -237,7 +237,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 6960,
+      "steps": 8076,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -570,7 +570,7 @@
           "race_proximity": 50,
           "next_week_load": 0.27,
           "plan_coverage_current_week": 0.0,
-          "plan_coverage_next_week": 0.6
+          "plan_coverage_next_week": 0.8
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -603,7 +603,7 @@
     "p_max": 731,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-25T21:51:41.057879",
+    "calculation_timestamp": "2026-04-25T22:26:00.962127",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1743,7 +1743,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 6960,
+      "steps": 8076,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1794,6 +1794,20 @@
       "has_terrain": false,
       "start_time": "09:00",
       "description": "Warmup\n- Hallo Alexander! Bereit f\u00fcr Criss-Cross? 14m ramp 45-75% 85rpm\n\nMain Set\n- Endurance 2m 65-75% 85rpm\n\n6x\n- Over 1m 105% 95rpm\n- Under 1m 95% 90rpm\n\nRecovery\n- Recovery 5m 55% 80rpm\n\n6x\n- Over 1m 105% 95rpm\n- Under 1m 95% 90rpm\n\nRecovery\n- Recovery 5m 55% 80rpm\n\n6x\n- Over 1m 105% 95rpm\n- Under 1m 95% 90rpm\n\nRecovery\n- Recovery 5m 55% 80rpm\n\n6x\n- Over 1m 105% 95rpm\n- Under 1m 95% 90rpm\n\nRecovery\n- Endurance 2m 65-75% 85rpm\n\nCooldown\n- Super gemacht, Alexander! Ausrollen jetzt. 9m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
+    },
+    {
+      "id": 106480011,
+      "date": "2026-05-03",
+      "name": "IntervalCoach - Ausdauerlauf",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 78,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Warmup\n- Hallo Alexander! Deine lange Ausdauerrunde beginnt. 5m 60% pace\n- 5m 70% pace"
     },
     {
       "id": 100597049,
@@ -1953,12 +1967,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 1,
+    "attempted": 2,
     "success": 1,
     "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 2,
-    "bail_no_match": 0
+    "bail_no_match": 1
   },
   "weekly_summary": {
     "total_training_hours": 8.45,
