@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-27T21:38:30.357224",
+    "last_updated": "2026-04-27T22:31:52.553436",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -581,7 +581,7 @@
           "race_proximity": 48,
           "next_week_load": 0.1,
           "plan_coverage_current_week": 1.6,
-          "plan_coverage_next_week": 0.8
+          "plan_coverage_next_week": 1.0
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -614,7 +614,7 @@
     "p_max": 731,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 49.0,
-    "calculation_timestamp": "2026-04-27T21:38:30.355642",
+    "calculation_timestamp": "2026-04-27T22:31:52.551877",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1941,6 +1941,20 @@
       "description": "- 15m 6:15-6:30/km pace easy\n- 60m 5:50-6:05/km pace steady\n- 15m 6:20-6:35/km pace easy"
     },
     {
+      "id": 106966232,
+      "date": "2026-05-05",
+      "name": "IntervalCoach - Progressiver Threshold",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 96,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Warmup\n- Hallo Alexander! Heute steht ein Progressiver Threshold Lauf an. 5m 60% pace\n- 5m 70% pace"
+    },
+    {
       "id": 100597050,
       "date": "2026-05-11",
       "name": "Weekly",
@@ -2111,12 +2125,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 6,
+    "attempted": 7,
     "success": 1,
     "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 5,
-    "bail_no_match": 5
+    "bail_no_match": 6
   },
   "weekly_summary": {
     "total_training_hours": 9.25,
