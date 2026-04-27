@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-27T12:59:12.370531",
+    "last_updated": "2026-04-27T15:07:37.236466",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -123,10 +123,10 @@
       "unavailable": 0
     },
     "phase_context": {
-      "phase": "Build",
-      "phase_week": 1,
-      "amber_threshold": 3,
-      "modifier_applied": "build_loosened"
+      "phase": null,
+      "phase_week": 0,
+      "amber_threshold": 2,
+      "modifier_applied": "default"
     },
     "race_week_defers": false,
     "modification": {
@@ -199,7 +199,7 @@
           "ftp_indoor": 191
         },
         "run": {
-          "lthr": 164,
+          "lthr": 166,
           "max_hr": 185,
           "threshold_pace": 3.3670034,
           "pace_units": "MINS_KM",
@@ -248,7 +248,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 9843,
+      "steps": 9950,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -364,7 +364,7 @@
       },
       "hrrc": {
         "mean_hrrc_7d": 43.0,
-        "mean_hrrc_28d": 34.3,
+        "mean_hrrc_28d": 32.2,
         "qualifying_sessions_7d": 1,
         "qualifying_sessions_28d": 6,
         "trend": "improving",
@@ -565,9 +565,11 @@
       "note": "No planned workouts in period"
     },
     "phase_detection": {
-      "phase": "Build",
-      "confidence": "medium",
-      "reason_codes": [],
+      "phase": null,
+      "confidence": "low",
+      "reason_codes": [
+        "BUILD_BASE_AMBIGUOUS"
+      ],
       "basis": {
         "stream_1": {
           "ctl_slope": null,
@@ -576,23 +578,25 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.32,
-          "hard_sessions_planned": 2,
+          "planned_tss_delta": 0.57,
+          "hard_sessions_planned": 1,
           "race_proximity": 48,
-          "next_week_load": null,
-          "plan_coverage_current_week": 0.8,
-          "plan_coverage_next_week": 0.4
+          "next_week_load": 0.1,
+          "plan_coverage_current_week": 1.8,
+          "plan_coverage_next_week": 0.8
         },
         "data_quality": "good",
         "stream_agreement": null
       },
       "previous_phase": null,
-      "phase_duration_weeks": 1,
+      "phase_duration_weeks": 0,
       "dossier_declared": null,
       "dossier_agreement": null
     },
-    "phase_detected": "Build",
-    "phase_triggers": [],
+    "phase_detected": null,
+    "phase_triggers": [
+      "BUILD_BASE_AMBIGUOUS"
+    ],
     "seasonal_context": "Late Base / Build",
     "benchmark_indoor": {
       "current_ftp": 191,
@@ -614,7 +618,7 @@
     "p_max": 731,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 49.0,
-    "calculation_timestamp": "2026-04-27T12:59:11.902846",
+    "calculation_timestamp": "2026-04-27T15:07:37.235005",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -662,11 +666,11 @@
       "rpe": 4,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 88,
-          "z2_time": 1238,
-          "z3_time": 1512,
-          "z4_time": 51,
-          "z5_time": 1
+          "z1_time": 91,
+          "z2_time": 2134,
+          "z3_time": 627,
+          "z4_time": 38,
+          "z5_time": 0
         },
         "power_zones": {
           "z1_time": 164,
@@ -1135,9 +1139,9 @@
       "rpe": 3,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 121,
-          "z2_time": 2767,
-          "z3_time": 273,
+          "z1_time": 159,
+          "z2_time": 2950,
+          "z3_time": 52,
           "z4_time": 16,
           "z5_time": 0
         },
@@ -1241,11 +1245,11 @@
       "rpe": 4,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 64,
-          "z2_time": 3021,
-          "z3_time": 2583,
-          "z4_time": 748,
-          "z5_time": 31
+          "z1_time": 77,
+          "z2_time": 3734,
+          "z3_time": 2471,
+          "z4_time": 162,
+          "z5_time": 3
         },
         "power_zones": {
           "z1_time": 69,
@@ -1294,10 +1298,10 @@
       "rpe": 4,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 123,
-          "z2_time": 1207,
-          "z3_time": 1057,
-          "z4_time": 485,
+          "z1_time": 148,
+          "z2_time": 1285,
+          "z3_time": 1254,
+          "z4_time": 185,
           "z5_time": 0
         },
         "power_zones": {
@@ -1382,9 +1386,9 @@
       "rpe": 3,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 168,
-          "z2_time": 2687,
-          "z3_time": 254,
+          "z1_time": 179,
+          "z2_time": 2852,
+          "z3_time": 78,
           "z4_time": 0,
           "z5_time": 0
         },
@@ -1482,16 +1486,16 @@
       "variability_index": 1.0661764,
       "decoupling": -0.13558765,
       "efficiency_factor": 1.8831168,
-      "hrrc": 37,
+      "hrrc": 24,
       "elevation_m": 34.28971,
       "feel": 3,
       "rpe": 5,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 15,
-          "z2_time": 1405,
-          "z3_time": 711,
-          "z4_time": 839,
+          "z1_time": 23,
+          "z2_time": 1634,
+          "z3_time": 603,
+          "z4_time": 710,
           "z5_time": 0
         },
         "power_zones": {
@@ -1772,7 +1776,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 9843,
+      "steps": 9950,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1811,32 +1815,95 @@
       "description": ""
     },
     {
-      "id": 106329086,
-      "date": "2026-05-02",
-      "name": "IntervalCoach - Intervalle mit Tempowechsel",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 115,
-      "duration_hours": 1.5,
-      "duration_formatted": "1h30m",
-      "workout_summary": "14m @124W | 2m @144W | 6\u00d71m @217W / 1m rec | 5m @113W | 6\u00d71m @217W / 1m rec | 5m @113W | 6\u00d71m @217W / 1m rec | 5m @113W | 6\u00d71m @217W / 1m rec | 2m @144W | 9m @114W",
+      "id": 106863852,
+      "date": "2026-04-28",
+      "name": "OFF (rescheduled)",
+      "type": "NOTE",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
       "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- Hallo Alexander! Bereit f\u00fcr Criss-Cross? 14m ramp 45-75% 85rpm\n\nMain Set\n- Endurance 2m 65-75% 85rpm\n\n6x\n- Over 1m 105% 95rpm\n- Under 1m 95% 90rpm\n\nRecovery\n- Recovery 5m 55% 80rpm\n\n6x\n- Over 1m 105% 95rpm\n- Under 1m 95% 90rpm\n\nRecovery\n- Recovery 5m 55% 80rpm\n\n6x\n- Over 1m 105% 95rpm\n- Under 1m 95% 90rpm\n\nRecovery\n- Recovery 5m 55% 80rpm\n\n6x\n- Over 1m 105% 95rpm\n- Under 1m 95% 90rpm\n\nRecovery\n- Endurance 2m 65-75% 85rpm\n\nCooldown\n- Super gemacht, Alexander! Ausrollen jetzt. 9m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
+      "description": "- OFF"
     },
     {
-      "id": 106480011,
-      "date": "2026-05-03",
-      "name": "IntervalCoach - Ausdauerlauf",
+      "id": 106863853,
+      "date": "2026-04-29",
+      "name": "Run \u2013 Aerobic Endurance (shifted)",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 78,
+      "planned_tss": 67,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "- 10m 6:15-6:30/km pace easy\n- 40m 5:45-6:00/km pace steady\n- 10m 6:15-6:30/km pace easy"
+    },
+    {
+      "id": 106863854,
+      "date": "2026-04-30",
+      "name": "Ride \u2013 Aerobic Durability (shifted)",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 75,
       "duration_hours": 1.5,
       "duration_formatted": "1h30m",
       "workout_summary": null,
       "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- Hallo Alexander! Deine lange Ausdauerrunde beginnt. 5m 60% pace\n- 5m 70% pace\n- 4m 80% pace\n\nMain Set\n- Settle In 22m 70% pace\n- Aerobic 22m 70-80% pace\n- Cruise 23m 80-70% pace\n\nCooldown\n- 5m 70% pace\n- Gut gemacht, Alexander! Genie\u00dfe die lockere Erholung. 4m 60% pace\n\n[Weekly Plan - Build]"
+      "description": "- 15m Ramp 60-75% FTP\n- 60m 70-75% FTP steady\n- 15m 65% FTP easy"
+    },
+    {
+      "id": 106863510,
+      "date": "2026-05-01",
+      "name": "OFF",
+      "type": "NOTE",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "- OFF"
+    },
+    {
+      "id": 106863855,
+      "date": "2026-05-01",
+      "name": "Run \u2013 Tempo Support (shifted)",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 62,
+      "duration_hours": 0.83,
+      "duration_formatted": "50m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "- 10m 6:10-6:20/km pace easy\n- 30m 5:20-5:30/km pace steady\n- 10m 6:15-6:30/km pace easy"
+    },
+    {
+      "id": 106863856,
+      "date": "2026-05-02",
+      "name": "OFF",
+      "type": "NOTE",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "- OFF"
+    },
+    {
+      "id": 106863857,
+      "date": "2026-05-03",
+      "name": "Ride \u2013 Long Steady Durability",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 134,
+      "duration_hours": 2.67,
+      "duration_formatted": "2h40m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "- 20m Ramp 60-75% FTP\n- 120m 70-75% FTP steady\n- 20m 65% FTP easy"
     },
     {
       "id": 100597049,
@@ -1863,6 +1930,32 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": ""
+    },
+    {
+      "id": 106863513,
+      "date": "2026-05-04",
+      "name": "Ride \u2013 Recovery Spin",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 36,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "- 10m Ramp 50-65% FTP\n- 40m 60-65% FTP easy\n- 10m 55% FTP easy"
+    },
+    {
+      "id": 106863858,
+      "date": "2026-05-04",
+      "name": "Run \u2013 Long Easy Durability",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 99,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "- 15m 6:15-6:30/km pace easy\n- 60m 5:50-6:05/km pace steady\n- 15m 6:20-6:35/km pace easy"
     },
     {
       "id": 100597050,
@@ -2035,12 +2128,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 2,
-    "success": 1,
-    "patternA": 1,
+    "attempted": 6,
+    "success": 0,
+    "patternA": 0,
     "patternB": 0,
-    "bail_no_workout_doc": 3,
-    "bail_no_match": 1
+    "bail_no_workout_doc": 6,
+    "bail_no_match": 6
   },
   "weekly_summary": {
     "total_training_hours": 9.25,
