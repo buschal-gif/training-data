@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-29T18:07:22.571208",
+    "last_updated": "2026-04-29T19:51:18.180392",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -149,7 +149,7 @@
   "history": {
     "available": true,
     "last_generated": "2026-04-01",
-    "age_days": 27,
+    "age_days": 28,
     "total_months": 19,
     "history_confidence": "high"
   },
@@ -577,7 +577,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 6.18,
+          "planned_tss_delta": 5.75,
           "hard_sessions_planned": 2,
           "race_proximity": 46,
           "next_week_load": null,
@@ -615,7 +615,7 @@
     "p_max": 730,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 49.0,
-    "calculation_timestamp": "2026-04-29T18:07:22.569656",
+    "calculation_timestamp": "2026-04-29T19:51:18.178867",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1746,17 +1746,17 @@
       "description": "94-98% Pace (Tempo)\n\n- Warmup 10m Z2 Power Z2 HR Z2 Pace intensity=warmup\n\nAktivierung 2x\n- Aktivierung 1m Z3 Z3-4 HR 90-95% Pace \n- Erholung 2m Z2 Z2 HR Z2 Pace intensity=recovery\n\n- Pause 2m Z1 Z1 HR Z1 Pace intensity=rest\n\n2x\n- Tempo 10m Z4 Z3-4 HR 94-98% Pace\n- 3m Z2 Power Z2 HR Z2  Pace intensity=recovery\n\n- Cooldown: 5m Z2 Power Z2 HR Z2 Pace intensity=cooldown"
     },
     {
-      "id": 107303811,
+      "id": 107313556,
       "date": "2026-04-30",
-      "name": "Training 04: Dauerlauf",
+      "name": "55'",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 65,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
+      "planned_tss": 52,
+      "duration_hours": 0.92,
+      "duration_formatted": "55m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "- Aktiv 60m Z2 Z2 HR Z2 Pace intensity=active"
+      "description": "- 55m Z1-Z2 Power Z1-Z2 HR 70-80% Pace"
     },
     {
       "id": 106934729,
