@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-29T09:23:10.008254",
+    "last_updated": "2026-04-29T11:12:32.347747",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -99,8 +99,8 @@
       "rhr": {
         "status": "green",
         "value": 58,
-        "baseline_7d": 58.2,
-        "delta_bpm": -0.2
+        "baseline_7d": 58.1,
+        "delta_bpm": -0.1
       },
       "sleep": {
         "status": "green",
@@ -237,7 +237,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 103,
+      "steps": 616,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -251,9 +251,9 @@
   "derived_metrics": {
     "recovery_index": 1.03,
     "hrv_baseline_7d": 43.7,
-    "rhr_baseline_7d": 58.2,
+    "rhr_baseline_7d": 58.1,
     "hrv_baseline_28d": 44.6,
-    "rhr_baseline_28d": 56.4,
+    "rhr_baseline_28d": 56.5,
     "latest_hrv": 45.0,
     "latest_rhr": 58,
     "acwr": 0.12,
@@ -568,12 +568,12 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 16.06,
+          "planned_tss_delta": 15.48,
           "hard_sessions_planned": 2,
           "race_proximity": 46,
-          "next_week_load": 11.47,
+          "next_week_load": null,
           "plan_coverage_current_week": 1.0,
-          "plan_coverage_next_week": 1.0
+          "plan_coverage_next_week": 0.4
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -606,10 +606,10 @@
     "p_max": 730,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-29T09:23:10.006670",
+    "calculation_timestamp": "2026-04-29T11:12:32.346159",
     "data_quality": {
       "hrv_data_points": 7,
-      "rhr_data_points": 6,
+      "rhr_data_points": 7,
       "activities_7d": 3,
       "activities_28d": 17,
       "planned_workouts_7d": 4,
@@ -1593,13 +1593,13 @@
     {
       "date": "2026-04-28",
       "weight_kg": null,
-      "resting_hr": null,
+      "resting_hr": 58,
       "hrv_rmssd": 40.0,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
+      "sleep_hours": 6.49,
+      "sleep_formatted": "6h29m",
+      "sleep_quality": 3,
+      "sleep_score": 76.0,
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
@@ -1619,7 +1619,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 16945,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1658,7 +1658,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 103,
+      "steps": 616,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1671,17 +1671,17 @@
   ],
   "planned_workouts": [
     {
-      "id": 106936993,
+      "id": 107237941,
       "date": "2026-04-29",
-      "name": "Training 01: 3x6'30'' @98-100% Pace",
+      "name": "Training 01: 2x10' @94-98% Pace",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 68,
-      "duration_hours": 0.86,
-      "duration_formatted": "51m30s",
-      "workout_summary": "10m | 2\u00d71m / 2m rec | 2m | 3\u00d76m30s / 3m rec | 5m",
+      "planned_tss": 60,
+      "duration_hours": 0.82,
+      "duration_formatted": "49m",
+      "workout_summary": "10m | 2\u00d71m / 2m rec | 2m | 2\u00d710m / 3m rec | 5m",
       "has_terrain": false,
-      "description": "100-105% Pace (SuperSchwelle)\n\n- Warmup 10m Z2 Power Z2 HR Z2 Pace intensity=warmup\n\nAktivierung 2x\n- Aktivierung 1m Z3 Z3-4 HR 90%-95% Pace \n- Erholung 2m Z2 Z2 HR Z2 Pace intensity=recovery\n\n- Pause 2m Z1 Z1 HR Z1 Pace\n\n3x\n- SubSchwelle 6m30s Z4 Z3-4 HR 98%-100% Pace\n- 3m Z2 Power Z2 HR Z2  Pace intensity=recovery\n\n- Cooldown: 5m Z2 Power Z2 HR Z2 Pace intensity=cooldown"
+      "description": "94-98% Pace (Tempo)\n\n- Warmup 10m Z2 Power Z2 HR Z2 Pace intensity=warmup\n\nAktivierung 2x\n- Aktivierung 1m Z3 Z3-4 HR 90-95% Pace \n- Erholung 2m Z2 Z2 HR Z2 Pace intensity=recovery\n\n- Pause 2m Z1 Z1 HR Z1 Pace intensity=rest\n\n2x\n- Tempo 10m Z4 Z3-4 HR 94-98% Pace\n- 3m Z2 Power Z2 HR Z2  Pace intensity=recovery\n\n- Cooldown: 5m Z2 Power Z2 HR Z2 Pace intensity=cooldown"
     },
     {
       "id": 106935412,
@@ -1728,12 +1728,12 @@
       "name": "Run \u2013 Tempo Support (moved to Sunday)",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 61,
+      "planned_tss": 62,
       "duration_hours": 0.83,
       "duration_formatted": "50m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "- 10m Z2 Z2 Pace\n- 30m Z3 Z3 Pace\n- 10m Z2 Z2 Pace"
+      "description": "- 8m Z2 Z2 Pace\n- 34m Z3 Z3 Pace\n- 8m Z2 Z2 Pace"
     },
     {
       "id": 100597049,
@@ -1760,46 +1760,6 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": ""
-    },
-    {
-      "id": 106863513,
-      "date": "2026-05-04",
-      "name": "Ride \u2013 Recovery Spin",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 36,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "- 10m Ramp 50-65% FTP\n- 40m 60-65% FTP easy\n- 10m 55% FTP easy"
-    },
-    {
-      "id": 106863858,
-      "date": "2026-05-04",
-      "name": "Run \u2013 Long Easy Durability",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 99,
-      "duration_hours": 1.5,
-      "duration_formatted": "1h30m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "- 15m 6:15-6:30/km pace easy\n- 60m 5:50-6:05/km pace steady\n- 15m 6:20-6:35/km pace easy"
-    },
-    {
-      "id": 106966232,
-      "date": "2026-05-05",
-      "name": "IntervalCoach - Progressiver Threshold",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 96,
-      "duration_hours": 1.5,
-      "duration_formatted": "1h30m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- Hallo Alexander! Heute steht ein Progressiver Threshold Lauf an. 5m 60% pace\n- 5m 70% pace\n- 4m 80% pace\n\nMain Set\n- Endurance 7m 70% pace\n- Build 1 10m 88% pace\n- Jog Recovery 4m 60-70% pace\n- Build 2 10m 95% pace\n- Jog Recovery 4m 60-70% pace\n- Build 3 10m 98% pace\n- Jog Recovery 4m 60-70% pace\n- Build 4 10m 100% pace\n- Endurance 8m 70% pace\n\nCooldown\n- 5m 70% pace\n- Super gemacht, Alexander! Genie\u00dfe die Erholung. 4m 60% pace\n\n[Weekly Plan - Build]"
     },
     {
       "id": 100597050,
@@ -1972,12 +1932,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 7,
+    "attempted": 4,
     "success": 1,
     "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 4,
-    "bail_no_match": 6
+    "bail_no_match": 3
   },
   "weekly_summary": {
     "total_training_hours": 0.8,
@@ -1985,7 +1945,7 @@
     "total_tss": 51,
     "activities_count": 3,
     "avg_hrv": 43.7,
-    "avg_resting_hr": 58.2
+    "avg_resting_hr": 58.1
   },
   "race_calendar": {
     "next_race": {
