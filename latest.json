@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-30T11:17:46.437535",
+    "last_updated": "2026-04-30T13:01:10.665649",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -256,7 +256,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 11149,
+      "steps": 11199,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -630,7 +630,7 @@
     "p_max": 730,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 49.0,
-    "calculation_timestamp": "2026-04-30T11:17:46.229020",
+    "calculation_timestamp": "2026-04-30T13:01:10.664046",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -674,8 +674,8 @@
       "efficiency_factor": 1.7619047,
       "hrrc": null,
       "elevation_m": 69.06381,
-      "feel": null,
-      "rpe": null,
+      "feel": 3,
+      "rpe": 4,
       "zone_distribution": {
         "hr_zones": {
           "z1_time": 96,
@@ -694,7 +694,8 @@
           "z7_time": 0
         }
       },
-      "has_intervals": true
+      "has_intervals": true,
+      "description": "-- Intervals icu --\nWind: ONO 4 Bft B\u00f6en 6\nGegenwind: 35% 19m35s\nR\u00fcckenwind: 35% 19m43s\nTemp.: 11.0 bis 12.7 \u00b0C avg 12.1\nGef\u00fchlt: 6.6 bis 8.2 \u00b0C avg 7.7"
     },
     {
       "id": "i144089713",
@@ -1734,7 +1735,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 11149,
+      "steps": 11199,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
