@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-30T19:47:07.125073",
+    "last_updated": "2026-04-30T20:50:09.223659",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -590,10 +590,10 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 3.11,
+          "planned_tss_delta": 3.14,
           "hard_sessions_planned": 1,
           "race_proximity": 45,
-          "next_week_load": 2.49,
+          "next_week_load": 2.69,
           "plan_coverage_current_week": 0.8,
           "plan_coverage_next_week": 1.2
         },
@@ -630,7 +630,7 @@
     "p_max": 730,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 49.0,
-    "calculation_timestamp": "2026-04-30T19:47:07.123921",
+    "calculation_timestamp": "2026-04-30T20:50:09.222068",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1792,12 +1792,12 @@
       "name": "Run \u2013 Tempo Support (moved to Sunday)",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 57,
-      "duration_hours": 0.83,
-      "duration_formatted": "50m",
+      "planned_tss": 58,
+      "duration_hours": 0.87,
+      "duration_formatted": "51m56s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "- 8m Z2 Z2 Pace\n- 34m Z3 Z3 Pace\n- 8m Z2 Z2 Pace"
+      "description": "- 1.2km Z2 70-80% Pace\n- 6.2km Z3 80-90% Pace\n- 1.2km Z2 70-80% Pace"
     },
     {
       "id": 100597049,
@@ -1826,43 +1826,43 @@
       "description": ""
     },
     {
-      "id": 107482698,
+      "id": 107490452,
       "date": "2026-05-04",
-      "name": "Easy Run \u2013 Recovery Control",
+      "name": "45'",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 43,
+      "planned_tss": 40,
       "duration_hours": 0.75,
       "duration_formatted": "45m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "- 45m 70-75% Pace 75-82% HR"
+      "description": "- 45m Z1-Z2 Power Z1-Z2 HR 70-80% Pace"
     },
     {
-      "id": 107482699,
+      "id": 107487433,
       "date": "2026-05-05",
-      "name": "Threshold Intervals 3x8min",
+      "name": "Training 03: HIIT VO2Max 2x4x2'/2' @110-115% Pace + Z2",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 62,
-      "duration_hours": 0.88,
-      "duration_formatted": "53m",
-      "workout_summary": "10m | 3\u00d78m / 3m rec | 10m @134bpm",
+      "planned_tss": 76,
+      "duration_hours": 1.18,
+      "duration_formatted": "1h11m",
+      "workout_summary": "10m | 4\u00d78s / 1m52s rec | 4\u00d72m / 2m rec | 2m | 4\u00d72m / 2m rec | 2m | 17m",
       "has_terrain": false,
-      "description": "- 10m Z2 Z2 Pace Z2 HR\n\n3x\n- 8m Z4 Z4 Pace Z4 HR\n- 3m Z1-Z2 Z1-Z2 Pace Z2-Z1 HR\n\n- 10m Z2 Z2 Pace 70-75% HR"
+      "description": "115-125% Pace (SuperVO2Max)\n\n- Warmup 10m Z2 Power Z2 HR 65-70% Pace intensity=warmup\n\nAktivierung 4x\n- Aktivierung 8s Z6 Z3-4 HR 130-150% Pace \n- Erholung 1m52s Z1 Z2 HR Z1 Pace intensity=recovery\n\n4x \n- MidVO2Max 2m Z6 Z3-4 HR 110-115%  Pace\n- Erholung 2m Z1 Z1 HR Z1 Pace intensity=recovery\n\n- 2m Z1-Z2 Z1-Z2 HR Z1 Pace\n\n4x \n- MidVO2Max 2m Z6 Z3-4 HR 110-115%  Pace\n- Erholung 2m Z1 Z1 HR Z1 Pace intensity=recovery\n\n- 2m Z1-Z2 Z1-Z2 HR Z1 Pace\n\n- Laufen 17m Z2 Power Z2 HR 80-85% Pace"
     },
     {
-      "id": 107482700,
+      "id": 107490457,
       "date": "2026-05-06",
-      "name": "Durability Run \u2013 Low Drift",
+      "name": "55'",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 48,
+      "planned_tss": 49,
       "duration_hours": 0.92,
       "duration_formatted": "55m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "- 15m Z1-Z2 Z1-Z2 Pace 70-75% HR\n- 40m Z2 70-78% Pace 75-85% HR"
+      "description": "- 55m Z1-Z2 Power Z1-Z2 HR 70-80% Pace"
     },
     {
       "id": 107482701,
