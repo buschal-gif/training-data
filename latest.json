@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-30T18:03:54.483463",
+    "last_updated": "2026-04-30T19:47:07.125073",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -159,7 +159,7 @@
   "history": {
     "available": true,
     "last_generated": "2026-04-01",
-    "age_days": 28,
+    "age_days": 29,
     "total_months": 19,
     "history_confidence": "high"
   },
@@ -211,7 +211,7 @@
           "max_hr": 185,
           "threshold_pace": 3.3670034,
           "pace_units": "MINS_KM",
-          "ftp": 328,
+          "ftp": 326,
           "ftp_indoor": null
         },
         "swim": {
@@ -256,7 +256,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 11199,
+      "steps": 19667,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -590,12 +590,12 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 3.25,
+          "planned_tss_delta": 3.11,
           "hard_sessions_planned": 1,
           "race_proximity": 45,
-          "next_week_load": null,
+          "next_week_load": 2.49,
           "plan_coverage_current_week": 0.8,
-          "plan_coverage_next_week": 0.4
+          "plan_coverage_next_week": 1.2
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -630,7 +630,7 @@
     "p_max": 730,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 49.0,
-    "calculation_timestamp": "2026-04-30T18:03:54.481990",
+    "calculation_timestamp": "2026-04-30T19:47:07.123921",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -679,8 +679,8 @@
       "zone_distribution": {
         "hr_zones": {
           "z1_time": 96,
-          "z2_time": 3097,
-          "z3_time": 113,
+          "z2_time": 2942,
+          "z3_time": 268,
           "z4_time": 0,
           "z5_time": 0
         },
@@ -732,10 +732,10 @@
       "zone_distribution": {
         "hr_zones": {
           "z1_time": 178,
-          "z2_time": 1498,
-          "z3_time": 447,
-          "z4_time": 1240,
-          "z5_time": 25
+          "z2_time": 1351,
+          "z3_time": 562,
+          "z4_time": 1233,
+          "z5_time": 64
         },
         "power_zones": {
           "z1_time": 473,
@@ -785,9 +785,9 @@
       "zone_distribution": {
         "hr_zones": {
           "z1_time": 91,
-          "z2_time": 2134,
-          "z3_time": 627,
-          "z4_time": 38,
+          "z2_time": 1674,
+          "z3_time": 1083,
+          "z4_time": 42,
           "z5_time": 0
         },
         "power_zones": {
@@ -1258,8 +1258,8 @@
       "zone_distribution": {
         "hr_zones": {
           "z1_time": 159,
-          "z2_time": 2950,
-          "z3_time": 52,
+          "z2_time": 2879,
+          "z3_time": 123,
           "z4_time": 16,
           "z5_time": 0
         },
@@ -1364,10 +1364,10 @@
       "zone_distribution": {
         "hr_zones": {
           "z1_time": 77,
-          "z2_time": 3734,
-          "z3_time": 2471,
-          "z4_time": 162,
-          "z5_time": 3
+          "z2_time": 3477,
+          "z3_time": 2520,
+          "z4_time": 354,
+          "z5_time": 19
         },
         "power_zones": {
           "z1_time": 69,
@@ -1417,9 +1417,9 @@
       "zone_distribution": {
         "hr_zones": {
           "z1_time": 148,
-          "z2_time": 1285,
-          "z3_time": 1254,
-          "z4_time": 185,
+          "z2_time": 1213,
+          "z3_time": 1178,
+          "z4_time": 333,
           "z5_time": 0
         },
         "power_zones": {
@@ -1735,7 +1735,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 11199,
+      "steps": 19667,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1792,7 +1792,7 @@
       "name": "Run \u2013 Tempo Support (moved to Sunday)",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 62,
+      "planned_tss": 57,
       "duration_hours": 0.83,
       "duration_formatted": "50m",
       "workout_summary": null,
@@ -1824,6 +1824,58 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": ""
+    },
+    {
+      "id": 107482698,
+      "date": "2026-05-04",
+      "name": "Easy Run \u2013 Recovery Control",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 43,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "- 45m 70-75% Pace 75-82% HR"
+    },
+    {
+      "id": 107482699,
+      "date": "2026-05-05",
+      "name": "Threshold Intervals 3x8min",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 62,
+      "duration_hours": 0.88,
+      "duration_formatted": "53m",
+      "workout_summary": "10m | 3\u00d78m / 3m rec | 10m @134bpm",
+      "has_terrain": false,
+      "description": "- 10m Z2 Z2 Pace Z2 HR\n\n3x\n- 8m Z4 Z4 Pace Z4 HR\n- 3m Z1-Z2 Z1-Z2 Pace Z2-Z1 HR\n\n- 10m Z2 Z2 Pace 70-75% HR"
+    },
+    {
+      "id": 107482700,
+      "date": "2026-05-06",
+      "name": "Durability Run \u2013 Low Drift",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 48,
+      "duration_hours": 0.92,
+      "duration_formatted": "55m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "- 15m Z1-Z2 Z1-Z2 Pace 70-75% HR\n- 40m Z2 70-78% Pace 75-85% HR"
+    },
+    {
+      "id": 107482701,
+      "date": "2026-05-08",
+      "name": "Aerobic Ride \u2013 Endurance",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 74,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "- 90m 65-75% Power 70-80% HR"
     },
     {
       "id": 100597050,
@@ -1996,12 +2048,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 3,
-    "success": 0,
-    "patternA": 0,
+    "attempted": 7,
+    "success": 1,
+    "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 4,
-    "bail_no_match": 3
+    "bail_no_match": 6
   },
   "weekly_summary": {
     "total_training_hours": 2.66,
