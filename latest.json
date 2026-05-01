@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-01T18:44:25.581490",
+    "last_updated": "2026-05-01T20:40:59.810110",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -149,7 +149,7 @@
   "history": {
     "available": true,
     "last_generated": "2026-04-01",
-    "age_days": 29,
+    "age_days": 30,
     "total_months": 19,
     "history_confidence": "high"
   },
@@ -433,30 +433,9 @@
           "start": "2026-03-07",
           "end": "2026-04-03"
         },
-        "anchors": {
-          "60s": {
-            "current_bpm": 172,
-            "previous_bpm": 175,
-            "pct_change": -1.7
-          },
-          "300s": {
-            "current_bpm": 166,
-            "previous_bpm": 171,
-            "pct_change": -2.9
-          },
-          "1200s": {
-            "current_bpm": 162,
-            "previous_bpm": 167,
-            "pct_change": -3.0
-          },
-          "3600s": {
-            "current_bpm": 149,
-            "previous_bpm": 163,
-            "pct_change": -8.6
-          }
-        },
-        "rotation_index": 3.5,
-        "note": "Compares max sustained HR at 4 anchor durations (60s anaerobic ceiling, 300s VO2max HR, 1200s threshold HR, 3600s endurance HR) across two 28d windows. rotation_index = mean(60s,300s pct_change) - mean(1200s,3600s pct_change). Positive = intensity-biased HR shift, negative = endurance-biased. No sport filter \u2014 HR is cross-sport physiological (dominated by hardest efforts). IMPORTANT: rising max sustained HR is ambiguous \u2014 may indicate improved cardiac output (good) or accumulated fatigue/dehydration/heat (bad). Cross-reference with resting HRV, resting HR, RPE, and environmental context before interpreting. Null when either window has fewer than 3 valid anchor durations."
+        "anchors": null,
+        "rotation_index": null,
+        "note": "Insufficient HR data in one or both windows."
       },
       "sustainability_profile": {
         "window": {
@@ -467,97 +446,9 @@
         "weight_kg": 68.3,
         "weight_source": "wellness_extended",
         "cycling": {
-          "anchors": {
-            "300s": {
-              "actual_watts": 245,
-              "actual_wpkg": 3.59,
-              "actual_hr": 164,
-              "pct_lthr": 103.8,
-              "source": "observed_outdoor",
-              "coggan_watts": 219,
-              "coggan_wpkg": 3.21,
-              "cp_model_watts": 268,
-              "cp_model_wpkg": 3.92,
-              "model_divergence_pct": -8.6
-            },
-            "600s": {
-              "actual_watts": 222,
-              "actual_wpkg": 3.25,
-              "actual_hr": 162,
-              "pct_lthr": 102.5,
-              "source": "observed_outdoor",
-              "coggan_watts": 201,
-              "coggan_wpkg": 2.94,
-              "cp_model_watts": 237,
-              "cp_model_wpkg": 3.47,
-              "model_divergence_pct": -6.3
-            },
-            "1200s": {
-              "actual_watts": 194,
-              "actual_wpkg": 2.84,
-              "actual_hr": 155,
-              "pct_lthr": 98.1,
-              "source": "observed_outdoor",
-              "coggan_watts": 193,
-              "coggan_wpkg": 2.83,
-              "cp_model_watts": 222,
-              "cp_model_wpkg": 3.25,
-              "model_divergence_pct": -12.6
-            },
-            "1800s": {
-              "actual_watts": 181,
-              "actual_wpkg": 2.65,
-              "actual_hr": 153,
-              "pct_lthr": 96.8,
-              "source": "observed_outdoor",
-              "coggan_watts": 186,
-              "coggan_wpkg": 2.72,
-              "cp_model_watts": 217,
-              "cp_model_wpkg": 3.18,
-              "model_divergence_pct": -16.6
-            },
-            "3600s": {
-              "actual_watts": 169,
-              "actual_wpkg": 2.47,
-              "actual_hr": 146,
-              "pct_lthr": 92.4,
-              "source": "observed_outdoor",
-              "coggan_watts": 178,
-              "coggan_wpkg": 2.61,
-              "cp_model_watts": 212,
-              "cp_model_wpkg": 3.1,
-              "model_divergence_pct": -20.3
-            },
-            "5400s": {
-              "actual_watts": 155,
-              "actual_wpkg": 2.27,
-              "actual_hr": 139,
-              "pct_lthr": 88.0,
-              "source": "observed_outdoor",
-              "coggan_watts": 170,
-              "coggan_wpkg": 2.49,
-              "cp_model_watts": 210,
-              "cp_model_wpkg": 3.07,
-              "model_divergence_pct": -26.2
-            },
-            "7200s": {
-              "actual_watts": 155,
-              "actual_wpkg": 2.27,
-              "actual_hr": 136,
-              "pct_lthr": 86.1,
-              "source": "observed_outdoor",
-              "coggan_watts": 161,
-              "coggan_wpkg": 2.36,
-              "cp_model_watts": 210,
-              "cp_model_wpkg": 3.07,
-              "model_divergence_pct": -26.2
-            }
-          },
-          "coverage_ratio": 1.0,
-          "ftp_used": 207,
-          "w_prime_used": 18266,
-          "ftp_staleness_days": 0,
-          "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
+          "anchors": null,
+          "coverage_ratio": 0.0,
+          "note": "Too few observed anchors (0, need 2+)."
         }
       }
     },
@@ -622,7 +513,7 @@
     "p_max": 729,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-01T18:44:25.580123",
+    "calculation_timestamp": "2026-05-01T20:40:59.808841",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
