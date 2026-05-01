@@ -62,15 +62,15 @@
       "menstrual": "menstrual_phase and menstrual_phase_predicted are not on the 1-4 scale. Values: PERIOD, FOLLICULAR, OVULATION, LUTEAL, etc."
     },
     "quick_stats": {
-      "total_training_hours": 3.35,
-      "total_training_formatted": "3h20m",
+      "total_training_hours": 4.68,
+      "total_training_formatted": "4h40m",
       "total_activities": 6,
       "total_tss": 191
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-01T16:29:58.642378",
+    "last_updated": "2026-05-01T17:32:42.971531",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -136,14 +136,14 @@
       "unavailable": 0
     },
     "phase_context": {
-      "phase": null,
-      "phase_week": 0,
-      "amber_threshold": 2,
-      "modifier_applied": "default"
+      "phase": "Build",
+      "phase_week": 1,
+      "amber_threshold": 3,
+      "modifier_applied": "build_loosened"
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 5 green, 1 amber (threshold 2), 0 red.",
+    "reason": "P3 green light. 5 green, 1 amber (threshold 3), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -156,20 +156,20 @@
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 3.35,
+    "total_duration_decimal_hours": 4.68,
     "total_activities": 6,
     "by_activity_type": {
+      "RockClimbing": {
+        "duration_decimal_hours": 1.33,
+        "count": 1,
+        "tss": 0,
+        "distance_km": 0.0
+      },
       "Run": {
         "duration_decimal_hours": 2.66,
         "count": 3,
         "tss": 184,
         "distance_km": 26.1
-      },
-      "Unknown": {
-        "duration_decimal_hours": 0.0,
-        "count": 1,
-        "tss": 0,
-        "distance_km": 0.0
       },
       "Walk": {
         "duration_decimal_hours": 0.68,
@@ -252,7 +252,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 10201,
+      "steps": 10278,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -573,11 +573,9 @@
       "completed_dates": []
     },
     "phase_detection": {
-      "phase": null,
-      "confidence": "low",
-      "reason_codes": [
-        "BUILD_BASE_AMBIGUOUS"
-      ],
+      "phase": "Build",
+      "confidence": "medium",
+      "reason_codes": [],
       "basis": {
         "stream_1": {
           "ctl_slope": null,
@@ -586,25 +584,23 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 2.21,
+          "planned_tss_delta": 2.24,
           "hard_sessions_planned": 1,
           "race_proximity": 44,
-          "next_week_load": 2.69,
-          "plan_coverage_current_week": 0.6,
+          "next_week_load": 1.45,
+          "plan_coverage_current_week": 0.4,
           "plan_coverage_next_week": 1.2
         },
         "data_quality": "good",
         "stream_agreement": null
       },
       "previous_phase": null,
-      "phase_duration_weeks": 0,
+      "phase_duration_weeks": 1,
       "dossier_declared": null,
       "dossier_agreement": null
     },
-    "phase_detected": null,
-    "phase_triggers": [
-      "BUILD_BASE_AMBIGUOUS"
-    ],
+    "phase_detected": "Build",
+    "phase_triggers": [],
     "seasonal_context": "Build / Early Race Season",
     "benchmark_indoor": {
       "current_ftp": 191,
@@ -626,13 +622,13 @@
     "p_max": 729,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-01T16:29:58.640966",
+    "calculation_timestamp": "2026-05-01T17:32:42.970213",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 6,
       "activities_28d": 20,
-      "planned_workouts_7d": 6,
+      "planned_workouts_7d": 5,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 40
@@ -686,11 +682,11 @@
       "has_intervals": false
     },
     {
-      "id": "18334433451",
+      "id": "i144623358",
       "date": "2026-05-01T15:40:57",
-      "type": "Unknown",
-      "name": "",
-      "duration_hours": 0.0,
+      "type": "RockClimbing",
+      "name": "Bouldern @Studio Bloc",
+      "duration_hours": 1.33,
       "distance_km": 0.0,
       "tss": null,
       "intensity_factor": null,
@@ -716,7 +712,7 @@
       "hrrc": null,
       "elevation_m": null,
       "feel": null,
-      "rpe": null,
+      "rpe": 4,
       "zone_distribution": null,
       "has_intervals": false
     },
@@ -1821,7 +1817,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 10201,
+      "steps": 10278,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1833,19 +1829,6 @@
     }
   ],
   "planned_workouts": [
-    {
-      "id": 106934729,
-      "date": "2026-05-01",
-      "name": "OFF (shifted)",
-      "type": "NOTE",
-      "sport_type": null,
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "- OFF"
-    },
     {
       "id": 106934872,
       "date": "2026-05-02",
@@ -1860,17 +1843,17 @@
       "description": "- 20m Ramp 60-75% FTP\n- 120m 70-75% FTP steady\n- 20m 65% FTP easy"
     },
     {
-      "id": 106934873,
+      "id": 107612417,
       "date": "2026-05-03",
-      "name": "Run \u2013 Tempo Support (moved to Sunday)",
+      "name": "Training 06: 5x3:00 @subVO2Max (104-108%)",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 58,
-      "duration_hours": 0.87,
-      "duration_formatted": "51m56s",
-      "workout_summary": null,
+      "planned_tss": 59,
+      "duration_hours": 0.88,
+      "duration_formatted": "53m",
+      "workout_summary": "10m | 2\u00d71m / 2m rec | 2m | 5\u00d73m / 3m rec | 5m",
       "has_terrain": false,
-      "description": "- 1.2km Z2 70-80% Pace\n- 6.2km Z3 80-90% Pace\n- 1.2km Z2 70-80% Pace"
+      "description": "104-108% Pace (untere VO2Max)\n\n- Warmup 10m Z2 Power Z2 HR 70-80% Pace intensity=warmup\n\nAktivierung 2x\n- Aktivierung 1m Z5 Z3-4 HR 100-105% Pace \n- Erholung 2m Z2 Z2 HR 70-80% Pace intensity=recovery\n\n- Pause 2m Z1-Z2 Z1-Z2 HR 60-70% Pace\n\n5x\n- subVO2Max 3m Z6 Z4 HR 104-108% Pace\n- 3m Z1-Z2  Z1-Z2 HR 50-80% Pace \n\n- Cooldown: 5m Z2 Power Z2 HR 70-80% Pace intensity=cooldown"
     },
     {
       "id": 100597049,
@@ -1912,19 +1895,6 @@
       "description": "- 45m Z1-Z2 Power Z1-Z2 HR 70-80% Pace"
     },
     {
-      "id": 107487433,
-      "date": "2026-05-05",
-      "name": "Training 03: HIIT VO2Max 2x4x2'/2' @110-115% Pace + Z2",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 76,
-      "duration_hours": 1.18,
-      "duration_formatted": "1h11m",
-      "workout_summary": "10m | 4\u00d78s / 1m52s rec | 4\u00d72m / 2m rec | 2m | 4\u00d72m / 2m rec | 2m | 17m",
-      "has_terrain": false,
-      "description": "115-125% Pace (SuperVO2Max)\n\n- Warmup 10m Z2 Power Z2 HR 65-70% Pace intensity=warmup\n\nAktivierung 4x\n- Aktivierung 8s Z6 Z3-4 HR 130-150% Pace \n- Erholung 1m52s Z1 Z2 HR Z1 Pace intensity=recovery\n\n4x \n- MidVO2Max 2m Z6 Z3-4 HR 110-115%  Pace\n- Erholung 2m Z1 Z1 HR Z1 Pace intensity=recovery\n\n- 2m Z1-Z2 Z1-Z2 HR Z1 Pace\n\n4x \n- MidVO2Max 2m Z6 Z3-4 HR 110-115%  Pace\n- Erholung 2m Z1 Z1 HR Z1 Pace intensity=recovery\n\n- 2m Z1-Z2 Z1-Z2 HR Z1 Pace\n\n- Laufen 17m Z2 Power Z2 HR 80-85% Pace"
-    },
-    {
       "id": 107490457,
       "date": "2026-05-06",
       "name": "55'",
@@ -1936,6 +1906,19 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": "- 55m Z1-Z2 Power Z1-Z2 HR 70-80% Pace"
+    },
+    {
+      "id": 107610753,
+      "date": "2026-05-07",
+      "name": "Rest Day",
+      "type": "NOTE",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "- OFF"
     },
     {
       "id": 107482701,
@@ -2121,16 +2104,16 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 6,
+    "attempted": 5,
     "success": 1,
     "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 4,
-    "bail_no_match": 5
+    "bail_no_match": 4
   },
   "weekly_summary": {
-    "total_training_hours": 3.35,
-    "total_training_formatted": "3h20m",
+    "total_training_hours": 4.68,
+    "total_training_formatted": "4h40m",
     "total_tss": 191,
     "activities_count": 6,
     "avg_hrv": 41.9,
