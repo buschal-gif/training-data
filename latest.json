@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-01T17:32:42.971531",
+    "last_updated": "2026-05-01T18:44:25.581490",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -587,9 +587,9 @@
           "planned_tss_delta": 2.24,
           "hard_sessions_planned": 1,
           "race_proximity": 44,
-          "next_week_load": 1.45,
+          "next_week_load": 2.72,
           "plan_coverage_current_week": 0.4,
-          "plan_coverage_next_week": 1.2
+          "plan_coverage_next_week": 1.4
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -622,7 +622,7 @@
     "p_max": 729,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-01T17:32:42.970213",
+    "calculation_timestamp": "2026-05-01T18:44:25.580123",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1895,6 +1895,19 @@
       "description": "- 45m Z1-Z2 Power Z1-Z2 HR 70-80% Pace"
     },
     {
+      "id": 107612842,
+      "date": "2026-05-05",
+      "name": "Training 07: 5x5' @100-105%",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 78,
+      "duration_hours": 1.05,
+      "duration_formatted": "1h3m",
+      "workout_summary": "10m | 2\u00d71m / 2m rec | 2m | 5\u00d75m / 3m rec | 5m",
+      "has_terrain": false,
+      "description": "100-105% Pace (SuperSchwelle)\n\n- Warmup 10m Z2 Power Z2 HR 70-80% Pace intensity=warmup\n\nAktivierung 2x\n- Aktivierung 1m Z4 Z3-4 HR 95-100% Pace \n- Erholung 2m Z2 Z2 HR 70-80% Pace intensity=recovery\n\n- Pause 2m Z1 Z1 HR 60-70% Pace\n\n5x\n- SuperSchwelle 5m Z5 Z4 HR 100-105% Pace\n- 3m Z2 Power Z2 HR 70-80% Pace intensity=recovery\n\n- Cooldown: 5m Z2 Power Z2 HR 70-80% Pace intensity=cooldown"
+    },
+    {
       "id": 107490457,
       "date": "2026-05-06",
       "name": "55'",
@@ -2104,9 +2117,9 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 5,
-    "success": 1,
-    "patternA": 1,
+    "attempted": 6,
+    "success": 2,
+    "patternA": 2,
     "patternB": 0,
     "bail_no_workout_doc": 4,
     "bail_no_match": 4
