@@ -64,13 +64,13 @@
     "quick_stats": {
       "total_training_hours": 4.68,
       "total_training_formatted": "4h40m",
-      "total_activities": 6,
+      "total_activities": 7,
       "total_tss": 191
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-02T17:36:35.128906",
+    "last_updated": "2026-05-02T18:33:36.476404",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -135,7 +135,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 9.0
+        "value": -8.8
       }
     },
     "signal_summary": {
@@ -176,7 +176,7 @@
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
     "total_duration_decimal_hours": 4.68,
-    "total_activities": 6,
+    "total_activities": 7,
     "by_activity_type": {
       "RockClimbing": {
         "duration_decimal_hours": 1.33,
@@ -190,6 +190,12 @@
         "tss": 184,
         "distance_km": 26.1
       },
+      "Unknown": {
+        "duration_decimal_hours": 0.0,
+        "count": 1,
+        "tss": 0,
+        "distance_km": 0.0
+      },
       "Walk": {
         "duration_decimal_hours": 0.68,
         "count": 2,
@@ -200,11 +206,11 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 52.31,
-      "atl": 43.35,
-      "tsb": 8.96,
-      "ramp_rate": -4.56,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "ctl": 56.12,
+      "atl": 64.92,
+      "tsb": -8.8,
+      "ramp_rate": -0.75,
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "eftp": 206.2,
@@ -271,7 +277,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1723,
+      "steps": 3709,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -582,13 +588,12 @@
     },
     "consistency_index": 0.0,
     "consistency_details": {
-      "planned_days": 3,
+      "planned_days": 2,
       "completed_days": 0,
       "matched_days": 0,
       "planned_dates": [
         "2026-04-29",
-        "2026-04-30",
-        "2026-05-02"
+        "2026-04-30"
       ],
       "completed_dates": []
     },
@@ -608,7 +613,7 @@
           "hard_sessions_planned": 1,
           "race_proximity": 43,
           "next_week_load": 2.72,
-          "plan_coverage_current_week": 0.4,
+          "plan_coverage_current_week": 0.2,
           "plan_coverage_next_week": 1.4
         },
         "data_quality": "good",
@@ -642,13 +647,13 @@
     "p_max": 728,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-02T17:36:35.127616",
+    "calculation_timestamp": "2026-05-02T18:33:36.475074",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 7,
-      "activities_7d": 6,
-      "activities_28d": 19,
-      "planned_workouts_7d": 6,
+      "activities_7d": 7,
+      "activities_28d": 20,
+      "planned_workouts_7d": 5,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 41
@@ -656,6 +661,41 @@
     }
   },
   "recent_activities": [
+    {
+      "id": "18349809505",
+      "date": "2026-05-02T16:34:46",
+      "type": "Unknown",
+      "name": "",
+      "duration_hours": 0.0,
+      "distance_km": 0.0,
+      "tss": null,
+      "intensity_factor": null,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": null,
+      "max_hr": null,
+      "avg_cadence": null,
+      "avg_speed": null,
+      "max_speed": null,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": null,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "efficiency_factor": null,
+      "hrrc": null,
+      "elevation_m": null,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": null,
+      "has_intervals": false
+    },
     {
       "id": "i144617510",
       "date": "2026-05-01T17:11:59",
@@ -1784,7 +1824,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1723,
+      "steps": 3709,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1796,19 +1836,6 @@
     }
   ],
   "planned_workouts": [
-    {
-      "id": 106934872,
-      "date": "2026-05-02",
-      "name": "Ride \u2013 Long Steady Durability (moved to Saturday)",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 134,
-      "duration_hours": 2.67,
-      "duration_formatted": "2h40m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "- 20m Ramp 60-75% FTP\n- 120m 70-75% FTP steady\n- 20m 65% FTP easy"
-    },
     {
       "id": 107612417,
       "date": "2026-05-03",
@@ -2084,18 +2111,18 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 6,
+    "attempted": 5,
     "success": 2,
     "patternA": 2,
     "patternB": 0,
     "bail_no_workout_doc": 4,
-    "bail_no_match": 4
+    "bail_no_match": 3
   },
   "weekly_summary": {
     "total_training_hours": 4.68,
     "total_training_formatted": "4h40m",
     "total_tss": 191,
-    "activities_count": 6,
+    "activities_count": 7,
     "avg_hrv": 40.7,
     "avg_resting_hr": 61.3
   },
