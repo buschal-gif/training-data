@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-12T07:37:17.563843",
+    "last_updated": "2026-05-12T10:12:57.702436",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -578,7 +578,7 @@
     },
     "phase_detection": {
       "phase": "Base",
-      "confidence": "high",
+      "confidence": "medium",
       "reason_codes": [],
       "basis": {
         "stream_1": {
@@ -589,7 +589,7 @@
         },
         "stream_2": {
           "planned_tss_delta": 1.38,
-          "hard_sessions_planned": 1,
+          "hard_sessions_planned": 2,
           "race_proximity": 33,
           "next_week_load": null,
           "plan_coverage_current_week": 1.0,
@@ -626,7 +626,7 @@
     "p_max": 724,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-12T07:37:17.562460",
+    "calculation_timestamp": "2026-05-12T10:12:57.701088",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1825,17 +1825,18 @@
   ],
   "planned_workouts": [
     {
-      "id": 109479466,
+      "id": 109694971,
       "date": "2026-05-12",
-      "name": "Grundlage",
+      "name": "90 Minute Endurance",
       "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 170,
-      "duration_hours": 4.0,
-      "duration_formatted": "4h",
-      "workout_summary": null,
+      "sport_type": "VirtualRide",
+      "planned_tss": 69,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": "3m @93W | 3m @105W | 2\u00d730s @123W / 30s rec | 1m @114W | 2m @123W | 4m @143W | 2m @123W | 3m @143W | 2m @123W | 2m @143W | 1m @114W | 1m @76W",
       "has_terrain": false,
-      "description": "- 4h Z2 Z2 HR"
+      "indoor": true,
+      "description": "Zone 2 endurance training is one of the most important aspects of any training plan. Long periods within Zone 2 will benefit any athlete.\n\nIn this training Zone, we predominately stimulate Type 1 muscle fibres, leading to increased mitochondrial growth and function. You improve your ability to utilise fat as the preferred fuel source and preserve your precious glycogen stores.\n\nFeel free to substitute this structured endurance ride with a low-intensity free ride. Or jump into a low-intensity group ride if available. Choose a course or group ride that will allow you to spend most of your ride with Zone 2.\n\nWarmup\n- 3m ramp 38.9-58.9%\n\n- 3m 55%\n\n2x\n- 30s 64.9%\n- 30s 75%\n\n2x\n- 4m 60%\n- 2m 64.9%\n- 2m 75%\n- 2m 64.9%\n- 2m 75%\n- 2m 64.9%\n- 2m 75%\n\n2x\n- 1m 60%\n- 3m 64.9%\n- 4m 75%\n- 2m 64.9%\n- 2m 75%\n- 2m 64.9%\n- 2m 75%\n\n- 1m 60%\n- 2m 64.9%\n- 4m 75%\n- 2m 64.9%\n- 3m 75%\n- 2m 64.9%\n- 2m 75%\n- 1m 60%\n- 1m 40%"
     },
     {
       "id": 109479574,
@@ -2075,11 +2076,11 @@
   ],
   "workout_summary_stats": {
     "attempted": 5,
-    "success": 1,
-    "patternA": 1,
+    "success": 2,
+    "patternA": 2,
     "patternB": 0,
     "bail_no_workout_doc": 2,
-    "bail_no_match": 4
+    "bail_no_match": 3
   },
   "weekly_summary": {
     "total_training_hours": 1.43,
