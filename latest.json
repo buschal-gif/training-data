@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-14T20:42:45.410104",
+    "last_updated": "2026-05-14T21:49:14.348353",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -127,14 +127,14 @@
       "unavailable": 0
     },
     "phase_context": {
-      "phase": "Base",
+      "phase": "Build",
       "phase_week": 1,
-      "amber_threshold": 2,
-      "modifier_applied": "default"
+      "amber_threshold": 3,
+      "modifier_applied": "build_loosened"
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 5 green, 1 amber (threshold 2), 0 red.",
+    "reason": "P3 green light. 5 green, 1 amber (threshold 3), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -574,7 +574,7 @@
       ]
     },
     "phase_detection": {
-      "phase": "Base",
+      "phase": "Build",
       "confidence": "medium",
       "reason_codes": [],
       "basis": {
@@ -585,8 +585,8 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 2.0,
-          "hard_sessions_planned": 1,
+          "planned_tss_delta": 1.55,
+          "hard_sessions_planned": 2,
           "race_proximity": 31,
           "next_week_load": null,
           "plan_coverage_current_week": 0.6,
@@ -600,7 +600,7 @@
       "dossier_declared": null,
       "dossier_agreement": null
     },
-    "phase_detected": "Base",
+    "phase_detected": "Build",
     "phase_triggers": [],
     "seasonal_context": "Build / Early Race Season",
     "benchmark_indoor": {
@@ -623,7 +623,7 @@
     "p_max": 722,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 50.0,
-    "calculation_timestamp": "2026-05-14T20:42:45.408698",
+    "calculation_timestamp": "2026-05-14T21:49:14.347037",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1887,17 +1887,17 @@
       "description": "# Entrenamiento 12: 7x3:00 @104-108% pace.\n**Objetivo: VO2Max**<br>\n**___**\n## Descripci\u00f3n.<br>  \n**Calentamiento**: 10 minutos a 70-80% pace.<br>\n**Activaciones**: 2 repeticiones de 1:00 minuto al 100-105% pace.<br>\n**Intervalos**: 7 repeticiones de 3:00 minutos al 104-108% pace.<br>\n**Vuelta a la calma**: 5 minutos a 70-80% pace.<br>\n**Opciones densidad**: Ajusta en el c\u00f3digo el descanso deseado.<br>\n**___**\n## C\u00f3digo. \n\n- Warmup: 8m @ 70-80% pace\n\nActivaciones 2x\n- 1m @ 100-105% pace\n- 2m @ 70-80% pace\n\n- 2m @ 60-70% pace\n\n7x\n  - 3m @ 104-108% pace\n  - 3m @ 50-80% pace\n\n- Cooldown: 8m @ 70-80% pace\n\n**___**\n\n*@andopor*  \n*@razapalleira*"
     },
     {
-      "id": 109538993,
+      "id": 110173134,
       "date": "2026-05-15",
-      "name": "55'",
+      "name": "Pacing #3",
       "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 49,
-      "duration_hours": 0.92,
-      "duration_formatted": "55m",
-      "workout_summary": null,
+      "sport_type": "Ride",
+      "planned_tss": 63,
+      "duration_hours": 1.03,
+      "duration_formatted": "1h2m",
+      "workout_summary": "7m @129W | 1m @103W | 4\u00d71m @186W / 1m rec | 1m @103W | 3m @181W | 1m @103W | 3\u00d76m @155W / 6m rec | 5m @103W",
       "has_terrain": false,
-      "description": "- 55m Z1-Z2 Power Z1-Z2 HR 70-80% Pace"
+      "description": "A low-intensity endurance session that focuses on your ability to judge your pacing. By completing some steady-state intervals under threshold power, you will develop the ability to gauge your effort based on 'feel' without looking at the data for feedback.\n\nThis session also serves the purpose of effectively building endurance.\n\nWarmup\n- 30^ A low level intensity workout today with the focus being on pacing. 50^ As well as getting some endurance work in, the idea today is to get a better feel for lower end intensity. 100^ Endurance riding doesn't have to consist of just zone 2 work. 120^ It's fine to dip the toes into zone 3 for short durations. 300^ Our initial warmup effort ramps the power up into zone 2. 320^ Then we complete some on/off efforts.<!> 7m ramp 50-75%\n\n- 20^ Next up we complete some 1min threshold efforts. 40^ Because the duration is only short, you will recover quickly from these.<!> 1m 50%\n\n4x\n- 1m 89.9%\n- 1m 69.9%\n\n- 20^ Now to complete the warmup we perform a steady state effort.<!> 1m 50%\n- 20^ Well under threshold for this interval. 50^ This should be a comfortable effort for you. 70^ You could do this all day! 120^ How are you feeling? Ready for the main set now? 140^ Today is a good way to get some endurance work completed, while also getting in tune with your sensations.<!> 3m 87.9%\n- 20^ A quick rest here to grab your breath. 40^ Not every indoor session has to be high intensity. Today is one of those days!<!> 1m 50%\n\n3x\n- 6m 75%\n- 6m 87.9%\n\n- 20^ That was a great session today. 40^ Not just physically, but also for gaining a better understanding of your sensations. 100^ Remember, it's ok to perform some lower intensity sessions indoor. 120^ There are still good gains to be made with this type of training.<!> 5m 50%"
     },
     {
       "id": 109538873,
@@ -2098,11 +2098,11 @@
   ],
   "workout_summary_stats": {
     "attempted": 3,
-    "success": 1,
-    "patternA": 1,
+    "success": 2,
+    "patternA": 2,
     "patternB": 0,
     "bail_no_workout_doc": 2,
-    "bail_no_match": 2
+    "bail_no_match": 1
   },
   "weekly_summary": {
     "total_training_hours": 4.04,
