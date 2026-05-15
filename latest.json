@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-15T05:39:03.907338",
+    "last_updated": "2026-05-15T08:28:38.203945",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -127,8 +127,8 @@
       "unavailable": 4
     },
     "phase_context": {
-      "phase": null,
-      "phase_week": 0,
+      "phase": "Base",
+      "phase_week": 1,
       "amber_threshold": 2,
       "modifier_applied": "default"
     },
@@ -190,8 +190,8 @@
           "max_hr": 181,
           "threshold_pace": null,
           "pace_units": null,
-          "ftp": 207,
-          "ftp_indoor": 191
+          "ftp": 204,
+          "ftp_indoor": 194
         },
         "run": {
           "lthr": 166,
@@ -465,11 +465,11 @@
               "actual_hr": 164,
               "pct_lthr": 103.8,
               "source": "observed_outdoor",
-              "coggan_watts": 219,
-              "coggan_wpkg": 3.16,
-              "cp_model_watts": 267,
-              "cp_model_wpkg": 3.85,
-              "model_divergence_pct": -8.2
+              "coggan_watts": 216,
+              "coggan_wpkg": 3.12,
+              "cp_model_watts": 264,
+              "cp_model_wpkg": 3.81,
+              "model_divergence_pct": -7.2
             },
             "600s": {
               "actual_watts": 222,
@@ -477,11 +477,11 @@
               "actual_hr": 160,
               "pct_lthr": 101.3,
               "source": "observed_outdoor",
-              "coggan_watts": 201,
-              "coggan_wpkg": 2.9,
-              "cp_model_watts": 237,
-              "cp_model_wpkg": 3.42,
-              "model_divergence_pct": -6.3
+              "coggan_watts": 198,
+              "coggan_wpkg": 2.86,
+              "cp_model_watts": 234,
+              "cp_model_wpkg": 3.38,
+              "model_divergence_pct": -5.1
             },
             "1200s": {
               "actual_watts": 194,
@@ -489,11 +489,11 @@
               "actual_hr": 155,
               "pct_lthr": 98.1,
               "source": "observed_outdoor",
-              "coggan_watts": 193,
-              "coggan_wpkg": 2.78,
-              "cp_model_watts": 222,
-              "cp_model_wpkg": 3.2,
-              "model_divergence_pct": -12.6
+              "coggan_watts": 190,
+              "coggan_wpkg": 2.74,
+              "cp_model_watts": 219,
+              "cp_model_wpkg": 3.16,
+              "model_divergence_pct": -11.4
             },
             "1800s": {
               "actual_watts": 181,
@@ -501,11 +501,11 @@
               "actual_hr": 151,
               "pct_lthr": 95.6,
               "source": "observed_outdoor",
-              "coggan_watts": 186,
-              "coggan_wpkg": 2.68,
-              "cp_model_watts": 217,
-              "cp_model_wpkg": 3.13,
-              "model_divergence_pct": -16.6
+              "coggan_watts": 184,
+              "coggan_wpkg": 2.66,
+              "cp_model_watts": 214,
+              "cp_model_wpkg": 3.09,
+              "model_divergence_pct": -15.4
             },
             "3600s": {
               "actual_watts": 169,
@@ -513,11 +513,11 @@
               "actual_hr": 146,
               "pct_lthr": 92.4,
               "source": "observed_outdoor",
-              "coggan_watts": 178,
-              "coggan_wpkg": 2.57,
-              "cp_model_watts": 212,
-              "cp_model_wpkg": 3.06,
-              "model_divergence_pct": -20.3
+              "coggan_watts": 175,
+              "coggan_wpkg": 2.53,
+              "cp_model_watts": 209,
+              "cp_model_wpkg": 3.02,
+              "model_divergence_pct": -19.1
             },
             "5400s": {
               "actual_watts": 155,
@@ -525,11 +525,11 @@
               "actual_hr": 139,
               "pct_lthr": 88.0,
               "source": "observed_outdoor",
-              "coggan_watts": 170,
-              "coggan_wpkg": 2.45,
-              "cp_model_watts": 210,
-              "cp_model_wpkg": 3.03,
-              "model_divergence_pct": -26.2
+              "coggan_watts": 167,
+              "coggan_wpkg": 2.41,
+              "cp_model_watts": 207,
+              "cp_model_wpkg": 2.99,
+              "model_divergence_pct": -25.1
             },
             "7200s": {
               "actual_watts": 155,
@@ -537,15 +537,15 @@
               "actual_hr": 135,
               "pct_lthr": 85.4,
               "source": "observed_outdoor",
-              "coggan_watts": 161,
-              "coggan_wpkg": 2.32,
-              "cp_model_watts": 210,
-              "cp_model_wpkg": 3.03,
-              "model_divergence_pct": -26.2
+              "coggan_watts": 159,
+              "coggan_wpkg": 2.29,
+              "cp_model_watts": 207,
+              "cp_model_wpkg": 2.99,
+              "model_divergence_pct": -25.1
             }
           },
           "coverage_ratio": 1.0,
-          "ftp_used": 207,
+          "ftp_used": 204,
           "w_prime_used": 18084,
           "ftp_staleness_days": 0,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
@@ -569,11 +569,9 @@
       ]
     },
     "phase_detection": {
-      "phase": null,
-      "confidence": "low",
-      "reason_codes": [
-        "BUILD_BASE_AMBIGUOUS"
-      ],
+      "phase": "Base",
+      "confidence": "medium",
+      "reason_codes": [],
       "basis": {
         "stream_1": {
           "ctl_slope": -1.6,
@@ -586,35 +584,33 @@
           "hard_sessions_planned": 1,
           "race_proximity": 30,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.4,
+          "plan_coverage_current_week": 0.6,
           "plan_coverage_next_week": 0.4
         },
         "data_quality": "good",
         "stream_agreement": null
       },
       "previous_phase": null,
-      "phase_duration_weeks": 0,
+      "phase_duration_weeks": 1,
       "dossier_declared": null,
       "dossier_agreement": null
     },
-    "phase_detected": null,
-    "phase_triggers": [
-      "BUILD_BASE_AMBIGUOUS"
-    ],
+    "phase_detected": "Base",
+    "phase_triggers": [],
     "seasonal_context": "Build / Early Race Season",
     "benchmark_indoor": {
-      "current_ftp": 191,
+      "current_ftp": 194,
       "ftp_8_weeks_ago": 191,
-      "benchmark_index": 0.0,
-      "benchmark_percentage": "+0.0%",
-      "seasonal_expected": false
+      "benchmark_index": 0.016,
+      "benchmark_percentage": "+1.6%",
+      "seasonal_expected": true
     },
     "benchmark_outdoor": {
-      "current_ftp": 207,
+      "current_ftp": 204,
       "ftp_8_weeks_ago": 203,
-      "benchmark_index": 0.02,
-      "benchmark_percentage": "+2.0%",
-      "seasonal_expected": true
+      "benchmark_index": 0.005,
+      "benchmark_percentage": "+0.5%",
+      "seasonal_expected": false
     },
     "eftp": 204.3,
     "w_prime": 18084,
@@ -622,7 +618,7 @@
     "p_max": 722,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-15T05:39:03.906002",
+    "calculation_timestamp": "2026-05-15T08:28:38.202502",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -630,7 +626,7 @@
       "activities_28d": 20,
       "planned_workouts_7d": 8,
       "ftp_history_days": {
-        "indoor": 0,
+        "indoor": 54,
         "outdoor": 54
       }
     }
@@ -1838,17 +1834,31 @@
   ],
   "planned_workouts": [
     {
-      "id": 110173134,
+      "id": 110219000,
       "date": "2026-05-15",
-      "name": "Pacing #3",
+      "name": "Mitochondria #2",
+      "type": "WORKOUT",
+      "sport_type": "VirtualRide",
+      "planned_tss": 69,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": "3m @97W | 1m @164W | 2m @97W | 3m @175W | 3m @97W | 10\u00d71m @219W / 2m rec | 3m @97W | 10m @177W | 5m @97W",
+      "has_terrain": false,
+      "indoor": true,
+      "description": "This session includes short, controlled intervals above threshold with minimal recovery. This type of training provides the perfect stimulus to increase mitochondrial density and sustainable power.\n\nThere is a sting in the tail, though. The session finishes with a 10-minute sub-threshold effort.\n\nThere is no getting away from the benefits of long aerobic intervals.\n- 50^ By implementing structured intervals of high intensity power, coupled with the right amount of recovery time, we can boost the density of mitochondria. 70^ Today's main set will have you touching on Zone 5 power for 1min intervals. 90^ However, with the intervals being just 1min in duration, the build up of fatigue is minimal. 110^ But with the short recovery period, the gains to mitochondrial density are maximised. 130^ First we need to complete a good warmup. 150^ We achieve this by stepping up through the increasing power zones.<!> 3m 50.4%\n- 10^ Nice and gentle to begin with.<!> 1m 84.8%\n- 80^ Up into Zone 4 next. But it's only for a short period.<!> 2m 50.4%\n- 30^ Touching briefly on Zone 4 is a good way to complete a warmup. 50^ It's long enough to build a sweat, which indicates your readiness to complete some hard work. 90^ This effort moves the blood into the muscle fibers required for the high intensity work.<!> 3m 90.4%\n- 20^ Ensure you hydrate during this effort. 40^ Ahead of you the session requires 10 x 1min intervals @ 113%FTP. 60^ With the focus today being on improving your aerobic capacity through building mitochondrial density... 70^ the intervals are long enough to trigger this response from the body, then repeated after a short recovery. 100^ By breaking the workload into smaller pieces we are also able to achieve a higher volume. 120^ For this 'Early Base' phase of training, short intervals are ideal for eliciting the desired response to the training. 140^ Keep in mind that these are controlled efforts. Not full gas. 160^ here we go with the main set of work.<!> 3m 50.4%\n\n10x\n- 1m 112.9%\n- 2m 65.4%\n\n- 30^ Now for the sting in the tail! 60^ Next is a steady state effort. 80^ However, it does gradually descend in target power.<!> 3m 50.4%\n\nCooldown\n- 200^ Position yourself on the bike as you would climbing for this effort. 300^ Relax your hands on the bars. 350^ As the power gradually descends, aim to maintain the same cadence. 550^ Great work. Almost at the top!<!> 10m ramp 94.4-88.4%\n\n- 63^ Today's session is very good use of your available training time. 90^ With limited time to train, indoor training provides the ideal environment to work on building endurance.<!> 5m 50%"
+    },
+    {
+      "id": 110229086,
+      "date": "2026-05-16",
+      "name": "Long Ride GA1",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 63,
-      "duration_hours": 1.03,
-      "duration_formatted": "1h2m",
-      "workout_summary": "7m @129W | 1m @103W | 4\u00d71m @186W / 1m rec | 1m @103W | 3m @181W | 1m @103W | 3\u00d76m @155W / 6m rec | 5m @103W",
+      "planned_tss": 221,
+      "duration_hours": 4.0,
+      "duration_formatted": "4h",
+      "workout_summary": null,
       "has_terrain": false,
-      "description": "A low-intensity endurance session that focuses on your ability to judge your pacing. By completing some steady-state intervals under threshold power, you will develop the ability to gauge your effort based on 'feel' without looking at the data for feedback.\n\nThis session also serves the purpose of effectively building endurance.\n\nWarmup\n- 30^ A low level intensity workout today with the focus being on pacing. 50^ As well as getting some endurance work in, the idea today is to get a better feel for lower end intensity. 100^ Endurance riding doesn't have to consist of just zone 2 work. 120^ It's fine to dip the toes into zone 3 for short durations. 300^ Our initial warmup effort ramps the power up into zone 2. 320^ Then we complete some on/off efforts.<!> 7m ramp 50-75%\n\n- 20^ Next up we complete some 1min threshold efforts. 40^ Because the duration is only short, you will recover quickly from these.<!> 1m 50%\n\n4x\n- 1m 89.9%\n- 1m 69.9%\n\n- 20^ Now to complete the warmup we perform a steady state effort.<!> 1m 50%\n- 20^ Well under threshold for this interval. 50^ This should be a comfortable effort for you. 70^ You could do this all day! 120^ How are you feeling? Ready for the main set now? 140^ Today is a good way to get some endurance work completed, while also getting in tune with your sensations.<!> 3m 87.9%\n- 20^ A quick rest here to grab your breath. 40^ Not every indoor session has to be high intensity. Today is one of those days!<!> 1m 50%\n\n3x\n- 6m 75%\n- 6m 87.9%\n\n- 20^ That was a great session today. 40^ Not just physically, but also for gaining a better understanding of your sensations. 100^ Remember, it's ok to perform some lower intensity sessions indoor. 120^ There are still good gains to be made with this type of training.<!> 5m 50%"
+      "description": "- 240m z2 HR steady ride"
     },
     {
       "id": 109538873,
@@ -2048,12 +2058,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 2,
+    "attempted": 3,
     "success": 1,
     "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 2,
-    "bail_no_match": 1
+    "bail_no_match": 2
   },
   "weekly_summary": {
     "total_training_hours": 3.69,
