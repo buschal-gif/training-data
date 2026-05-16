@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-16T14:54:43.018685",
+    "last_updated": "2026-05-16T15:48:15.681902",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -632,7 +632,7 @@
     "p_max": 722,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-16T14:54:42.813342",
+    "calculation_timestamp": "2026-05-16T15:48:15.680469",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -672,12 +672,12 @@
       "carbs_used": 446,
       "carbs_ingested": null,
       "variability_index": 1.1007195,
-      "decoupling": 5.83981,
+      "decoupling": 4.703865,
       "efficiency_factor": 1.1167883,
       "hrrc": 25,
       "elevation_m": 127.0,
-      "feel": null,
-      "rpe": null,
+      "feel": 3,
+      "rpe": 4,
       "zone_distribution": {
         "hr_zones": {
           "z1_time": 1378,
@@ -696,7 +696,8 @@
           "z7_time": 70
         }
       },
-      "has_intervals": true
+      "has_intervals": true,
+      "description": "-- Intervals icu --\nWind: SW 1 - 2 Bft B\u00f6en 3 - 5\nGegenwind: 30% 1h15m\nR\u00fcckenwind: 30% 1h16m\nRegen: 0.6 mm/h\nTemp.: 9.9 bis 14.1\u00b0C  avg 12.7\nGef\u00fchlt: 7.8 bis 11.8\u00b0C  avg 10.1\nWolken: 90%"
     },
     {
       "id": "i148410679",
