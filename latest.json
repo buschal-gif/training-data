@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-17T17:39:12.362859",
+    "last_updated": "2026-05-17T18:40:50.750667",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -624,7 +624,7 @@
     "p_max": 722,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 50.0,
-    "calculation_timestamp": "2026-05-17T17:39:12.361350",
+    "calculation_timestamp": "2026-05-17T18:40:50.749125",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -2072,7 +2072,7 @@
       "duration_formatted": "1h48m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "# Entrenamiento 9: Rodaje con Ritmo Dividido\n**Objetivo: Consolidaci\u00f3n del trabajo dividido para resistencia a ritmos de carrera.**<br>\n**___**\n## Descripci\u00f3n.<br>\n**Rodaje Continuo**: 45 minutos al 80-90% del umbral.<br>\n**Bloques de Ritmo**: \n- Primer bloque: 27 minutos al 85-95% pace<br>\n- Recuperaci\u00f3n: 10 minutos al 75-85% pace<br>\n- Segundo bloque: 21 minutos al 85-95% pace.<br>\n**Vuelta a la calma**: 5 minutos al 70-75% pace.<br>\n**Opciones de Ritmo**: Ajusta el porcentaje de ritmo a tu ritmo de competici\u00f3n manualmente.<br>\n**___**\n## C\u00f3digo.\n\n- Run: 45m 80-90% pace\n\n- Ritmo Bloque 1: 27m 85-95% pace\n\n- Recovery: 10m 75-85% pace\n\n- Ritmo Bloque 2: 21m 85-95% pace\n\n- Cooldown: 5m 70-75% pace\n\n**___**\n\n*@andopor*  \n*@razapalleira*"
+      "description": "# Entrenamiento 9: Rodaje con Ritmo Dividido\n**Objetivo: Consolidaci\u00f3n del trabajo dividido para resistencia a ritmos de carrera.**<br>\n**___**\n## Descripci\u00f3n.<br>\n**Rodaje Continuo**: 45 minutos al 80-90% del umbral.<br>\n**Bloques de Ritmo**: \n- Primer bloque: 27 minutos al 80-90% pace<br>\n- Recuperaci\u00f3n: 10 minutos al 75-85% pace<br>\n- Segundo bloque: 21 minutos al 80-90% pace.<br>\n**Vuelta a la calma**: 5 minutos al 70-75% pace.<br>\n**Opciones de Ritmo**: Ajusta el porcentaje de ritmo a tu ritmo de competici\u00f3n manualmente.<br>\n**___**\n## C\u00f3digo.\n\n- Run: 45m 80-90% pace\n\n- Ritmo Bloque 1: 27m 85-95% pace\n\n- Recovery: 10m 75-85% pace\n\n- Ritmo Bloque 2: 21m 85-95% pace\n\n- Cooldown: 5m 70-75% pace\n\n**___**\n\n*@andopor*  \n*@razapalleira*"
     },
     {
       "id": 109416100,
