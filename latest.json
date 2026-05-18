@@ -62,15 +62,15 @@
       "menstrual": "menstrual_phase and menstrual_phase_predicted are not on the 1-4 scale. Values: PERIOD, FOLLICULAR, OVULATION, LUTEAL, etc."
     },
     "quick_stats": {
-      "total_training_hours": 11.02,
-      "total_training_formatted": "11h1m",
+      "total_training_hours": 13.02,
+      "total_training_formatted": "13h1m",
       "total_activities": 9,
       "total_tss": 609
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-18T16:17:08.033709",
+    "last_updated": "2026-05-18T18:16:31.373981",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -152,7 +152,7 @@
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 11.02,
+    "total_duration_decimal_hours": 13.02,
     "total_activities": 9,
     "by_activity_type": {
       "Ride": {
@@ -162,8 +162,8 @@
         "distance_km": 106.4
       },
       "RockClimbing": {
-        "duration_decimal_hours": 1.0,
-        "count": 1,
+        "duration_decimal_hours": 3.0,
+        "count": 2,
         "tss": 0,
         "distance_km": 0.0
       },
@@ -172,12 +172,6 @@
         "count": 2,
         "tss": 220,
         "distance_km": 28.1
-      },
-      "Unknown": {
-        "duration_decimal_hours": 0.0,
-        "count": 1,
-        "tss": 0,
-        "distance_km": 0.0
       },
       "VirtualRide": {
         "duration_decimal_hours": 2.5,
@@ -644,7 +638,7 @@
     "p_max": 722,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-18T16:17:08.032260",
+    "calculation_timestamp": "2026-05-18T18:16:31.372468",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -704,11 +698,11 @@
       "has_intervals": false
     },
     {
-      "id": "18555122791",
+      "id": "i149438678",
       "date": "2026-05-18T13:20:00",
-      "type": "Unknown",
-      "name": "",
-      "duration_hours": 0.0,
+      "type": "RockClimbing",
+      "name": "Bouldern @Studio Bloc",
+      "duration_hours": 2.0,
       "distance_km": 0.0,
       "tss": null,
       "intensity_factor": null,
@@ -2377,8 +2371,8 @@
     "bail_no_match": 2
   },
   "weekly_summary": {
-    "total_training_hours": 11.02,
-    "total_training_formatted": "11h1m",
+    "total_training_hours": 13.02,
+    "total_training_formatted": "13h1m",
     "total_tss": 609,
     "activities_count": 9,
     "avg_hrv": 42.9,
