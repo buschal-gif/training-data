@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-18T05:55:08.563364",
+    "last_updated": "2026-05-18T09:39:13.268276",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -91,36 +91,36 @@
     "priority": 1,
     "signals": {
       "hrv": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 41.3,
-        "delta_pct": null
+        "status": "green",
+        "value": 52.0,
+        "baseline_7d": 42.9,
+        "delta_pct": 21.2
       },
       "rhr": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 58.7,
-        "delta_bpm": null
+        "status": "green",
+        "value": 56,
+        "baseline_7d": 58.3,
+        "delta_bpm": -2.3
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
-        "quality": null
+        "status": "green",
+        "hours": 7.87,
+        "quality": 3
       },
       "acwr": {
         "status": "amber",
         "value": 1.42
       },
       "ri": {
-        "status": "unavailable",
-        "value": null
+        "status": "green",
+        "value": 1.26
       }
     },
     "signal_summary": {
-      "green": 0,
+      "green": 4,
       "amber": 1,
       "red": 0,
-      "unavailable": 4
+      "unavailable": 0
     },
     "phase_context": {
       "phase": "Build",
@@ -232,12 +232,12 @@
     },
     "current_metrics": {
       "weight_kg": 69.3,
-      "resting_hr": 58,
-      "hrv": null,
-      "sleep_quality": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_score": null,
+      "resting_hr": 56,
+      "hrv": 52.0,
+      "sleep_quality": 3,
+      "sleep_hours": 7.87,
+      "sleep_formatted": "7h52m",
+      "sleep_score": 70.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -254,7 +254,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 202,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -266,13 +266,13 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": null,
-    "hrv_baseline_7d": 41.3,
-    "rhr_baseline_7d": 58.7,
-    "hrv_baseline_28d": 42.9,
-    "rhr_baseline_28d": 58,
-    "latest_hrv": null,
-    "latest_rhr": null,
+    "recovery_index": 1.26,
+    "hrv_baseline_7d": 42.9,
+    "rhr_baseline_7d": 58.3,
+    "hrv_baseline_28d": 43.2,
+    "rhr_baseline_28d": 57.9,
+    "latest_hrv": 52.0,
+    "latest_rhr": 56,
     "acwr": 1.42,
     "acwr_interpretation": "caution",
     "monotony": 1.07,
@@ -284,7 +284,7 @@
     "multi_sport_detected": true,
     "strain": 645.0,
     "stress_tolerance": 6.0,
-    "load_recovery_ratio": null,
+    "load_recovery_ratio": 4.8,
     "tss_7d_total": 603.0,
     "tss_28d_total": 1696.0,
     "zone_distribution_7d": {
@@ -584,7 +584,7 @@
     },
     "phase_detection": {
       "phase": "Build",
-      "confidence": "medium",
+      "confidence": "high",
       "reason_codes": [],
       "basis": {
         "stream_1": {
@@ -595,7 +595,7 @@
         },
         "stream_2": {
           "planned_tss_delta": 1.32,
-          "hard_sessions_planned": 1,
+          "hard_sessions_planned": 2,
           "race_proximity": 27,
           "next_week_load": null,
           "plan_coverage_current_week": 1.0,
@@ -632,10 +632,10 @@
     "p_max": 722,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-18T05:55:08.561900",
+    "calculation_timestamp": "2026-05-18T09:39:13.266793",
     "data_quality": {
-      "hrv_data_points": 6,
-      "rhr_data_points": 6,
+      "hrv_data_points": 7,
+      "rhr_data_points": 7,
       "activities_7d": 6,
       "activities_28d": 22,
       "planned_workouts_7d": 8,
@@ -1918,7 +1918,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 17993,
+      "steps": 19545,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1931,13 +1931,13 @@
     {
       "date": "2026-05-18",
       "weight_kg": null,
-      "resting_hr": null,
-      "hrv_rmssd": null,
+      "resting_hr": 56,
+      "hrv_rmssd": 52.0,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
+      "sleep_hours": 7.87,
+      "sleep_formatted": "7h52m",
+      "sleep_quality": 3,
+      "sleep_score": 70.0,
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
@@ -1957,7 +1957,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 202,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2009,30 +2009,30 @@
       "description": "- 12m Z2 \"Anfahrt Frankenstein\"\n- 4m Z4 \"Frankensteiner Stra\u00dfe\"\n-  2m Z2\n- 14m Z5 \"Frankenstein\"\n- 14m Z1\n- 11m Z4-Z5 Kuralpe\n- 5m Z1\n- 10m Z4-Z5 Felsberg\n- 7m Z1\n- 3m Z5 Kuralpe\n- 5m Z1\n- 8m Z4-Z5 Olynstra\u00dfe\n- 6m Z1\n- 9m Z4-Z5\n- 16m Z1-Z2"
     },
     {
-      "id": 110657778,
+      "id": 110826869,
       "date": "2026-05-22",
-      "name": "Entrenamiento 06: 3x9' @98-100% pace",
+      "name": "Training 01: 2x10' @94-98% Pace",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 73,
-      "duration_hours": 0.98,
-      "duration_formatted": "59m",
-      "workout_summary": "10m | 2\u00d71m / 2m rec | 2m | 3\u00d79m / 3m rec | 5m",
+      "planned_tss": 55,
+      "duration_hours": 0.82,
+      "duration_formatted": "49m",
+      "workout_summary": "10m | 2\u00d71m / 2m rec | 2m | 2\u00d710m / 3m rec | 5m",
       "has_terrain": false,
-      "description": "# Entrenamiento 6: 3x9' @98-100% pace.\n**Objetivo: Sub Umbral**<br>\n**___**\n## Descripci\u00f3n.<br>  \n**Calentamiento**: 10 minutos a 70-80% pace.<br>\n**Activaciones**: 2 repeticiones de 1:00 minuto al 90-95% pace.<br>\n**Intervalos**: 3 repeticiones de 9 minutos al 98-100% pace con 3 minutos de recuperaci\u00f3n al 70-80% pace.<br>\n**Vuelta a la calma**: 5 minutos a 70-80% pace.<br>\n**Opciones densidad**: Ajusta en el c\u00f3digo la intensidad y el descanso deseado.<br>\n**___**\n## C\u00f3digo. \n\n- Warmup: 10m @ 70-80% pace\n\nActivaciones 2x\n- 1m @ 90-95% pace\n- 2m @ 70-80% pace\n\n- 2m @ 60-70% pace\n\n3x\n  - 9m @ 98-100% pace\n  - 3m @ 70-80% pace\n\n- Cooldown: 5m @ 70-80% pace\n\n**___**\n\n*@andopor*  \n*@razapalleira*"
+      "description": "- 10m Z2 Power Z2 HR Z2 Pace intensity=warmup\n\n2x\n- 1m Z3 Z3-4 HR 90-94% Pace \n- 2m Z2 Z2 HR Z2-Z1 Pace intensity=recovery\n\n- Pause 2m Z1 Z1 HR Z1 Pace\n\n2x\n- 10m Z4 Z3-4 HR 94-98% Pace\n- 3m Z2 Power Z2 HR Z2-Z1  Pace intensity=recovery\n\n- Cooldown: 5m Z2 Power Z2 HR Z2 Pace intensity=cooldown"
     },
     {
-      "id": 110657806,
+      "id": 110827073,
       "date": "2026-05-23",
-      "name": "Entrenamiento 09: Rodaje con Ritmo Dividido",
+      "name": "Training 09: Dauerlauf mit 2x Tempo",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 134,
+      "planned_tss": 115,
       "duration_hours": 1.8,
       "duration_formatted": "1h48m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "# Entrenamiento 9: Rodaje con Ritmo Dividido\n**Objetivo: Consolidaci\u00f3n del trabajo dividido para resistencia a ritmos de carrera.**<br>\n**___**\n## Descripci\u00f3n.<br>\n**Rodaje Continuo**: 45 minutos al 80-90% del umbral.<br>\n**Bloques de Ritmo**: \n- Primer bloque: 27 minutos al 80-90% pace<br>\n- Recuperaci\u00f3n: 10 minutos al 75-85% pace<br>\n- Segundo bloque: 21 minutos al 80-90% pace.<br>\n**Vuelta a la calma**: 5 minutos al 70-75% pace.<br>\n**Opciones de Ritmo**: Ajusta el porcentaje de ritmo a tu ritmo de competici\u00f3n manualmente.<br>\n**___**\n## C\u00f3digo.\n\n- Run: 45m 80-90% pace\n\n- Ritmo Bloque 1: 27m 85-95% pace\n\n- Recovery: 10m 75-85% pace\n\n- Ritmo Bloque 2: 21m 85-95% pace\n\n- Cooldown: 5m 70-75% pace\n\n**___**\n\n*@andopor*  \n*@razapalleira*"
+      "description": "- 45m Z2 Power Z2 HR Z2 Pace\n- 27m Z3 Power Z3 HR Z3 Pace\n- 10m Z2-Z1 Power Z2 HR Z2 Pace\n- 21m Z3 Power Z3 HR Z3 Pace\n- 5m Z1-Z2 Power Z1-Z2 HR Z1-Z2 Pace"
     },
     {
       "id": 109416100,
@@ -2244,8 +2244,8 @@
     "total_training_formatted": "10h26m",
     "total_tss": 603,
     "activities_count": 6,
-    "avg_hrv": 41.3,
-    "avg_resting_hr": 58.7
+    "avg_hrv": 42.9,
+    "avg_resting_hr": 58.3
   },
   "race_calendar": {
     "next_race": {
