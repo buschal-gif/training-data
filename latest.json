@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-21T21:07:06.493253",
+    "last_updated": "2026-05-21T22:39:01.271287",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -590,10 +590,10 @@
         },
         "stream_2": {
           "planned_tss_delta": null,
-          "hard_sessions_planned": 3,
+          "hard_sessions_planned": 2,
           "race_proximity": 24,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.6,
+          "plan_coverage_current_week": 0.4,
           "plan_coverage_next_week": 0.4
         },
         "data_quality": "good",
@@ -627,7 +627,7 @@
     "p_max": 722,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-21T21:07:06.491756",
+    "calculation_timestamp": "2026-05-21T22:39:01.269919",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -2003,30 +2003,17 @@
   ],
   "planned_workouts": [
     {
-      "id": 111602555,
+      "id": 111603146,
       "date": "2026-05-22",
-      "name": "Entrenamiento 06: 3x9' @98-100% pace",
+      "name": "Training 04: 2x16' @94-98% Pace",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 73,
-      "duration_hours": 0.98,
-      "duration_formatted": "59m",
-      "workout_summary": "10m | 2\u00d71m / 2m rec | 2m | 3\u00d79m / 3m rec | 5m",
-      "has_terrain": false,
-      "description": "# Entrenamiento 6: 3x9' @98-100% pace.\n**Objetivo: Sub Umbral**<br>\n**___**\n## Descripci\u00f3n.<br>  \n**Calentamiento**: 10 minutos a 70-80% pace.<br>\n**Activaciones**: 2 repeticiones de 1:00 minuto al 90-95% pace.<br>\n**Intervalos**: 3 repeticiones de 9 minutos al 98-100% pace con 3 minutos de recuperaci\u00f3n al 70-80% pace.<br>\n**Vuelta a la calma**: 5 minutos a 70-80% pace.<br>\n**Opciones densidad**: Ajusta en el c\u00f3digo la intensidad y el descanso deseado.<br>\n**___**\n## C\u00f3digo. \n\n- Warmup: 10m @ 70-80% pace\n\nActivaciones 2x\n- 1m @ 90-95% pace\n- 2m @ 70-80% pace\n\n- 2m @ 60-70% pace\n\n3x\n  - 9m @ 98-100% pace\n  - 3m @ 70-80% pace\n\n- Cooldown: 5m @ 70-80% pace\n\n**___**\n\n*@andopor*  \n*@razapalleira*"
-    },
-    {
-      "id": 111602565,
-      "date": "2026-05-22",
-      "name": "Entrenamiento 04: 2x16' @94-98% pace",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 76,
+      "planned_tss": 74,
       "duration_hours": 1.02,
       "duration_formatted": "1h1m",
       "workout_summary": "10m | 2\u00d71m / 2m rec | 2m | 2\u00d716m / 3m rec | 5m",
       "has_terrain": false,
-      "description": "# Entrenamiento 4: 2x16' @94-98% pace.\n**Objetivo: Tempo**<br>\n**___**\n## Descripci\u00f3n.<br>  \n**Calentamiento**: 10 minutos a 70-80% pace.<br>\n**Activaciones**: 2 repeticiones de 1:00 minuto al 90-94% pace.<br>\n**Intervalos**: 2 repeticiones de 16 minutos al 94-98% pace con 3 minutos de recuperaci\u00f3n al 70-80% pace.<br>\n**Vuelta a la calma**: 5 minutos a 70-80% pace.<br>\n**Opciones densidad**: Ajusta en el c\u00f3digo la intensidad y el descanso deseado.<br>\n**___**\n## C\u00f3digo. \n\n- Warmup: 10m @ 70-80% pace\n\nActivaciones 2x\n- 1m @ 90-94% pace\n- 2m @ 70-80% pace\n\n- 2m @ 60-70% pace\n\n2x\n  - 16m @ 94-98% pace\n  - 3m @ 70-80% pace\n\n- Cooldown: 5m @ 70-80% pace\n\n**___**\n\n*@andopor*  \n*@razapalleira*"
+      "description": "- 10m Z2 Power Z2 HR Z2 Pace intensity=warmup\n\n2x\n- 1m Z3 Z3-4 HR 90-94% Pace \n- 2m Z2 Z2 HR Z2-Z1 Pace intensity=recovery\n\n- Pause 2m Z1 Z1 HR Z1 Pace\n\n2x\n- 16m Z4 Z3-4 HR 94-98% Pace\n- 3m Z2 Power Z2 HR Z2-Z1  Pace intensity=recovery\n\n- Cooldown: 5m Z2 Power Z2 HR Z2 Pace intensity=cooldown"
     },
     {
       "id": 110827073,
@@ -2239,9 +2226,9 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 3,
-    "success": 2,
-    "patternA": 2,
+    "attempted": 2,
+    "success": 1,
+    "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 3,
     "bail_no_match": 1
