@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-28T18:26:57.259517",
+    "last_updated": "2026-05-28T20:41:09.405179",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -91,36 +91,36 @@
     "priority": 1,
     "signals": {
       "hrv": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 48.0,
-        "delta_pct": null
+        "status": "green",
+        "value": 43.0,
+        "baseline_7d": 46.7,
+        "delta_pct": -7.9
       },
       "rhr": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 56.6,
-        "delta_bpm": null
+        "status": "green",
+        "value": 55,
+        "baseline_7d": 56.3,
+        "delta_bpm": -1.3
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
-        "quality": null
+        "status": "amber",
+        "hours": 6.9,
+        "quality": 2
       },
       "acwr": {
         "status": "red",
         "value": 1.59
       },
       "ri": {
-        "status": "unavailable",
-        "value": null
+        "status": "green",
+        "value": 0.94
       }
     },
     "signal_summary": {
-      "green": 0,
-      "amber": 0,
+      "green": 3,
+      "amber": 1,
       "red": 1,
-      "unavailable": 4
+      "unavailable": 0
     },
     "phase_context": {
       "phase": "Build",
@@ -218,11 +218,11 @@
     "current_metrics": {
       "weight_kg": 69.3,
       "resting_hr": 55,
-      "hrv": null,
-      "sleep_quality": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_score": null,
+      "hrv": 43.0,
+      "sleep_quality": 2,
+      "sleep_hours": 6.9,
+      "sleep_formatted": "6h54m",
+      "sleep_score": 83.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -239,7 +239,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 886,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -251,13 +251,13 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": null,
-    "hrv_baseline_7d": 48.0,
-    "rhr_baseline_7d": 56.6,
-    "hrv_baseline_28d": 45.4,
-    "rhr_baseline_28d": 57.2,
-    "latest_hrv": null,
-    "latest_rhr": null,
+    "recovery_index": 0.94,
+    "hrv_baseline_7d": 46.7,
+    "rhr_baseline_7d": 56.3,
+    "hrv_baseline_28d": 45.2,
+    "rhr_baseline_28d": 57.1,
+    "latest_hrv": 43.0,
+    "latest_rhr": 55,
     "acwr": 1.59,
     "acwr_interpretation": "danger",
     "monotony": 0.7,
@@ -269,7 +269,7 @@
     "multi_sport_detected": true,
     "strain": 519.0,
     "stress_tolerance": 7.4,
-    "load_recovery_ratio": null,
+    "load_recovery_ratio": 7.9,
     "tss_7d_total": 741.0,
     "tss_28d_total": 1864.0,
     "zone_distribution_7d": {
@@ -611,10 +611,10 @@
     "p_max": 720,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-28T18:26:57.086933",
+    "calculation_timestamp": "2026-05-28T20:41:09.403752",
     "data_quality": {
-      "hrv_data_points": 5,
-      "rhr_data_points": 5,
+      "hrv_data_points": 7,
+      "rhr_data_points": 7,
       "activities_7d": 5,
       "activities_28d": 24,
       "planned_workouts_7d": 4,
@@ -676,7 +676,7 @@
         }
       },
       "has_intervals": true,
-      "description": "Heut ging\u2019s nicht um Tempo oder Watt, sondern um Natur, Grenzen verschieben und irgendwie ankommen. \n\nG\u00e4bs H\u00fcgelgeb\u00fcgel 2026 im Odenwald, vielleicht w\u00e4r\u2019s eins gewesen. Anstiege, steile Rampen, einsame Pfade - nur das Kopfsteinpflaster hat gefehlt. \ud83d\ude05\n\nFrankenstein (370 m), Neunkircher H\u00f6he (605 m), Beim Schnappgalgen (450 m), Dehnbuche (452 m), Hofgut Rodenstein (313 m), Nonroder H\u00f6he (351 m) | qu\u00e4ldich-Passjagd +2."
+      "description": "Heut ging\u2019s nicht um Tempo oder Watt, sondern um Natur, Grenzen verschieben und irgendwie ankommen. Hat geklappt \ud83e\udd75\n\nG\u00e4bs H\u00fcgelgeb\u00fcgel 2026 im Odenwald, vielleicht w\u00e4r\u2019s eins gewesen. Anstiege, steile Rampen, einsame Pfade - nur das Kopfsteinpflaster hat gefehlt. \ud83d\ude05\n\nFrankenstein (370 m), Neunkircher H\u00f6he (605 m), Beim Schnappgalgen (450 m), Dehnbuche (452 m), Hofgut Rodenstein (313 m), Nonroder H\u00f6he (351 m) | qu\u00e4ldich-Passjagd +2."
     },
     {
       "id": "i152327195",
@@ -1947,7 +1947,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 12840,
+      "steps": 21558,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1960,13 +1960,13 @@
     {
       "date": "2026-05-27",
       "weight_kg": null,
-      "resting_hr": null,
-      "hrv_rmssd": null,
+      "resting_hr": 56,
+      "hrv_rmssd": 44.0,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
+      "sleep_hours": 7.13,
+      "sleep_formatted": "7h8m",
+      "sleep_quality": 2,
+      "sleep_score": 80.0,
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
@@ -1986,7 +1986,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 10831,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1999,13 +1999,13 @@
     {
       "date": "2026-05-28",
       "weight_kg": null,
-      "resting_hr": null,
-      "hrv_rmssd": null,
+      "resting_hr": 55,
+      "hrv_rmssd": 43.0,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
+      "sleep_hours": 6.9,
+      "sleep_formatted": "6h54m",
+      "sleep_quality": 2,
+      "sleep_score": 83.0,
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
@@ -2025,7 +2025,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 886,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2247,8 +2247,8 @@
     "total_training_formatted": "12h10m",
     "total_tss": 741,
     "activities_count": 5,
-    "avg_hrv": 48.0,
-    "avg_resting_hr": 56.6
+    "avg_hrv": 46.7,
+    "avg_resting_hr": 56.3
   },
   "race_calendar": {
     "next_race": {
