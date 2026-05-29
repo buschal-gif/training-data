@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-29T10:33:40.724052",
+    "last_updated": "2026-05-29T13:47:47.176505",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -619,7 +619,7 @@
     "p_max": 720,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-29T10:33:40.722623",
+    "calculation_timestamp": "2026-05-29T13:47:47.175056",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1926,12 +1926,12 @@
       "name": "Recovery Run",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 49,
+      "planned_tss": 42,
       "duration_hours": 0.75,
       "duration_formatted": "45m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "- 45m 6:00/km pace easy recovery"
+      "description": "- 45m Z2 Pace"
     },
     {
       "id": 112973687,
@@ -1939,12 +1939,12 @@
       "name": "Long Endurance Run",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 104,
+      "planned_tss": 94,
       "duration_hours": 1.67,
       "duration_formatted": "1h40m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "- 100m 6:00-6:15/km pace steady endurance"
+      "description": "- 100m Z2 pace steady endurance"
     },
     {
       "id": 112973291,
@@ -1952,12 +1952,12 @@
       "name": "Recovery Run",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 49,
+      "planned_tss": 42,
       "duration_hours": 0.75,
       "duration_formatted": "45m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "- 45m 6:00/km pace easy recovery"
+      "description": "- 45m Z2 Pace"
     },
     {
       "id": 112973292,
@@ -1965,12 +1965,12 @@
       "name": "Recovery Run",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 49,
+      "planned_tss": 42,
       "duration_hours": 0.75,
       "duration_formatted": "45m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "- 45m 6:00/km pace easy recovery"
+      "description": "- 45m Z2 Pace"
     },
     {
       "id": 112973293,
@@ -1978,12 +1978,12 @@
       "name": "Recovery Run",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 49,
+      "planned_tss": 42,
       "duration_hours": 0.75,
       "duration_formatted": "45m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "- 45m 6:00/km pace easy recovery"
+      "description": "- 45m Z2 Pace"
     },
     {
       "id": 112973294,
@@ -1991,12 +1991,12 @@
       "name": "Race Pace Block",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 11,
-      "duration_hours": 0.17,
-      "duration_formatted": "10m",
-      "workout_summary": null,
+      "planned_tss": 90,
+      "duration_hours": 1.21,
+      "duration_formatted": "1h12m30s",
+      "workout_summary": "10m | 3\u00d715m30s / 2m rec | 10m",
       "has_terrain": false,
-      "description": "- 10m 6:00/km pace easy\\n- 3x 3km 5:10/km pace steady\\n- 2m 6:30/km pace recovery\\n- 10m 6:00/km pace easy"
+      "description": "- 10m Z2 Pace\n\n3x\n- 3km 5:10/km pace \n- 2m Z2-Z1 Pace\n\n- 10m Z2 pace"
     },
     {
       "id": 112973295,
@@ -2030,12 +2030,12 @@
       "name": "Long Easy Run",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 81,
+      "planned_tss": 70,
       "duration_hours": 1.25,
       "duration_formatted": "1h15m",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "- 75m 6:00/km pace steady"
+      "description_preview": "- 75m Z2 Pace"
     },
     {
       "id": 109416102,
@@ -2082,12 +2082,12 @@
       "name": "Race Pace Priming",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 11,
-      "duration_hours": 0.17,
-      "duration_formatted": "10m",
+      "planned_tss": 47,
+      "duration_hours": 0.69,
+      "duration_formatted": "41m29s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "- 10m 6:00/km pace easy\\n- 4km 5:10/km pace steady\\n- 10m 6:00/km pace easy"
+      "description_preview": "- 10m Z2 pace easy\\n\n- 4km Z3-Z4 pace steady\\n\n- 10m Z2 pace easy"
     },
     {
       "id": 112973300,
@@ -2100,7 +2100,7 @@
       "duration_formatted": "30m",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "- 30m 6:00/km pace easy"
+      "description_preview": "- 30m Z2"
     },
     {
       "id": 112973301,
@@ -2121,12 +2121,11 @@
       "name": "Leg Priming",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 18,
-      "duration_hours": 0.33,
-      "duration_formatted": "20m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "- 20m 6:00/km pace easy\\n- 3x 1m 5:00/km pace fast strides\\n- 1m 6:30/km pace recovery"
+      "planned_tss": 33,
+      "duration_hours": 0.57,
+      "duration_formatted": "34m",
+      "workout_summary": "20m | 3\u00d71m / 1m rec | 8m",
+      "has_terrain": false
     },
     {
       "id": 112973303,
@@ -2275,11 +2274,11 @@
   ],
   "workout_summary_stats": {
     "attempted": 11,
-    "success": 0,
-    "patternA": 0,
+    "success": 2,
+    "patternA": 2,
     "patternB": 0,
     "bail_no_workout_doc": 6,
-    "bail_no_match": 11
+    "bail_no_match": 9
   },
   "weekly_summary": {
     "total_training_hours": 11.14,
