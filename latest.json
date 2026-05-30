@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-30T15:34:06.716639",
+    "last_updated": "2026-05-30T16:40:10.277846",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -165,8 +165,8 @@
       "ctl": 62.61,
       "atl": 78.02,
       "tsb": -15.41,
-      "ramp_rate": 5.41,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "ramp_rate": 1.83,
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "eftp": 213.6,
@@ -233,7 +233,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 4456,
+      "steps": 6431,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -542,17 +542,12 @@
         }
       }
     },
-    "consistency_index": 0.0,
+    "consistency_index": null,
     "consistency_details": {
-      "planned_days": 1,
+      "planned_days": 0,
       "completed_days": 1,
       "matched_days": 0,
-      "planned_dates": [
-        "2026-05-30"
-      ],
-      "completed_dates": [
-        "2026-05-28"
-      ]
+      "note": "No planned workouts in period"
     },
     "phase_detection": {
       "phase": "Build",
@@ -570,7 +565,7 @@
           "hard_sessions_planned": 0,
           "race_proximity": 15,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.4,
+          "plan_coverage_current_week": 0.2,
           "plan_coverage_next_week": 1.4
         },
         "data_quality": "good",
@@ -604,13 +599,13 @@
     "p_max": 720,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-30T15:34:06.715102",
+    "calculation_timestamp": "2026-05-30T16:40:10.276457",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 3,
       "activities_28d": 20,
-      "planned_workouts_7d": 4,
+      "planned_workouts_7d": 3,
       "ftp_history_days": {
         "indoor": 69,
         "outdoor": 69
@@ -1858,7 +1853,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 4456,
+      "steps": 6431,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1870,19 +1865,6 @@
     }
   ],
   "planned_workouts": [
-    {
-      "id": 112973289,
-      "date": "2026-05-30",
-      "name": "Recovery Run",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 42,
-      "duration_hours": 0.75,
-      "duration_formatted": "45m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "- 45m Z2 Pace"
-    },
     {
       "id": 112973687,
       "date": "2026-05-31",
@@ -2223,12 +2205,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 11,
+    "attempted": 10,
     "success": 2,
     "patternA": 2,
     "patternB": 0,
     "bail_no_workout_doc": 6,
-    "bail_no_match": 9
+    "bail_no_match": 8
   },
   "weekly_summary": {
     "total_training_hours": 9.34,
@@ -2261,16 +2243,6 @@
         "distance_meters": 21100.0,
         "has_terrain": false,
         "start_time": "08:15"
-      },
-      {
-        "name": "Rad am Ring Jedermannrennen 150",
-        "date": "2026-07-26",
-        "category": "RACE_B",
-        "type": "Ride",
-        "days_until": 57,
-        "moving_time_seconds": null,
-        "distance_meters": null,
-        "has_terrain": false
       }
     ],
     "taper_alert": {
