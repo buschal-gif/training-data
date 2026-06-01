@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-01T03:30:02.429562",
+    "last_updated": "2026-06-01T09:00:47.381877",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -578,7 +578,7 @@
           "hard_sessions_planned": 2,
           "race_proximity": 13,
           "next_week_load": null,
-          "plan_coverage_current_week": 1.6,
+          "plan_coverage_current_week": 1.4,
           "plan_coverage_next_week": 1.8
         },
         "data_quality": "good",
@@ -614,13 +614,13 @@
     "p_max": 720,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-01T03:30:02.428094",
+    "calculation_timestamp": "2026-06-01T09:00:47.380415",
     "data_quality": {
       "hrv_data_points": 5,
       "rhr_data_points": 5,
       "activities_7d": 4,
       "activities_28d": 19,
-      "planned_workouts_7d": 3,
+      "planned_workouts_7d": 2,
       "ftp_history_days": {
         "indoor": 71,
         "outdoor": 71
@@ -1815,25 +1815,12 @@
       "name": "Training 11: Dauerlauf mit 2x Tempo",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 158,
-      "duration_hours": 2.17,
-      "duration_formatted": "2h10m",
+      "planned_tss": 157,
+      "duration_hours": 2.16,
+      "duration_formatted": "2h9m32s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "- 55m Z2 Power Z2 HR Z2 Pace\n- 33m Z3 Power Z3 HR Z3 Pace\n- 10m Z2-Z1 Power Z2 HR Z2 Pace\n- 27m Z3 Power Z3 HR Z3 Pace\n- 5m Z1-Z2 Power Z1-Z2 HR Z1-Z2 Pace"
-    },
-    {
-      "id": 113445990,
-      "date": "2026-06-01",
-      "name": "Dauerlauf",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 127,
-      "duration_hours": 2.25,
-      "duration_formatted": "2h15m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "- 2h15m Z2 Pace"
+      "description": "- 8km Z2 Power Z2 HR Z2 Pace\n- 5.9km Z3 Power Z3 HR Z3 Pace\n- 1.5km Z2-Z1 Power Z2 HR Z2 Pace\n- 4.8km Z3 Power Z3 HR Z3 Pace\n- 1.2km Z1-Z2 Power Z1-Z2 HR Z1-Z2 Pace"
     },
     {
       "id": 112973292,
@@ -2175,12 +2162,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 10,
+    "attempted": 9,
     "success": 2,
     "patternA": 2,
     "patternB": 0,
     "bail_no_workout_doc": 6,
-    "bail_no_match": 8
+    "bail_no_match": 7
   },
   "weekly_summary": {
     "total_training_hours": 9.34,
