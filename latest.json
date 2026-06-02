@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-02T19:35:49.423512",
+    "last_updated": "2026-06-02T22:09:44.277098",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -594,8 +594,8 @@
           "hard_sessions_planned": 1,
           "race_proximity": 12,
           "next_week_load": null,
-          "plan_coverage_current_week": 1.2,
-          "plan_coverage_next_week": 1.8
+          "plan_coverage_current_week": 0.8,
+          "plan_coverage_next_week": 1.4
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -630,7 +630,7 @@
     "p_max": 720,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-02T19:35:49.422012",
+    "calculation_timestamp": "2026-06-02T22:09:44.275505",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1858,12 +1858,12 @@
       "name": "Race Pace Block",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 90,
-      "duration_hours": 1.21,
-      "duration_formatted": "1h12m30s",
-      "workout_summary": "10m | 3\u00d715m30s / 2m rec | 10m",
+      "planned_tss": 92,
+      "duration_hours": 1.19,
+      "duration_formatted": "1h11m6s",
+      "workout_summary": "10m | 3\u00d715m2s / 2m rec | 10m",
       "has_terrain": false,
-      "description": "- 10m Z2 Pace\n\n3x\n- 3km 5:10/km pace \n- 2m Z2-Z1 Pace\n\n- 10m Z2 pace"
+      "description": "- 10m Z2 Pace\n\n3x\n- 3km Z4 pace \n- 2m Z2-Z1 Pace\n\n- 10m Z2 pace"
     },
     {
       "id": 112973295,
@@ -1877,32 +1877,6 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": "- OFF"
-    },
-    {
-      "id": 112973296,
-      "date": "2026-06-06",
-      "name": "Endurance Run",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 71,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "- 60m 5:45/km pace steady"
-    },
-    {
-      "id": 112973297,
-      "date": "2026-06-07",
-      "name": "Long Easy Run",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 70,
-      "duration_hours": 1.25,
-      "duration_formatted": "1h15m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "- 75m Z2 Pace"
     },
     {
       "id": 109416102,
@@ -1957,19 +1931,6 @@
       "description": "- 10m Z2 pace easy\\n\n- 4km Z3-Z4 pace steady\\n\n- 10m Z2 pace easy"
     },
     {
-      "id": 112973300,
-      "date": "2026-06-10",
-      "name": "Easy Run",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 32,
-      "duration_hours": 0.5,
-      "duration_formatted": "30m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "- 30m Z2"
-    },
-    {
       "id": 112973301,
       "date": "2026-06-11",
       "name": "Complete Rest",
@@ -1981,18 +1942,6 @@
       "workout_summary": null,
       "has_terrain": false,
       "description_preview": "- OFF"
-    },
-    {
-      "id": 112973302,
-      "date": "2026-06-12",
-      "name": "Leg Priming",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 33,
-      "duration_hours": 0.57,
-      "duration_formatted": "34m",
-      "workout_summary": "20m | 3\u00d71m / 1m rec | 8m",
-      "has_terrain": false
     },
     {
       "id": 112973303,
@@ -2166,12 +2115,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 8,
-    "success": 2,
-    "patternA": 2,
+    "attempted": 4,
+    "success": 1,
+    "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 6,
-    "bail_no_match": 6
+    "bail_no_match": 3
   },
   "weekly_summary": {
     "total_training_hours": 10.32,
