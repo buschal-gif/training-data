@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-04T13:45:37.822593",
+    "last_updated": "2026-06-04T16:43:35.381556",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -187,8 +187,8 @@
       "ctl": 61.81,
       "atl": 65.46,
       "tsb": -3.65,
-      "ramp_rate": 6.15,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "ramp_rate": -3.85,
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "eftp": 213.4,
@@ -566,13 +566,12 @@
     },
     "consistency_index": 0.0,
     "consistency_details": {
-      "planned_days": 3,
+      "planned_days": 2,
       "completed_days": 0,
       "matched_days": 0,
       "planned_dates": [
         "2026-06-01",
-        "2026-06-03",
-        "2026-06-04"
+        "2026-06-03"
       ],
       "completed_dates": []
     },
@@ -590,11 +589,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.64,
+          "planned_tss_delta": 1.27,
           "hard_sessions_planned": 2,
           "race_proximity": 10,
           "next_week_load": 0.59,
-          "plan_coverage_current_week": 0.8,
+          "plan_coverage_current_week": 0.6,
           "plan_coverage_next_week": 1.8
         },
         "data_quality": "good",
@@ -630,13 +629,13 @@
     "p_max": 720,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-04T13:45:37.821123",
+    "calculation_timestamp": "2026-06-04T16:43:35.380023",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 3,
       "activities_28d": 20,
-      "planned_workouts_7d": 4,
+      "planned_workouts_7d": 3,
       "ftp_history_days": {
         "indoor": 74,
         "outdoor": 74
@@ -1879,19 +1878,6 @@
   ],
   "planned_workouts": [
     {
-      "id": 112973293,
-      "date": "2026-06-04",
-      "name": "Recovery Run",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 42,
-      "duration_hours": 0.75,
-      "duration_formatted": "45m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "- 45m Z2 Pace"
-    },
-    {
       "id": 112973295,
       "date": "2026-06-05",
       "name": "Complete Rest",
@@ -2191,12 +2177,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 7,
+    "attempted": 6,
     "success": 5,
     "patternA": 5,
     "patternB": 0,
     "bail_no_workout_doc": 5,
-    "bail_no_match": 2
+    "bail_no_match": 1
   },
   "weekly_summary": {
     "total_training_hours": 3.2,
