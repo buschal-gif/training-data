@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-05T10:35:53.810811",
+    "last_updated": "2026-06-05T13:40:42.150870",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -594,7 +594,7 @@
           "race_proximity": 9,
           "next_week_load": 0.59,
           "plan_coverage_current_week": 0.6,
-          "plan_coverage_next_week": 1.8
+          "plan_coverage_next_week": 1.6
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -629,7 +629,7 @@
     "p_max": 719,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-05T10:35:53.809386",
+    "calculation_timestamp": "2026-06-05T13:40:42.149355",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -1950,19 +1950,6 @@
       "description": "- 10m  Z2 Z2 HR Z2 Pace\n\n1x\n- 2m Z4 Z3 HR Z4 Pace\n- 2m Z2 Z2 HR Z2-Z1 Pace  \n\n2x\n- 30s Z6 Z4 HR Z6 Pace \n- 2m Z2 Z2 HR Z2-Z1 Pace\n\n- Cooldown: 5m Z1-Z2 Z1-Z2 HR Z1-Z2 Pace intensity=cooldown"
     },
     {
-      "id": 112973303,
-      "date": "2026-06-13",
-      "name": "Complete Rest",
-      "type": "NOTE",
-      "sport_type": null,
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "- OFF"
-    },
-    {
       "id": 113986828,
       "date": "2026-06-13",
       "name": "Aktivierung 02",
@@ -2137,7 +2124,7 @@
     "success": 5,
     "patternA": 5,
     "patternB": 0,
-    "bail_no_workout_doc": 5,
+    "bail_no_workout_doc": 4,
     "bail_no_match": 1
   },
   "weekly_summary": {
