@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-06T15:38:33.504439",
+    "last_updated": "2026-06-06T16:44:55.190479",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -248,7 +248,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 23450,
+      "steps": 23642,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -583,10 +583,10 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 2.01,
+          "planned_tss_delta": 1.93,
           "hard_sessions_planned": 2,
           "race_proximity": 8,
-          "next_week_load": 0.5,
+          "next_week_load": 0.49,
           "plan_coverage_current_week": 0.4,
           "plan_coverage_next_week": 1.6
         },
@@ -623,7 +623,7 @@
     "p_max": 718,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 49.0,
-    "calculation_timestamp": "2026-06-06T15:38:33.299088",
+    "calculation_timestamp": "2026-06-06T16:44:55.189076",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1902,7 +1902,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 23450,
+      "steps": 23642,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1930,15 +1930,15 @@
     {
       "id": 113986684,
       "date": "2026-06-07",
-      "name": "Training 03: 2x14' @94-98% Pace",
+      "name": "Training 03: 2x10' @94-98% Pace",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 56,
-      "duration_hours": 0.82,
-      "duration_formatted": "49m",
-      "workout_summary": "10m | 2\u00d71m / 2m rec | 2m | 2\u00d710m / 3m rec | 5m",
+      "planned_tss": 51,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": "10m | 2\u00d71m / 2m rec | 2m | 2\u00d78m / 3m rec | 5m",
       "has_terrain": false,
-      "description": "94-98% Pace (Tempo)\n\n- Warmup 10m Z2 Power Z2 HR Z2 Pace intensity=warmup\n\nAktivierung 2x\n- 1m Z3 Z3-4 HR 90-94% Pace \n- 2m Z2 Z2 HR Z2 Pace \n\n- 2m Z1 Z1 HR Z2-Z1 Pace\n\n2x\n- 10m Z4 Z3-4 HR 92-96% Pace\n- 3m Z2 Power Z2 HR Z2 Pace \n\n- 5m Z2 Power Z2 HR Z2 Pace"
+      "description": "94-98% Pace (Tempo)\n\n- Warmup 10m Z2 Power Z2 HR Z2 Pace intensity=warmup\n\nAktivierung 2x\n- 1m Z3 Z3-4 HR 90-94% Pace \n- 2m Z2 Z2 HR Z2 Pace \n\n- 2m Z1 Z1 HR Z2-Z1 Pace\n\n2x\n- 8m Z4 Z3-4 HR 92-96% Pace\n- 3m Z2 Power Z2 HR Z2 Pace \n\n- 5m Z2 Power Z2 HR Z2 Pace"
     },
     {
       "id": 109416102,
@@ -1985,12 +1985,12 @@
       "name": "Training 02: 2x4x30'' HIIT",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 31,
-      "duration_hours": 0.53,
-      "duration_formatted": "32m",
-      "workout_summary": "7m | 4\u00d78s / 1m52s rec | 4\u00d730s / 30s rec | 2m | 4\u00d730s / 30s rec | 7m",
+      "planned_tss": 28,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m",
+      "workout_summary": "7m | 4\u00d78s / 1m52s rec | 3\u00d730s / 30s rec | 2m | 3\u00d730s / 30s rec | 7m",
       "has_terrain": false,
-      "description": "110-115% Pace (SuperVO2Max)\n\n- Warmup 7m Z2 Power Z2 HR Z2 Pace intensity=warmup\n\nAktivierung 4x\n- Aktivierung 8s Z6 Z3-4 HR 130-150% Pace \n- Erholung 1m52s Z1 Z2 HR Z1 Pace intensity=recovery\n\n4x \n- MidVO2Max 30s Z6 Z3-4 HR 110-115% Pace\n- Erholung 30s Z1 Z1 HR Z1 Pace intensity=recovery\n\n- 2m Z1-Z2 Z1-Z2 HR Z1-Z2 Pace\n\n4x \n- MidVO2Max 30s Z6 Z3-4 HR 110-115% Pace\n- Erholung 30s Z1 Z1 HR Z1 Pace intensity=recovery\n\n\n- Laufen 7m Z2 Power Z2 HR Z2 Pace"
+      "description": "110-115% Pace (SuperVO2Max)\n\n- Warmup 7m Z2 Power Z2 HR Z2 Pace intensity=warmup\n\nAktivierung 4x\n- Aktivierung 8s Z6 Z3-4 HR 130-150% Pace \n- Erholung 1m52s Z1 Z2 HR Z1 Pace intensity=recovery\n\n3x \n- MidVO2Max 30s Z6 Z3-4 HR 110-115% Pace\n- Erholung 30s Z1 Z1 HR Z1 Pace intensity=recovery\n\n- 2m Z1-Z2 Z1-Z2 HR Z1-Z2 Pace\n\n3x \n- MidVO2Max 30s Z6 Z3-4 HR 110-115% Pace\n- Erholung 30s Z1 Z1 HR Z1 Pace intensity=recovery\n\n\n- Laufen 7m Z2 Power Z2 HR Z2 Pace"
     },
     {
       "id": 113986759,
