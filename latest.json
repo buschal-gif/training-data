@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-05T22:57:32.502841",
+    "last_updated": "2026-06-06T00:03:30.355802",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -102,13 +102,13 @@
       "hrv": {
         "status": "unavailable",
         "value": null,
-        "baseline_7d": 51.3,
+        "baseline_7d": 50.2,
         "delta_pct": null
       },
       "rhr": {
         "status": "unavailable",
         "value": null,
-        "baseline_7d": 53.8,
+        "baseline_7d": 53.6,
         "delta_bpm": null
       },
       "sleep": {
@@ -126,7 +126,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 3.6
+        "value": 9.7
       }
     },
     "signal_summary": {
@@ -184,17 +184,17 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 60.35,
-      "atl": 56.74,
-      "tsb": 3.61,
-      "ramp_rate": -3.76,
-      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+      "ctl": 58.93,
+      "atl": 49.19,
+      "tsb": 9.74,
+      "ramp_rate": -3.67,
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
-      "eftp": 213.1,
-      "w_prime": 17736,
+      "eftp": 212.9,
+      "w_prime": 17718,
       "w_prime_kj": 17.7,
-      "p_max": 719,
+      "p_max": 718,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -268,10 +268,10 @@
   },
   "derived_metrics": {
     "recovery_index": null,
-    "hrv_baseline_7d": 51.3,
-    "rhr_baseline_7d": 53.8,
-    "hrv_baseline_28d": 46.7,
-    "rhr_baseline_28d": 56.2,
+    "hrv_baseline_7d": 50.2,
+    "rhr_baseline_7d": 53.6,
+    "hrv_baseline_28d": 47.1,
+    "rhr_baseline_28d": 56.1,
     "latest_hrv": null,
     "latest_rhr": null,
     "acwr": 0.58,
@@ -389,12 +389,12 @@
       "power_curve_delta": {
         "window_days": 28,
         "current_window": {
-          "start": "2026-05-09",
-          "end": "2026-06-05"
+          "start": "2026-05-10",
+          "end": "2026-06-06"
         },
         "previous_window": {
-          "start": "2026-04-11",
-          "end": "2026-05-08"
+          "start": "2026-04-12",
+          "end": "2026-05-09"
         },
         "anchors": {
           "5s": {
@@ -429,12 +429,12 @@
       "hr_curve_delta": {
         "window_days": 28,
         "current_window": {
-          "start": "2026-05-09",
-          "end": "2026-06-05"
+          "start": "2026-05-10",
+          "end": "2026-06-06"
         },
         "previous_window": {
-          "start": "2026-04-11",
-          "end": "2026-05-08"
+          "start": "2026-04-12",
+          "end": "2026-05-09"
         },
         "anchors": {
           "60s": {
@@ -464,8 +464,8 @@
       "sustainability_profile": {
         "window": {
           "days": 42,
-          "start": "2026-04-25",
-          "end": "2026-06-05"
+          "start": "2026-04-26",
+          "end": "2026-06-06"
         },
         "weight_kg": 69.3,
         "weight_source": "wellness_extended",
@@ -558,7 +558,7 @@
           },
           "coverage_ratio": 1.0,
           "ftp_used": 214,
-          "w_prime_used": 17736,
+          "w_prime_used": 17718,
           "ftp_staleness_days": 0,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
@@ -566,12 +566,13 @@
     },
     "consistency_index": 0.0,
     "consistency_details": {
-      "planned_days": 2,
+      "planned_days": 3,
       "completed_days": 0,
       "matched_days": 0,
       "planned_dates": [
         "2026-06-01",
-        "2026-06-03"
+        "2026-06-03",
+        "2026-06-06"
       ],
       "completed_dates": []
     },
@@ -589,11 +590,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.69,
+          "planned_tss_delta": 2.54,
           "hard_sessions_planned": 2,
-          "race_proximity": 9,
+          "race_proximity": 8,
           "next_week_load": 0.59,
-          "plan_coverage_current_week": 0.6,
+          "plan_coverage_current_week": 0.4,
           "plan_coverage_next_week": 1.6
         },
         "data_quality": "good",
@@ -623,22 +624,22 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 213.1,
-    "w_prime": 17736,
+    "eftp": 212.9,
+    "w_prime": 17718,
     "w_prime_kj": 17.7,
-    "p_max": 719,
+    "p_max": 718,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-05T22:57:32.501460",
+    "calculation_timestamp": "2026-06-06T00:03:30.354382",
     "data_quality": {
-      "hrv_data_points": 6,
-      "rhr_data_points": 6,
+      "hrv_data_points": 5,
+      "rhr_data_points": 5,
       "activities_7d": 4,
       "activities_28d": 20,
-      "planned_workouts_7d": 3,
+      "planned_workouts_7d": 4,
       "ftp_history_days": {
-        "indoor": 75,
-        "outdoor": 75
+        "indoor": 76,
+        "outdoor": 76
       }
     }
   },
@@ -868,7 +869,7 @@
           "z7_time": 31
         }
       },
-      "has_intervals": true,
+      "has_intervals": false,
       "description": "Heut ging\u2019s nicht um Tempo oder Watt, sondern um Natur, Grenzen verschieben und irgendwie ankommen. Hat geklappt \ud83e\udd75\n\nG\u00e4bs H\u00fcgelgeb\u00fcgel 2026 im Odenwald, vielleicht w\u00e4r\u2019s eins gewesen. Anstiege, steile Rampen, einsame Pfade - nur das Kopfsteinpflaster hat gefehlt. \ud83d\ude05\n\nFrankenstein (370 m), Neunkircher H\u00f6he (605 m), Beim Schnappgalgen (450 m), Dehnbuche (452 m), Hofgut Rodenstein (313 m), Nonroder H\u00f6he (351 m) | qu\u00e4ldich-Passjagd +2."
     },
     {
@@ -1593,45 +1594,6 @@
   ],
   "wellness_data": [
     {
-      "date": "2026-05-30",
-      "weight_kg": null,
-      "resting_hr": 55,
-      "hrv_rmssd": 57.0,
-      "hrv_sdnn": null,
-      "sleep_hours": 7.25,
-      "sleep_formatted": "7h15m",
-      "sleep_quality": 2,
-      "sleep_score": 85.0,
-      "mental_energy": null,
-      "avg_sleeping_hr": null,
-      "vo2max": null,
-      "fatigue": null,
-      "soreness": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "hydration": null,
-      "spO2": null,
-      "blood_glucose": null,
-      "systolic": null,
-      "diastolic": null,
-      "baevsky_si": null,
-      "lactate": null,
-      "respiration": null,
-      "body_fat_pct": null,
-      "abdomen_cm": null,
-      "steps": 9574,
-      "hydration_volume_l": null,
-      "kcal_consumed": null,
-      "carbohydrates_g": null,
-      "protein_g": null,
-      "fat_g": null,
-      "menstrual_phase": null,
-      "menstrual_phase_predicted": null,
-      "readiness": null
-    },
-    {
       "date": "2026-05-31",
       "weight_kg": null,
       "resting_hr": 54,
@@ -1864,22 +1826,48 @@
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
       "readiness": null
+    },
+    {
+      "date": "2026-06-06",
+      "weight_kg": null,
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_formatted": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null,
+      "fatigue": null,
+      "soreness": null,
+      "stress": null,
+      "mood": null,
+      "motivation": null,
+      "injury": null,
+      "hydration": null,
+      "spO2": null,
+      "blood_glucose": null,
+      "systolic": null,
+      "diastolic": null,
+      "baevsky_si": null,
+      "lactate": null,
+      "respiration": null,
+      "body_fat_pct": null,
+      "abdomen_cm": null,
+      "steps": null,
+      "hydration_volume_l": null,
+      "kcal_consumed": null,
+      "carbohydrates_g": null,
+      "protein_g": null,
+      "fat_g": null,
+      "menstrual_phase": null,
+      "menstrual_phase_predicted": null,
+      "readiness": null
     }
   ],
   "planned_workouts": [
-    {
-      "id": 112973295,
-      "date": "2026-06-05",
-      "name": "Complete Rest",
-      "type": "NOTE",
-      "sport_type": null,
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "- OFF"
-    },
     {
       "id": 113984401,
       "date": "2026-06-06",
@@ -1994,7 +1982,8 @@
       "duration_hours": 0.31,
       "duration_formatted": "18m44s",
       "workout_summary": "5m48s | 4\u00d722s / 1m25s rec | 5m48s",
-      "has_terrain": false
+      "has_terrain": false,
+      "description": "- 0.9 km Z2 (238-286w) Z2 HR (134-151bpm) Z2 Pace (6:03-6:54)\n\n4x\n- 100 mtr Z6 (375-417w) Z5 HR (171-185bpm) Z7 Pace (3:31-3:52)\n- 200 mtr Z1-Z2 (189-286w) Z1-Z2 HR (106-151bpm) Z1-Z2 Pace (6:03-8:38)\n\n- 0.9 km Z2 (238-286w) Z2 HR (134-151bpm) Z2 Pace (6:03-6:54)"
     },
     {
       "id": 94364821,
@@ -2159,7 +2148,7 @@
     "success": 5,
     "patternA": 5,
     "patternB": 0,
-    "bail_no_workout_doc": 4,
+    "bail_no_workout_doc": 3,
     "bail_no_match": 1
   },
   "weekly_summary": {
@@ -2167,8 +2156,8 @@
     "total_training_formatted": "3h12m",
     "total_tss": 279,
     "activities_count": 4,
-    "avg_hrv": 51.3,
-    "avg_resting_hr": 53.8
+    "avg_hrv": 50.2,
+    "avg_resting_hr": 53.6
   },
   "race_calendar": {
     "next_race": {
@@ -2176,7 +2165,7 @@
       "date": "2026-06-14",
       "category": "RACE_B",
       "type": "Run",
-      "days_until": 9,
+      "days_until": 8,
       "moving_time_seconds": 6900,
       "distance_meters": 21100.0,
       "has_terrain": false,
@@ -2188,7 +2177,7 @@
         "date": "2026-06-14",
         "category": "RACE_B",
         "type": "Run",
-        "days_until": 9,
+        "days_until": 8,
         "moving_time_seconds": 6900,
         "distance_meters": 21100.0,
         "has_terrain": false,
