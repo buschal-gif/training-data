@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-06T16:44:55.190479",
+    "last_updated": "2026-06-06T17:49:01.627853",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -583,7 +583,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.93,
+          "planned_tss_delta": 2.02,
           "hard_sessions_planned": 2,
           "race_proximity": 8,
           "next_week_load": 0.49,
@@ -623,7 +623,7 @@
     "p_max": 718,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 49.0,
-    "calculation_timestamp": "2026-06-06T16:44:55.189076",
+    "calculation_timestamp": "2026-06-06T17:49:01.626453",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1933,12 +1933,12 @@
       "name": "Training 03: 2x10' @94-98% Pace",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 51,
-      "duration_hours": 0.75,
-      "duration_formatted": "45m",
-      "workout_summary": "10m | 2\u00d71m / 2m rec | 2m | 2\u00d78m / 3m rec | 5m",
+      "planned_tss": 57,
+      "duration_hours": 0.82,
+      "duration_formatted": "49m",
+      "workout_summary": "10m | 2\u00d71m / 2m rec | 2m | 2\u00d710m / 3m rec | 5m",
       "has_terrain": false,
-      "description": "94-98% Pace (Tempo)\n\n- Warmup 10m Z2 Power Z2 HR Z2 Pace intensity=warmup\n\nAktivierung 2x\n- 1m Z3 Z3-4 HR 90-94% Pace \n- 2m Z2 Z2 HR Z2 Pace \n\n- 2m Z1 Z1 HR Z2-Z1 Pace\n\n2x\n- 8m Z4 Z3-4 HR 92-96% Pace\n- 3m Z2 Power Z2 HR Z2 Pace \n\n- 5m Z2 Power Z2 HR Z2 Pace"
+      "description": "94-98% Pace (Tempo)\n\n- Warmup 10m Z2 Power Z2 HR Z2 Pace intensity=warmup\n\nAktivierung 2x\n- 1m Z3 Z3-4 HR 90-94% Pace \n- 2m Z2 Z2 HR Z2 Pace \n\n- 2m Z1 Z1 HR Z2-Z1 Pace\n\n2x\n- 10m Z4 Z3-4 HR 93-97% Pace\n- 3m Z2 Power Z2 HR Z2 Pace \n\n- 5m Z2 Power Z2 HR Z2 Pace"
     },
     {
       "id": 109416102,
