@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-07T01:54:34.636312",
+    "last_updated": "2026-06-07T06:13:46.519103",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -89,7 +89,7 @@
       "metric": "race_week",
       "value": 7,
       "severity": "info",
-      "threshold": "RACE_B within 7 days",
+      "threshold": "RACE_A within 7 days",
       "context": "Race week D-7 of 'Eschathlon'. Today: Last key session, 45-60 TSS. 3-5 efforts Z4-Z5 (1-3 min)",
       "persistence_days": null,
       "tier": 1
@@ -208,10 +208,10 @@
         },
         "run": {
           "lthr": 166,
-          "max_hr": 185,
+          "max_hr": 182,
           "threshold_pace": 3.4482758,
           "pace_units": "MINS_KM",
-          "ftp": 326,
+          "ftp": 322,
           "ftp_indoor": null
         },
         "swim": {
@@ -597,7 +597,7 @@
           "race_proximity": 7,
           "next_week_load": 0.49,
           "plan_coverage_current_week": 0.2,
-          "plan_coverage_next_week": 1.6
+          "plan_coverage_next_week": 1.2
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -632,7 +632,7 @@
     "p_max": 718,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-07T01:54:34.634875",
+    "calculation_timestamp": "2026-06-07T06:13:46.517769",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -672,7 +672,7 @@
       "carbs_used": null,
       "carbs_ingested": null,
       "variability_index": 1.0106007,
-      "decoupling": -5.9690337,
+      "decoupling": -6.027782,
       "efficiency_factor": 1.8815789,
       "hrrc": null,
       "elevation_m": 76.15817,
@@ -1937,32 +1937,6 @@
       "description": "94-98% Pace (Tempo)\n\n- Warmup 10m Z2 Power Z2 HR Z2 Pace intensity=warmup\n\nAktivierung 2x\n- 1m Z3 Z3-4 HR 90-94% Pace \n- 2m Z2 Z2 HR Z2 Pace \n\n- 2m Z1 Z1 HR Z2-Z1 Pace\n\n2x\n- 10m Z4 Z3-4 HR 93-97% Pace\n- 3m Z2 Power Z2 HR Z2 Pace \n\n- 5m Z2 Power Z2 HR Z2 Pace"
     },
     {
-      "id": 109416102,
-      "date": "2026-06-08",
-      "name": "Weekly",
-      "type": "TARGET",
-      "sport_type": "Ride",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": ""
-    },
-    {
-      "id": 109416127,
-      "date": "2026-06-08",
-      "name": "Weekly",
-      "type": "TARGET",
-      "sport_type": "Run",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": ""
-    },
-    {
       "id": 112973298,
       "date": "2026-06-08",
       "name": "Complete Rest",
@@ -2031,7 +2005,7 @@
       "id": 94364821,
       "date": "2026-06-14",
       "name": "Eschathlon",
-      "type": "RACE_B",
+      "type": "RACE_A",
       "sport_type": "Run",
       "planned_tss": null,
       "duration_hours": 1.92,
@@ -2042,7 +2016,7 @@
       "description": "- 115m Z3-4"
     },
     {
-      "id": 109416103,
+      "id": 114572789,
       "date": "2026-06-15",
       "name": "Weekly",
       "type": "TARGET",
@@ -2055,7 +2029,7 @@
       "description_preview": null
     },
     {
-      "id": 109416128,
+      "id": 114572811,
       "date": "2026-06-15",
       "name": "Weekly",
       "type": "TARGET",
@@ -2068,60 +2042,21 @@
       "description_preview": null
     },
     {
-      "id": 109416104,
-      "date": "2026-06-22",
-      "name": "Weekly",
-      "type": "TARGET",
+      "id": 114572832,
+      "date": "2026-06-15",
+      "name": "Frankfurt Marathon",
+      "type": "PLAN",
       "sport_type": "Ride",
       "planned_tss": null,
       "duration_hours": 0.0,
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": null
+      "description_preview": "Base Phase: Aerobe Kapazit\u00e4t, Ausdauer, Volumenaufbau"
     },
     {
-      "id": 109416129,
-      "date": "2026-06-22",
-      "name": "Weekly",
-      "type": "TARGET",
-      "sport_type": "Run",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": null
-    },
-    {
-      "id": 109416105,
-      "date": "2026-06-29",
-      "name": "Weekly",
-      "type": "TARGET",
-      "sport_type": "Ride",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": null
-    },
-    {
-      "id": 109416130,
-      "date": "2026-06-29",
-      "name": "Weekly",
-      "type": "TARGET",
-      "sport_type": "Run",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": null
-    },
-    {
-      "id": 109416154,
-      "date": "2026-06-29",
+      "id": 114572835,
+      "date": "2026-06-15",
       "name": "Erholungswoche",
       "type": "NOTE",
       "sport_type": null,
@@ -2133,7 +2068,59 @@
       "description_preview": "Fokus auf leichtere Belastungen, reduziertes Volumen und Anpassung des K\u00f6rpers an Trainingsstress (Radfahren, Laufen)"
     },
     {
-      "id": 109416107,
+      "id": 114572790,
+      "date": "2026-06-22",
+      "name": "Weekly",
+      "type": "TARGET",
+      "sport_type": "Ride",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
+      "id": 114572812,
+      "date": "2026-06-22",
+      "name": "Weekly",
+      "type": "TARGET",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
+      "id": 114572791,
+      "date": "2026-06-29",
+      "name": "Weekly",
+      "type": "TARGET",
+      "sport_type": "Ride",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
+      "id": 114572813,
+      "date": "2026-06-29",
+      "name": "Weekly",
+      "type": "TARGET",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
+      "id": 114572792,
       "date": "2026-07-06",
       "name": "Weekly",
       "type": "TARGET",
@@ -2146,7 +2133,7 @@
       "description_preview": null
     },
     {
-      "id": 109416131,
+      "id": 114572814,
       "date": "2026-07-06",
       "name": "Weekly",
       "type": "TARGET",
@@ -2159,7 +2146,20 @@
       "description_preview": null
     },
     {
-      "id": 109416108,
+      "id": 114572837,
+      "date": "2026-07-06",
+      "name": "Erholungswoche",
+      "type": "NOTE",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "Fokus auf leichtere Belastungen, reduziertes Volumen und Anpassung des K\u00f6rpers an Trainingsstress (Radfahren, Laufen)"
+    },
+    {
+      "id": 114572793,
       "date": "2026-07-13",
       "name": "Weekly",
       "type": "TARGET",
@@ -2172,7 +2172,7 @@
       "description_preview": null
     },
     {
-      "id": 109416132,
+      "id": 114572815,
       "date": "2026-07-13",
       "name": "Weekly",
       "type": "TARGET",
@@ -2190,7 +2190,7 @@
     "success": 5,
     "patternA": 5,
     "patternB": 0,
-    "bail_no_workout_doc": 3,
+    "bail_no_workout_doc": 5,
     "bail_no_match": 0
   },
   "weekly_summary": {
@@ -2205,7 +2205,7 @@
     "next_race": {
       "name": "Eschathlon",
       "date": "2026-06-14",
-      "category": "RACE_B",
+      "category": "RACE_A",
       "type": "Run",
       "days_until": 7,
       "moving_time_seconds": 6900,
@@ -2217,7 +2217,7 @@
       {
         "name": "Eschathlon",
         "date": "2026-06-14",
-        "category": "RACE_B",
+        "category": "RACE_A",
         "type": "Run",
         "days_until": 7,
         "moving_time_seconds": 6900,
@@ -2233,7 +2233,7 @@
       "active": true,
       "event_name": "Eschathlon",
       "event_date": "2026-06-14",
-      "event_category": "RACE_B",
+      "event_category": "RACE_A",
       "event_type": "Run",
       "event_duration_class": "medium",
       "event_moving_time_seconds": 6900,
@@ -2242,18 +2242,18 @@
       "ctl_baseline": 59.9,
       "normal_weekly_tss": 419.1,
       "race_week_tss_budget": {
-        "min": 210,
-        "max": 272
+        "min": 168,
+        "max": 231
       },
       "race_week_tss_spent": 0,
       "race_week_tss_remaining": {
-        "min": 210,
-        "max": 272
+        "min": 168,
+        "max": 231
       },
       "projected_race_day_tsb": 30.7,
       "tsb_target_range": {
-        "min": 5,
-        "max": 15
+        "min": 10,
+        "max": 20
       },
       "today": {
         "label": "Last key session",
