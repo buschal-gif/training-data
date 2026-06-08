@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-08T12:06:18.561087",
+    "last_updated": "2026-06-08T16:15:59.757991",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -109,29 +109,29 @@
     "priority": 2,
     "signals": {
       "hrv": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 46.5,
-        "delta_pct": null
+        "status": "amber",
+        "value": 39.0,
+        "baseline_7d": 45.4,
+        "delta_pct": -14.1
       },
       "rhr": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 53.7,
-        "delta_bpm": null
+        "status": "green",
+        "value": 55,
+        "baseline_7d": 53.9,
+        "delta_bpm": 1.1
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
-        "quality": null
+        "status": "amber",
+        "hours": 6.44,
+        "quality": 3
       },
       "acwr": {
         "status": "amber",
         "value": 0.55
       },
       "ri": {
-        "status": "unavailable",
-        "value": null
+        "status": "green",
+        "value": 0.84
       },
       "tsb": {
         "status": "green",
@@ -139,10 +139,10 @@
       }
     },
     "signal_summary": {
-      "green": 1,
-      "amber": 1,
+      "green": 3,
+      "amber": 3,
       "red": 0,
-      "unavailable": 4
+      "unavailable": 0
     },
     "phase_context": {
       "phase": "Taper",
@@ -153,6 +153,8 @@
     "race_week_defers": true,
     "modification": {
       "triggers": [
+        "hrv",
+        "sleep",
         "acwr"
       ],
       "suggested_adjustments": {
@@ -161,7 +163,7 @@
         "cap_zone": "Z2"
       }
     },
-    "reason": "P2 signal count. 1 amber (acwr) >= threshold 1.",
+    "reason": "P2 signal count. 3 amber (hrv, sleep, acwr) >= threshold 1.",
     "alarm_refs": []
   },
   "history": {
@@ -243,11 +245,11 @@
     "current_metrics": {
       "weight_kg": 69.4,
       "resting_hr": 55,
-      "hrv": null,
-      "sleep_quality": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_score": null,
+      "hrv": 39.0,
+      "sleep_quality": 3,
+      "sleep_hours": 6.44,
+      "sleep_formatted": "6h26m",
+      "sleep_score": 74.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -264,7 +266,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 9937,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -276,13 +278,13 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": null,
-    "hrv_baseline_7d": 46.5,
-    "rhr_baseline_7d": 53.7,
-    "hrv_baseline_28d": 46.8,
+    "recovery_index": 0.84,
+    "hrv_baseline_7d": 45.4,
+    "rhr_baseline_7d": 53.9,
+    "hrv_baseline_28d": 46.5,
     "rhr_baseline_28d": 55.9,
-    "latest_hrv": null,
-    "latest_rhr": null,
+    "latest_hrv": 39.0,
+    "latest_rhr": 55,
     "acwr": 0.55,
     "acwr_interpretation": "undertraining",
     "monotony": 0.78,
@@ -294,7 +296,7 @@
     "multi_sport_detected": false,
     "strain": 214.0,
     "stress_tolerance": 2.7,
-    "load_recovery_ratio": null,
+    "load_recovery_ratio": 3.3,
     "tss_7d_total": 275.0,
     "tss_28d_total": 2010.0,
     "zone_distribution_7d": {
@@ -639,10 +641,10 @@
     "p_max": 717,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-08T12:06:18.559669",
+    "calculation_timestamp": "2026-06-08T16:15:59.756515",
     "data_quality": {
-      "hrv_data_points": 6,
-      "rhr_data_points": 6,
+      "hrv_data_points": 7,
+      "rhr_data_points": 7,
       "activities_7d": 4,
       "activities_28d": 21,
       "planned_workouts_7d": 5,
@@ -1892,13 +1894,13 @@
     {
       "date": "2026-06-08",
       "weight_kg": null,
-      "resting_hr": null,
-      "hrv_rmssd": null,
+      "resting_hr": 55,
+      "hrv_rmssd": 39.0,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
+      "sleep_hours": 6.44,
+      "sleep_formatted": "6h26m",
+      "sleep_quality": 3,
+      "sleep_score": 74.0,
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
@@ -1918,7 +1920,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 9937,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2002,12 +2004,12 @@
       "type": "RACE_A",
       "sport_type": "Run",
       "planned_tss": null,
-      "duration_hours": 1.92,
-      "duration_formatted": "1h55m",
+      "duration_hours": 1.83,
+      "duration_formatted": "1h50m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "08:15",
-      "description": "- 115m Z3-4"
+      "description": "- 115m Z3-Z4"
     },
     {
       "id": 114572789,
@@ -2218,8 +2220,8 @@
     "total_training_formatted": "3h15m",
     "total_tss": 275,
     "activities_count": 4,
-    "avg_hrv": 46.5,
-    "avg_resting_hr": 53.7
+    "avg_hrv": 45.4,
+    "avg_resting_hr": 53.9
   },
   "race_calendar": {
     "next_race": {
@@ -2228,7 +2230,7 @@
       "category": "RACE_A",
       "type": "Run",
       "days_until": 6,
-      "moving_time_seconds": 6900,
+      "moving_time_seconds": 6600,
       "distance_meters": 21100.0,
       "has_terrain": false,
       "start_time": "08:15"
@@ -2240,7 +2242,7 @@
         "category": "RACE_A",
         "type": "Run",
         "days_until": 6,
-        "moving_time_seconds": 6900,
+        "moving_time_seconds": 6600,
         "distance_meters": 21100.0,
         "has_terrain": false,
         "start_time": "08:15"
@@ -2256,7 +2258,7 @@
       "event_category": "RACE_A",
       "event_type": "Run",
       "event_duration_class": "medium",
-      "event_moving_time_seconds": 6900,
+      "event_moving_time_seconds": 6600,
       "days_until_event": 6,
       "current_day": "D-6",
       "ctl_baseline": 60.0,
