@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-10T10:32:13.870176",
+    "last_updated": "2026-06-10T13:58:28.782477",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -271,7 +271,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 52,
+      "steps": 2292,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -646,7 +646,7 @@
     "p_max": 716,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-10T10:32:13.868825",
+    "calculation_timestamp": "2026-06-10T13:58:28.780992",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1980,7 +1980,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 52,
+      "steps": 2292,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1998,12 +1998,12 @@
       "name": "Training 01: Dauerlauf",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 44,
-      "duration_hours": 0.78,
-      "duration_formatted": "47m",
-      "workout_summary": "25m | 6\u00d720s / 1m40s rec | 10m",
+      "planned_tss": 47,
+      "duration_hours": 0.85,
+      "duration_formatted": "51m",
+      "workout_summary": "35m | 4\u00d720s / 1m40s rec | 8m",
       "has_terrain": false,
-      "description": "- 25m Z2 (238-286w) Power Z2 HR (134-151bpm) Z2 Pace (6:03-6:54 for 3.8km)\n\n6x\n-20s Z5 (343-374w) Power Z4 HR (161-170bpm) Z6-Z5 Pace (4:50-3:52 for 0.07km)\n-1m40 Z1-Z2 (189-286w) Power Z1-Z2 HR (106-151bpm) Z1-Z2 Pace (6:03-8:38 for 0.23km)\n\n- 10m Z2 (238-286w) Power Z2 HR (134-151bpm) Z2 Pace (6:03-6:54 for 1.5km)"
+      "description": "- 35m Z2 (238-286w) Power Z2 HR (134-151bpm) Z2 Pace (6:03-6:54 for 3.8km) intensity=warmup\n\n4x\n-20s Z5 (343-374w) Power Z4 HR (161-170bpm) Z6-Z5 Pace (4:50-3:52 for 0.07km)\n-1m40 Z1-Z2 (189-286w) Power Z1-Z2 HR (106-151bpm) Z1 Pace (6:03-8:38 for 0.23km) intensity = recovery\n\n- 8m Z2 (238-286w) Power Z2 HR (134-151bpm) Z2 Pace (6:03-6:54 for 1.5km) intensity = cooldown"
     },
     {
       "id": 113986816,
@@ -2011,12 +2011,12 @@
       "name": "Aktivierung 02",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 23,
-      "duration_hours": 0.4,
-      "duration_formatted": "24m",
-      "workout_summary": "10m | 1\u00d72m / 2m rec | 2\u00d730s / 2m rec | 5m",
+      "planned_tss": 21,
+      "duration_hours": 0.38,
+      "duration_formatted": "23m",
+      "workout_summary": "10m | 4\u00d730s / 1m30s rec | 5m",
       "has_terrain": false,
-      "description": "- 10m  Z2 Z2 HR Z2 Pace\n\n1x\n- 2m Z4 Z3 HR Z4 Pace\n- 2m Z2 Z2 HR Z2-Z1 Pace  \n\n2x\n- 30s Z6 Z4 HR Z6 Pace \n- 2m Z2 Z2 HR Z2-Z1 Pace\n\n- Cooldown: 5m Z1-Z2 Z1-Z2 HR Z1-Z2 Pace intensity=cooldown"
+      "description": "- 10m  Z2 Z2 HR Z2 Pace\n\n4x\n-30s Z5 Power Z4 HR Z6-Z5 Pace \n-1m30 Z1-Z2 Power Z1-Z2 HR Z1 Pace intensity = recovery\n\n\n- Cooldown: 5m Z1-Z2 Z1-Z2 HR Z1-Z2 Pace intensity=cooldown"
     },
     {
       "id": 113986828,
@@ -2024,12 +2024,12 @@
       "name": "Aktivierung 02",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 19,
-      "duration_hours": 0.31,
-      "duration_formatted": "18m44s",
-      "workout_summary": "5m48s | 4\u00d722s / 1m25s rec | 5m48s",
+      "planned_tss": 18,
+      "duration_hours": 0.32,
+      "duration_formatted": "19m12s",
+      "workout_summary": "5m48s | 4\u00d729s / 1m25s rec | 5m48s",
       "has_terrain": false,
-      "description": "- 0.9 km Z2 (238-286w) Z2 HR (134-151bpm) Z2 Pace (6:03-6:54)\n\n4x\n- 100 mtr Z6 (375-417w) Z5 HR (171-185bpm) Z7 Pace (3:31-3:52)\n- 200 mtr Z1-Z2 (189-286w) Z1-Z2 HR (106-151bpm) Z1-Z2 Pace (6:03-8:38)\n\n- 0.9 km Z2 (238-286w) Z2 HR (134-151bpm) Z2 Pace (6:03-6:54)"
+      "description": "- 0.9 km Z2 (238-286w) Z2 HR (134-151bpm) Z2 Pace (6:03-6:54) intensity=warmup\n\n4x\n- 100 mtr Z6 (375-417w) Z5 HR (171-185bpm) Z4-Z5 Pace \n- 200 mtr Z1-Z2 (189-286w) Z1-Z2 HR (106-151bpm) Z1-Z2 Pace (6:03-8:38) intensity=recovery\n\n- 0.9 km Z2 (238-286w) Z2 HR (134-151bpm) Z2 Pace (6:03-6:54) intensity=cooldown"
     },
     {
       "id": 94364821,
