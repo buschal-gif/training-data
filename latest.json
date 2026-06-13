@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-13T12:13:40.609982",
+    "last_updated": "2026-06-13T14:25:40.515200",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -264,7 +264,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 655,
+      "steps": 1048,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -601,7 +601,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.3,
+          "planned_tss_delta": 0.27,
           "hard_sessions_planned": 2,
           "race_proximity": 1,
           "next_week_load": null,
@@ -641,7 +641,7 @@
     "p_max": 714,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-13T12:13:40.608601",
+    "calculation_timestamp": "2026-06-13T14:25:40.513678",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1922,7 +1922,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 655,
+      "steps": 1048,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1940,12 +1940,12 @@
       "name": "Race Activation Sharpening",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 19,
-      "duration_hours": 0.38,
-      "duration_formatted": "22m30s",
-      "workout_summary": "5m | 5\u00d730s / 2m rec | 5m",
+      "planned_tss": 17,
+      "duration_hours": 0.33,
+      "duration_formatted": "20m",
+      "workout_summary": "5m | 5\u00d730s / 1m30s rec | 5m",
       "has_terrain": false,
-      "description": "- 5m Z1-Z2 Z1-Z2 Pace\n\n5x\n- 30s Z4 Z4 Pace\n- 2m Z1-Z2 Z1-Z2 Pace\n\n- 5m Z1-Z2 Z1-Z2 Pace"
+      "description": "- 5m Z1-Z2 Z1-Z2 Pace\n\n5x\n- 30s Z4 Z4 Pace\n- 1m30s Z1-Z2 Z1-Z2 Pace\n\n- 5m Z1-Z2 Z1-Z2 Pace"
     },
     {
       "id": 94364821,
