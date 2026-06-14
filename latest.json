@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-14T21:40:25.646763",
+    "last_updated": "2026-06-14T22:49:19.747695",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -208,9 +208,9 @@
         "run": {
           "lthr": 166,
           "max_hr": 184,
-          "threshold_pace": 3.4482758,
+          "threshold_pace": 3.558719,
           "pace_units": "MINS_KM",
-          "ftp": 322,
+          "ftp": 349,
           "ftp_indoor": null
         },
         "swim": {
@@ -255,7 +255,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 31107,
+      "steps": 13883,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -631,7 +631,7 @@
     "p_max": 713,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 49.0,
-    "calculation_timestamp": "2026-06-14T21:40:25.645267",
+    "calculation_timestamp": "2026-06-14T22:49:19.746269",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -679,11 +679,13 @@
       "rpe": 6,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 17,
-          "z2_time": 72,
-          "z3_time": 1878,
-          "z4_time": 4028,
-          "z5_time": 93
+          "z1_time": 19,
+          "z2_time": 30,
+          "z3_time": 234,
+          "z4_time": 5247,
+          "z5_time": 465,
+          "z6_time": 80,
+          "z7_time": 13
         },
         "power_zones": {
           "z1_time": 3,
@@ -732,11 +734,13 @@
       "rpe": null,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 39,
-          "z2_time": 231,
-          "z3_time": 55,
-          "z4_time": 142,
-          "z5_time": 0
+          "z1_time": 47,
+          "z2_time": 144,
+          "z3_time": 130,
+          "z4_time": 129,
+          "z5_time": 17,
+          "z6_time": 0,
+          "z7_time": 0
         },
         "power_zones": {
           "z1_time": 21,
@@ -784,11 +788,13 @@
       "rpe": 3,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 112,
-          "z2_time": 941,
-          "z3_time": 91,
+          "z1_time": 199,
+          "z2_time": 766,
+          "z3_time": 179,
           "z4_time": 0,
-          "z5_time": 0
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
         },
         "power_zones": {
           "z1_time": 3,
@@ -836,11 +842,13 @@
       "rpe": 3,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 194,
-          "z2_time": 1527,
-          "z3_time": 11,
+          "z1_time": 281,
+          "z2_time": 1396,
+          "z3_time": 55,
           "z4_time": 0,
-          "z5_time": 0
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
         },
         "power_zones": {
           "z1_time": 26,
@@ -889,11 +897,13 @@
       "rpe": 4,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 196,
-          "z2_time": 2186,
-          "z3_time": 650,
-          "z4_time": 61,
-          "z5_time": 0
+          "z1_time": 266,
+          "z2_time": 2011,
+          "z3_time": 390,
+          "z4_time": 426,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
         },
         "power_zones": {
           "z1_time": 79,
@@ -986,11 +996,13 @@
       "rpe": 4,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 44,
-          "z2_time": 954,
-          "z3_time": 354,
-          "z4_time": 110,
-          "z5_time": 0
+          "z1_time": 72,
+          "z2_time": 845,
+          "z3_time": 298,
+          "z4_time": 247,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
         },
         "power_zones": {
           "z1_time": 220,
@@ -1083,11 +1095,13 @@
       "rpe": 5,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 149,
-          "z2_time": 1502,
-          "z3_time": 470,
-          "z4_time": 886,
-          "z5_time": 0
+          "z1_time": 178,
+          "z2_time": 1031,
+          "z3_time": 646,
+          "z4_time": 1142,
+          "z5_time": 10,
+          "z6_time": 0,
+          "z7_time": 0
         },
         "power_zones": {
           "z1_time": 54,
@@ -1135,11 +1149,13 @@
       "rpe": 4,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 72,
-          "z2_time": 2438,
-          "z3_time": 1315,
-          "z4_time": 885,
-          "z5_time": 0
+          "z1_time": 95,
+          "z2_time": 1026,
+          "z3_time": 2381,
+          "z4_time": 1208,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
         },
         "power_zones": {
           "z1_time": 75,
@@ -1223,11 +1239,13 @@
       "rpe": 5,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 128,
-          "z2_time": 1084,
-          "z3_time": 813,
-          "z4_time": 2004,
-          "z5_time": 0
+          "z1_time": 151,
+          "z2_time": 778,
+          "z3_time": 576,
+          "z4_time": 2448,
+          "z5_time": 76,
+          "z6_time": 0,
+          "z7_time": 0
         },
         "power_zones": {
           "z1_time": 238,
@@ -1275,11 +1293,13 @@
       "rpe": 5,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 52,
-          "z2_time": 1484,
-          "z3_time": 3030,
-          "z4_time": 2936,
-          "z5_time": 2
+          "z1_time": 64,
+          "z2_time": 584,
+          "z3_time": 2728,
+          "z4_time": 3468,
+          "z5_time": 652,
+          "z6_time": 8,
+          "z7_time": 0
         },
         "power_zones": {
           "z1_time": 65,
@@ -1451,11 +1471,13 @@
       "rpe": 3,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 188,
-          "z2_time": 2492,
-          "z3_time": 1297,
-          "z4_time": 4,
-          "z5_time": 0
+          "z1_time": 201,
+          "z2_time": 1073,
+          "z3_time": 2577,
+          "z4_time": 130,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
         },
         "power_zones": {
           "z1_time": 45,
@@ -1503,11 +1525,13 @@
       "rpe": 5,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 128,
-          "z2_time": 2684,
-          "z3_time": 2761,
-          "z4_time": 857,
-          "z5_time": 36
+          "z1_time": 154,
+          "z2_time": 1342,
+          "z3_time": 2912,
+          "z4_time": 1869,
+          "z5_time": 142,
+          "z6_time": 47,
+          "z7_time": 0
         },
         "power_zones": {
           "z1_time": 121,
@@ -1556,11 +1580,13 @@
       "rpe": 5,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 59,
-          "z2_time": 1379,
-          "z3_time": 480,
-          "z4_time": 1754,
-          "z5_time": 56
+          "z1_time": 93,
+          "z2_time": 966,
+          "z3_time": 743,
+          "z4_time": 1054,
+          "z5_time": 610,
+          "z6_time": 262,
+          "z7_time": 0
         },
         "power_zones": {
           "z1_time": 254,
@@ -2017,7 +2043,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 31107,
+      "steps": 13883,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2041,7 +2067,7 @@
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "08:15",
-      "description": "- 115m Z3-Z4"
+      "description": "- 111m Z3-Z4"
     },
     {
       "id": 114572789,
