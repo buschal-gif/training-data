@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-15T19:59:30.945459",
+    "last_updated": "2026-06-15T22:20:19.407330",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -571,11 +571,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.48,
+          "planned_tss_delta": 0.82,
           "hard_sessions_planned": 1,
           "race_proximity": null,
           "next_week_load": null,
-          "plan_coverage_current_week": 1.2,
+          "plan_coverage_current_week": 1.6,
           "plan_coverage_next_week": 0.4
         },
         "data_quality": "good",
@@ -611,7 +611,7 @@
     "p_max": 713,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-15T19:59:30.944052",
+    "calculation_timestamp": "2026-06-15T22:20:19.405824",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -2018,17 +2018,17 @@
       "description": "Fokus auf leichtere Belastungen, reduziertes Volumen und Anpassung des K\u00f6rpers an Trainingsstress (Radfahren, Laufen)"
     },
     {
-      "id": 116309582,
+      "id": 116367986,
       "date": "2026-06-16",
-      "name": "Training 06: 5x3:00 @subVO2Max (104-108%)",
+      "name": "Training 06: Dauerlauf",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 59,
-      "duration_hours": 0.88,
-      "duration_formatted": "53m",
-      "workout_summary": "10m | 2\u00d71m / 2m rec | 2m | 5\u00d73m / 3m rec | 5m",
+      "planned_tss": 76,
+      "duration_hours": 1.17,
+      "duration_formatted": "1h10m",
+      "workout_summary": null,
       "has_terrain": false,
-      "description": "104-108% Pace (untere VO2Max)\n\n- Warmup 10m Z2 Power Z2 HR 70-80% Pace intensity=warmup\n\nAktivierung 2x\n- 1m Z5 Z3-4 HR 100-105% Pace \n- 2m Z2 Z2 HR 70-80% Pace intensity=recovery\n\n- Pause 2m Z1-Z2 Z1-Z2 HR 60-70% Pace intensity=rest\n\n5x\n- 3m Z6 Z4 HR 104-108% Pace\n- 3m Z1-Z2  Z1-Z2 HR 50-80% Pace intensity=rest\n\n- Cooldown: 5m Z2 Power Z2 HR 70-80% Pace intensity=cooldown"
+      "description": "- 70m Z2 Z2 HR Z2 Pace"
     },
     {
       "id": 116310278,
@@ -2042,6 +2042,32 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": "- 65m Z2 Z2 HR Z2 Pace"
+    },
+    {
+      "id": 116368094,
+      "date": "2026-06-20",
+      "name": "Training 04: 3x8' @98-100% Pace",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 76,
+      "duration_hours": 0.93,
+      "duration_formatted": "56m",
+      "workout_summary": "10m | 2\u00d71m / 2m rec | 2m | 3\u00d78m / 3m rec | 5m",
+      "has_terrain": false,
+      "description": "100-105% Pace (SuperSchwelle)\n\n- Warmup 10m Z2 Power Z2 HR Z2 Pace intensity=warmup\n\nAktivierung 2x\n- Aktivierung 1m Z3 Z3-4 HR 90%-95% Pace \n- Erholung 2m Z2 Z2 HR Z2 Pace intensity=recovery\n\n- Pause 2m Z1 Z1 HR Z1 Pace\n\n3x\n- SubSchwelle 8m Z4 Z3-4 HR 98%-100% Pace\n- 3m Z2 Power Z2 HR Z2  Pace intensity=recovery\n\n- Cooldown: 5m Z2 Power Z2 HR Z2 Pace intensity=cooldown"
+    },
+    {
+      "id": 116368247,
+      "date": "2026-06-21",
+      "name": "Grundlage",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 84,
+      "duration_hours": 2.0,
+      "duration_formatted": "2h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "- 2h Z2"
     },
     {
       "id": 114572790,
@@ -2214,12 +2240,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 2,
+    "attempted": 4,
     "success": 1,
     "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 3,
-    "bail_no_match": 1
+    "bail_no_match": 3
   },
   "weekly_summary": {
     "total_training_hours": 5.37,
