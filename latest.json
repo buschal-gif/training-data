@@ -62,97 +62,69 @@
       "menstrual": "menstrual_phase and menstrual_phase_predicted are not on the 1-4 scale. Values: PERIOD, FOLLICULAR, OVULATION, LUTEAL, etc."
     },
     "quick_stats": {
-      "total_training_hours": 4.95,
-      "total_training_formatted": "4h57m",
-      "total_activities": 8,
-      "total_tss": 370
+      "total_training_hours": 4.33,
+      "total_training_formatted": "4h19m",
+      "total_activities": 7,
+      "total_tss": 366
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-14T22:49:19.747695",
+    "last_updated": "2026-06-15T00:00:48.314879",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
   },
-  "alerts": [
-    {
-      "metric": "race_week",
-      "value": 0,
-      "severity": "info",
-      "threshold": "RACE_A within 7 days",
-      "context": "Race week D-0 of 'Eschathlon'. Today: Race day, 0-0 TSS. Race effort",
-      "persistence_days": null,
-      "tier": 1
-    },
-    {
-      "metric": "race_week_tsb",
-      "value": -4.7,
-      "severity": "warning",
-      "threshold": "TSB target 10-20",
-      "context": "Projected race-day TSB -4.7 is below target range 10-20. Consider additional rest to reach target.",
-      "persistence_days": null,
-      "tier": 1
-    }
-  ],
+  "alerts": [],
   "readiness_decision": {
-    "recommendation": "modify",
-    "priority": 2,
+    "recommendation": "go",
+    "priority": 3,
     "signals": {
       "hrv": {
-        "status": "green",
-        "value": 47.0,
-        "baseline_7d": 45.0,
-        "delta_pct": 4.4
+        "status": "unavailable",
+        "value": null,
+        "baseline_7d": 46.0,
+        "delta_pct": null
       },
       "rhr": {
-        "status": "green",
-        "value": 54,
-        "baseline_7d": 55.1,
-        "delta_bpm": -1.1
+        "status": "amber",
+        "value": 59,
+        "baseline_7d": 55.7,
+        "delta_bpm": 3.3
       },
       "sleep": {
-        "status": "amber",
-        "hours": 6.09,
-        "quality": 3
+        "status": "unavailable",
+        "hours": null,
+        "quality": null
       },
       "acwr": {
         "status": "green",
         "value": 0.83
       },
       "ri": {
-        "status": "green",
-        "value": 1.07
+        "status": "unavailable",
+        "value": null
       },
       "tsb": {
         "status": "green",
-        "value": -4.7
+        "value": 2.6
       }
     },
     "signal_summary": {
-      "green": 5,
+      "green": 2,
       "amber": 1,
       "red": 0,
-      "unavailable": 0
+      "unavailable": 3
     },
     "phase_context": {
-      "phase": "Taper",
-      "phase_week": 1,
-      "amber_threshold": 1,
-      "modifier_applied": "race_week_tightened"
+      "phase": null,
+      "phase_week": 0,
+      "amber_threshold": 2,
+      "modifier_applied": "default"
     },
-    "race_week_defers": true,
-    "modification": {
-      "triggers": [
-        "sleep"
-      ],
-      "suggested_adjustments": {
-        "intensity": "preserve",
-        "volume": "reduce",
-        "cap_zone": null
-      }
-    },
-    "reason": "P2 signal count. 1 amber (sleep) >= threshold 1.",
+    "race_week_defers": false,
+    "modification": null,
+    "reason": "P3 green light. 2 green, 1 amber (threshold 2), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -165,8 +137,8 @@
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 4.95,
-    "total_activities": 8,
+    "total_duration_decimal_hours": 4.33,
+    "total_activities": 7,
     "by_activity_type": {
       "Run": {
         "duration_decimal_hours": 3.88,
@@ -175,27 +147,27 @@
         "distance_km": 42.8
       },
       "Walk": {
-        "duration_decimal_hours": 1.07,
-        "count": 2,
-        "tss": 7,
+        "duration_decimal_hours": 0.45,
+        "count": 1,
+        "tss": 3,
         "distance_km": 0.0
       }
     }
   },
   "current_status": {
     "fitness": {
-      "ctl": 60.45,
-      "atl": 65.14,
-      "tsb": -4.69,
-      "ramp_rate": -0.99,
-      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+      "ctl": 59.03,
+      "atl": 56.47,
+      "tsb": 2.56,
+      "ramp_rate": -0.97,
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
-      "eftp": 211.4,
-      "w_prime": 17594,
+      "eftp": 211.2,
+      "w_prime": 17577,
       "w_prime_kj": 17.6,
-      "p_max": 713,
-      "vo2max": 49.0,
+      "p_max": 712,
+      "vo2max": null,
       "sports": {
         "cycling": {
           "lthr": 158,
@@ -233,12 +205,12 @@
     },
     "current_metrics": {
       "weight_kg": 69.4,
-      "resting_hr": 54,
-      "hrv": 47.0,
-      "sleep_quality": 3,
-      "sleep_hours": 6.09,
-      "sleep_formatted": "6h5m",
-      "sleep_score": 73.0,
+      "resting_hr": 59,
+      "hrv": null,
+      "sleep_quality": null,
+      "sleep_hours": null,
+      "sleep_formatted": null,
+      "sleep_score": null,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -255,7 +227,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 13883,
+      "steps": 13,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -267,51 +239,51 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": 1.07,
-    "hrv_baseline_7d": 45.0,
-    "rhr_baseline_7d": 55.1,
-    "hrv_baseline_28d": 47.5,
-    "rhr_baseline_28d": 55.1,
-    "latest_hrv": 47.0,
-    "latest_rhr": 54,
+    "recovery_index": null,
+    "hrv_baseline_7d": 46.0,
+    "rhr_baseline_7d": 55.7,
+    "hrv_baseline_28d": 47.4,
+    "rhr_baseline_28d": 55.2,
+    "latest_hrv": null,
+    "latest_rhr": 59,
     "acwr": 0.83,
     "acwr_interpretation": "optimal",
-    "monotony": 0.75,
-    "monotony_interpretation": "normal (primary sport 0.73, total 0.75 inflated by multi-sport)",
+    "monotony": 0.74,
+    "monotony_interpretation": "normal (primary sport 0.73, total 0.74 inflated by multi-sport)",
     "primary_sport": "run",
     "primary_sport_monotony": 0.73,
     "primary_sport_tss_7d": 363.0,
     "effective_monotony": 0.73,
     "multi_sport_detected": true,
-    "strain": 278.0,
+    "strain": 271.0,
     "stress_tolerance": 3.7,
-    "load_recovery_ratio": 3.5,
-    "tss_7d_total": 370.0,
-    "tss_28d_total": 1777.0,
+    "load_recovery_ratio": null,
+    "tss_7d_total": 366.0,
+    "tss_28d_total": 1771.0,
     "zone_distribution_7d": {
-      "z1_hours": 1.17,
+      "z1_hours": 0.54,
       "z2_hours": 1.47,
       "z3_hours": 0.4,
       "z4_plus_hours": 1.92,
-      "total_hours": 4.96,
+      "total_hours": 4.33,
       "zone_basis": "mixed"
     },
-    "grey_zone_percentage": 8.0,
+    "grey_zone_percentage": 9.1,
     "grey_zone_note": "Gray Zone % (Z3/tempo) - minimize in polarized training",
-    "quality_intensity_percentage": 38.8,
+    "quality_intensity_percentage": 44.4,
     "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
-    "polarisation_index": 0.53,
+    "polarisation_index": 0.47,
     "polarisation_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
-    "hard_days_this_week": 2,
+    "hard_days_this_week": 0,
     "hard_days_note": "Power ladder: z3+ >= 30min, z4+ >= 10min, z5+ >= 5min, z6+ >= 2min, z7 >= 1min. HR fallback (when no power): z4+ >= 10min, z5+ >= 5min. Per Seiler 3-zone model + Foster. HR-based days flagged with intensity_basis: hr",
     "seiler_tid_7d": {
-      "z1_seconds": 9497,
+      "z1_seconds": 7251,
       "z2_seconds": 1426,
       "z3_seconds": 6916,
-      "z1_pct": 53.2,
-      "z2_pct": 8.0,
-      "z3_pct": 38.8,
-      "polarization_index": 2.41,
+      "z1_pct": 46.5,
+      "z2_pct": 9.1,
+      "z3_pct": 44.4,
+      "polarization_index": 2.35,
       "classification": "Polarized",
       "zone_basis": "mixed"
     },
@@ -328,13 +300,13 @@
       "sport": "run"
     },
     "seiler_tid_28d": {
-      "z1_seconds": 45403,
+      "z1_seconds": 43282,
       "z2_seconds": 13611,
       "z3_seconds": 28413,
-      "z1_pct": 51.9,
-      "z2_pct": 15.6,
-      "z3_pct": 32.5,
-      "polarization_index": 2.04,
+      "z1_pct": 50.7,
+      "z2_pct": 16.0,
+      "z3_pct": 33.3,
+      "polarization_index": 2.02,
       "classification": "Polarized",
       "zone_basis": "mixed"
     },
@@ -380,21 +352,21 @@
       "tid_comparison": {
         "classification_7d": "Polarized",
         "classification_28d": "Polarized",
-        "pi_7d": 2.41,
-        "pi_28d": 2.04,
-        "pi_delta": 0.37,
+        "pi_7d": 2.35,
+        "pi_28d": 2.02,
+        "pi_delta": 0.33,
         "drift": "consistent",
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. pi_delta positive = more polarized acutely."
       },
       "power_curve_delta": {
         "window_days": 28,
         "current_window": {
-          "start": "2026-05-18",
-          "end": "2026-06-14"
+          "start": "2026-05-19",
+          "end": "2026-06-15"
         },
         "previous_window": {
-          "start": "2026-04-20",
-          "end": "2026-05-17"
+          "start": "2026-04-21",
+          "end": "2026-05-18"
         },
         "anchors": {
           "5s": {
@@ -429,12 +401,12 @@
       "hr_curve_delta": {
         "window_days": 28,
         "current_window": {
-          "start": "2026-05-18",
-          "end": "2026-06-14"
+          "start": "2026-05-19",
+          "end": "2026-06-15"
         },
         "previous_window": {
-          "start": "2026-04-20",
-          "end": "2026-05-17"
+          "start": "2026-04-21",
+          "end": "2026-05-18"
         },
         "anchors": {
           "60s": {
@@ -464,8 +436,8 @@
       "sustainability_profile": {
         "window": {
           "days": 42,
-          "start": "2026-05-04",
-          "end": "2026-06-14"
+          "start": "2026-05-05",
+          "end": "2026-06-15"
         },
         "weight_kg": 69.4,
         "weight_source": "wellness_extended",
@@ -558,7 +530,7 @@
           },
           "coverage_ratio": 1.0,
           "ftp_used": 214,
-          "w_prime_used": 17594,
+          "w_prime_used": 17577,
           "ftp_staleness_days": 0,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
@@ -578,37 +550,37 @@
       "completed_dates": []
     },
     "phase_detection": {
-      "phase": "Taper",
-      "confidence": "medium",
+      "phase": null,
+      "confidence": "low",
       "reason_codes": [
-        "RACE_IMMINENT"
+        "BUILD_BASE_AMBIGUOUS"
       ],
       "basis": {
         "stream_1": {
           "ctl_slope": null,
           "acwr_trend": null,
-          "hard_day_pattern": 2.5,
+          "hard_day_pattern": 1.8,
           "weeks_available": 4
         },
         "stream_2": {
           "planned_tss_delta": null,
-          "hard_sessions_planned": 1,
-          "race_proximity": 0,
+          "hard_sessions_planned": 0,
+          "race_proximity": null,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.2,
-          "plan_coverage_next_week": 0.8
+          "plan_coverage_current_week": 0.8,
+          "plan_coverage_next_week": 0.4
         },
         "data_quality": "good",
         "stream_agreement": null
       },
       "previous_phase": null,
-      "phase_duration_weeks": 1,
+      "phase_duration_weeks": 0,
       "dossier_declared": null,
       "dossier_agreement": null
     },
-    "phase_detected": "Taper",
+    "phase_detected": null,
     "phase_triggers": [
-      "RACE_IMMINENT"
+      "BUILD_BASE_AMBIGUOUS"
     ],
     "seasonal_context": "Build / Early Race Season",
     "benchmark_indoor": {
@@ -625,22 +597,22 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 211.4,
-    "w_prime": 17594,
+    "eftp": 211.2,
+    "w_prime": 17577,
     "w_prime_kj": 17.6,
-    "p_max": 713,
+    "p_max": 712,
     "power_model_source": "wellness.sportInfo",
-    "vo2max": 49.0,
-    "calculation_timestamp": "2026-06-14T22:49:19.746269",
+    "vo2max": null,
+    "calculation_timestamp": "2026-06-15T00:00:48.313365",
     "data_quality": {
-      "hrv_data_points": 7,
+      "hrv_data_points": 6,
       "rhr_data_points": 7,
-      "activities_7d": 8,
-      "activities_28d": 23,
-      "planned_workouts_7d": 5,
+      "activities_7d": 7,
+      "activities_28d": 20,
+      "planned_workouts_7d": 9,
       "ftp_history_days": {
-        "indoor": 84,
-        "outdoor": 84
+        "indoor": 85,
+        "outdoor": 85
       }
     }
   },
@@ -1167,7 +1139,7 @@
           "z7_time": 12
         }
       },
-      "has_intervals": true,
+      "has_intervals": false,
       "description": "Bisschen warm und bisschen z\u00e4h"
     },
     {
@@ -1652,173 +1624,9 @@
       },
       "has_intervals": false,
       "description": "Frankenstein (370 m), Steigerts (428 m) | qu\u00e4ldich-Passjagd."
-    },
-    {
-      "id": "i149429240",
-      "date": "2026-05-18T15:36:14",
-      "type": "Walk",
-      "name": "Training Session",
-      "duration_hours": 0.26,
-      "distance_km": 1.43,
-      "tss": 2,
-      "intensity_factor": 27.779564,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": 88,
-      "max_hr": 101,
-      "avg_cadence": 62.53391,
-      "avg_speed": 5.5,
-      "max_speed": 8.9,
-      "avg_pace": null,
-      "avg_temp": 14.7711,
-      "weather": null,
-      "humidity": null,
-      "wind_speed": 2.5399647,
-      "work_kj": null,
-      "calories": 82,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "efficiency_factor": null,
-      "hrrc": null,
-      "elevation_m": 2.0,
-      "feel": null,
-      "rpe": null,
-      "zone_distribution": {
-        "hr_zones": {
-          "z1_time": 930,
-          "z2_time": 0,
-          "z3_time": 0,
-          "z4_time": 0,
-          "z5_time": 0,
-          "z6_time": 0,
-          "z7_time": 0
-        }
-      },
-      "has_intervals": false
-    },
-    {
-      "id": "i149438678",
-      "date": "2026-05-18T13:20:00",
-      "type": "RockClimbing",
-      "name": "Bouldern @Studio Bloc",
-      "duration_hours": 2.0,
-      "distance_km": 0.0,
-      "tss": null,
-      "intensity_factor": null,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": null,
-      "max_hr": null,
-      "avg_cadence": null,
-      "avg_speed": null,
-      "max_speed": null,
-      "avg_pace": null,
-      "avg_temp": null,
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "work_kj": null,
-      "calories": null,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "efficiency_factor": null,
-      "hrrc": null,
-      "elevation_m": null,
-      "feel": null,
-      "rpe": null,
-      "zone_distribution": null,
-      "has_intervals": false
-    },
-    {
-      "id": "i149341507",
-      "date": "2026-05-18T12:53:06",
-      "type": "Walk",
-      "name": "Training Session",
-      "duration_hours": 0.33,
-      "distance_km": 1.88,
-      "tss": 4,
-      "intensity_factor": 34.786263,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": 98,
-      "max_hr": 111,
-      "avg_cadence": 62.785595,
-      "avg_speed": 5.7,
-      "max_speed": 8.1,
-      "avg_pace": null,
-      "avg_temp": 14.818649,
-      "weather": null,
-      "humidity": null,
-      "wind_speed": 3.7002077,
-      "work_kj": null,
-      "calories": 110,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "efficiency_factor": null,
-      "hrrc": null,
-      "elevation_m": 8.0,
-      "feel": null,
-      "rpe": null,
-      "zone_distribution": {
-        "hr_zones": {
-          "z1_time": 1191,
-          "z2_time": 0,
-          "z3_time": 0,
-          "z4_time": 0,
-          "z5_time": 0,
-          "z6_time": 0,
-          "z7_time": 0
-        }
-      },
-      "has_intervals": false
     }
   ],
   "wellness_data": [
-    {
-      "date": "2026-06-08",
-      "weight_kg": null,
-      "resting_hr": 55,
-      "hrv_rmssd": 39.0,
-      "hrv_sdnn": null,
-      "sleep_hours": 6.44,
-      "sleep_formatted": "6h26m",
-      "sleep_quality": 3,
-      "sleep_score": 74.0,
-      "mental_energy": null,
-      "avg_sleeping_hr": null,
-      "vo2max": null,
-      "fatigue": null,
-      "soreness": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "hydration": null,
-      "spO2": null,
-      "blood_glucose": null,
-      "systolic": null,
-      "diastolic": null,
-      "baevsky_si": null,
-      "lactate": null,
-      "respiration": null,
-      "body_fat_pct": null,
-      "abdomen_cm": null,
-      "steps": 6279,
-      "hydration_volume_l": null,
-      "kcal_consumed": null,
-      "carbohydrates_g": null,
-      "protein_g": null,
-      "fat_g": null,
-      "menstrual_phase": null,
-      "menstrual_phase_predicted": null,
-      "readiness": null
-    },
     {
       "date": "2026-06-09",
       "weight_kg": null,
@@ -2043,7 +1851,46 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 13883,
+      "steps": 39155,
+      "hydration_volume_l": null,
+      "kcal_consumed": null,
+      "carbohydrates_g": null,
+      "protein_g": null,
+      "fat_g": null,
+      "menstrual_phase": null,
+      "menstrual_phase_predicted": null,
+      "readiness": null
+    },
+    {
+      "date": "2026-06-15",
+      "weight_kg": null,
+      "resting_hr": 59,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_formatted": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null,
+      "fatigue": null,
+      "soreness": null,
+      "stress": null,
+      "mood": null,
+      "motivation": null,
+      "injury": null,
+      "hydration": null,
+      "spO2": null,
+      "blood_glucose": null,
+      "systolic": null,
+      "diastolic": null,
+      "baevsky_si": null,
+      "lactate": null,
+      "respiration": null,
+      "body_fat_pct": null,
+      "abdomen_cm": null,
+      "steps": 13,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2055,20 +1902,6 @@
     }
   ],
   "planned_workouts": [
-    {
-      "id": 94364821,
-      "date": "2026-06-14",
-      "name": "Eschathlon",
-      "type": "RACE_A",
-      "sport_type": "Run",
-      "planned_tss": null,
-      "duration_hours": 1.83,
-      "duration_formatted": "1h50m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "08:15",
-      "description": "- 111m Z3-Z4"
-    },
     {
       "id": 114572789,
       "date": "2026-06-15",
@@ -2132,7 +1965,7 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": null
+      "description": ""
     },
     {
       "id": 114572812,
@@ -2145,7 +1978,7 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": null
+      "description": ""
     },
     {
       "id": 114572791,
@@ -2263,6 +2096,32 @@
       "workout_summary": null,
       "has_terrain": false,
       "description_preview": null
+    },
+    {
+      "id": 114572796,
+      "date": "2026-07-27",
+      "name": "Weekly",
+      "type": "TARGET",
+      "sport_type": "Ride",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
+      "id": 114572817,
+      "date": "2026-07-27",
+      "name": "Weekly",
+      "type": "TARGET",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
     }
   ],
   "workout_summary_stats": {
@@ -2270,98 +2129,25 @@
     "success": 0,
     "patternA": 0,
     "patternB": 0,
-    "bail_no_workout_doc": 4,
+    "bail_no_workout_doc": 3,
     "bail_no_match": 0
   },
   "weekly_summary": {
-    "total_training_hours": 4.95,
-    "total_training_formatted": "4h57m",
-    "total_tss": 370,
-    "activities_count": 8,
-    "avg_hrv": 45.0,
-    "avg_resting_hr": 55.1
+    "total_training_hours": 4.33,
+    "total_training_formatted": "4h19m",
+    "total_tss": 366,
+    "activities_count": 7,
+    "avg_hrv": 46.0,
+    "avg_resting_hr": 55.7
   },
   "race_calendar": {
-    "next_race": {
-      "name": "Eschathlon",
-      "date": "2026-06-14",
-      "category": "RACE_A",
-      "type": "Run",
-      "days_until": 0,
-      "moving_time_seconds": 6600,
-      "distance_meters": 21100.0,
-      "has_terrain": false,
-      "start_time": "08:15"
-    },
-    "all_races": [
-      {
-        "name": "Eschathlon",
-        "date": "2026-06-14",
-        "category": "RACE_A",
-        "type": "Run",
-        "days_until": 0,
-        "moving_time_seconds": 6600,
-        "distance_meters": 21100.0,
-        "has_terrain": false,
-        "start_time": "08:15"
-      }
-    ],
+    "next_race": null,
+    "all_races": [],
     "taper_alert": {
       "active": false
     },
     "race_week": {
-      "active": true,
-      "event_name": "Eschathlon",
-      "event_date": "2026-06-14",
-      "event_category": "RACE_A",
-      "event_type": "Run",
-      "event_duration_class": "medium",
-      "event_moving_time_seconds": 6600,
-      "days_until_event": 0,
-      "current_day": "D-0",
-      "ctl_baseline": 60.5,
-      "normal_weekly_tss": 423.2,
-      "race_week_tss_budget": {
-        "min": 169,
-        "max": 233
-      },
-      "race_week_tss_spent": 370,
-      "race_week_tss_remaining": {
-        "min": 0,
-        "max": 0
-      },
-      "projected_race_day_tsb": -4.7,
-      "tsb_target_range": {
-        "min": 10,
-        "max": 20
-      },
-      "today": {
-        "label": "Race day",
-        "load_target_tss": {
-          "min": 0,
-          "max": 0
-        },
-        "zones": "Race effort",
-        "purpose": "Go/no-go assessment. Execute race plan."
-      },
-      "carb_loading": {
-        "applicable": true,
-        "active": true,
-        "starts": "D-4",
-        "start_date": "2026-06-10",
-        "note": "10-12 g\u00b7kg\u207b\u00b9/day. No depletion phase needed."
-      },
-      "opener": {
-        "day": "D-2",
-        "date": "2026-06-12",
-        "intensity": "standard"
-      },
-      "go_no_go": {
-        "tsb_status": "flag",
-        "notes": [
-          "Projected race-day TSB -4.7 is significantly below target range 10-20. Fatigue may impact performance."
-        ]
-      }
+      "active": false
     }
   }
 }
