@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T11:26:03.816179",
+  "generated_at": "2026-06-15T16:23:28.265435",
   "version": "3.95",
   "script_hash": "ec09283a7a09",
   "scan_hours": 72,
@@ -1200,6 +1200,54 @@
           "zone": 6,
           "training_load": 0.08024864,
           "decoupling": -7.9345517
+        }
+      ]
+    },
+    {
+      "activity_id": "i157480411",
+      "date": "2026-06-15",
+      "type": "Ride",
+      "name": "Gelenkrost von gestern raussp\u00fclen",
+      "interval_summary": [
+        "1x 7m17s 227w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3281,
+          "avg_power": 151,
+          "max_power": 379,
+          "avg_hr": 132,
+          "max_hr": 155,
+          "avg_cadence": 80.28331,
+          "zone": 2,
+          "training_load": 47.522373,
+          "decoupling": -4.9720483
+        },
+        {
+          "type": "WORK",
+          "label": "437s@227w89rpm",
+          "duration_secs": 437,
+          "avg_power": 227,
+          "max_power": 489,
+          "avg_hr": 159,
+          "max_hr": 165,
+          "avg_cadence": 88.75744,
+          "zone": 5,
+          "training_load": 15.267709,
+          "decoupling": 5.9508815
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 397,
+          "avg_power": 122,
+          "max_power": 455,
+          "avg_hr": 133,
+          "max_hr": 161,
+          "avg_cadence": 65.48127,
+          "zone": 2,
+          "training_load": 4.6525393,
+          "decoupling": -34.102398
         }
       ]
     }
