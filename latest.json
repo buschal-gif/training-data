@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-18T14:20:05.913690",
+    "last_updated": "2026-06-18T17:38:45.277431",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -175,14 +175,14 @@
       "ctl": 57.99,
       "atl": 49.55,
       "tsb": 8.44,
-      "ramp_rate": 1.24,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "ramp_rate": -0.29,
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
-      "eftp": 211.4,
-      "w_prime": 17594,
+      "eftp": 211.2,
+      "w_prime": 17577,
       "w_prime_kj": 17.6,
-      "p_max": 713,
+      "p_max": 712,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -546,7 +546,7 @@
           },
           "coverage_ratio": 1.0,
           "ftp_used": 214,
-          "w_prime_used": 17594,
+          "w_prime_used": 17577,
           "ftp_staleness_days": 0,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
@@ -554,14 +554,13 @@
     },
     "consistency_index": 0.0,
     "consistency_details": {
-      "planned_days": 4,
+      "planned_days": 3,
       "completed_days": 1,
       "matched_days": 0,
       "planned_dates": [
         "2026-06-12",
         "2026-06-13",
-        "2026-06-16",
-        "2026-06-18"
+        "2026-06-16"
       ],
       "completed_dates": [
         "2026-06-15"
@@ -581,12 +580,12 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.88,
-          "hard_sessions_planned": 1,
+          "planned_tss_delta": 0.46,
+          "hard_sessions_planned": 0,
           "race_proximity": null,
-          "next_week_load": null,
-          "plan_coverage_current_week": 0.6,
-          "plan_coverage_next_week": 0.4
+          "next_week_load": 0.26,
+          "plan_coverage_current_week": 0.4,
+          "plan_coverage_next_week": 0.6
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -615,19 +614,19 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 211.4,
-    "w_prime": 17594,
+    "eftp": 211.2,
+    "w_prime": 17577,
     "w_prime_kj": 17.6,
-    "p_max": 713,
+    "p_max": 712,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-18T14:20:05.912299",
+    "calculation_timestamp": "2026-06-18T17:38:45.276060",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
       "activities_7d": 7,
       "activities_28d": 22,
-      "planned_workouts_7d": 9,
+      "planned_workouts_7d": 8,
       "ftp_history_days": {
         "indoor": 88,
         "outdoor": 88
@@ -2012,30 +2011,17 @@
   ],
   "planned_workouts": [
     {
-      "id": 116310278,
-      "date": "2026-06-18",
-      "name": "Training 05: Dauerlauf",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 70,
-      "duration_hours": 1.08,
-      "duration_formatted": "1h5m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "- 65m Z2 Z2 HR Z2 Pace"
-    },
-    {
-      "id": 116368094,
+      "id": 116978885,
       "date": "2026-06-20",
-      "name": "Training 04: 3x8' @98-100% Pace",
+      "name": "Training 06: Dauerlauf",
       "type": "WORKOUT",
       "sport_type": "Run",
       "planned_tss": 76,
-      "duration_hours": 0.93,
-      "duration_formatted": "56m",
-      "workout_summary": "10m | 2\u00d71m / 2m rec | 2m | 3\u00d78m / 3m rec | 5m",
+      "duration_hours": 1.17,
+      "duration_formatted": "1h10m",
+      "workout_summary": null,
       "has_terrain": false,
-      "description": "100-105% Pace (SuperSchwelle)\n\n- Warmup 10m Z2 Power Z2 HR Z2 Pace intensity=warmup\n\nAktivierung 2x\n- Aktivierung 1m Z3 Z3-4 HR 90%-95% Pace \n- Erholung 2m Z2 Z2 HR Z2 Pace intensity=recovery\n\n- Pause 2m Z1 Z1 HR Z1 Pace\n\n3x\n- SubSchwelle 8m Z4 Z3-4 HR 98%-100% Pace\n- 3m Z2 Power Z2 HR Z2  Pace intensity=recovery\n\n- Cooldown: 5m Z2 Power Z2 HR Z2 Pace intensity=cooldown"
+      "description": "- 70m Z2 Z2 HR Z2 Pace"
     },
     {
       "id": 116368247,
@@ -2075,6 +2061,19 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": ""
+    },
+    {
+      "id": 116978945,
+      "date": "2026-06-22",
+      "name": "Training 04: 3x8' @98-100% Pace",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 76,
+      "duration_hours": 0.93,
+      "duration_formatted": "56m",
+      "workout_summary": "10m | 2\u00d71m / 2m rec | 2m | 3\u00d78m / 3m rec | 5m",
+      "has_terrain": false,
+      "description": "100-105% Pace (SuperSchwelle)\n\n- Warmup 10m Z2 Power Z2 HR Z2 Pace intensity=warmup\n\nAktivierung 2x\n- Aktivierung 1m Z3 Z3-4 HR 90%-95% Pace \n- Erholung 2m Z2 Z2 HR Z2 Pace intensity=recovery\n\n- Pause 2m Z1 Z1 HR Z1 Pace\n\n3x\n- SubSchwelle 8m Z4 Z3-4 HR 98%-100% Pace\n- 3m Z2 Power Z2 HR Z2  Pace intensity=recovery\n\n- Cooldown: 5m Z2 Power Z2 HR Z2 Pace intensity=cooldown"
     },
     {
       "id": 114572791,
