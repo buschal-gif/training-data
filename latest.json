@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-23T04:18:20.547828",
+    "last_updated": "2026-06-23T08:01:29.257495",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -617,7 +617,7 @@
     "p_max": 709,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-23T04:18:20.546425",
+    "calculation_timestamp": "2026-06-23T08:01:29.256153",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -1955,7 +1955,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 18863,
+      "steps": 16868,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2007,17 +2007,17 @@
   ],
   "planned_workouts": [
     {
-      "id": 117619675,
+      "id": 117982991,
       "date": "2026-06-23",
-      "name": "Threshold Ride",
+      "name": "VO2 Bike Session",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 80,
-      "duration_hours": 1.17,
-      "duration_formatted": "1h10m",
-      "workout_summary": null,
+      "planned_tss": 65,
+      "duration_hours": 0.92,
+      "duration_formatted": "55m",
+      "workout_summary": "15m | 5\u00d73m / 3m rec | 10m",
       "has_terrain": false,
-      "description": "- 15m Z2\n- 10m Z4\n- 5m Z1\n- 10m Z4\n- 5m Z1\n- 10m Z4\n- 15m Z2"
+      "description": "- 15m Z1-Z2 warm-up\n\n5x \n- 3m Z5\n- 3m Z1-Z2\n\n- 10m Z1-Z2 cool-down"
     },
     {
       "id": 117619676,
@@ -2269,11 +2269,11 @@
   ],
   "workout_summary_stats": {
     "attempted": 6,
-    "success": 0,
-    "patternA": 0,
+    "success": 1,
+    "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 2,
-    "bail_no_match": 6
+    "bail_no_match": 5
   },
   "weekly_summary": {
     "total_training_hours": 4.46,
