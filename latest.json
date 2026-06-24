@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-24T11:15:16.979577",
+    "last_updated": "2026-06-24T13:32:44.492893",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -127,14 +127,14 @@
       "unavailable": 0
     },
     "phase_context": {
-      "phase": "Base",
+      "phase": "Build",
       "phase_week": 1,
-      "amber_threshold": 2,
-      "modifier_applied": "default"
+      "amber_threshold": 3,
+      "modifier_applied": "build_loosened"
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 5 green, 1 amber (threshold 2), 0 red.",
+    "reason": "P3 green light. 5 green, 1 amber (threshold 3), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -546,16 +546,15 @@
         }
       }
     },
-    "consistency_index": 0.2,
+    "consistency_index": 0.25,
     "consistency_details": {
-      "planned_days": 5,
+      "planned_days": 4,
       "completed_days": 1,
       "matched_days": 1,
       "planned_dates": [
         "2026-06-20",
         "2026-06-21",
         "2026-06-22",
-        "2026-06-23",
         "2026-06-24"
       ],
       "completed_dates": [
@@ -563,7 +562,7 @@
       ]
     },
     "phase_detection": {
-      "phase": "Base",
+      "phase": "Build",
       "confidence": "medium",
       "reason_codes": [],
       "basis": {
@@ -574,11 +573,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.03,
-          "hard_sessions_planned": 1,
+          "planned_tss_delta": 0.65,
+          "hard_sessions_planned": 2,
           "race_proximity": 90,
           "next_week_load": null,
-          "plan_coverage_current_week": 1.0,
+          "plan_coverage_current_week": 0.8,
           "plan_coverage_next_week": 0.4
         },
         "data_quality": "good",
@@ -589,7 +588,7 @@
       "dossier_declared": null,
       "dossier_agreement": null
     },
-    "phase_detected": "Base",
+    "phase_detected": "Build",
     "phase_triggers": [],
     "seasonal_context": "Build / Early Race Season",
     "benchmark_indoor": {
@@ -612,13 +611,13 @@
     "p_max": 708,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-24T11:15:16.978174",
+    "calculation_timestamp": "2026-06-24T13:32:44.491578",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 3,
       "activities_28d": 21,
-      "planned_workouts_7d": 8,
+      "planned_workouts_7d": 6,
       "ftp_history_days": {
         "indoor": 94,
         "outdoor": 94
@@ -1967,30 +1966,17 @@
   ],
   "planned_workouts": [
     {
-      "id": 117619676,
+      "id": 118253737,
       "date": "2026-06-24",
-      "name": "Easy Run",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 49,
-      "duration_hours": 0.75,
-      "duration_formatted": "45m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "- 45m Z2 Easy Run"
-    },
-    {
-      "id": 117619677,
-      "date": "2026-06-25",
-      "name": "Endurance Ride",
+      "name": "4x8 Threshold Intervals",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 45,
-      "duration_hours": 1.17,
-      "duration_formatted": "1h10m",
+      "planned_tss": 81,
+      "duration_hours": 1.15,
+      "duration_formatted": "1h9m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "- 20m Z2\n- 5m High Cadence\n- 20m Z2\n- 5m High Cadence\n- 20m Z2"
+      "description": "-15m Z1-Z3\n-8m Z4\n-4m Z1-Z2\n-8m Z4\n-4m Z1-Z2\n-8m Z4\n-4m Z1-Z2\n-8m Z4\n-10m Z1-Z3"
     },
     {
       "id": 117619678,
@@ -2215,12 +2201,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 5,
+    "attempted": 4,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 2,
-    "bail_no_match": 5
+    "bail_no_match": 4
   },
   "weekly_summary": {
     "total_training_hours": 3.46,
