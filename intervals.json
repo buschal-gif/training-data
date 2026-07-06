@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T07:00:52.420198",
+  "generated_at": "2026-07-06T11:42:36.189235",
   "version": "3.95",
   "script_hash": "ec09283a7a09",
   "scan_hours": 72,
@@ -1260,6 +1260,121 @@
           "zone": 2,
           "training_load": 8.539471,
           "decoupling": -2.3138366
+        }
+      ]
+    },
+    {
+      "activity_id": "i163174622",
+      "date": "2026-07-06",
+      "type": "Run",
+      "name": "Beine aus Blei weichschmelzen",
+      "interval_summary": [
+        "1x 7m57s 265w",
+        "5x 6m29s 271w",
+        "1x 3s 299w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "477s@265w83rpm",
+          "duration_secs": 477,
+          "avg_power": 265,
+          "max_power": 350,
+          "avg_hr": 133,
+          "max_hr": 150,
+          "avg_cadence": 83.141335,
+          "zone": 2,
+          "training_load": 5.692687,
+          "decoupling": 19.38114
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_power": 257,
+          "max_power": 257,
+          "avg_hr": 148,
+          "max_hr": 148,
+          "avg_cadence": 84.0,
+          "zone": 2,
+          "training_load": 0.019712482
+        },
+        {
+          "type": "WORK",
+          "label": "389s@271w83rpm",
+          "duration_secs": 378,
+          "avg_power": 266,
+          "max_power": 288,
+          "avg_hr": 146,
+          "max_hr": 151,
+          "avg_cadence": 83.61905,
+          "zone": 2,
+          "training_load": 6.145553,
+          "decoupling": 0.17295405
+        },
+        {
+          "type": "WORK",
+          "label": "389s@271w83rpm",
+          "duration_secs": 379,
+          "avg_power": 270,
+          "max_power": 300,
+          "avg_hr": 148,
+          "max_hr": 152,
+          "avg_cadence": 83.620056,
+          "zone": 2,
+          "training_load": 6.3478174,
+          "decoupling": 1.5364348
+        },
+        {
+          "type": "WORK",
+          "label": "389s@271w83rpm",
+          "duration_secs": 420,
+          "avg_power": 269,
+          "max_power": 324,
+          "avg_hr": 145,
+          "max_hr": 151,
+          "avg_cadence": 83.44086,
+          "zone": 2,
+          "training_load": 5.957737,
+          "decoupling": 4.904359
+        },
+        {
+          "type": "WORK",
+          "label": "389s@271w83rpm",
+          "duration_secs": 373,
+          "avg_power": 270,
+          "max_power": 281,
+          "avg_hr": 148,
+          "max_hr": 151,
+          "avg_cadence": 83.182304,
+          "zone": 2,
+          "training_load": 6.2473245,
+          "decoupling": -0.35201925
+        },
+        {
+          "type": "WORK",
+          "label": "389s@271w83rpm",
+          "duration_secs": 397,
+          "avg_power": 280,
+          "max_power": 376,
+          "avg_hr": 150,
+          "max_hr": 160,
+          "avg_cadence": 83.15267,
+          "zone": 2,
+          "training_load": 7.127503,
+          "decoupling": 2.6338732
+        },
+        {
+          "type": "WORK",
+          "label": "3s@299w83rpm",
+          "duration_secs": 3,
+          "avg_power": 299,
+          "max_power": 306,
+          "avg_hr": 147,
+          "max_hr": 147,
+          "avg_cadence": 83.0,
+          "zone": 2,
+          "training_load": 0.06157585,
+          "decoupling": 3.267974
         }
       ]
     }
