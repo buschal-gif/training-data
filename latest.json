@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-11T17:13:02.329734",
+    "last_updated": "2026-07-11T18:06:17.486355",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -570,14 +570,13 @@
         }
       }
     },
-    "consistency_index": 0.5,
+    "consistency_index": 0.0,
     "consistency_details": {
-      "planned_days": 2,
+      "planned_days": 1,
       "completed_days": 1,
-      "matched_days": 1,
+      "matched_days": 0,
       "planned_dates": [
-        "2026-07-08",
-        "2026-07-11"
+        "2026-07-08"
       ],
       "completed_dates": [
         "2026-07-11"
@@ -595,12 +594,12 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.71,
+          "planned_tss_delta": null,
           "hard_sessions_planned": 0,
           "race_proximity": 73,
-          "next_week_load": null,
+          "next_week_load": 0.29,
           "plan_coverage_current_week": 0.2,
-          "plan_coverage_next_week": 0.4
+          "plan_coverage_next_week": 1.2
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -633,13 +632,13 @@
     "p_max": 701,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-11T17:13:02.123363",
+    "calculation_timestamp": "2026-07-11T18:06:17.485216",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 7,
       "activities_28d": 20,
-      "planned_workouts_7d": 5,
+      "planned_workouts_7d": 4,
       "ftp_history_days": {
         "indoor": 111,
         "outdoor": 111
@@ -1915,17 +1914,17 @@
   ],
   "planned_workouts": [
     {
-      "id": 121306887,
-      "date": "2026-07-11",
-      "name": "Grundlage",
+      "id": 122077622,
+      "date": "2026-07-12",
+      "name": "Strength: Full Body Foundation",
       "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 136,
-      "duration_hours": 2.0,
-      "duration_formatted": "2h",
+      "sport_type": "WeightTraining",
+      "planned_tss": 85,
+      "duration_hours": 0.83,
+      "duration_formatted": "50m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "- 2h Z3"
+      "description": "- Squat 3x10\n- Romanian Deadlift 3x10\n- Push-up 3x12\n- Row 3x12\n- Plank 3x45s"
     },
     {
       "id": 114572793,
@@ -1954,6 +1953,58 @@
       "description": ""
     },
     {
+      "id": 122077857,
+      "date": "2026-07-13",
+      "name": "Training 02: Dauerlauf mit Tempoanteil",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 76,
+      "duration_hours": 1.1,
+      "duration_formatted": "1h6m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "- 40m Z2 Power Z2 HR Z2 Pace\n- 18m Z3 Power Z3 HR Z3 Pace\n- 8m Z1-Z2 Power Z1-Z2 HR Z2-Z1 Pace"
+    },
+    {
+      "id": 122077624,
+      "date": "2026-07-16",
+      "name": "RUN-TEM-001 Tempo Intro",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 41,
+      "duration_hours": 0.83,
+      "duration_formatted": "50m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "- Warmup 15m Z1 Pace\n- Tempo 15m Z3 Pace\n- Easy jog 10m Z1 Pace\n- Cooldown 10m Z1 Pace"
+    },
+    {
+      "id": 122077625,
+      "date": "2026-07-17",
+      "name": "RIDE-VO2-002 VO2 Standard",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 81,
+      "duration_hours": 1.25,
+      "duration_formatted": "1h15m",
+      "workout_summary": "15m @119W | 5m @162W | 5m @119W | 5\u00d73m @249W / 3m rec | 10m @141W | 10m @108W",
+      "has_terrain": false,
+      "description": "- Warmup 15m 55%\n- Prep 5m ramp 60%-90%\n- Recovery 5m 55%\n\nMain Set 5x\n- VO2 3m 115%\n- Recovery 3m 55%\n\n- Endurance 10m 65%\n- Cooldown 10m 50%"
+    },
+    {
+      "id": 122077626,
+      "date": "2026-07-19",
+      "name": "Strength: Full Body Foundation",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": 76,
+      "duration_hours": 0.83,
+      "duration_formatted": "50m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "- Squat 3x10\n- Romanian Deadlift 3x10\n- Push-up 3x12"
+    },
+    {
       "id": 114572795,
       "date": "2026-07-20",
       "name": "Weekly",
@@ -1980,6 +2031,56 @@
       "description_preview": null
     },
     {
+      "id": 122077627,
+      "date": "2026-07-21",
+      "name": "RIDE-END-003 Progressive Endurance",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 64,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "- Warmup 15m 55%\n- Endurance 20m 65%\n- Endurance 20m 70%"
+    },
+    {
+      "id": 122077629,
+      "date": "2026-07-23",
+      "name": "RUN-TEM-002 Tempo Builder",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 52,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": "15m | 2\u00d712m / 4m rec | 13m",
+      "has_terrain": false
+    },
+    {
+      "id": 122077630,
+      "date": "2026-07-24",
+      "name": "RIDE-VO2-003 Five By Five",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 103,
+      "duration_hours": 1.42,
+      "duration_formatted": "1h25m",
+      "workout_summary": "15m @119W | 5m @162W | 5m @119W | 5\u00d75m @244W / 5m rec | 10m @108W",
+      "has_terrain": false
+    },
+    {
+      "id": 122077631,
+      "date": "2026-07-26",
+      "name": "Strength: Full Body Progressive",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": 56,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "- Back Squat 4x6\n- Deadlift 4x5\n- Bench Press 4x6"
+    },
+    {
       "id": 114572796,
       "date": "2026-07-27",
       "name": "Weekly",
@@ -2004,6 +2105,58 @@
       "workout_summary": null,
       "has_terrain": false,
       "description_preview": null
+    },
+    {
+      "id": 122077633,
+      "date": "2026-07-28",
+      "name": "RIDE-REC-001 Recovery Spin",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 19,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "- Easy spin 45m 50%"
+    },
+    {
+      "id": 122077634,
+      "date": "2026-07-29",
+      "name": "RUN-REC-001 Easy Recovery Run",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 20,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "- Easy run 30m Z1 Pace"
+    },
+    {
+      "id": 122077635,
+      "date": "2026-07-30",
+      "name": "Mobility: Recovery Flow",
+      "type": "WORKOUT",
+      "sport_type": "Yoga",
+      "planned_tss": 25,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "- Yoga Flow 20m\n- Breathing Drill 5m\n- Relaxed Mobility 5m"
+    },
+    {
+      "id": 122077636,
+      "date": "2026-08-01",
+      "name": "RIDE-REC-002 Recovery With Cadence",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 27,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "- Easy spin 20m 50% 85rpm\n- Cadence focus 20m 55% 95-105rpm\n- Easy spin 20m 50% 85rpm"
     },
     {
       "id": 114572797,
@@ -2045,6 +2198,57 @@
       "description_preview": "Fokus auf leichtere Belastungen, reduziertes Volumen und Anpassung des K\u00f6rpers an Trainingsstress (Radfahren, Laufen)"
     },
     {
+      "id": 122077637,
+      "date": "2026-08-03",
+      "name": "RIDE-END-004 Long Endurance",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 86,
+      "duration_hours": 2.0,
+      "duration_formatted": "2h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "- Warmup 15m 55%\n- Endurance 90m 65-72%\n- Cooldown 15m 50%"
+    },
+    {
+      "id": 122077639,
+      "date": "2026-08-05",
+      "name": "RUN-END-003 Long Aerobic Run",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 78,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "- Warmup 10m Z1 Pace\n- Endurance 70m Z2 Pace\n- Cooldown 10m Z1 Pace"
+    },
+    {
+      "id": 122077640,
+      "date": "2026-08-06",
+      "name": "RIDE-SS-002 Sweet Spot Standard",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 90,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": "15m @119W | 3\u00d715m @194W / 5m rec | 15m @108W",
+      "has_terrain": false
+    },
+    {
+      "id": 122077641,
+      "date": "2026-08-08",
+      "name": "Strength: Full Body Foundation",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": 50,
+      "duration_hours": 0.83,
+      "duration_formatted": "50m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "- Squat 3x10\n- Romanian Deadlift 3x10\n- Push-up 3x12"
+    },
+    {
       "id": 114572798,
       "date": "2026-08-10",
       "name": "Weekly",
@@ -2084,6 +2288,57 @@
       "description_preview": "Build Phase: Schwelle, VO2 max, Rennvorbereitung"
     },
     {
+      "id": 122077642,
+      "date": "2026-08-10",
+      "name": "RIDE-END-006 Endurance With Tempo Finish",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 91,
+      "duration_hours": 2.0,
+      "duration_formatted": "2h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "- Warmup 15m 55%\n- Endurance 70m 65%\n- Tempo finish 25m 80%"
+    },
+    {
+      "id": 122077643,
+      "date": "2026-08-12",
+      "name": "RUN-TEM-003 Long Tempo",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 62,
+      "duration_hours": 1.17,
+      "duration_formatted": "1h10m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "- Warmup 15m Z1 Pace\n- Tempo 30m Z3 Pace\n- Easy jog 10m Z1 Pace"
+    },
+    {
+      "id": 122077644,
+      "date": "2026-08-14",
+      "name": "RIDE-SS-003 Sweet Spot Progression",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 107,
+      "duration_hours": 1.75,
+      "duration_formatted": "1h45m",
+      "workout_summary": "15m @119W | 3\u00d718m @194W / 5m rec | 6m @141W | 15m @108W",
+      "has_terrain": false
+    },
+    {
+      "id": 122077645,
+      "date": "2026-08-16",
+      "name": "Strength: Cycling Force Development",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": 61,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "- Heavy Squat 5x5\n- Split Squat 4x6 each\n- Deadlift 4x5"
+    },
+    {
       "id": 114572799,
       "date": "2026-08-17",
       "name": "Weekly",
@@ -2108,15 +2363,52 @@
       "workout_summary": null,
       "has_terrain": false,
       "description_preview": null
+    },
+    {
+      "id": 122077646,
+      "date": "2026-08-17",
+      "name": "RIDE-END-007 Aerobic Cadence Control",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 51,
+      "duration_hours": 1.25,
+      "duration_formatted": "1h15m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "- Warmup 10m 55% 85rpm\n- Endurance 20m 65% 90rpm\n- Cadence focus 20m 65% 95-105rpm"
+    },
+    {
+      "id": 122077647,
+      "date": "2026-08-19",
+      "name": "RUN-THR-001 Cruise Intervals",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 58,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": "15m | 4\u00d76m / 2m rec | 13m",
+      "has_terrain": false
+    },
+    {
+      "id": 122077648,
+      "date": "2026-08-20",
+      "name": "RIDE-SS-004 Sweet Spot Long",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 102,
+      "duration_hours": 1.67,
+      "duration_formatted": "1h40m",
+      "workout_summary": "10m @119W | 2\u00d725m @195W / 8m rec | 14m @141W | 10m @108W",
+      "has_terrain": false
     }
   ],
   "workout_summary_stats": {
-    "attempted": 1,
-    "success": 0,
-    "patternA": 0,
+    "attempted": 19,
+    "success": 7,
+    "patternA": 7,
     "patternB": 0,
-    "bail_no_workout_doc": 2,
-    "bail_no_match": 1
+    "bail_no_workout_doc": 7,
+    "bail_no_match": 12
   },
   "weekly_summary": {
     "total_training_hours": 4.67,
