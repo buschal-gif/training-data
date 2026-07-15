@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-15T18:43:21.428137",
+    "last_updated": "2026-07-15T19:50:28.213546",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -605,7 +605,7 @@
     "p_max": 699,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-15T18:43:21.426823",
+    "calculation_timestamp": "2026-07-15T19:50:28.212143",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1783,13 +1783,13 @@
       "name": "Intervall-Lauf (VO2Max)",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 9,
-      "duration_hours": 0.17,
-      "duration_formatted": "10m",
-      "workout_summary": null,
+      "planned_tss": 87,
+      "duration_hours": 0.93,
+      "duration_formatted": "56m",
+      "workout_summary": "10m | 1m | 2 \u00d7 2m | 6\u00d73m / 3m rec | 5m",
       "has_terrain": false,
       "start_time": "17:00",
-      "description": "- Warmup 10m Z2 Pace\\n- Aktivierung 1m Z5 Pace\\n- Erholung 2m Z2 Pace\\n- Pause 2m Z1-Z2 Pace\\n- 6x\\n- subVO2Max 3m Z6 Pace\\n- 3m Z1-Z2 Pace\\n- Cooldown: 5m Z2 Pace"
+      "description": "- Warmup 10m Z2 Pace\\n\n- Aktivierung 1m Z5 Pace\\n\n- Erholung 2m Z2 Pace\\n\n- Pause 2m Z1-Z2 Pace\\n\n \n6x\n- 3m Z6 Pace\\n\n- 3m Z1-Z2 Pace\\n\n\n- Cooldown: 5m Z2 Pace"
     },
     {
       "id": 122414979,
@@ -1964,11 +1964,11 @@
   ],
   "workout_summary_stats": {
     "attempted": 2,
-    "success": 0,
-    "patternA": 0,
+    "success": 1,
+    "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 2
+    "bail_no_match": 1
   },
   "weekly_summary": {
     "total_training_hours": 7.73,
