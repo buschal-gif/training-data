@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-15T16:07:11.237680",
+    "last_updated": "2026-07-15T17:35:43.675202",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -106,25 +106,25 @@
         "value": 1.05
       },
       "tsb": {
-        "status": "amber",
-        "value": -16.1
+        "status": "green",
+        "value": -11.1
       }
     },
     "signal_summary": {
-      "green": 5,
-      "amber": 1,
+      "green": 6,
+      "amber": 0,
       "red": 0,
       "unavailable": 0
     },
     "phase_context": {
-      "phase": null,
-      "phase_week": 0,
+      "phase": "Base",
+      "phase_week": 1,
       "amber_threshold": 2,
       "modifier_applied": "default"
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 5 green, 1 amber (threshold 2), 0 red.",
+    "reason": "P3 green light. 6 green, 0 amber (threshold 2), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -162,10 +162,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 59.43,
-      "atl": 75.48,
-      "tsb": -16.05,
-      "ramp_rate": 2.19,
+      "ctl": 58.37,
+      "atl": 69.49,
+      "tsb": -11.12,
+      "ramp_rate": 1.13,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -233,7 +233,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1531,
+      "steps": 2333,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -542,14 +542,13 @@
         }
       }
     },
-    "consistency_index": 0.5,
+    "consistency_index": 0.0,
     "consistency_details": {
-      "planned_days": 2,
+      "planned_days": 1,
       "completed_days": 2,
-      "matched_days": 1,
+      "matched_days": 0,
       "planned_dates": [
-        "2026-07-13",
-        "2026-07-15"
+        "2026-07-13"
       ],
       "completed_dates": [
         "2026-07-11",
@@ -557,11 +556,9 @@
       ]
     },
     "phase_detection": {
-      "phase": null,
-      "confidence": "low",
-      "reason_codes": [
-        "BUILD_BASE_AMBIGUOUS"
-      ],
+      "phase": "Base",
+      "confidence": "medium",
+      "reason_codes": [],
       "basis": {
         "stream_1": {
           "ctl_slope": null,
@@ -570,25 +567,23 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.48,
-          "hard_sessions_planned": 2,
+          "planned_tss_delta": 0.28,
+          "hard_sessions_planned": 1,
           "race_proximity": 69,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.6,
+          "plan_coverage_current_week": 0.4,
           "plan_coverage_next_week": 0.4
         },
         "data_quality": "good",
         "stream_agreement": null
       },
       "previous_phase": null,
-      "phase_duration_weeks": 0,
+      "phase_duration_weeks": 1,
       "dossier_declared": null,
       "dossier_agreement": null
     },
-    "phase_detected": null,
-    "phase_triggers": [
-      "BUILD_BASE_AMBIGUOUS"
-    ],
+    "phase_detected": "Base",
+    "phase_triggers": [],
     "seasonal_context": "Peak Race Season",
     "benchmark_indoor": {
       "current_ftp": 194,
@@ -610,13 +605,13 @@
     "p_max": 699,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-15T16:07:10.993452",
+    "calculation_timestamp": "2026-07-15T17:35:43.673891",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 5,
       "activities_28d": 18,
-      "planned_workouts_7d": 4,
+      "planned_workouts_7d": 3,
       "ftp_history_days": {
         "indoor": 115,
         "outdoor": 115
@@ -650,12 +645,12 @@
       "carbs_used": 480,
       "carbs_ingested": null,
       "variability_index": 1.1448276,
-      "decoupling": 19.72265,
+      "decoupling": 19.549997,
       "efficiency_factor": 1.2116789,
       "hrrc": 23,
       "elevation_m": 397.0,
-      "feel": null,
-      "rpe": null,
+      "feel": 2,
+      "rpe": 4,
       "zone_distribution": {
         "hr_zones": {
           "z1_time": 1242,
@@ -1770,7 +1765,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1531,
+      "steps": 2333,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1782,20 +1777,6 @@
     }
   ],
   "planned_workouts": [
-    {
-      "id": 122740654,
-      "date": "2026-07-15",
-      "name": "Lange Radausfahrt",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 45,
-      "duration_hours": 0.47,
-      "duration_formatted": "28m",
-      "workout_summary": "4\u00d74m / 3m rec",
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description": "4x\n-4m Z5\n- 3m Z1-Z2"
-    },
     {
       "id": 122415051,
       "date": "2026-07-17",
@@ -1982,9 +1963,9 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 3,
-    "success": 1,
-    "patternA": 1,
+    "attempted": 2,
+    "success": 0,
+    "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 0,
     "bail_no_match": 2
