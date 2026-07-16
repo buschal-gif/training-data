@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-16T07:08:54.817424",
+    "last_updated": "2026-07-16T09:25:38.319757",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -571,7 +571,7 @@
           "hard_sessions_planned": 1,
           "race_proximity": 68,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.4,
+          "plan_coverage_current_week": 0.6,
           "plan_coverage_next_week": 0.4
         },
         "data_quality": "good",
@@ -605,7 +605,7 @@
     "p_max": 699,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-16T07:08:54.816111",
+    "calculation_timestamp": "2026-07-16T09:25:38.318359",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -645,7 +645,7 @@
       "carbs_used": 480,
       "carbs_ingested": null,
       "variability_index": 1.1448276,
-      "decoupling": 19.549997,
+      "decoupling": 17.528873,
       "efficiency_factor": 1.2116789,
       "hrrc": 23,
       "elevation_m": 397.0,
@@ -1778,18 +1778,17 @@
   ],
   "planned_workouts": [
     {
-      "id": 122415051,
+      "id": 123172852,
       "date": "2026-07-17",
-      "name": "Intervall-Lauf (VO2Max)",
+      "name": "Training 04: 7x1'/2'min SuperVO2Max (115-125% Pace)",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 87,
-      "duration_hours": 0.93,
-      "duration_formatted": "56m",
-      "workout_summary": "10m | 1m | 2 \u00d7 2m | 6\u00d73m / 3m rec | 5m",
+      "planned_tss": 59,
+      "duration_hours": 0.98,
+      "duration_formatted": "59m",
+      "workout_summary": "13m | 2\u00d715s / 1m45s rec | 7\u00d71m / 2m rec | 21m",
       "has_terrain": false,
-      "start_time": "17:00",
-      "description": "- Warmup 10m Z2 Pace\\n\n- Aktivierung 1m Z5 Pace\\n\n- Erholung 2m Z2 Pace\\n\n- Pause 2m Z1-Z2 Pace\\n\n \n6x\n- 3m Z6 Pace\\n\n- 3m Z1-Z2 Pace\\n\n\n- Cooldown: 5m Z2 Pace"
+      "description": "- Warmup 13m Z2 Power Z2 HR Z2 Pace \n\nAktivierung 2x\n- Aktivierung 15s Z6 Z3-4 HR 130-150% pace\n- Erholung 1m45s Z1 Z2 HR Z1 Pace \n\n7x\n- 60s Z6 Z4 HR 115-125% pace\n- 2m Z1 Power Z1 HR Z1 Pace \n\n- 21m Z2 Power Z2 HR Z2 Pace"
     },
     {
       "id": 122414979,
@@ -1804,6 +1803,19 @@
       "has_terrain": false,
       "start_time": "10:00",
       "description": "- 1h30m Z2 Ride"
+    },
+    {
+      "id": 123174539,
+      "date": "2026-07-19",
+      "name": "Training 10: Dauerlauf",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 95,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "- 90m Z2 Z2 HR Z2 Pace"
     },
     {
       "id": 114572795,
@@ -1963,12 +1975,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 2,
+    "attempted": 3,
     "success": 1,
     "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 1
+    "bail_no_match": 2
   },
   "weekly_summary": {
     "total_training_hours": 7.73,
