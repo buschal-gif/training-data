@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-17T04:47:08.198116",
+    "last_updated": "2026-07-17T07:09:46.566431",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -606,7 +606,7 @@
     "p_max": 699,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-17T04:47:08.196719",
+    "calculation_timestamp": "2026-07-17T07:09:46.565057",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -1762,7 +1762,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 75,
+      "steps": 7630,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1846,12 +1846,12 @@
       "name": "Training 10: Dauerlauf",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 95,
-      "duration_hours": 1.5,
-      "duration_formatted": "1h30m",
+      "planned_tss": 74,
+      "duration_hours": 1.17,
+      "duration_formatted": "1h10m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "- 90m Z2 Z2 HR Z2 Pace"
+      "description": "- 70m Z2 Z2 HR Z2 Pace"
     },
     {
       "id": 114572795,
