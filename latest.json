@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-24T21:42:46.760274",
+    "last_updated": "2026-07-24T22:41:32.845413",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -127,7 +127,7 @@
       "unavailable": 0
     },
     "phase_context": {
-      "phase": "Deload",
+      "phase": "Base",
       "phase_week": 1,
       "amber_threshold": 2,
       "modifier_applied": "default"
@@ -237,7 +237,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1862,
+      "steps": 10894,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -561,10 +561,10 @@
       ]
     },
     "phase_detection": {
-      "phase": "Deload",
+      "phase": "Base",
       "confidence": "medium",
       "reason_codes": [
-        "BUILD_HISTORY_REDUCED_LOAD"
+        "PHASE_TRANSITION_Build_TO_Base"
       ],
       "basis": {
         "stream_1": {
@@ -578,7 +578,7 @@
           "hard_sessions_planned": 0,
           "race_proximity": 60,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.0,
+          "plan_coverage_current_week": 0.2,
           "plan_coverage_next_week": 0.4
         },
         "data_quality": "good",
@@ -589,9 +589,9 @@
       "dossier_declared": null,
       "dossier_agreement": null
     },
-    "phase_detected": "Deload",
+    "phase_detected": "Base",
     "phase_triggers": [
-      "BUILD_HISTORY_REDUCED_LOAD"
+      "PHASE_TRANSITION_Build_TO_Base"
     ],
     "seasonal_context": "Peak Race Season",
     "benchmark_indoor": {
@@ -614,7 +614,7 @@
     "p_max": 698,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-24T21:42:46.758791",
+    "calculation_timestamp": "2026-07-24T22:41:32.844013",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1901,7 +1901,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1862,
+      "steps": 10894,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1913,6 +1913,19 @@
     }
   ],
   "planned_workouts": [
+    {
+      "id": 124962447,
+      "date": "2026-07-25",
+      "name": "Training 10: Dauerlauf",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 137,
+      "duration_hours": 2.17,
+      "duration_formatted": "2h10m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "- 130m Z2 Z2 HR Z2 Pace"
+    },
     {
       "id": 114572796,
       "date": "2026-07-27",
@@ -2071,12 +2084,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 0,
+    "attempted": 1,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 0
+    "bail_no_match": 1
   },
   "weekly_summary": {
     "total_training_hours": 6.03,
