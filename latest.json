@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-05T06:18:36.680105",
+    "last_updated": "2026-08-05T09:16:12.888910",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -136,8 +136,8 @@
       "unavailable": 4
     },
     "phase_context": {
-      "phase": "Deload",
-      "phase_week": 1,
+      "phase": null,
+      "phase_week": 0,
       "amber_threshold": 2,
       "modifier_applied": "default"
     },
@@ -575,10 +575,10 @@
       ]
     },
     "phase_detection": {
-      "phase": "Deload",
-      "confidence": "medium",
+      "phase": null,
+      "confidence": "low",
       "reason_codes": [
-        "BUILD_HISTORY_REDUCED_LOAD"
+        "BUILD_BASE_AMBIGUOUS"
       ],
       "basis": {
         "stream_1": {
@@ -588,24 +588,24 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": null,
-          "hard_sessions_planned": 0,
+          "planned_tss_delta": 0.58,
+          "hard_sessions_planned": 1,
           "race_proximity": 48,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.0,
+          "plan_coverage_current_week": 0.4,
           "plan_coverage_next_week": 0.4
         },
         "data_quality": "good",
         "stream_agreement": null
       },
       "previous_phase": null,
-      "phase_duration_weeks": 1,
+      "phase_duration_weeks": 0,
       "dossier_declared": null,
       "dossier_agreement": null
     },
-    "phase_detected": "Deload",
+    "phase_detected": null,
     "phase_triggers": [
-      "BUILD_HISTORY_REDUCED_LOAD"
+      "BUILD_BASE_AMBIGUOUS"
     ],
     "seasonal_context": "Peak Race Season",
     "benchmark_indoor": {
@@ -628,13 +628,13 @@
     "p_max": 694,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-05T06:18:36.678792",
+    "calculation_timestamp": "2026-08-05T09:16:12.887894",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
       "activities_7d": 4,
       "activities_28d": 19,
-      "planned_workouts_7d": 4,
+      "planned_workouts_7d": 5,
       "ftp_history_days": {
         "indoor": 136,
         "outdoor": 136
@@ -1849,6 +1849,32 @@
   ],
   "planned_workouts": [
     {
+      "id": 127406359,
+      "date": "2026-08-06",
+      "name": "Aktivierung",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 54,
+      "duration_hours": 0.9,
+      "duration_formatted": "54m",
+      "workout_summary": "8m | 30m | 4\u00d720s / 1m40s rec | 8m",
+      "has_terrain": false,
+      "description": "- 8m Z1-Z2 Z1-Z2 Pace \n- 30m Z2 Z2 Pace \n\n4x \n- 20s Z5 Z5 Pace \n- 1m40s Z1-Z2 Z1-Z2 Pace \n\n- 8m Z1-Z2 Z1-Z2 Pace"
+    },
+    {
+      "id": 127416889,
+      "date": "2026-08-07",
+      "name": "Odenwaldtour nach Zeit",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 552,
+      "duration_hours": 9.12,
+      "duration_formatted": "9h7m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "- 1h 48m  Z2-Z3\n- 12m Z1\n- 30m Z3-Z4\n- 12m Z1\n- 45m Z3-Z4\n- 15m Z1-Z2\n- 20m Z3-Z4\n- 10m Z1-Z2\n- 30m Z3-Z4\n- 15m Z1-Z2\n- 35m Z3-Z4\n- 20m Z3\n- 30m Z2-Z3\n- 45m Z3-Z4\n- 2h Z2"
+    },
+    {
       "id": 114572798,
       "date": "2026-08-10",
       "name": "Weekly",
@@ -2006,12 +2032,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 0,
-    "success": 0,
-    "patternA": 0,
+    "attempted": 2,
+    "success": 1,
+    "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 0
+    "bail_no_match": 1
   },
   "weekly_summary": {
     "total_training_hours": 4.17,
