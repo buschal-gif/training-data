@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-06T09:57:52.769265",
+    "last_updated": "2026-08-06T12:00:10.099539",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -578,7 +578,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 2.59,
+          "planned_tss_delta": 1.82,
           "hard_sessions_planned": 1,
           "race_proximity": 47,
           "next_week_load": 0.73,
@@ -616,7 +616,7 @@
     "p_max": 693,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 48.0,
-    "calculation_timestamp": "2026-08-06T09:57:52.623157",
+    "calculation_timestamp": "2026-08-06T12:00:10.098042",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1957,12 +1957,12 @@
       "name": "Training 10: Dauerlauf",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 158,
-      "duration_hours": 2.5,
-      "duration_formatted": "2h30m",
+      "planned_tss": 95,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "- 150m Z2 Z2 HR Z2 Pace"
+      "description": "- 90m Z2 Z2 HR Z2 Pace"
     },
     {
       "id": 114572798,
