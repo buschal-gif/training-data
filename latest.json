@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-07T16:31:22.396676",
+    "last_updated": "2026-08-07T17:30:41.109742",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -239,7 +239,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 976,
+      "steps": 2636,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -618,7 +618,7 @@
     "p_max": 693,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-07T16:31:22.155150",
+    "calculation_timestamp": "2026-08-07T17:30:41.108315",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -662,8 +662,8 @@
       "efficiency_factor": 1.3435115,
       "hrrc": 20,
       "elevation_m": 2948.0,
-      "feel": null,
-      "rpe": null,
+      "feel": 3,
+      "rpe": 7,
       "zone_distribution": {
         "hr_zones": {
           "z1_time": 11473,
@@ -684,7 +684,8 @@
           "z7_time": 6
         }
       },
-      "has_intervals": true
+      "has_intervals": true,
+      "description": "Ach, geliebter Odenwald. \ud83d\udc9a\n\nHin und her \u00fcber die erste H\u00fcgelkuppe bis runter nach Heidelberg.\nAm K\u00f6nigsstuhl dann leider Notfallbaumarbeiten, so dass ein Teil des Anstiegs durch 300m Treppen ersetzt werden mussten. \ud83d\ude2c\nR\u00fcckw\u00e4rts dann der Kampf mit dem Gegenwind der heute kein Einsehen haben wollte. Aber trotzdem eine der sch\u00f6nsten Touren bisher!\n\nJuh\u00f6he (390 m), Kreidacher H\u00f6he (430 m), Hardberg (593 m), Ursenbacher H\u00f6he (393 m), Wei\u00dfer Stein (Odenwald) (550 m), K\u00f6nigstuhl (566 m) | qu\u00e4ldich-Passjagd +4."
     },
     {
       "id": "i173004203",
@@ -1934,7 +1935,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 976,
+      "steps": 2636,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
