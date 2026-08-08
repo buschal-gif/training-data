@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-08T09:07:11.898357",
+    "last_updated": "2026-08-08T09:51:24.871948",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -123,10 +123,10 @@
       "unavailable": 0
     },
     "phase_context": {
-      "phase": "Deload",
+      "phase": "Build",
       "phase_week": 1,
-      "amber_threshold": 2,
-      "modifier_applied": "default"
+      "amber_threshold": 3,
+      "modifier_applied": "build_loosened"
     },
     "race_week_defers": false,
     "modification": null,
@@ -564,11 +564,9 @@
       ]
     },
     "phase_detection": {
-      "phase": "Deload",
-      "confidence": "medium",
-      "reason_codes": [
-        "BUILD_HISTORY_REDUCED_LOAD"
-      ],
+      "phase": "Build",
+      "confidence": "high",
+      "reason_codes": [],
       "basis": {
         "stream_1": {
           "ctl_slope": 2.9,
@@ -578,7 +576,7 @@
         },
         "stream_2": {
           "planned_tss_delta": null,
-          "hard_sessions_planned": 0,
+          "hard_sessions_planned": 1,
           "race_proximity": 45,
           "next_week_load": null,
           "plan_coverage_current_week": 0.2,
@@ -592,10 +590,8 @@
       "dossier_declared": null,
       "dossier_agreement": null
     },
-    "phase_detected": "Deload",
-    "phase_triggers": [
-      "BUILD_HISTORY_REDUCED_LOAD"
-    ],
+    "phase_detected": "Build",
+    "phase_triggers": [],
     "seasonal_context": "Peak Race Season",
     "benchmark_indoor": {
       "current_ftp": 194,
@@ -617,7 +613,7 @@
     "p_max": 693,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-08T09:07:11.896830",
+    "calculation_timestamp": "2026-08-08T09:51:24.870719",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1893,17 +1889,17 @@
   ],
   "planned_workouts": [
     {
-      "id": 127590891,
+      "id": 127893837,
       "date": "2026-08-09",
-      "name": "Training 10: Dauerlauf",
+      "name": "Training 09: Dauerlauf mit 2x Tempo",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 95,
-      "duration_hours": 1.5,
-      "duration_formatted": "1h30m",
+      "planned_tss": 129,
+      "duration_hours": 1.8,
+      "duration_formatted": "1h48m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "- 90m Z2 Z2 HR Z2 Pace"
+      "description": "- 45m Z2 Power Z2 HR Z2 Pace\n- 27m Z3 Power Z3 HR Z3 Pace\n- 10m Z2-Z1 Power Z2 HR Z2 Pace\n- 21m Z3 Power Z3 HR Z3 Pace\n- 5m Z1-Z2 Power Z1-Z2 HR Z1-Z2 Pace"
     },
     {
       "id": 114572798,
