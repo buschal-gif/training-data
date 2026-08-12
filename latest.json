@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-12T12:50:56.443978",
+    "last_updated": "2026-08-12T14:12:56.856457",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -621,7 +621,7 @@
     "p_max": 693,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-12T12:50:56.442946",
+    "calculation_timestamp": "2026-08-12T14:12:56.854951",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1808,17 +1808,17 @@
   ],
   "planned_workouts": [
     {
-      "id": 128108656,
+      "id": 128883280,
       "date": "2026-08-13",
-      "name": "Training 08: Dauerlauf mit 2x Tempo",
+      "name": "Training 12: Dauerlauf mit 2x Tempo",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 115,
-      "duration_hours": 1.62,
-      "duration_formatted": "1h37m",
+      "planned_tss": 180,
+      "duration_hours": 2.52,
+      "duration_formatted": "2h31m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "- 40m Z2 Power Z2 HR Z2 Pace\n- 24m Z3 Power Z3 HR Z3 Pace\n- 10m Z2-Z1 Power Z2 HR Z2 Pace\n- 18m Z3 Power Z3 HR Z3 Pace\n- 5m Z1-Z2 Power Z1-Z2 HR Z1-Z2 Pace"
+      "description": "- 60m Z2 Power Z2 HR Z2 Pace\n- 36m Z3 Power Z3 HR Z3 Pace\n- 10m Z2-Z1 Power Z2 HR Z2 Pace\n- 30m Z3 Power Z3 HR Z3 Pace\n- 15m Z1-Z2 Power Z1-Z2 HR Z1-Z2 Pace"
     },
     {
       "id": 114572799,
