@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-13T11:26:18.337809",
+    "last_updated": "2026-08-13T12:06:00.853356",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -239,7 +239,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 28225,
+      "steps": 28321,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -576,10 +576,10 @@
         "stream_2": {
           "planned_tss_delta": null,
           "hard_sessions_planned": 1,
-          "race_proximity": 40,
+          "race_proximity": 73,
           "next_week_load": null,
           "plan_coverage_current_week": 0.2,
-          "plan_coverage_next_week": 0.4
+          "plan_coverage_next_week": 0.0
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -612,7 +612,7 @@
     "p_max": 693,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 47.0,
-    "calculation_timestamp": "2026-08-13T11:26:18.171554",
+    "calculation_timestamp": "2026-08-13T12:06:00.851813",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1805,7 +1805,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 28225,
+      "steps": 28321,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1829,175 +1829,6 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": "- 60m Z2 Power Z2 HR Z2 Pace\n- 36m Z3 Power Z3 HR Z3 Pace\n- 10m Z2-Z1 Power Z2 HR Z2 Pace\n- 30m Z3 Power Z3 HR Z3 Pace\n- 15m Z1-Z2 Power Z1-Z2 HR Z1-Z2 Pace"
-    },
-    {
-      "id": 114572799,
-      "date": "2026-08-17",
-      "name": "Weekly",
-      "type": "TARGET",
-      "sport_type": "Ride",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": ""
-    },
-    {
-      "id": 114572820,
-      "date": "2026-08-17",
-      "name": "Weekly",
-      "type": "TARGET",
-      "sport_type": "Run",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": ""
-    },
-    {
-      "id": 114572800,
-      "date": "2026-08-24",
-      "name": "Weekly",
-      "type": "TARGET",
-      "sport_type": "Ride",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": null
-    },
-    {
-      "id": 114572821,
-      "date": "2026-08-24",
-      "name": "Weekly",
-      "type": "TARGET",
-      "sport_type": "Run",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": null
-    },
-    {
-      "id": 114572802,
-      "date": "2026-08-31",
-      "name": "Weekly",
-      "type": "TARGET",
-      "sport_type": "Ride",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": null
-    },
-    {
-      "id": 114572823,
-      "date": "2026-08-31",
-      "name": "Weekly",
-      "type": "TARGET",
-      "sport_type": "Run",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": null
-    },
-    {
-      "id": 114572803,
-      "date": "2026-09-07",
-      "name": "Weekly",
-      "type": "TARGET",
-      "sport_type": "Ride",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": null
-    },
-    {
-      "id": 114572824,
-      "date": "2026-09-07",
-      "name": "Weekly",
-      "type": "TARGET",
-      "sport_type": "Run",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": null
-    },
-    {
-      "id": 114572804,
-      "date": "2026-09-14",
-      "name": "Weekly",
-      "type": "TARGET",
-      "sport_type": "Ride",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": null
-    },
-    {
-      "id": 114572825,
-      "date": "2026-09-14",
-      "name": "Weekly",
-      "type": "TARGET",
-      "sport_type": "Run",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": null
-    },
-    {
-      "id": 114572805,
-      "date": "2026-09-21",
-      "name": "Weekly",
-      "type": "TARGET",
-      "sport_type": "Ride",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": null
-    },
-    {
-      "id": 114572826,
-      "date": "2026-09-21",
-      "name": "Weekly",
-      "type": "TARGET",
-      "sport_type": "Run",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": null
-    },
-    {
-      "id": 114922722,
-      "date": "2026-09-22",
-      "name": "Cooper",
-      "type": "RACE_A",
-      "sport_type": "Run",
-      "planned_tss": null,
-      "duration_hours": 0.2,
-      "duration_formatted": "12m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "- 12min Z4"
     }
   ],
   "workout_summary_stats": {
@@ -2005,7 +1836,7 @@
     "success": 0,
     "patternA": 0,
     "patternB": 0,
-    "bail_no_workout_doc": 1,
+    "bail_no_workout_doc": 0,
     "bail_no_match": 1
   },
   "weekly_summary": {
@@ -2018,35 +1849,27 @@
   },
   "race_calendar": {
     "next_race": {
-      "name": "Cooper",
-      "date": "2026-09-22",
-      "category": "RACE_A",
+      "name": "Frankfurt Mainova Marathon",
+      "date": "2026-10-25",
+      "category": "RACE_B",
       "type": "Run",
-      "days_until": 40,
-      "moving_time_seconds": 720,
-      "distance_meters": 3000.0,
-      "has_terrain": false
+      "days_until": 73,
+      "moving_time_seconds": null,
+      "distance_meters": null,
+      "has_terrain": false,
+      "start_time": "10:00"
     },
     "all_races": [
       {
-        "name": "Cooper",
-        "date": "2026-09-22",
-        "category": "RACE_A",
-        "type": "Run",
-        "days_until": 40,
-        "moving_time_seconds": 720,
-        "distance_meters": 3000.0,
-        "has_terrain": false
-      },
-      {
-        "name": "Frankfurt Marathon",
+        "name": "Frankfurt Mainova Marathon",
         "date": "2026-10-25",
-        "category": "RACE_A",
+        "category": "RACE_B",
         "type": "Run",
         "days_until": 73,
         "moving_time_seconds": null,
-        "distance_meters": 42200.0,
-        "has_terrain": false
+        "distance_meters": null,
+        "has_terrain": false,
+        "start_time": "10:00"
       }
     ],
     "taper_alert": {
