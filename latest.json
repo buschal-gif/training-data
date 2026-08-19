@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-19T09:46:36.485906",
+    "last_updated": "2026-08-19T10:17:51.495513",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -117,8 +117,8 @@
       "unavailable": 0
     },
     "phase_context": {
-      "phase": "Deload",
-      "phase_week": 1,
+      "phase": null,
+      "phase_week": 0,
       "amber_threshold": 2,
       "modifier_applied": "default"
     },
@@ -563,10 +563,10 @@
       ]
     },
     "phase_detection": {
-      "phase": "Deload",
-      "confidence": "medium",
+      "phase": null,
+      "confidence": "low",
       "reason_codes": [
-        "PLAN_GAP_NEXT_WEEK"
+        "BUILD_BASE_AMBIGUOUS"
       ],
       "basis": {
         "stream_1": {
@@ -576,24 +576,24 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": null,
-          "hard_sessions_planned": 0,
+          "planned_tss_delta": 1.68,
+          "hard_sessions_planned": 1,
           "race_proximity": 67,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.0,
+          "plan_coverage_current_week": 0.8,
           "plan_coverage_next_week": 0.0
         },
         "data_quality": "good",
         "stream_agreement": null
       },
       "previous_phase": null,
-      "phase_duration_weeks": 1,
+      "phase_duration_weeks": 0,
       "dossier_declared": null,
       "dossier_agreement": null
     },
-    "phase_detected": "Deload",
+    "phase_detected": null,
     "phase_triggers": [
-      "PLAN_GAP_NEXT_WEEK"
+      "BUILD_BASE_AMBIGUOUS"
     ],
     "seasonal_context": "Peak Race Season",
     "benchmark_indoor": {
@@ -616,7 +616,7 @@
     "p_max": 689,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-19T09:46:36.484334",
+    "calculation_timestamp": "2026-08-19T10:17:51.494055",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1856,14 +1856,67 @@
       "readiness": null
     }
   ],
-  "planned_workouts": [],
+  "planned_workouts": [
+    {
+      "id": 130252452,
+      "date": "2026-08-20",
+      "name": "Steigerts - Felsberg - Kuralpe - Olystra\u00dfe",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 83,
+      "duration_hours": 1.37,
+      "duration_formatted": "1h22m6s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "- 7.47km Z2-Z3\n- 6.4km Z4\n- 2.13km Z1-Z2\n- 2.07km Z4\n- 3.31km Z1-Z2\n- 713mtr\tZ4\n- 2.17km Z1-Z2\n- 1.38km Z4\n- 6.35km Z1-Z2\n- 789mtr\tZ4-Z5\n- 8.27km Z1-Z3"
+    },
+    {
+      "id": 130252461,
+      "date": "2026-08-21",
+      "name": "Training 06: 5x3:00 @subVO2Max (104-108%)",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 83,
+      "duration_hours": 0.88,
+      "duration_formatted": "53m",
+      "workout_summary": "10m | 2\u00d71m / 2m rec | 2m | 5\u00d73m / 3m rec | 5m",
+      "has_terrain": false,
+      "description": "104-108% Pace (untere VO2Max)\n\n- Warmup 10m Z2 Power Z2 HR 70-80% Pace intensity=warmup\n\nAktivierung 2x\n- Aktivierung 1m Z5 Z3-4 HR 100-105% Pace \n- Erholung 2m Z2 Z2 HR 70-80% Pace intensity=recovery\n\n- Pause 2m Z1-Z2 Z1-Z2 HR 60-70% Pace\n\n5x\n- 3m Z6 Z4 HR 104-108% Pace\n- 3m Z1-Z2  Z1-Z2 HR 50-80% Pace \n\n- Cooldown: 5m Z2 Power Z2 HR 70-80% Pace intensity=cooldown"
+    },
+    {
+      "id": 130252549,
+      "date": "2026-08-22",
+      "name": "Grundlage",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 78,
+      "duration_hours": 2.0,
+      "duration_formatted": "2h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "- 2h Z2"
+    },
+    {
+      "id": 130252554,
+      "date": "2026-08-23",
+      "name": "Training 10: Dauerlauf",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 95,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "- 90m Z2 Z2 HR Z2 Pace"
+    }
+  ],
   "workout_summary_stats": {
-    "attempted": 0,
-    "success": 0,
-    "patternA": 0,
+    "attempted": 4,
+    "success": 1,
+    "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 0
+    "bail_no_match": 3
   },
   "weekly_summary": {
     "total_training_hours": 7.47,
