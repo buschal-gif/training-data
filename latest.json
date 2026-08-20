@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-20T21:03:33.110528",
+    "last_updated": "2026-08-20T21:39:51.287121",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -616,7 +616,7 @@
     "p_max": 689,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-20T21:03:33.109073",
+    "calculation_timestamp": "2026-08-20T21:39:51.285839",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1893,17 +1893,17 @@
   ],
   "planned_workouts": [
     {
-      "id": 130252461,
+      "id": 130553929,
       "date": "2026-08-21",
-      "name": "Training 06: 5x3:00 @subVO2Max (104-108%)",
+      "name": "Training 09: 6x3:00 @subVO2Max (104-108%)",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 83,
-      "duration_hours": 0.88,
-      "duration_formatted": "53m",
-      "workout_summary": "10m | 2\u00d71m / 2m rec | 2m | 5\u00d73m / 3m rec | 5m",
+      "planned_tss": 97,
+      "duration_hours": 1.03,
+      "duration_formatted": "1h2m",
+      "workout_summary": "10m | 2\u00d71m / 2m rec | 2m | 6\u00d73m / 3m rec | 8m",
       "has_terrain": false,
-      "description": "104-108% Pace (untere VO2Max)\n\n- Warmup 10m Z2 Power Z2 HR 70-80% Pace intensity=warmup\n\nAktivierung 2x\n- Aktivierung 1m Z5 Z3-4 HR 100-105% Pace \n- Erholung 2m Z2 Z2 HR 70-80% Pace intensity=recovery\n\n- Pause 2m Z1-Z2 Z1-Z2 HR 60-70% Pace\n\n5x\n- 3m Z6 Z4 HR 104-108% Pace\n- 3m Z1-Z2  Z1-Z2 HR 50-80% Pace \n\n- Cooldown: 5m Z2 Power Z2 HR 70-80% Pace intensity=cooldown"
+      "description": "104-108% Pace (untere VO2Max)\n\n- 10m Z2 Power Z2 HR 70-80% Pace intensity=warmup\n\n2x\n- 1m Z5 Z3-4 HR 100-105% Pace \n- 2m Z2 Z2 HR 70-80% Pace intensity=recovery\n\n- 2m Z1-Z2 Z1-Z2 HR 60-70% Pace\n\n6x\n- 3m Z6 Z4 HR 104-108% Pace\n- 3m Z1-Z2  Z1-Z2 HR 50-80% Pace \n\n- 8m Z2 Power Z2 HR Z2-Z1 Pace intensity=cooldown"
     },
     {
       "id": 130252549,
