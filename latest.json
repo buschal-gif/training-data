@@ -64,13 +64,13 @@
     "quick_stats": {
       "total_training_hours": 4.66,
       "total_training_formatted": "4h39m",
-      "total_activities": 4,
+      "total_activities": 5,
       "total_tss": 184
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-13T10:13:00.600531",
+    "last_updated": "2026-09-13T14:22:25.327306",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -127,14 +127,14 @@
       "unavailable": 4
     },
     "phase_context": {
-      "phase": "Build",
+      "phase": "Base",
       "phase_week": 1,
-      "amber_threshold": 3,
-      "modifier_applied": "build_loosened"
+      "amber_threshold": 2,
+      "modifier_applied": "default"
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 1 green, 1 amber (threshold 3), 0 red. Note: 4 signals unavailable \u2014 limited data.",
+    "reason": "P3 green light. 1 green, 1 amber (threshold 2), 0 red. Note: 4 signals unavailable \u2014 limited data.",
     "alarm_refs": []
   },
   "history": {
@@ -148,7 +148,7 @@
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
     "total_duration_decimal_hours": 4.66,
-    "total_activities": 4,
+    "total_activities": 5,
     "by_activity_type": {
       "Ride": {
         "duration_decimal_hours": 2.32,
@@ -161,6 +161,12 @@
         "count": 1,
         "tss": 33,
         "distance_km": 5.0
+      },
+      "Unknown": {
+        "duration_decimal_hours": 0.0,
+        "count": 1,
+        "tss": 0,
+        "distance_km": 0.0
       },
       "Walk": {
         "duration_decimal_hours": 1.24,
@@ -181,8 +187,8 @@
       "ctl": 48.26,
       "atl": 30.21,
       "tsb": 18.05,
-      "ramp_rate": -2.3,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "ramp_rate": -3.97,
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "eftp": 222.3,
@@ -560,22 +566,22 @@
     },
     "consistency_index": 0.0,
     "consistency_details": {
-      "planned_days": 2,
+      "planned_days": 1,
       "completed_days": 1,
       "matched_days": 0,
       "planned_dates": [
-        "2026-09-08",
-        "2026-09-13"
+        "2026-09-08"
       ],
       "completed_dates": [
         "2026-09-12"
       ]
     },
     "phase_detection": {
-      "phase": "Build",
-      "confidence": "low",
+      "phase": "Base",
+      "confidence": "medium",
       "reason_codes": [
-        "BUILD_RESUMING_AFTER_DELOAD_TENTATIVE"
+        "PHASE_TRANSITION_Deload_TO_Base",
+        "NO_PLANNED_WORKOUTS"
       ],
       "basis": {
         "stream_1": {
@@ -589,7 +595,7 @@
           "hard_sessions_planned": 0,
           "race_proximity": 42,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.2,
+          "plan_coverage_current_week": 0.0,
           "plan_coverage_next_week": 0.0
         },
         "data_quality": "good",
@@ -600,9 +606,10 @@
       "dossier_declared": null,
       "dossier_agreement": null
     },
-    "phase_detected": "Build",
+    "phase_detected": "Base",
     "phase_triggers": [
-      "BUILD_RESUMING_AFTER_DELOAD_TENTATIVE"
+      "PHASE_TRANSITION_Deload_TO_Base",
+      "NO_PLANNED_WORKOUTS"
     ],
     "seasonal_context": "Late Season / Transition",
     "benchmark_indoor": {
@@ -625,13 +632,13 @@
     "p_max": 837,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-09-13T10:13:00.599152",
+    "calculation_timestamp": "2026-09-13T14:22:25.325919",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
-      "activities_7d": 4,
-      "activities_28d": 23,
-      "planned_workouts_7d": 2,
+      "activities_7d": 5,
+      "activities_28d": 24,
+      "planned_workouts_7d": 1,
       "ftp_history_days": {
         "indoor": 175,
         "outdoor": 175
@@ -639,6 +646,41 @@
     }
   },
   "recent_activities": [
+    {
+      "id": "20158859444",
+      "date": "2026-09-13T12:30:55",
+      "type": "Unknown",
+      "name": "",
+      "duration_hours": 0.0,
+      "distance_km": 0.0,
+      "tss": null,
+      "intensity_factor": null,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": null,
+      "max_hr": null,
+      "avg_cadence": null,
+      "avg_speed": null,
+      "max_speed": null,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": null,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "efficiency_factor": null,
+      "hrrc": null,
+      "elevation_m": null,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": null,
+      "has_intervals": false
+    },
     {
       "id": "i185956251",
       "date": "2026-09-12T15:13:34",
@@ -669,8 +711,8 @@
       "efficiency_factor": 1.2462686,
       "hrrc": 25,
       "elevation_m": 233.0,
-      "feel": null,
-      "rpe": null,
+      "feel": 3,
+      "rpe": 4,
       "zone_distribution": {
         "hr_zones": {
           "z1_time": 1297,
@@ -2037,19 +2079,6 @@
   ],
   "planned_workouts": [
     {
-      "id": 134739301,
-      "date": "2026-09-13",
-      "name": "Training 02: Dauerlauf",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 53,
-      "duration_hours": 0.83,
-      "duration_formatted": "50m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "- 50m Z2 Z2 HR Z2 Pace"
-    },
-    {
       "id": 129033884,
       "date": "2026-10-25",
       "name": "Frankfurt Mainova Marathon",
@@ -2065,18 +2094,18 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 1,
+    "attempted": 0,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 1
+    "bail_no_match": 0
   },
   "weekly_summary": {
     "total_training_hours": 4.66,
     "total_training_formatted": "4h39m",
     "total_tss": 184,
-    "activities_count": 4,
+    "activities_count": 5,
     "avg_hrv": 51.3,
     "avg_resting_hr": 55.0
   },
