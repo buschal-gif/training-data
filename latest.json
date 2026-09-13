@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-13T14:22:25.327306",
+    "last_updated": "2026-09-13T17:29:01.868151",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -580,8 +580,7 @@
       "phase": "Base",
       "confidence": "medium",
       "reason_codes": [
-        "PHASE_TRANSITION_Deload_TO_Base",
-        "NO_PLANNED_WORKOUTS"
+        "PHASE_TRANSITION_Deload_TO_Base"
       ],
       "basis": {
         "stream_1": {
@@ -594,9 +593,9 @@
           "planned_tss_delta": null,
           "hard_sessions_planned": 0,
           "race_proximity": 42,
-          "next_week_load": null,
+          "next_week_load": 0.45,
           "plan_coverage_current_week": 0.0,
-          "plan_coverage_next_week": 0.0
+          "plan_coverage_next_week": 1.4
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -608,8 +607,7 @@
     },
     "phase_detected": "Base",
     "phase_triggers": [
-      "PHASE_TRANSITION_Deload_TO_Base",
-      "NO_PLANNED_WORKOUTS"
+      "PHASE_TRANSITION_Deload_TO_Base"
     ],
     "seasonal_context": "Late Season / Transition",
     "benchmark_indoor": {
@@ -632,7 +630,7 @@
     "p_max": 837,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-09-13T14:22:25.325919",
+    "calculation_timestamp": "2026-09-13T17:29:01.867223",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -2079,6 +2077,104 @@
   ],
   "planned_workouts": [
     {
+      "id": 135882828,
+      "date": "2026-09-15",
+      "name": "Ride: Schwellen-Intervalle (ME)",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 6,
+      "duration_hours": 0.25,
+      "duration_formatted": "15m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "- Warmup 15m 55%\\n\\nMain Set 5x\\n- Threshold 12m 91-105%\\n- Recovery 3m 55%\\n\\n- Cooldown 15m 50%"
+    },
+    {
+      "id": 135882829,
+      "date": "2026-09-15",
+      "name": "Krafttraining & Mobility",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": null,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "18:00",
+      "description": "# Krafttraining / Stabilit\u00e4t\\n\\nBack Squat\\n3 x 5 @ 70 kg\\nTarget RPE: 7\\n\\nRomanian Deadlift\\n3 x 6 @ 60 kg\\nTarget RPE: 7\\n\\nCore & Mobilit\u00e4t\\n2-3 kontrollierte S\u00e4tze Rumpfstabilisation und Mobility."
+    },
+    {
+      "id": 135882830,
+      "date": "2026-09-16",
+      "name": "Ride: Regenerations-Spin",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 19,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "- Easy spin 45m 50%"
+    },
+    {
+      "id": 135882831,
+      "date": "2026-09-17",
+      "name": "Run: Aerobic Base Run",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 16,
+      "duration_hours": 0.25,
+      "duration_formatted": "15m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "- Warmup 15m Z1 Pace\\n- Endurance 40m Z2 Pace\\n- Cooldown 10m Z1 Pace"
+    },
+    {
+      "id": 135882832,
+      "date": "2026-09-17",
+      "name": "Bouldern (Cross-Training)",
+      "type": "WORKOUT",
+      "sport_type": "Other",
+      "planned_tss": null,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "18:00",
+      "description": "- Bouldern / Klettern als erg\u00e4nzendes Kraft- und Ganzk\u00f6rpertraining (Technik & Rumpf, moderat / ohne maximale Unterarm-\u00dcberlastung)."
+    },
+    {
+      "id": 135882834,
+      "date": "2026-09-18",
+      "name": "Ruhetag / Regeneration",
+      "type": "WORKOUT",
+      "sport_type": "Other",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "- OFF"
+    },
+    {
+      "id": 135882835,
+      "date": "2026-09-20",
+      "name": "Run: Langer Lauf (Marathon-Vorbereitung)",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 11,
+      "duration_hours": 0.17,
+      "duration_formatted": "10m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "- Warmup 10m Z1 Pace\\n- Endurance 85m Z2 Pace\\n- Cooldown 10m Z1 Pace"
+    },
+    {
       "id": 129033884,
       "date": "2026-10-25",
       "name": "Frankfurt Mainova Marathon",
@@ -2094,12 +2190,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 0,
+    "attempted": 4,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
-    "bail_no_workout_doc": 0,
-    "bail_no_match": 0
+    "bail_no_workout_doc": 3,
+    "bail_no_match": 4
   },
   "weekly_summary": {
     "total_training_hours": 4.66,
