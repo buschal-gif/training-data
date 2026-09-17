@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-17T15:51:14.959091",
+    "last_updated": "2026-09-17T19:23:31.213605",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -622,7 +622,7 @@
     "p_max": 836,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-09-17T15:51:14.798305",
+    "calculation_timestamp": "2026-09-17T19:23:31.212652",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -688,7 +688,8 @@
           "z7_time": 144
         }
       },
-      "has_intervals": true
+      "has_intervals": true,
+      "description": "-- Intervals icu --\nWind: WSW 2 - 3 Bft B\u00f6en 4 - 5\nGegenwind: 34% 1h27m\nR\u00fcckenwind: 29% 1h15m\nTemp.: 14.5 bis 18.9\u00b0C  avg 17.5\nGef\u00fchlt: 13.8 bis 17.5\u00b0C  avg 15.9\nWolken: 79%"
     },
     {
       "id": "20198323778",
