@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T08:56:50.772304",
+  "generated_at": "2026-10-05T17:42:49.473199",
   "version": "3.95",
   "script_hash": "ec09283a7a09",
   "scan_hours": 72,
@@ -766,6 +766,146 @@
           "zone": 2,
           "training_load": 2.5662847,
           "decoupling": 6.9113445
+        }
+      ]
+    },
+    {
+      "activity_id": "i193827340",
+      "date": "2026-10-05",
+      "type": "Ride",
+      "name": "Dresden Rennradfahren",
+      "interval_summary": [
+        "3x 12m44s 125w",
+        "3x 11m48s 162w",
+        "1x 13m12s 149w",
+        "1x 10m55s 126w",
+        "1x 15s 32w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "764s@125w69rpm",
+          "duration_secs": 766,
+          "avg_power": 115,
+          "max_power": 350,
+          "avg_hr": 129,
+          "max_hr": 148,
+          "avg_cadence": 62.837177,
+          "zone": 1,
+          "training_load": 8.251156,
+          "decoupling": 14.282723
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 110,
+          "max_hr": 110,
+          "avg_cadence": 2.0,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "764s@125w69rpm",
+          "duration_secs": 757,
+          "avg_power": 133,
+          "max_power": 287,
+          "avg_hr": 133,
+          "max_hr": 150,
+          "avg_cadence": 74.40423,
+          "zone": 2,
+          "training_load": 9.386005,
+          "decoupling": 7.6995087
+        },
+        {
+          "type": "WORK",
+          "label": "764s@125w69rpm",
+          "duration_secs": 769,
+          "avg_power": 126,
+          "max_power": 335,
+          "avg_hr": 133,
+          "max_hr": 158,
+          "avg_cadence": 70.84525,
+          "zone": 2,
+          "training_load": 9.049025,
+          "decoupling": 3.4667919
+        },
+        {
+          "type": "WORK",
+          "label": "708s@162w80rpm",
+          "duration_secs": 675,
+          "avg_power": 151,
+          "max_power": 459,
+          "avg_hr": 142,
+          "max_hr": 177,
+          "avg_cadence": 78.708145,
+          "zone": 2,
+          "training_load": 10.425995,
+          "decoupling": -3.8474886
+        },
+        {
+          "type": "WORK",
+          "label": "792s@149w83rpm",
+          "duration_secs": 792,
+          "avg_power": 149,
+          "max_power": 301,
+          "avg_hr": 139,
+          "max_hr": 169,
+          "avg_cadence": 82.67883,
+          "zone": 2,
+          "training_load": 8.825235,
+          "decoupling": -11.96423
+        },
+        {
+          "type": "WORK",
+          "label": "708s@162w80rpm",
+          "duration_secs": 696,
+          "avg_power": 160,
+          "max_power": 357,
+          "avg_hr": 140,
+          "max_hr": 157,
+          "avg_cadence": 81.44684,
+          "zone": 2,
+          "training_load": 11.00036,
+          "decoupling": -2.988436
+        },
+        {
+          "type": "WORK",
+          "label": "655s@126w67rpm",
+          "duration_secs": 655,
+          "avg_power": 126,
+          "max_power": 442,
+          "avg_hr": 136,
+          "max_hr": 160,
+          "avg_cadence": 67.14962,
+          "zone": 2,
+          "training_load": 9.314918,
+          "decoupling": 1.3905635
+        },
+        {
+          "type": "WORK",
+          "label": "708s@162w80rpm",
+          "duration_secs": 754,
+          "avg_power": 174,
+          "max_power": 640,
+          "avg_hr": 146,
+          "max_hr": 180,
+          "avg_cadence": 79.20425,
+          "zone": 2,
+          "training_load": 25.701538,
+          "decoupling": -17.189644
+        },
+        {
+          "type": "WORK",
+          "label": "15s@32w28rpm",
+          "duration_secs": 15,
+          "avg_power": 32,
+          "max_power": 127,
+          "avg_hr": 139,
+          "max_hr": 141,
+          "avg_cadence": 27.6,
+          "zone": 1,
+          "training_load": 0.07587229,
+          "decoupling": 52.66152
         }
       ]
     }
