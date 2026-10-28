@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-28T19:51:50.008295",
+    "last_updated": "2026-10-28T23:42:41.834293",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -117,7 +117,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -2.8
+        "value": -1.0
       }
     },
     "signal_summary": {
@@ -196,10 +196,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 65.16,
-      "atl": 67.91,
-      "tsb": -2.75,
-      "ramp_rate": 2.53,
+      "ctl": 64.78,
+      "atl": 65.78,
+      "tsb": -1.0,
+      "ramp_rate": 2.16,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -267,7 +267,7 @@
       "respiration": 14.0,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 6108,
+      "steps": 6189,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -576,18 +576,12 @@
         }
       }
     },
-    "consistency_index": 0.0,
+    "consistency_index": null,
     "consistency_details": {
-      "planned_days": 1,
+      "planned_days": 0,
       "completed_days": 2,
       "matched_days": 0,
-      "planned_dates": [
-        "2026-10-28"
-      ],
-      "completed_dates": [
-        "2026-10-24",
-        "2026-10-27"
-      ]
+      "note": "No planned workouts in period"
     },
     "phase_detection": {
       "phase": "Taper",
@@ -597,7 +591,7 @@
       ],
       "basis": {
         "stream_1": {
-          "ctl_slope": 0.7,
+          "ctl_slope": 0.57,
           "acwr_trend": "stable",
           "hard_day_pattern": 2,
           "weeks_available": 4
@@ -607,7 +601,7 @@
           "hard_sessions_planned": 0,
           "race_proximity": 11,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.2,
+          "plan_coverage_current_week": 0.0,
           "plan_coverage_next_week": 0.2
         },
         "data_quality": "good",
@@ -643,13 +637,13 @@
     "p_max": 826,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-28T19:51:50.006922",
+    "calculation_timestamp": "2026-10-28T23:42:41.832838",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 9,
       "activities_28d": 34,
-      "planned_workouts_7d": 1,
+      "planned_workouts_7d": 0,
       "ftp_history_days": {
         "indoor": 220,
         "outdoor": 220
@@ -2458,7 +2452,7 @@
       "respiration": 14.0,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 6108,
+      "steps": 6189,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2470,19 +2464,6 @@
     }
   ],
   "planned_workouts": [
-    {
-      "id": 148973771,
-      "date": "2026-10-28",
-      "name": "SF-Test",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 16,
-      "duration_hours": 0.23,
-      "duration_formatted": "14m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "- Press lap 10m Z2 HR Z2-Z1 Pace\n- 3m 100-110% Pace\n- 1m Z2-Z1 HR Z2-Z1 Pace"
-    },
     {
       "id": 141391722,
       "date": "2026-11-08",
@@ -2499,12 +2480,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 1,
+    "attempted": 0,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 1,
-    "bail_no_match": 1
+    "bail_no_match": 0
   },
   "weekly_summary": {
     "total_training_hours": 13.08,
