@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T06:36:46.306901",
+  "generated_at": "2026-10-30T13:32:00.711973",
   "version": "3.95",
   "script_hash": "ec09283a7a09",
   "scan_hours": 72,
@@ -657,6 +657,54 @@
           "zone": 2,
           "training_load": 1.4288459,
           "decoupling": 35.204773
+        }
+      ]
+    },
+    {
+      "activity_id": "i203546266",
+      "date": "2026-10-30",
+      "type": "VirtualRide",
+      "name": "MyWhoosh - train-like-tadej-6x15sec-sprints",
+      "interval_summary": [
+        "1x 14s 517w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1321,
+          "avg_power": 130,
+          "max_power": 469,
+          "avg_hr": 133,
+          "max_hr": 155,
+          "avg_cadence": 83.20969,
+          "zone": 2,
+          "training_load": 16.628412,
+          "decoupling": 15.576295
+        },
+        {
+          "type": "WORK",
+          "label": "14s@517w111rpm",
+          "duration_secs": 14,
+          "avg_power": 517,
+          "max_power": 654,
+          "avg_hr": 141,
+          "max_hr": 151,
+          "avg_cadence": 111.21429,
+          "zone": 7,
+          "training_load": 0.56,
+          "decoupling": 14.560824
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1272,
+          "avg_power": 123,
+          "max_power": 719,
+          "avg_hr": 136,
+          "max_hr": 160,
+          "avg_cadence": 78.8978,
+          "zone": 2,
+          "training_load": 21.255491,
+          "decoupling": -2.1098485
         }
       ]
     }
