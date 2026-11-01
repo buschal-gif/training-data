@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T06:30:09.120738",
+  "generated_at": "2026-11-01T13:42:16.902061",
   "version": "3.95",
   "script_hash": "ec09283a7a09",
   "scan_hours": 72,
@@ -954,6 +954,121 @@
           "zone": 2,
           "training_load": 7.6112103,
           "decoupling": 5.2579303
+        }
+      ]
+    },
+    {
+      "activity_id": "i204324216",
+      "date": "2026-11-01",
+      "type": "Ride",
+      "name": "Mittagsradfahrt",
+      "interval_summary": [
+        "1x 5m3s 168w",
+        "1x 7m24s 170w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1589,
+          "avg_power": 82,
+          "max_power": 375,
+          "avg_hr": 118,
+          "max_hr": 145,
+          "avg_cadence": 37.752674,
+          "zone": 1,
+          "training_load": 18.30044,
+          "decoupling": -14.832009
+        },
+        {
+          "type": "WORK",
+          "label": "303s@168w92rpm",
+          "duration_secs": 303,
+          "avg_power": 168,
+          "max_power": 262,
+          "avg_hr": 137,
+          "max_hr": 144,
+          "avg_cadence": 92.353134,
+          "zone": 3,
+          "training_load": 5.452558,
+          "decoupling": 7.646966
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1329,
+          "avg_power": 131,
+          "max_power": 396,
+          "avg_hr": 131,
+          "max_hr": 143,
+          "avg_cadence": 79.69225,
+          "zone": 2,
+          "training_load": 17.96333,
+          "decoupling": 9.124547
+        },
+        {
+          "type": "WORK",
+          "label": "444s@170w93rpm",
+          "duration_secs": 444,
+          "avg_power": 170,
+          "max_power": 238,
+          "avg_hr": 141,
+          "max_hr": 145,
+          "avg_cadence": 92.806305,
+          "zone": 3,
+          "training_load": 8.48146,
+          "decoupling": 0.85336715
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 22,
+          "avg_power": 86,
+          "max_power": 156,
+          "avg_hr": 138,
+          "max_hr": 143,
+          "avg_cadence": 53.227272,
+          "zone": 1,
+          "training_load": 0.34936216,
+          "decoupling": 0.56886536
+        }
+      ]
+    },
+    {
+      "activity_id": "i204302601",
+      "date": "2026-11-01",
+      "type": "VirtualRide",
+      "name": "75m Tempo Intervals",
+      "interval_summary": [
+        "1x 7m20s 170w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2366,
+          "avg_power": 131,
+          "max_power": 396,
+          "avg_hr": 129,
+          "max_hr": 145,
+          "avg_cadence": 85.08622,
+          "zone": 2,
+          "training_load": 29.732254
+        },
+        {
+          "type": "WORK",
+          "label": "440s@170w92rpm",
+          "duration_secs": 440,
+          "avg_power": 170,
+          "max_power": 238,
+          "avg_cadence": 92.23182,
+          "zone": 3,
+          "training_load": 8.40505
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 18,
+          "avg_power": 132,
+          "max_power": 176,
+          "avg_cadence": 84.611115,
+          "zone": 2,
+          "training_load": 0.33980963
         }
       ]
     }
