@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-08T14:46:07.549250",
+    "last_updated": "2026-11-08T19:13:57.442167",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -307,8 +307,8 @@
     "tss_7d_total": 263.0,
     "tss_28d_total": 1734.0,
     "zone_distribution_7d": {
-      "z1_hours": 0.49,
-      "z2_hours": 2.23,
+      "z1_hours": 0.41,
+      "z2_hours": 2.31,
       "z3_hours": 0.53,
       "z4_plus_hours": 0.74,
       "total_hours": 3.99,
@@ -648,7 +648,7 @@
     "p_max": 818,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 47.0,
-    "calculation_timestamp": "2026-11-08T14:46:07.245865",
+    "calculation_timestamp": "2026-11-08T19:13:57.440593",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -904,8 +904,8 @@
           "z7_time": 0
         },
         "power_zones": {
-          "z1_time": 523,
-          "z2_time": 3983,
+          "z1_time": 221,
+          "z2_time": 4285,
           "z3_time": 761,
           "z4_time": 39,
           "z5_time": 20,
@@ -1038,8 +1038,8 @@
           "z7_time": 0
         },
         "power_zones": {
-          "z1_time": 343,
-          "z2_time": 405,
+          "z1_time": 267,
+          "z2_time": 481,
           "z3_time": 228,
           "z4_time": 85,
           "z5_time": 63,
@@ -1093,8 +1093,8 @@
           "z7_time": 0
         },
         "power_zones": {
-          "z1_time": 1061,
-          "z2_time": 1046,
+          "z1_time": 1034,
+          "z2_time": 1073,
           "z3_time": 1159,
           "z4_time": 316,
           "z5_time": 88,
@@ -1182,8 +1182,8 @@
           "z7_time": 0
         },
         "power_zones": {
-          "z1_time": 138,
-          "z2_time": 1585,
+          "z1_time": 116,
+          "z2_time": 1607,
           "z3_time": 1480,
           "z4_time": 397,
           "z5_time": 83,
@@ -1373,8 +1373,8 @@
           "z7_time": 0
         },
         "power_zones": {
-          "z1_time": 21,
-          "z2_time": 1064,
+          "z1_time": 13,
+          "z2_time": 1072,
           "z3_time": 413,
           "z4_time": 88,
           "z5_time": 4,
@@ -1483,8 +1483,8 @@
           "z7_time": 121
         },
         "power_zones": {
-          "z1_time": 4459,
-          "z2_time": 3163,
+          "z1_time": 4042,
+          "z2_time": 3580,
           "z3_time": 3193,
           "z4_time": 2737,
           "z5_time": 1552,
@@ -1879,8 +1879,8 @@
           "z7_time": 35
         },
         "power_zones": {
-          "z1_time": 567,
-          "z2_time": 1191,
+          "z1_time": 445,
+          "z2_time": 1313,
           "z3_time": 1300,
           "z4_time": 696,
           "z5_time": 243,
@@ -1969,8 +1969,8 @@
           "z7_time": 27
         },
         "power_zones": {
-          "z1_time": 5240,
-          "z2_time": 2740,
+          "z1_time": 4771,
+          "z2_time": 3209,
           "z3_time": 1916,
           "z4_time": 1797,
           "z5_time": 1207,
@@ -2059,8 +2059,8 @@
           "z7_time": 0
         },
         "power_zones": {
-          "z1_time": 2549,
-          "z2_time": 3842,
+          "z1_time": 2135,
+          "z2_time": 4256,
           "z3_time": 2328,
           "z4_time": 1457,
           "z5_time": 512,
