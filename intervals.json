@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T07:58:31.069251",
+  "generated_at": "2026-11-08T14:46:07.247120",
   "version": "3.95",
   "script_hash": "ec09283a7a09",
   "scan_hours": 72,
@@ -656,6 +656,105 @@
           "zone": 2,
           "training_load": 2.5468783,
           "decoupling": 12.4714155
+        }
+      ]
+    },
+    {
+      "activity_id": "i207401435",
+      "date": "2026-11-08",
+      "type": "TrailRun",
+      "name": "69. Herbstwaldlauf",
+      "interval_summary": [
+        "3x 23m35s 318w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "1415s@318w90rpm",
+          "duration_secs": 1455,
+          "avg_power": 312,
+          "max_power": 467,
+          "avg_hr": 166,
+          "max_hr": 177,
+          "avg_cadence": 89.208244,
+          "zone": 4,
+          "training_load": 39.66938,
+          "decoupling": 2.4977064
+        },
+        {
+          "type": "WORK",
+          "label": "1415s@318w90rpm",
+          "duration_secs": 1438,
+          "avg_power": 314,
+          "max_power": 470,
+          "avg_hr": 167,
+          "max_hr": 175,
+          "avg_cadence": 90.32963,
+          "zone": 4,
+          "training_load": 39.944443,
+          "decoupling": -0.6346927
+        },
+        {
+          "type": "WORK",
+          "label": "1415s@318w90rpm",
+          "duration_secs": 1351,
+          "avg_power": 329,
+          "max_power": 462,
+          "avg_hr": 169,
+          "max_hr": 177,
+          "avg_cadence": 91.82532,
+          "zone": 4,
+          "training_load": 41.337784,
+          "decoupling": -0.9116695
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_power": 395,
+          "max_power": 395,
+          "avg_hr": 174,
+          "max_hr": 174,
+          "avg_cadence": 84.0,
+          "zone": 6,
+          "training_load": 0.036647156
+        }
+      ]
+    },
+    {
+      "activity_id": "i207401212",
+      "date": "2026-11-08",
+      "type": "TrailRun",
+      "name": "Traillauf zur Mittagszeit",
+      "interval_summary": [
+        "1x 8m52s 253w",
+        "1x 16s 279w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "532s@253w81rpm",
+          "duration_secs": 532,
+          "avg_power": 253,
+          "max_power": 468,
+          "avg_hr": 153,
+          "max_hr": 168,
+          "avg_cadence": 81.17073,
+          "zone": 2,
+          "training_load": 7.8695326,
+          "decoupling": 4.170838
+        },
+        {
+          "type": "WORK",
+          "label": "16s@279w88rpm",
+          "duration_secs": 16,
+          "avg_power": 279,
+          "max_power": 338,
+          "avg_hr": 164,
+          "max_hr": 168,
+          "avg_cadence": 88.1875,
+          "zone": 2,
+          "training_load": 0.28797787,
+          "decoupling": -18.089407
         }
       ]
     }
