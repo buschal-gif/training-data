@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-14T15:46:09.669900",
+    "last_updated": "2026-11-14T20:14:07.942615",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -87,8 +87,8 @@
     }
   ],
   "readiness_decision": {
-    "recommendation": "modify",
-    "priority": 2,
+    "recommendation": "go",
+    "priority": 3,
     "signals": {
       "hrv": {
         "status": "green",
@@ -127,24 +127,14 @@
       "unavailable": 0
     },
     "phase_context": {
-      "phase": "Deload",
+      "phase": "Build",
       "phase_week": 1,
-      "amber_threshold": 2,
-      "modifier_applied": "default"
+      "amber_threshold": 3,
+      "modifier_applied": "build_loosened"
     },
     "race_week_defers": false,
-    "modification": {
-      "triggers": [
-        "sleep",
-        "acwr"
-      ],
-      "suggested_adjustments": {
-        "intensity": "reduce",
-        "volume": "reduce",
-        "cap_zone": "Z2"
-      }
-    },
-    "reason": "P2 signal count. 2 amber (sleep, acwr) >= threshold 2.",
+    "modification": null,
+    "reason": "P3 green light. 4 green, 2 amber (threshold 3), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -198,7 +188,7 @@
       "atl": 35.64,
       "tsb": 20.6,
       "ramp_rate": -3.52,
-      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
       "eftp": 226.6,
@@ -257,23 +247,23 @@
       "sleep_hours": 5.95,
       "sleep_formatted": "5h57m",
       "sleep_score": 75.0,
-      "fatigue": null,
-      "soreness": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "hydration": null,
+      "fatigue": 1,
+      "soreness": 2,
+      "stress": 1,
+      "mood": 3,
+      "motivation": 2,
+      "injury": 1,
+      "hydration": 2,
       "spO2": null,
       "blood_glucose": null,
       "systolic": null,
       "diastolic": null,
       "baevsky_si": null,
       "lactate": null,
-      "respiration": null,
+      "respiration": 15.0,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1031,
+      "steps": 4716,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -281,7 +271,7 @@
       "fat_g": null,
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
-      "readiness": null
+      "readiness": 67.0
     }
   },
   "derived_metrics": {
@@ -582,19 +572,22 @@
         }
       }
     },
-    "consistency_index": null,
+    "consistency_index": 0.0,
     "consistency_details": {
-      "planned_days": 0,
+      "planned_days": 1,
       "completed_days": 1,
       "matched_days": 0,
-      "note": "No planned workouts in period"
+      "planned_dates": [
+        "2026-11-14"
+      ],
+      "completed_dates": [
+        "2026-11-12"
+      ]
     },
     "phase_detection": {
-      "phase": "Deload",
+      "phase": "Build",
       "confidence": "medium",
-      "reason_codes": [
-        "PLAN_GAP_NEXT_WEEK"
-      ],
+      "reason_codes": [],
       "basis": {
         "stream_1": {
           "ctl_slope": null,
@@ -604,10 +597,10 @@
         },
         "stream_2": {
           "planned_tss_delta": null,
-          "hard_sessions_planned": 0,
+          "hard_sessions_planned": 1,
           "race_proximity": null,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.0,
+          "plan_coverage_current_week": 0.2,
           "plan_coverage_next_week": 0.0
         },
         "data_quality": "good",
@@ -618,10 +611,8 @@
       "dossier_declared": null,
       "dossier_agreement": null
     },
-    "phase_detected": "Deload",
-    "phase_triggers": [
-      "PLAN_GAP_NEXT_WEEK"
-    ],
+    "phase_detected": "Build",
+    "phase_triggers": [],
     "seasonal_context": "Off-season / Transition",
     "benchmark_indoor": {
       "current_ftp": 220,
@@ -643,13 +634,13 @@
     "p_max": 813,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-14T15:46:09.669206",
+    "calculation_timestamp": "2026-11-14T20:14:07.941632",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 8,
       "activities_28d": 32,
-      "planned_workouts_7d": 2,
+      "planned_workouts_7d": 3,
       "ftp_history_days": {
         "indoor": 237,
         "outdoor": 237
@@ -2401,25 +2392,25 @@
       "sleep_quality": 3,
       "sleep_score": 75.0,
       "mental_energy": null,
-      "avg_sleeping_hr": null,
+      "avg_sleeping_hr": 62.0,
       "vo2max": null,
-      "fatigue": null,
-      "soreness": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "hydration": null,
+      "fatigue": 1,
+      "soreness": 2,
+      "stress": 1,
+      "mood": 3,
+      "motivation": 2,
+      "injury": 1,
+      "hydration": 2,
       "spO2": null,
       "blood_glucose": null,
       "systolic": null,
       "diastolic": null,
       "baevsky_si": null,
       "lactate": null,
-      "respiration": null,
+      "respiration": 15.0,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1031,
+      "steps": 4716,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2427,17 +2418,31 @@
       "fat_g": null,
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
-      "readiness": null
+      "readiness": 67.0
     }
   ],
-  "planned_workouts": [],
+  "planned_workouts": [
+    {
+      "id": 155835153,
+      "date": "2026-11-14",
+      "name": "Sprint Power 60",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 53,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "5 x 10 sek spurt og 4 x 20 sek lang spurt. Den f\u00f8rste tr\u00e6ner eksplosivitet, den anden at holde spurten hele vejen hjem. K\u00f8r uden ERG (eller i SIM/niveau-tilstand) - ERG kan ikke f\u00f8lge med p\u00e5 spurter.\n\nWarmup\n- 8m ramp 45-70%\n\n- 1m 75%\n- 1m 85%\n- 1m 100%\n- 5^ \ud83e\udd5b\ud83d\udca7\ud83e\udd5b\ud83d\udca7<!> 1m 60%\n- 3m 64%\n- 10s 200%\n- 1m 60%\n\n2x\n- 1m 66%\n- 50s 60%\n- 10s 200%\n- 1m 60%\n- 50^ Spis nu. Ingen gider samle dig op i gr\u00f8ftekanten<!> 1m 66%\n- 50s 60%\n- 10s 200%\n- 1m 60%\n\n- 1m 66%\n- 50s 60%\n- Drik. Du er ikke en kaktus<!> 3m 64%\n- 1m 68%\n- 20s 160%\n- 1m 60%\n- 1m 66%\n- 1m 60%\n\n2x\n- 40s 66%\n- 20s 160%\n- 1m 60%\n- 40^ Bananen er ikke pynt<!> 1m 66%\n- 1m 60%\n\n- 40s 66%\n- 20s 160%\n- 3m 66%\n- 40^ \ud83e\udd5b\ud83d\udca7\ud83e\udd5b\ud83d\udca7<!> 3m 70%\n- 2m40s 65%\n\nCooldown\n- 5m ramp 60-45%"
+    }
+  ],
   "workout_summary_stats": {
-    "attempted": 0,
+    "attempted": 1,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 0
+    "bail_no_match": 1
   },
   "weekly_summary": {
     "total_training_hours": 5.83,
