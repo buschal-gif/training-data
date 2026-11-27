@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-27T13:18:13.966511",
+    "last_updated": "2026-11-27T22:10:31.636007",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -184,7 +184,7 @@
           "max_hr": 184,
           "threshold_pace": null,
           "pace_units": null,
-          "ftp": 224,
+          "ftp": 223,
           "ftp_indoor": 220
         },
         "run": {
@@ -192,7 +192,7 @@
           "max_hr": 184,
           "threshold_pace": 3.4482758,
           "pace_units": "MINS_KM",
-          "ftp": 317,
+          "ftp": 316,
           "ftp_indoor": null
         },
         "swim": {
@@ -229,13 +229,13 @@
       "sleep_hours": null,
       "sleep_formatted": null,
       "sleep_score": null,
-      "fatigue": null,
+      "fatigue": 1,
       "soreness": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "hydration": null,
+      "stress": 1,
+      "mood": 3,
+      "motivation": 2,
+      "injury": 1,
+      "hydration": 2,
       "spO2": null,
       "blood_glucose": null,
       "systolic": null,
@@ -467,11 +467,11 @@
               "actual_hr": 169,
               "pct_lthr": 105.0,
               "source": "observed_outdoor",
-              "coggan_watts": 237,
-              "coggan_wpkg": 3.54,
-              "cp_model_watts": 287,
-              "cp_model_wpkg": 4.29,
-              "model_divergence_pct": -2.4
+              "coggan_watts": 236,
+              "coggan_wpkg": 3.53,
+              "cp_model_watts": 286,
+              "cp_model_wpkg": 4.28,
+              "model_divergence_pct": -2.1
             },
             "600s": {
               "actual_watts": 252,
@@ -479,11 +479,11 @@
               "actual_hr": 166,
               "pct_lthr": 103.1,
               "source": "observed_outdoor",
-              "coggan_watts": 217,
-              "coggan_wpkg": 3.24,
-              "cp_model_watts": 255,
-              "cp_model_wpkg": 3.81,
-              "model_divergence_pct": -1.2
+              "coggan_watts": 216,
+              "coggan_wpkg": 3.23,
+              "cp_model_watts": 254,
+              "cp_model_wpkg": 3.8,
+              "model_divergence_pct": -0.8
             },
             "1200s": {
               "actual_watts": 206,
@@ -491,11 +491,11 @@
               "actual_hr": 156,
               "pct_lthr": 96.9,
               "source": "observed_outdoor",
-              "coggan_watts": 208,
-              "coggan_wpkg": 3.11,
-              "cp_model_watts": 240,
-              "cp_model_wpkg": 3.59,
-              "model_divergence_pct": -14.2
+              "coggan_watts": 207,
+              "coggan_wpkg": 3.09,
+              "cp_model_watts": 239,
+              "cp_model_wpkg": 3.57,
+              "model_divergence_pct": -13.8
             },
             "1800s": {
               "actual_watts": 198,
@@ -503,11 +503,11 @@
               "actual_hr": 147,
               "pct_lthr": 91.3,
               "source": "observed_outdoor",
-              "coggan_watts": 202,
-              "coggan_wpkg": 3.02,
-              "cp_model_watts": 234,
-              "cp_model_wpkg": 3.5,
-              "model_divergence_pct": -15.4
+              "coggan_watts": 201,
+              "coggan_wpkg": 3.0,
+              "cp_model_watts": 233,
+              "cp_model_wpkg": 3.48,
+              "model_divergence_pct": -15.0
             },
             "3600s": {
               "actual_watts": 184,
@@ -515,11 +515,11 @@
               "actual_hr": 145,
               "pct_lthr": 90.1,
               "source": "observed_outdoor",
-              "coggan_watts": 193,
-              "coggan_wpkg": 2.88,
-              "cp_model_watts": 229,
-              "cp_model_wpkg": 3.42,
-              "model_divergence_pct": -19.7
+              "coggan_watts": 192,
+              "coggan_wpkg": 2.87,
+              "cp_model_watts": 228,
+              "cp_model_wpkg": 3.41,
+              "model_divergence_pct": -19.3
             },
             "5400s": {
               "actual_watts": 167,
@@ -527,11 +527,11 @@
               "actual_hr": 139,
               "pct_lthr": 86.3,
               "source": "observed_outdoor",
-              "coggan_watts": 184,
-              "coggan_wpkg": 2.75,
-              "cp_model_watts": 227,
-              "cp_model_wpkg": 3.39,
-              "model_divergence_pct": -26.4
+              "coggan_watts": 183,
+              "coggan_wpkg": 2.74,
+              "cp_model_watts": 226,
+              "cp_model_wpkg": 3.38,
+              "model_divergence_pct": -26.1
             },
             "7200s": {
               "actual_watts": 155,
@@ -539,15 +539,15 @@
               "actual_hr": 138,
               "pct_lthr": 85.7,
               "source": "observed_outdoor",
-              "coggan_watts": 175,
-              "coggan_wpkg": 2.62,
-              "cp_model_watts": 227,
-              "cp_model_wpkg": 3.39,
-              "model_divergence_pct": -31.7
+              "coggan_watts": 174,
+              "coggan_wpkg": 2.6,
+              "cp_model_watts": 226,
+              "cp_model_wpkg": 3.38,
+              "model_divergence_pct": -31.4
             }
           },
           "coverage_ratio": 1.0,
-          "ftp_used": 224,
+          "ftp_used": 223,
           "w_prime_used": 18801,
           "ftp_staleness_days": 0,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
@@ -603,7 +603,7 @@
       "seasonal_expected": null
     },
     "benchmark_outdoor": {
-      "current_ftp": 224,
+      "current_ftp": 223,
       "ftp_8_weeks_ago": null,
       "benchmark_index": null,
       "benchmark_percentage": null,
@@ -615,7 +615,7 @@
     "p_max": 803,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-27T13:18:13.965492",
+    "calculation_timestamp": "2026-11-27T22:10:31.634220",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -1932,7 +1932,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 18705,
+      "steps": 18995,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1955,13 +1955,13 @@
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
-      "fatigue": null,
+      "fatigue": 1,
       "soreness": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "hydration": null,
+      "stress": 1,
+      "mood": 3,
+      "motivation": 2,
+      "injury": 1,
+      "hydration": 2,
       "spO2": null,
       "blood_glucose": null,
       "systolic": null,
